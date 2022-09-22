@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Luis Ignacio Menéndez</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/*body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}*/
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* First image (Logo. Full height) */
+.img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bgimg {
+  background-position: 20% 20%;
+  background-size: cover;
+  background-image: url("Images/blm_protest.jpg");
+  min-height: 34%;
+}
+.map {
+  background-size: cover;
+    min-height: 400px;
+    min-width:  700px;
+    
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+
+<body>
+  <header class="bgimg w3-display-container">
+  	</header>
+
+    <div class="w3-white w3-medium">
+
+    		<!-- About Container -->
+    		<div class="w3-container">
+          <ol class="lead">
+
+          <p> <b><a href="blm.html">"Online and Offline protest participation: An Empirical Analysis for the 2020 Black Lives Matter Movement"</a></b> --<i>Work in Progress</i>--<br>
+
+<div class="w3-container">    
+    
+  <p style="text-align:justify"> On May 25, 2020, George Floyd, a 46 years old black man was arrested in Minneapolis. 
+  During the arrest, the police officer Derek Chauvin immobilized George placing his knee on George’s 
+  neck for more than 8 minutes, ignoring his complaints about not being able to breath. 
+  Floyd was pronounced death an hour later after being transferred to an emergency center.
+  Images of the incident rapidly circulated through social media and protests against police brutality 
+  and racism expanded worldwide in which it would soon became the ”the largest movement in the country’s (US) history” (Buchanan Larry , Bui Quoctrung, 2020), with more than 15 million estimated participants. The protests revived the already existing Black Lives Matter (BLM) organization. From Los Angeles Police Department $150 million budget cuts to the newly Black Lives Matter plaza, the list of accomplishments in light of the uprising is plentiful.
+  The BLM protests planted the seed for a new era in online activism (e-activism). 
+  A historical maximum of nearly 9 million users tweeted about the movement during the protest days.
+  </p>
+  
+  <object 
+  class="img"  data="images/blm_use.png"  ></object>      
+  </div>
+  
+  <div class="w3-container"> 
+  <p style="text-align:justify">
+    <br> 
+    <strong> How does protesting behavior interact with the underlying Twitter’s social networks? </strong>
+  <br> 
+  <br>  The main difficulty to tackle this question is the absence of data
+    that comprises both physical protest participation and online activity. 
+    I present a unique dataset of Twitter users that attended some of the Black Lives Matter's denmostrations in the US. 
+    I used Twitter’s API v.2 under the Academic Research license to obtain my Twitter’s dataset. This newly created track warrants access to historical and global data for non-commercial use. All the data collection was done with the twarc2 Python function. Needless to say,
+    all this data colelction is subject to strict confidentiality issues and only made for research purposes.
+    Let's see how to identify protesters from Twitter data.
+    
+    
+  </p>
+    </div>
+<div class="w3-container">   
+  <p style="text-align:justify">
+    <strong> The hard problem of tracking protesters:</strong>
+<br> 
+<br> Twitter provides very handy metadata that might include geolocation information, time of tweeting, media attachments etc.
+Intuitively, it might seem that combining the aforementioned characteristics and filtering by the time and place a protest
+was taking place can be enough to track attendees. Let me show you why this is error prone.
+
+<br>Consider the two tweets shown below (instagram posts linked to Twitter), both correspond to the same city (L.A) and time that the BLM marches were occuring.
+Whereas the top one clearly corresponds to a participant, we can humanly see that the second user was at home.
+    
+  </p>
+    </div>
+  
+  <div class="row">
+    
+      <img src="images/case1.png" alt="case1" style="width:100%">
+      <img src="images/case2.png" alt="case2" style="width:100%">
+    </div>
+  
+
+  
+
+<div class="w3-container">   
+<p style="text-align:justify">
+<br> 
+<br>  These sort of "errors" are indeed very common and make metadata filters over estimate the number of users.
+
+<b> Can we build an automated method that solves this? </b>
+<br> 
+  
+Combining text analysis with machine learning, I am able to train a prediction algorithm that 
+understands the way that users communicate that they are on the streets.
+You can find more details about the methodology in the pdf of the paper but let me briefly mention 
+how do these models operate. 
+<br>
+<img src="images/al3.png" alt="bert" style="width:80%">
+
+<br>We feed that tweet's text to these algorithms. However, text itself can't be masured with maths.
+The different ML architectures transform words to (high dimensional) vectors that preserve similarity 
+according to their semantic meaning. 
+I tried different architerctures ranging from the simplest Word2Vec model to SOTA models such as BERT. 
+
+Simply put, this process created an algorithm which can predict whether a particular tweet's text
+corresponds to a protester or not. This enables me to scale up my dataset without the need for human verification. 
+
+</p>
+</div>
+
+
+
+
+<div>      	
+<object 
+class="map" type="text/html" data="map.html"  ></object>      
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
