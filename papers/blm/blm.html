@@ -15,6 +15,17 @@ body, html {
   line-height: 1.8;
   
 }
+
+body {
+  padding: 25px;
+  background-color: w3-sand;
+  color: white;
+  font-size: 25px;
+}
+
+
+
+
 .column {
   float: left;
   width: 33.33%;
@@ -36,9 +47,9 @@ body, html {
 }
 
 .bgimg {
-
+background-position: 20% 20%;
   background-size:cover;
-  background-image: url("images/blm_protest.jpg");
+  background-image: url("images/blm_protest2.jpg");
   min-height: 50%;
   background-repeat: no-repeat;
 }
@@ -64,7 +75,7 @@ body, html {
 <body>
   
 
-    <div class="w3-white w3-medium">
+    <div class="w3-dark-grey w3-medium">
 
     		<!-- About Container -->
     		<div class="w3-content  w3-padding-64">
@@ -124,11 +135,14 @@ Whereas the top one clearly corresponds to a participant, we can humanly see tha
     <div class="column">
       <img src="images/case2.png" alt="case2" style="width:100%">
         </div>
-      
+    </div>    
   
   
 
 <div class="w3-content  w3-padding-64">   
+
+
+
 <p style="text-align:justify">
 <br> 
 <br>  These sort of "errors" are indeed very common and make metadata filters over estimate the number of users.
@@ -141,7 +155,7 @@ understands the way that users communicate that they are on the streets.
 You can find more details about the methodology in the pdf of the paper but let me briefly mention 
 how do these models operate. 
 <br>
-<img src="images/al3.png" alt="bert" style="width:50%">
+<img src="images/al3.png" alt="bert" style="width:80%;">
 
 <br>We feed that tweet's text to these algorithms. However, text itself can't be masured with maths.
 The different ML architectures transform words to (high dimensional) vectors that preserve similarity 
@@ -154,7 +168,28 @@ corresponds to a protester or not. This enables me to scale up my dataset withou
 </p>
 </div>
 
+<div class="w3-content  w3-padding-64">      	
 
+
+<p>
+<b>Results of the algorithm: </b>
+
+
+Overall, I have nearly 4M tweets distributed as shown in the first map. To this dataset, I filter those
+tweets containing some sort of media attachment. In a nutshell, the classification process is 
+even hard for the human as one can't tell whether a user is protesting or not just from the tweet's text. 
+Verifying images and/or videos helps me creating the training dataset although this won't be feed into the algorithm per se. 
+
+
+All in all, I classified a total of 1612 protesters that produced 2181 tweets during the protests' week. 
+
+  
+</p>
+
+
+
+
+</div>
 
 
 <div class="w3-content  w3-padding-64">      	
