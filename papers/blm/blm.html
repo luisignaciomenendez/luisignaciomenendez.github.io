@@ -1,367 +1,216 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Luis Ignacio Menéndez</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-/*body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}*/
-body, html {
-  height: 100%;
-  color: #303030;
-  line-height: 1.8;
-  
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, html {
+            height: 100%;
+            color: #303030;
+            line-height: 1.8;
+            padding: 25px;
+            background-color: #f1f1f1;
+            font-family: "Lato", sans-serif;
+        }
 
-body {
-  padding: 25px;
-  background-color: #303030;
-  color: #303030;
-  font-size: 25px;
-}
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
 
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
 
-
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
- 
-
-/* First image (Logo. Full height) */
-.img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.bgimg {
-background-position: 20% 20%;
-  background-size:cover;
-  background-image: url("images/blm_protest2.jpg");
-  min-height: 80%;
-  background-repeat: no-repeat;
-}
-.map {
-  background-size: cover;
-    min-height: 400px;
-    min-width:  700px;
-    
-}
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-}
-
-
-
-
-
-
-</style>
-<header class="bgimg w3-display-container">
-  </header>
-<body>
-  <!-- Navbar (sit on top) -->
-
-  <div class="w3-top">
-    <div class="w3-bar" id="myNavbar">
-      <a href="../../index.html#home" class="w3-bar-item w3-button" ></i>HOME</a>
-      <a href="../../index.html#research" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> RESEARCH</a>
-      <a href="../../index.html#teaching" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-graduation-cap"></i>TEACHING </a>
-      <a href="../../index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-      <a href="../../index.html#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-        <i class="fa fa-search"></i>
-      </a>
-    </div>
-
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-      <a href="../../index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-      <a href="../../index.html#research" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-      <a href="../../index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-      <a href="../../index.html#" class="w3-bar-item w3-button">SEARCH</a>
-    </div>
-  </div>
-  
-
-  
-  
-  
-  
-
-    <div class="w3-dark-grey w3-medium">
-
-    		<!-- About Container -->
-    		<div class="w3-content  w3-padding-64">
-          <ol class="lead">
-
-          <p> <b><a href="blm.html"> <h1 style="font-size:3vw"> "Online and Offline protest participation: An Empirical Analysis for the 2020 Black Lives Matter Movement"</a></b> --<i>Work in Progress</i>--<br></h1>
-
-<div class="w3-content  w3-padding-64">    
-    
-  <p style="text-align:justify"> On May 25, 2020, George Floyd, a 46 years old black man was arrested in Minneapolis. 
-  During the arrest, the police officer Derek Chauvin immobilized George placing his knee on George’s 
-  neck for more than 8 minutes, ignoring his complaints about not being able to breath. 
-  Floyd was pronounced death an hour later after being transferred to an emergency center.
-  Images of the incident rapidly circulated through social media and protests against police brutality 
-  and racism expanded worldwide in which it would soon became the ”the largest movement in the country’s (US) history” (Buchanan Larry , Bui Quoctrung, 2020), with more than 15 million estimated participants. The protests revived the already existing Black Lives Matter (BLM) organization. From Los Angeles Police Department $150 million budget cuts to the newly Black Lives Matter plaza, the list of accomplishments in light of the uprising is plentiful.
-  The BLM protests planted the seed for a new era in online activism (e-activism). 
-  A historical maximum of nearly 9 million users tweeted about the movement during the protest days.
-  </p>
-  
-  <object 
-  class="img"  data="images/blm_use.png"  ></object>      
-  </div>
-  
-  <div class="w3-content  w3-padding-64"> 
-  <p style="text-align:justify">
-    <br> 
-    <strong> How does protesting behavior interact with the underlying Twitter’s social networks? </strong>
-  <br> 
-  <br>  The main difficulty to tackle this question is the absence of data
-    that comprises both physical protest participation and online activity. 
-    I present a unique dataset of Twitter users that attended some of the Black Lives Matter's denmostrations in the US. 
-    I used Twitter’s API v.2 under the Academic Research license to obtain my Twitter’s dataset. This newly created track warrants access to historical and global data for non-commercial use. All the data collection was done with the twarc2 Python function. Needless to say,
-    all this data colelction is subject to strict confidentiality issues and only made for research purposes.
-    Let's see how to identify protesters from Twitter data.
-    
-    
-  </p>
-    </div>
-    
-
-    <div class="w3-content  w3-padding-64"> 
-    <p style="text-align:justify">
-      <br> 
-      <strong> Related works: </strong>
-    <br> 
-    <br>  The recent availability of social media (meta)data has lead to numerous empirical 
-    studies that try to understand its impact on political outcomes. 
-    Foreign influence campaigns (Al-izadeh et al., 2020), ideology analysis 
-    (Barberá et al., 2015) and public opinion diffusion
- (Gorodnichenko et al., 2018) are some examples of research questions that have been addressed in them.
-    Part of the literature has focused on the predictive properties of Twitter usage 
-    for protest occurrence/- participation. For instance, Acemoglu et al. (2018) rely on Twitter’s
-     data to estimate the impact of Tahir square protests on rents of politically connected 
-     firms in Egypt.
-     My paper shares a lot of similarities with Larson et al. (2019). 
-     The authors also rely on geospacial metadata to identify protesters for the Paris 
-     rallies that occurred after the Charlie Hebdo’s terror attack. 
-     Followership networks between protesters and non-protesters. In the current work I place 
-     special emphasis on the potential errors that one assumes when using geolocated tweets as 
-     a prozy for street participation. 
+        .img {
+            max-width: 80%;
+            max-height: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .bgimg {
+          background-position: center;
+          background-size: contain;
+          background-image: url("images/blm_protest.jpg");
+          min-height: 300px; /* Reduce the height */
+          background-repeat: no-repeat;
+          background-color: black; /* Add black background */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
       
-    </p>
-      </div>
+        .map {
+            background-size: cover;
+            min-height: 200px;
+            min-width: 500px;
+        }
 
+        .w3-wide {letter-spacing: 10px;}
+        .w3-hover-opacity {cursor: pointer;}
 
+        @media only screen and (max-device-width: 1600px) {
+            .bgimg {
+                background-attachment: scroll;
+                min-height: 400px;
+            }
+        }
 
-<div class="w3-content  w3-padding-64">   
-  <p style="text-align:justify">
-    <strong>  <h1 style="font-size:3vw">The hard problem of tracking protesters:</h1></strong>
-<br> 
-<br> Twitter provides very handy metadata that might include geolocation information, time of tweeting, media attachments etc.
-Intuitively, it might seem that combining the aforementioned characteristics and filtering by the time and place a protest
-was taking place can be enough to track attendees. Let me show you why this is error prone.
+        h1, h2, h3, h4, h5, h6 {
+          color: #000; /* Change color to black */
+      }
+      
 
-<br>Consider the two tweets shown below (instagram posts linked to Twitter), both correspond to the same city (L.A) and time that the BLM marches were occuring.
-Whereas the top one clearly corresponds to a participant, we can humanly see that the second user was at home.
-    
-  </p>
+        p {
+            text-align: justify;
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        .header-text {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .caption {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 10px;
+            color: #777;
+        }
+
+        .content-section {
+            padding: 64px;
+            background-color: #fff;
+            margin-bottom: 32px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header class="bgimg w3-display-container w3-center">
+    </header>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a href="../../index.html#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="../../index.html#research" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> RESEARCH</a>
+            <a href="../../index.html#teaching" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-graduation-cap"></i> TEACHING</a>
+            <a href="../../index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="../../index.html#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"><i class="fa fa-search"></i></a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="../../index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="../../index.html#research" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="../../index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            <a href="../../index.html#" class="w3-bar-item w3-button">SEARCH</a>
+        </div>
     </div>
 
-      <img src="images/case1.png" alt="case1" style="width:100%">
-      <img src="images/case2.png" alt="case1" style="width:100%">
-
-  
-  
-  
-
-<div class="w3-content  w3-padding-64">   
-
-
-
-<p style="text-align:justify">
-<br> 
-<br>  These sort of "errors" are indeed very common and make metadata filters over estimate the number of users.
-
-<b> Can we build an automated method that solves this? </b>
-<br> 
-  
-Combining text analysis with machine learning, I am able to train a prediction algorithm that 
-understands the way that users communicate that they are on the streets.
-You can find more details about the methodology in the pdf of the paper but let me briefly mention 
-how do these models operate. 
-<br>
-<img class=w3-centre src="images/al3.png" alt="bert" style="width:80%;">
- 
-<br>We feed that tweet's text to these algorithms. However, text itself can't be masured with maths.
-The different ML architectures transform words to (high dimensional) vectors that preserve similarity 
-according to their semantic meaning. 
-I tried different architerctures ranging from the simplest Word2Vec model to SOTA models such as BERT. 
-
-Simply put, this process created an algorithm which can predict whether a particular tweet's text
-corresponds to a protester or not. This enables me to scale up my dataset without the need for human verification. 
-
-</p>
-</div>
-
-<div class="w3-content  w3-padding-64">      	
-
-
-<p>
-<b><h1 style="font-size:3vw">Results of the algorithm: </b></h1>
-
-<br>
-Overall, I have nearly 4M tweets distributed as shown in the first map. To this dataset, I filter those
-tweets containing some sort of media attachment. In a nutshell, the classification process is 
-even hard for the human as one can't tell whether a user is protesting or not just from the tweet's text. 
-Verifying images and/or videos helps me creating the training dataset although this won't be feed into the algorithm per se. 
-
-
-All in all, I classified a total of 1612 protesters that produced 2181 tweets during the protests' week. 
-
-  
-</p>
-
-
-
-
-</div>
-
-
-<div class="w3-content  w3-centre w3-padding-64">      	
-<object 
-class="map" type="text/html" data="map_black.html"  ></object>      
-
-</div>
-
-
-<div class="w3-content  w3-padding-64">      	
-
-
-<p>
-<b>  <h1 style="font-size:3vw">Some descriptive statistics: </b></h1>
-<br>
-The figure below shows the evolution of tweets self-written (i.e. not retweets or mentions) for the two groups, protesters and non-protesters.
-Perhaphs surprinsingly, one can see how the George Floyd's killing constituting a sudden break in Twitter activity for both groups. The maximum
-number of tweets coincides in both cases with the day with more arrests overall and thus maximum turmoil. 
-
-
-</p>
-
-<img src="images/original_evolution_city_black.png" alt="original" style="width:100%;">
-
-
-<p>
-<br>
-
-Perhaps more surprinsingly, the evolution of pro-movement hashtags follows similar trends across time:
-
-<img src="images/pro_evolution_black.png" alt="original" style="width:100%;">
-
-The same happens when we consider the evolution of anti-movement hashtags ( i.e. #BlueLivesMatter). Bear in mind that
-this count abstracts completely from double uses of the hashtags such as irony or hate (Tufecki,2014).
-<img src="images/anti_evolution_black.png" alt="original" style="width:100%;">
-We can also explore measures of coordination such as how do people interact. 
-For example, the next figures examine the total number of retweets across and within groups, respectively. 
-
-<img src="images/rt_across_black.png" alt="original" style="width:100%;">
-<img src="images/rt_within_black.png" alt="original" style="width:100%;">
-
-
-
-
-</p>
-
-
-
-
-</div>
-
-
-<p style="text-align:justify">
-  <strong>  <h1 style="font-size:3vw">References:</h1></strong>
-<br> 
-<ol>
-  <li>
-    Acemoglu, D., Hassan, T. A., and Tahoun, A. (2018). The power of the street: Evidence
-from Egypt’s arab spring. Review of Financial Studies, 31(1):1–42.
-  </li>
-  
-  <li>
-    Barberá, P. (2015). Birds of the same feather tweet together: Bayesian ideal point estimation
-  using twitter data. Political Analysis.
-  </li>
-  <li>
-  Larson, J. M., Nagler, J., Ronen, J., and Tucker, J. A. (2019). Social Networks and Protest Participation: Evidence from 130 Million Twitter Users. American Journal of Political Science, 63(3):690–705.
-  </li>
-   <li>Tufekci, Zeynep. (2014). Big Questions for Social Media Big Data: Representativeness, Validity and Other Methodological Pitfalls. In ICWSM ’14: Proceedings 
-     of the 8th International AAAI Conference on Weblogs and Social Media, 2014.</li>
-</ol>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="w3-dark-grey w3-medium content-section">
+        <div class="w3-content">
+            <p><b><a href="blm.html"><h1 style="font-size:2vw">Online and Offline Protest Participation: An Empirical Analysis for the 2020 Black Lives Matter Movement</h1></a></b> --<i>Work in Progress</i>--</p>
+        </div>
     
+        <div class="w3-content">
+            <p>On May 25, 2020, George Floyd, a 46-year-old Black man, was arrested in Minneapolis. During the arrest, police officer Derek Chauvin immobilized Floyd by placing his knee on Floyd’s neck for more than eight minutes, ignoring Floyd's complaints about not being able to breathe. Floyd was pronounced dead an hour later after being transferred to an emergency center.</p>
+            <p>Images of the incident rapidly circulated through social media, leading to widespread protests against police brutality and racism. These protests soon became "the largest movement in the country's (US) history" (Buchanan & Bui, 2020), with an estimated 15 million participants. The protests revitalized the already existing Black Lives Matter (BLM) organization. Achievements in the wake of the uprising included budget cuts of $150 million to the Los Angeles Police Department and the establishment of the Black Lives Matter Plaza.</p>
+            <p>The BLM protests marked the beginning of a new era in online activism (e-activism). A historical maximum of nearly 9 million users tweeted about the movement during the protest days.</p>
+            <object class="img" data="images/blm_use.png"></object>      
+        </div>
 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+        <div class="w3-content">
+            <h2>How does protesting behavior interact with the underlying Twitter’s social networks?</h2>
+            <p>Often, literature has broadly focused on the effects of social media on online activism. The link between offline and online activism remains underexplored, largely due to the scarcity of data that bridges both worlds.</p>
+            <p>I used Twitter’s API v.2 under the Academic Research license to obtain my Twitter dataset. This newly created track provides access to historical and global data for non-commercial use. All data collection was performed using the twarc2 Python function. Needless to say, all data collection adheres to strict confidentiality protocols and is conducted solely for research purposes.</p>
+            <p>I present a unique dataset of Twitter users who attended some of the Black Lives Matter demonstrations in the US. I developed a classification algorithm trained on self-classified tweets, capable of predicting users' participation in protests based on their declared information together with additional metadata. This approach enables the tracking of all the online behavior of an individual up until the protest day. The combination of individual media exposure with physical action relates closely with various strands of literature, such as the role of social networks in protest participation (Larson et al., 2019) and the impact of protests on political outcomes (Acemoglu et al., 2018).</p>
+        </div>
+    
+        <div class="w3-content">
+            <h2>Related works</h2>
+            <p>The recent availability of social media metadata has led to numerous empirical studies aimed at understanding its impact on political outcomes. Examples of research questions addressed include foreign influence campaigns (Alizadeh et al., 2020), ideology analysis (Barberá et al., 2015), and public opinion diffusion (Gorodnichenko et al., 2018).</p>
+            <p>A segment of the literature has focused on the predictive properties of Twitter usage for protest occurrence and participation. For instance, Acemoglu et al. (2018) used Twitter data to estimate the impact of the Tahrir Square protests on the rents of politically connected firms in Egypt. My paper shares similarities with Larson et al. (2019), who relied on geospatial metadata to identify protesters at the Paris rallies following the Charlie Hebdo terror attack. However, I demonstrate that Twitter's geolocation field can be misleading, as users can tag pictures with a location without being physically present there.</p>
+        </div>
+    
+        <div class="w3-content">
+            <h2>Classification issues</h2>
+            <p>Twitter provides useful metadata, including geolocation information, time of tweeting, media attachments, content, interactions, etc. Intuitively, if we could monitor user activity before, during, and after the protest, we could identify individuals who physically attended the protest.</p>
+            <object class="img" data="images/tweets_day.png"></object>
+            <p>I created a unique dataset of users who explicitly stated their protest attendance. These self-reported tweets are highly reliable indicators of physical presence. Using these labeled tweets, I developed indicators to identify attendees of BLM marches. An algorithm trained on this labeled data can generalize this classification to the broader Twitter population, bridging the gap between online activity and physical protest participation.</p>
+        </div>
+    
+        <div class="w3-content w3-center w3-padding-64">      	
+          <object class="map" type="text/html" data="map_04_04.html" style="width:100%; height:600px;"></object>
+          <p class="caption" style="font-size: 16px;color: #fff;">Illustration of the classification for Washington DC.</p>
+      </div>
+      
 
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
+      <div class="w3-content  w3-padding-64">      	
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
+
+        <p>
+        <b>  <h1 style="font-size:3vw">Some descriptive statistics: </b></h1>
+        <br>
+        The figure below shows the evolution of tweets self-written (i.e. not retweets or mentions) for the two groups, protesters and non-protesters.
+        Perhaphs surprinsingly, one can see how the George Floyd's killing constituting a sudden break in Twitter activity for both groups. The maximum
+        number of tweets coincides in both cases with the day with more arrests overall and thus maximum turmoil. 
+        
+        
+        </p>
+        
+        <img src="images/original_evolution_city_black.png" alt="original" style="width:100%;">
+        
+        
+        <p>
+
+We also explore different coordination patterns joining people based on their conjoint retweeting activity. In particular, we define connections between individuals based on whether they retweet from the same users or not:
+Two users share a connection if they retweet from the same user at least once:
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side by Side Images</title>
+  <style>
+      .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px; /* Adjust the gap as needed */
+      }
+      .container img {
+          max-height: 150px; /* Adjust the height as needed */
+          background-color: transparent;
+      }
+      .arrow {
+          font-size: 36px; /* Adjust the size as needed */
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <img src="images/net1.png" alt="Network 1">
+      <span class="arrow">→</span>
+      <img src="images/net2.png" alt="Network 2">
+  </div>
+
+We find that protesters do  exhibit higher coordination patterns than non-protesters as measure by there total number of connections.
+This is consistent with the role of media as a coordination device for collective action.
+
+Future work will explore the role of content and dynamic interactions into the protesting decisions. 
 
 </body>
 </html>
