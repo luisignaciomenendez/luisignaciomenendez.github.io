@@ -1,0 +1,101 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Berry}{1994}]{berry1994estimating}
+Berry, S.~T. (1994).
+\newblock Estimating discrete-choice models of product differentiation.
+\newblock {\em The RAND Journal of Economics}, 25(2):242--262.
+
+\bibitem[\protect\astroncite{{Centro de Estudios Murciano de Opinión Pública
+  (CEMOP)}}{2024}]{cemop_polarization_2024}
+{Centro de Estudios Murciano de Opinión Pública (CEMOP)} (2024).
+\newblock La polarización afectiva crece en españa un 30% desde 2021.
+
+\bibitem[\protect\astroncite{Conlon and Gortmaker}{2020}]{conlon2020best}
+Conlon, C. and Gortmaker, J. (2020).
+\newblock Best practices for differentiated products demand estimation with
+  pyblp.
+\newblock {\em The RAND Journal of Economics}, 51(4):1108--1161.
+
+\bibitem[\protect\astroncite{Durante and Knight}{2012}]{durante2012partisan}
+Durante, R. and Knight, B. (2012).
+\newblock Partisan control, media bias, and viewer responses: Evidence from
+  berlusconi's italy.
+\newblock {\em Journal of the European Economic Association}, 10(3):451--481.
+
+\bibitem[\protect\astroncite{{Edelman}}{2023}]{edelman_trust_2023}
+{Edelman} (2023).
+\newblock Edelman trust barometer 2023: Global report.
+
+\bibitem[\protect\astroncite{Enikolopov et~al.}{2011}]{enikolopov}
+Enikolopov, R., Petrova, M., and Zhuravskaya, E. (2011).
+\newblock Media and political persuasion: Evidence from russia.
+\newblock {\em American Economic Review}, 101(7):3253--85.
+
+\bibitem[\protect\astroncite{Gambaro et~al.}{2021}]{gambaro2021revealed}
+Gambaro, M., Larcinese, V., Puglisi, R., and Snyder~Jr, J.~M. (2021).
+\newblock The revealed demand for hard vs. soft news: Evidence from italian tv
+  viewership.
+\newblock {\em National Bureau of Economic Research}, Working Paper 29020.
+
+\bibitem[\protect\astroncite{Gandhi and Houde}{2019}]{gandhi2019measuring}
+Gandhi, A. and Houde, J.-F. (2019).
+\newblock Measuring substitution patterns in differentiated products
+  industries.
+\newblock Technical Report 26375, National Bureau of Economic Research.
+
+\bibitem[\protect\astroncite{Gentzkow et~al.}{2011}]{gentzkow2011competition}
+Gentzkow, M., Shapiro, J.~M., and Sinkinson, M. (2011).
+\newblock Competition and ideological diversity: Historical evidence from us
+  newspapers.
+\newblock {\em American Economic Review}, 101(7):1927--1958.
+
+\bibitem[\protect\astroncite{Larcinese}{2003}]{larcinese2003}
+Larcinese, V. (2003).
+\newblock The instrumental voter goes to the news-agent: Demand for
+  information, election closeness, and the media.
+
+\bibitem[\protect\astroncite{{Le Mens} and {Gallego}}{2023}]{lemens}
+{Le Mens}, G. and {Gallego}, A. (2023).
+\newblock Positioning political texts with large language models by asking and
+  averaging.
+\newblock {\em arXiv e-prints}, page arXiv:2311.16639.
+
+\bibitem[\protect\astroncite{Parliament}{2024}]{europarl2024}
+Parliament, E. (2024).
+\newblock Audiovisual and media policy.
+
+\bibitem[\protect\astroncite{Patterson}{2000}]{patterson2000doing}
+Patterson, T.~E. (2000).
+\newblock Doing well and doing good.
+\newblock (RWP01-001).
+
+\bibitem[\protect\astroncite{Peterson et~al.}{2017}]{Peterson2017Echo}
+Peterson, E., Goel, S., and Iyengar, S. (2017).
+\newblock Echo chambers and partisan polarization: Evidence from the 2016
+  presidential campaign.
+\newblock In {\em Proceedings of the Annual Meeting of the American Political
+  Science Association}.
+
+\bibitem[\protect\astroncite{Prior}{2009}]{prior}
+Prior, M. (2009).
+\newblock Improving media effects research through better measurement of news
+  exposure.
+\newblock {\em The Journal of Politics}, 71(3):893--908.
+
+\bibitem[\protect\astroncite{Puglisi and Snyder}{2015}]{puglisi_review}
+Puglisi, R. and Snyder, J.~M. (2015).
+\newblock Chapter 15 - empirical studies of media bias.
+\newblock 1:647--667.
+
+\bibitem[\protect\astroncite{Törnberg}{2023}]{tornberg2023}
+Törnberg, P. (2023).
+\newblock Chatgpt-4 outperforms experts and crowd workers in annotating
+  political twitter messages with zero-shot learning.
+
+\bibitem[\protect\astroncite{Wire}{2023}]{independent2023vox}
+Wire, A.~N. (2023).
+\newblock Ties with far-right hinder spain's popular party forming a government
+  despite election win.
+\newblock {\em The Independent}.
+
+\end{thebibliography}
