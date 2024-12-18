@@ -159,11 +159,7 @@ You can check out my cv <b><a href="https://www.dropbox.com/scl/fi/jgo6a2cmf67db
         <i>with Hannes Mueller, Daniel Montolio and Francesco Slataper.</i>
         <span class="show-button" onclick="toggleAbstract('abstract2')"> Abstract</span><br>
         <span id="abstract2" class="abstract-text">
-          On 1st of October 2017 Catalunya held an illegal referendum on Independence from Spain.
-          The vote led to a heavy-handed response by Spanish law enforcement. 
-          Images and videos of police violence against non-violent voters led to sharp critizisim. Making use of a unique dataset that spans the universe of Twitter activity in Spain during that period,
-          we analyze the evolution of online polarization. We introduce a simple model to 
-          control for the possible content exposure that users might had and then use tweet language to study the interactions between the spanish and catalan Twitter communities.
+          Social media platforms play a crucial role in shaping public discourse and political conflict. But political conflict also shapes social media networks. This paper investi- gates the response of social media networks to conflict events during the height of the independence struggle in 2017 in Catalonia (Spain). The analysis exploits linguistic markers to study retweets across Catalan and Castellano language groups in a large Twitter/X corpus of 65 million tweets during this conflict. To study behavioral changes, the article proposes a statistical decomposition into ‘exposure’—the likelihood of en- countering specific content—and ‘retweet rates’—the probability of retweeting content once exposed. Surprisingly, the conflict events were associated with a dramatic relative increase in retweet rates across language groups. There is evidence of an ideological realignment, where left-wing voters in both language groups retweeted each other more frequently.
         </span>
       </p>
   
@@ -182,11 +178,11 @@ You can check out my cv <b><a href="https://www.dropbox.com/scl/fi/jgo6a2cmf67db
   <script>
       function toggleAbstract(id) {
           var abstract = document.getElementById(id);
-          if (abstract.style.display === "none") {
-              abstract.style.display = "block";
-          } else {
-              abstract.style.display = "none";
-          }
+          if (abstract.style.display === "none" || abstract.style.display === "") {
+            abstract.style.display = "block"; // Show the abstract
+        } else {
+            abstract.style.display = "none"; // Hide the abstract
+        }
       }
   </script>
   
