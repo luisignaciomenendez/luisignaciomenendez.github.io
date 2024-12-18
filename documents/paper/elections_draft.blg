@@ -7,12 +7,13 @@ Warning--entry type for "larcinese2003" isn't style-file defined
 --line 2 of file ./bib/media_bias.bib
 Warning--entry type for "europarl2024" isn't style-file defined
 --line 132 of file ./bib/media_bias.bib
+Warning--I didn't find a database entry for "esteban"
 Warning--empty journal in patterson2000doing
 Warning--there's a number but no volume in patterson2000doing
 Warning--empty journal in puglisi_review
 You've used 18 entries,
             1940 wiz_defined-function locations,
-            576 strings with 6670 characters,
+            577 strings with 6677 characters,
 and the built_in function-call counts, 6339 in all, are:
 = -- 640
 > -- 205
@@ -51,4 +52,4 @@ warning$ -- 3
 while$ -- 51
 width$ -- 0
 write$ -- 217
-(There were 5 warnings)
+(There were 6 warnings)
