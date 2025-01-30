@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.14)  10 DEC 2024 09:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.14)  30 JAN 2025 10:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1295,10 +1295,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
+[2
 
-LaTeX Warning: Reference `sec:supply' on page 3 undefined on input line 66.
+]
 
+LaTeX Warning: Reference `sec:supply' on page 3 undefined on input line 68.
+
+<figures/media_es.pdf, id=167, 722.7pt x 433.62pt>
+File: figures/media_es.pdf Graphic file (type pdf)
+<use figures/media_es.pdf>
+Package pdftex.def Info: figures/media_es.pdf  used on input line 91.
+(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
+<figures/media_fr.pdf, id=168, 722.7pt x 433.62pt>
+File: figures/media_fr.pdf Graphic file (type pdf)
+<use figures/media_fr.pdf>
+Package pdftex.def Info: figures/media_fr.pdf  used on input line 97.
+(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
+<figures/media_be.pdf, id=169, 722.7pt x 433.62pt>
+File: figures/media_be.pdf Graphic file (type pdf)
+<use figures/media_be.pdf>
+Package pdftex.def Info: figures/media_be.pdf  used on input line 103.
+(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
+<figures/media_it.pdf, id=170, 722.7pt x 433.62pt>
+File: figures/media_it.pdf Graphic file (type pdf)
+<use figures/media_it.pdf>
+Package pdftex.def Info: figures/media_it.pdf  used on input line 109.
+(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1306,27 +1328,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-<figures/media_es.pdf, id=194, 722.7pt x 433.62pt>
-File: figures/media_es.pdf Graphic file (type pdf)
-<use figures/media_es.pdf>
-Package pdftex.def Info: figures/media_es.pdf  used on input line 89.
-(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
-<figures/media_fr.pdf, id=195, 722.7pt x 433.62pt>
-File: figures/media_fr.pdf Graphic file (type pdf)
-<use figures/media_fr.pdf>
-Package pdftex.def Info: figures/media_fr.pdf  used on input line 95.
-(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
-<figures/media_be.pdf, id=196, 722.7pt x 433.62pt>
-File: figures/media_be.pdf Graphic file (type pdf)
-<use figures/media_be.pdf>
-Package pdftex.def Info: figures/media_be.pdf  used on input line 101.
-(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
-<figures/media_it.pdf, id=197, 722.7pt x 433.62pt>
-File: figures/media_it.pdf Graphic file (type pdf)
-<use figures/media_it.pdf>
-Package pdftex.def Info: figures/media_it.pdf  used on input line 107.
-(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1335,11 +1336,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4 <./figures/media_es.pdf> <./figures/media_fr.pdf> <./figures/media_be.pdf> <
 ./figures/media_it.pdf>]
-<figures/corr_party_channel3.pdf, id=398, 1121.30234pt x 538.6825pt>
+<figures/corr_party_channel3.pdf, id=380, 1121.30234pt x 538.6825pt>
 File: figures/corr_party_channel3.pdf Graphic file (type pdf)
 <use figures/corr_party_channel3.pdf>
 Package pdftex.def Info: figures/corr_party_channel3.pdf  used on input line 13
-6.
+8.
 (pdftex.def)             Requested size: 455.24408pt x 218.69948pt.
 
 
@@ -1356,10 +1357,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-<figures/political_words2.pdf, id=457, 867.24pt x 433.62pt>
+<figures/political_words2.pdf, id=439, 867.24pt x 433.62pt>
 File: figures/political_words2.pdf Graphic file (type pdf)
 <use figures/political_words2.pdf>
-Package pdftex.def Info: figures/political_words2.pdf  used on input line 190.
+Package pdftex.def Info: figures/political_words2.pdf  used on input line 197.
 (pdftex.def)             Requested size: 426.79134pt x 213.39536pt.
 
 
@@ -1369,10 +1370,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7 <./figures/political_words2.pdf>]
-<figures/chatgpt.pdf, id=525, 1153.32823pt x 538.6825pt>
+<figures/chatgpt.pdf, id=507, 1153.32823pt x 538.6825pt>
 File: figures/chatgpt.pdf Graphic file (type pdf)
 <use figures/chatgpt.pdf>
-Package pdftex.def Info: figures/chatgpt.pdf  used on input line 212.
+Package pdftex.def Info: figures/chatgpt.pdf  used on input line 219.
 (pdftex.def)             Requested size: 455.24408pt x 212.62518pt.
 
 
@@ -1385,14 +1386,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
-<figures/average_tone_pre_post_election.pdf, id=539, 1445.4pt x 505.89pt>
+<figures/average_tone_pre_post_election.pdf, id=522, 1445.4pt x 505.89pt>
 File: figures/average_tone_pre_post_election.pdf Graphic file (type pdf)
 <use figures/average_tone_pre_post_election.pdf>
 Package pdftex.def Info: figures/average_tone_pre_post_election.pdf  used on in
-put line 239.
+put line 237.
 (pdftex.def)             Requested size: 512.1496pt x 179.24869pt.
 
-Overfull \hbox (45.52457pt too wide) in paragraph at lines 239--240
+Overfull \hbox (45.52457pt too wide) in paragraph at lines 237--238
  [][] 
  []
 
@@ -1410,7 +1411,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 310.
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 295.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
@@ -1423,8 +1424,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11]
 
-LaTeX Warning: Reference `table:iv_table' on page 12 undefined on input line 38
-1.
+LaTeX Warning: Reference `table:iv_table' on page 12 undefined on input line 36
+6.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1433,30 +1434,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12]
-<figures/predicted_bad_left.pdf, id=675, 397.485pt x 289.08pt>
+<figures/predicted_bad_left.pdf, id=658, 397.485pt x 289.08pt>
 File: figures/predicted_bad_left.pdf Graphic file (type pdf)
 <use figures/predicted_bad_left.pdf>
-Package pdftex.def Info: figures/predicted_bad_left.pdf  used on input line 392
+Package pdftex.def Info: figures/predicted_bad_left.pdf  used on input line 377
 .
 (pdftex.def)             Requested size: 209.97983pt x 152.71762pt.
-<figures/predicted_bad_right.pdf, id=676, 397.485pt x 289.08pt>
+<figures/predicted_bad_right.pdf, id=659, 397.485pt x 289.08pt>
 File: figures/predicted_bad_right.pdf Graphic file (type pdf)
 <use figures/predicted_bad_right.pdf>
-Package pdftex.def Info: figures/predicted_bad_right.pdf  used on input line 39
-7.
+Package pdftex.def Info: figures/predicted_bad_right.pdf  used on input line 38
+2.
 (pdftex.def)             Requested size: 209.97983pt x 152.71762pt.
-<figures/predicted_good_left.pdf, id=677, 397.485pt x 289.08pt>
+<figures/predicted_good_left.pdf, id=660, 397.485pt x 289.08pt>
 File: figures/predicted_good_left.pdf Graphic file (type pdf)
 <use figures/predicted_good_left.pdf>
-Package pdftex.def Info: figures/predicted_good_left.pdf  used on input line 40
-3.
+Package pdftex.def Info: figures/predicted_good_left.pdf  used on input line 38
+8.
 (pdftex.def)             Requested size: 209.97983pt x 152.71762pt.
-<figures/predicted_good_right.pdf, id=678, 397.485pt x 289.08pt>
+<figures/predicted_good_right.pdf, id=661, 397.485pt x 289.08pt>
 File: figures/predicted_good_right.pdf Graphic file (type pdf)
 <use figures/predicted_good_right.pdf>
-Package pdftex.def Info: figures/predicted_good_right.pdf  used on input line 4
-09.
+Package pdftex.def Info: figures/predicted_good_right.pdf  used on input line 3
+94.
 (pdftex.def)             Requested size: 209.97983pt x 152.71762pt.
+
+
+LaTeX Warning: Reference `table:results_blp' on page 13 undefined on input line
+ 418.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1466,12 +1471,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [13 <./figures/predicted_bad_left.pdf> <./figures/predicted_bad_right.pdf> <./f
 igures/predicted_good_left.pdf> <./figures/predicted_good_right.pdf>]
-Overfull \hbox (8.68721pt too wide) detected at line 518
+
+LaTeX Warning: Float too large for page by 37.14352pt on input line 492.
+
+
+Overfull \hbox (8.68721pt too wide) detected at line 505
 [][][][]
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1494,29 +1500,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17]
-<figures/pipeline3.png, id=740, 963.72044pt x 542.025pt>
+<figures/pipeline3.png, id=718, 963.72044pt x 542.025pt>
 File: figures/pipeline3.png Graphic file (type png)
 <use figures/pipeline3.png>
-Package pdftex.def Info: figures/pipeline3.png  used on input line 599.
+Package pdftex.def Info: figures/pipeline3.png  used on input line 561.
 (pdftex.def)             Requested size: 426.79134pt x 240.0466pt.
-<figures/average_tone_pre_post_election.png, id=741, 963.72044pt x 542.025pt>
+<figures/average_tone_pre_post_election.png, id=719, 963.72044pt x 542.025pt>
 File: figures/average_tone_pre_post_election.png Graphic file (type png)
 <use figures/average_tone_pre_post_election.png>
 Package pdftex.def Info: figures/average_tone_pre_post_election.png  used on in
-put line 607.
+put line 569.
 (pdftex.def)             Requested size: 426.79134pt x 240.0466pt.
-<figures/channel_ideology_density_python.pdf, id=742, 1011.78pt x 578.16pt>
+<figures/channel_ideology_density_python.pdf, id=720, 1011.78pt x 578.16pt>
 File: figures/channel_ideology_density_python.pdf Graphic file (type pdf)
 <use figures/channel_ideology_density_python.pdf>
 Package pdftex.def Info: figures/channel_ideology_density_python.pdf  used on i
-nput line 615.
+nput line 577.
 (pdftex.def)             Requested size: 426.79134pt x 243.88419pt.
 
 
@@ -1525,15 +1524,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18
+[17
 
  <./figures/pipeline3.png> <./figures/average_tone_pre_post_election.png>]
-Overfull \hbox (60.45372pt too wide) in alignment at lines 636--659
+Overfull \hbox (60.45372pt too wide) in alignment at lines 598--621
  [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 659
+Underfull \vbox (badness 10000) detected at line 621
  []
 
 
@@ -1542,18 +1541,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19 <./figures/channel_ideology_density_python.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 679.
+[18 <./figures/channel_ideology_density_python.pdf>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 641.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<figures/sentiment_distribution.png, id=798, 867.24pt x 578.16pt>
+<figures/sentiment_distribution.png, id=773, 867.24pt x 578.16pt>
 File: figures/sentiment_distribution.png Graphic file (type png)
 <use figures/sentiment_distribution.png>
 Package pdftex.def Info: figures/sentiment_distribution.png  used on input line
- 693.
+ 655.
 (pdftex.def)             Requested size: 341.43306pt x 227.62523pt.
 
 
@@ -1562,13 +1561,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
+[19]
 
-LaTeX Warning: Reference `sec:endogeneity' on page 21 undefined on input line 7
-26.
+LaTeX Warning: Reference `sec:endogeneity' on page 20 undefined on input line 6
+88.
 
 
-Overfull \hbox (31.92805pt too wide) detected at line 732
+Overfull \hbox (31.92805pt too wide) detected at line 694
 [][][][]
  []
 
@@ -1579,14 +1578,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./figures/sentiment_distribution.png>]
+[20 <./figures/sentiment_distribution.png>]
 
-Package caption Warning: \label without proper reference on input line 765.
+Package caption Warning: \label without proper reference on input line 724.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `figure:image_rec' on page 22 undefined on input line 
-757.
+LaTeX Warning: Reference `figure:image_rec' on page 21 undefined on input line 
+719.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1594,21 +1593,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]
-<figures/image_recog.png, id=829, 894.34125pt x 502.87875pt>
+[21]
+<figures/image_recog.png, id=799, 894.34125pt x 502.87875pt>
 File: figures/image_recog.png Graphic file (type png)
 <use figures/image_recog.png>
-Package pdftex.def Info: figures/image_recog.png  used on input line 761.
+Package pdftex.def Info: figures/image_recog.png  used on input line 723.
 (pdftex.def)             Requested size: 284.52756pt x 159.98834pt.
-<figures/speakers_all.png, id=831, 1011.78pt x 289.08pt>
+<figures/speakers_all.png, id=801, 1011.78pt x 289.08pt>
 File: figures/speakers_all.png Graphic file (type png)
 <use figures/speakers_all.png>
-Package pdftex.def Info: figures/speakers_all.png  used on input line 778.
+Package pdftex.def Info: figures/speakers_all.png  used on input line 740.
 (pdftex.def)             Requested size: 341.43306pt x 97.55367pt.
-<figures/speaker_timeline.png, id=832, 1011.78pt x 289.08pt>
+<figures/speaker_timeline.png, id=802, 1011.78pt x 289.08pt>
 File: figures/speaker_timeline.png Graphic file (type png)
 <use figures/speaker_timeline.png>
-Package pdftex.def Info: figures/speaker_timeline.png  used on input line 779.
+Package pdftex.def Info: figures/speaker_timeline.png  used on input line 741.
 (pdftex.def)             Requested size: 341.43306pt x 97.55367pt.
 
 
@@ -1617,14 +1616,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 <./figures/image_recog.png>]
+[22 <./figures/image_recog.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24 <./figures/speakers_all.png> <./figures/speaker_timeline.png>]
+[23 <./figures/speakers_all.png> <./figures/speaker_timeline.png>]
 (./elections_draft.bbl
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1632,7 +1631,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25
+[24
 
 ])
 
@@ -1641,91 +1640,66 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 807.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 807.
+[25]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 769.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 769.
  (./elections_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 807.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 807.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 769.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 769.
+Package rerunfilecheck Info: File `elections_draft.out' has not changed.
+(rerunfilecheck)             Checksum: CBD2004789DB794A05527C9E94740D00;1232.
 
-
-Package rerunfilecheck Warning: File `elections_draft.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `elections_draft.out':
-(rerunfilecheck)             Before: 6BD34920A1D84880127B5DB023CDCCC0;1301
-(rerunfilecheck)             After:  D9EE6542622CD039E0E2886D653FBBE2;1251.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 807.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 769.
  ) 
 Here is how much of TeX's memory you used:
- 38878 strings out of 492649
- 907907 string characters out of 6129622
+ 38868 strings out of 492649
+ 907798 string characters out of 6129622
  1262308 words of memory out of 5000000
  41892 multiletter control sequences out of 15000+600000
  36644 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,18n,96p,1187b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{equation.9.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/cm-super/sfsl1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/cm-super/sfti0800.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
-lic/cm-super/sfti1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-cm-super/sftt1200.pfb>
-Output written on elections_draft.pdf (26 pages, 1849152 bytes).
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/public/cm-super/sfti0800.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/cm-super/sfti1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/cm-super/sftt1200.pfb>
+Output written on elections_draft.pdf (25 pages, 1828791 bytes).
 PDF statistics:
- 979 PDF objects out of 1000 (max. 8388607)
- 505 compressed objects within 6 object streams
- 105 named destinations out of 1000 (max. 500000)
- 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 947 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 396 words of extra memory for PDF output out of 10000 (max. 10000000)
 
