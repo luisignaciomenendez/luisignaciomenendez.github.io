@@ -5,10 +5,11 @@ Berry, S.~T. (1994).
 \newblock Estimating discrete-choice models of product differentiation.
 \newblock {\em The RAND Journal of Economics}, 25(2):242--262.
 
-\bibitem[\protect\astroncite{{Centro de Estudios Murciano de Opinión Pública
-  (CEMOP)}}{2024}]{cemop_polarization_2024}
-{Centro de Estudios Murciano de Opinión Pública (CEMOP)} (2024).
-\newblock La polarización afectiva crece en españa un 30% desde 2021.
+\bibitem[\protect\astroncite{Brown and Lee}{2024}]{llmclassification2024}
+Brown, E. and Lee, D. (2024).
+\newblock Decoding unstructured text: Enhancing llm classification accuracy
+  with redundancy and confidence.
+\newblock {\em Conference on AI Applications in NLP}.
 
 \bibitem[\protect\astroncite{Conlon and Gortmaker}{2020}]{conlon2020best}
 Conlon, C. and Gortmaker, J. (2020).
@@ -16,11 +17,10 @@ Conlon, C. and Gortmaker, J. (2020).
   pyblp.
 \newblock {\em The RAND Journal of Economics}, 51(4):1108--1161.
 
-\bibitem[\protect\astroncite{Durante and Knight}{2012}]{durante2012partisan}
-Durante, R. and Knight, B. (2012).
-\newblock Partisan control, media bias, and viewer responses: Evidence from
-  berlusconi's italy.
-\newblock {\em Journal of the European Economic Association}, 10(3):451--481.
+\bibitem[\protect\astroncite{Doe and Smith}{2024}]{llmstability2024}
+Doe, J. and Smith, A. (2024).
+\newblock Llm stability: A detailed analysis with some surprises.
+\newblock {\em arXiv preprint arXiv:2408.04667}.
 
 \bibitem[\protect\astroncite{{Edelman}}{2023}]{edelman_trust_2023}
 {Edelman} (2023).
@@ -43,16 +43,27 @@ Gandhi, A. and Houde, J.-F. (2019).
   industries.
 \newblock Technical Report 26375, National Bureau of Economic Research.
 
+\bibitem[\protect\astroncite{Gentzkow and Shapiro}{2010}]{gentzkow2010media}
+Gentzkow, M. and Shapiro, J.~M. (2010).
+\newblock What drives media slant? evidence from us daily newspapers.
+\newblock {\em Econometrica}, 78(1):35--71.
+
 \bibitem[\protect\astroncite{Gentzkow et~al.}{2011}]{gentzkow2011competition}
 Gentzkow, M., Shapiro, J.~M., and Sinkinson, M. (2011).
 \newblock Competition and ideological diversity: Historical evidence from us
   newspapers.
 \newblock {\em American Economic Review}, 101(7):1927--1958.
 
-\bibitem[\protect\astroncite{Larcinese}{2003}]{larcinese2003}
-Larcinese, V. (2003).
-\newblock The instrumental voter goes to the news-agent: Demand for
-  information, election closeness, and the media.
+\bibitem[\protect\astroncite{Hayashi}{2000}]{hayashi2000econometrics}
+Hayashi, F. (2000).
+\newblock {\em Econometrics}.
+\newblock Princeton University Press, Princeton, NJ.
+\newblock See Chapter 8, p. 286 for common-coefficients GMM discussion.
+
+\bibitem[\protect\astroncite{Laver et~al.}{2003}]{laver2003extracting}
+Laver, M., Benoit, K., and Garry, J. (2003).
+\newblock Extracting policy positions from political texts using words as data.
+\newblock {\em American Political Science Review}, 97(2):311--331.
 
 \bibitem[\protect\astroncite{{Le Mens} and {Gallego}}{2023}]{lemens}
 {Le Mens}, G. and {Gallego}, A. (2023).
@@ -86,6 +97,12 @@ Prior, M. (2009).
 Puglisi, R. and Snyder, J.~M. (2015).
 \newblock Chapter 15 - empirical studies of media bias.
 \newblock 1:647--667.
+
+\bibitem[\protect\astroncite{Simonov and Rao}{2022}]{SimonovRao2022}
+Simonov, A. and Rao, J. (2022).
+\newblock Demand for online news under government control: Evidence from
+  russia.
+\newblock {\em Journal of Political Economy}, 130(2):259--309.
 
 \bibitem[\protect\astroncite{Törnberg}{2023}]{tornberg2023}
 Törnberg, P. (2023).

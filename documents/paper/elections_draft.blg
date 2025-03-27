@@ -3,53 +3,50 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: elections_draft.aux
 The style file: apa.bst
 Database file #1: ./bib/media_bias.bib
-Warning--entry type for "larcinese2003" isn't style-file defined
---line 2 of file ./bib/media_bias.bib
 Warning--entry type for "europarl2024" isn't style-file defined
---line 132 of file ./bib/media_bias.bib
-Warning--I didn't find a database entry for "esteban"
+--line 176 of file ./bib/media_bias.bib
 Warning--empty journal in patterson2000doing
 Warning--there's a number but no volume in patterson2000doing
 Warning--empty journal in puglisi_review
-You've used 18 entries,
+You've used 21 entries,
             1940 wiz_defined-function locations,
-            577 strings with 6677 characters,
-and the built_in function-call counts, 6339 in all, are:
-= -- 640
-> -- 205
-< -- 16
-+ -- 68
-- -- 64
-* -- 516
-:= -- 1097
-add.period$ -- 49
-call.type$ -- 18
-change.case$ -- 122
-chr.to.int$ -- 18
-cite$ -- 21
-duplicate$ -- 264
-empty$ -- 436
-format.name$ -- 92
-if$ -- 1230
+            599 strings with 7098 characters,
+and the built_in function-call counts, 7597 in all, are:
+= -- 763
+> -- 255
+< -- 18
++ -- 82
+- -- 80
+* -- 632
+:= -- 1313
+add.period$ -- 61
+call.type$ -- 21
+change.case$ -- 144
+chr.to.int$ -- 21
+cite$ -- 24
+duplicate$ -- 312
+empty$ -- 527
+format.name$ -- 117
+if$ -- 1476
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 88
-num.names$ -- 54
-pop$ -- 95
+missing$ -- 18
+newline$ -- 106
+num.names$ -- 63
+pop$ -- 115
 preamble$ -- 1
-purify$ -- 122
+purify$ -- 145
 quote$ -- 0
-skip$ -- 228
+skip$ -- 263
 stack$ -- 0
-substring$ -- 439
-swap$ -- 62
+substring$ -- 517
+swap$ -- 70
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 124
 warning$ -- 3
-while$ -- 51
+while$ -- 61
 width$ -- 0
-write$ -- 217
-(There were 6 warnings)
+write$ -- 262
+(There were 4 warnings)

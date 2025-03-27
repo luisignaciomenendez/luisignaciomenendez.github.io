@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.14)  30 JAN 2025 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.14)  21 MAR 2025 10:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -59,29 +59,52 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
-(/Users/luisignaciomenendezgarcia/Desktop/latex/plantilla_latex/pack.tex
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-\lst@mode=\count94
+\captionmargin=\dimen104
+\captionmargin@=\dimen105
+\captionwidth=\dimen106
+\caption@tempdima=\dimen107
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
+)
+\c@ContinuedFloat=\count94
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: threeparttable package is loaded.
+)
+(/Users/luisignaciomenendezgarcia/Desktop/latex/plantilla_latex/pack.tex
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count95
 \lst@gtempboxa=\box31
 \lst@token=\toks16
-\lst@length=\count95
-\lst@currlwidth=\dimen104
-\lst@column=\count96
-\lst@pos=\count97
-\lst@lostspace=\dimen105
-\lst@width=\dimen106
-\lst@newlines=\count98
-\lst@lineno=\count99
-\lst@maxwidth=\dimen107
+\lst@length=\count96
+\lst@currlwidth=\dimen111
+\lst@column=\count97
+\lst@pos=\count98
+\lst@lostspace=\dimen112
+\lst@width=\dimen113
+\lst@newlines=\count99
+\lst@lineno=\count100
+\lst@maxwidth=\dimen114
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count100
-\lst@skipnumbers=\count101
+\c@lstnumber=\count101
+\lst@skipnumbers=\count102
 \lst@framebox=\box32
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
@@ -100,11 +123,11 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count102
-\U@D=\dimen108
+\babel@savecnt=\count103
+\U@D=\dimen115
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count103
+\bbl@dirlevel=\count104
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -132,8 +155,8 @@ Package graphics Info: Driver file: dvips.def on input line 99.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvips.def
 File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
-\Gin@req@height=\dimen109
-\Gin@req@width=\dimen110
+\Gin@req@height=\dimen116
+\Gin@req@width=\dimen117
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
@@ -146,47 +169,47 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
-\ex@=\dimen111
+\ex@=\dimen118
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen112
+\pmbraise@=\dimen119
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count104
+\inf@bad=\count105
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count105
-\leftroot@=\count106
+\uproot@=\count106
+\leftroot@=\count107
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count107
-\DOTSCASE@=\count108
+\classnum@=\count108
+\DOTSCASE@=\count109
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box33
 \strutbox@=\box34
-\big@size=\dimen113
+\big@size=\dimen120
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count109
-\c@MaxMatrixCols=\count110
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
 \dotsspace@=\muskip10
-\c@parentequation=\count111
-\dspbrk@lvl=\count112
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
 \tag@help=\toks20
-\row@=\count113
-\column@=\count114
-\maxfields@=\count115
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
 \andhelp@=\toks21
-\eqnshift@=\dimen114
-\alignsep@=\dimen115
-\tagshift@=\dimen116
-\tagwidth@=\dimen117
-\totwidth@=\dimen118
-\lineht@=\dimen119
+\eqnshift@=\dimen121
+\alignsep@=\dimen122
+\tagshift@=\dimen123
+\tagwidth@=\dimen124
+\totwidth@=\dimen125
+\lineht@=\dimen126
 \@envbody=\toks22
 \multlinegap=\skip50
 \multlinetaggap=\skip51
@@ -239,15 +262,15 @@ Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count116
-\calc@Bcount=\count117
-\calc@Adimen=\dimen120
-\calc@Bdimen=\dimen121
+\calc@Acount=\count117
+\calc@Bcount=\count118
+\calc@Adimen=\dimen127
+\calc@Bdimen=\dimen128
 \calc@Askip=\skip55
 \calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count118
+\calc@Ccount=\count119
 \calc@Cskip=\skip57
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -257,15 +280,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count119
-\l_MT_multwidth_dim=\dimen122
+\g_MT_multlinerow_int=\count120
+\l_MT_multwidth_dim=\dimen129
 \origjot=\skip58
-\l_MT_shortvdotswithinadjustabove_dim=\dimen123
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen124
-\l_MT_above_intertext_sep=\dimen125
-\l_MT_below_intertext_sep=\dimen126
-\l_MT_above_shortintertext_sep=\dimen127
-\l_MT_below_shortintertext_sep=\dimen128
+\l_MT_shortvdotswithinadjustabove_dim=\dimen130
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen131
+\l_MT_above_intertext_sep=\dimen132
+\l_MT_below_intertext_sep=\dimen133
+\l_MT_above_shortintertext_sep=\dimen134
+\l_MT_below_shortintertext_sep=\dimen135
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
@@ -274,7 +297,7 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/here/here.sty)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count120
+\c@float@type=\count121
 \float@exts=\toks30
 \float@box=\box35
 \@float@everytoks=\toks31
@@ -285,12 +308,12 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box37
 \beforetitleunit=\skip59
 \aftertitleunit=\skip60
-\ttl@plus=\dimen129
-\ttl@minus=\dimen130
+\ttl@plus=\dimen136
+\ttl@minus=\dimen137
 \ttl@toksa=\toks32
-\titlewidth=\dimen131
-\titlewidthlast=\dimen132
-\titlewidthfirst=\dimen133
+\titlewidth=\dimen138
+\titlewidthlast=\dimen139
+\titlewidthfirst=\dimen140
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
@@ -311,22 +334,22 @@ Package: anysize 1994/08/13 setting margin sizes
 document style option `anysize' loaded
 Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
 Version 1.0, Aug 13, 1994
-\@Leftmargin=\dimen134
-\@Rightmargin=\dimen135
-\@Topmargin=\dimen136
-\@Bottommargin=\dimen137
+\@Leftmargin=\dimen141
+\@Rightmargin=\dimen142
+\@Topmargin=\dimen143
+\@Bottommargin=\dimen144
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip70
 \subfigcapskip=\skip71
-\subfigcaptopadj=\dimen138
+\subfigcaptopadj=\dimen145
 \subfigbottomskip=\skip72
-\subfigcapmargin=\dimen139
+\subfigcapmargin=\dimen146
 \subfiglabelskip=\skip73
-\c@subfigure=\count121
-\c@lofdepth=\count122
-\c@subtable=\count123
-\c@lotdepth=\count124
+\c@subfigure=\count122
+\c@lofdepth=\count123
+\c@subtable=\count124
+\c@lotdepth=\count125
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -352,23 +375,23 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen140
-\lightrulewidth=\dimen141
-\cmidrulewidth=\dimen142
-\belowrulesep=\dimen143
-\belowbottomsep=\dimen144
-\aboverulesep=\dimen145
-\abovetopsep=\dimen146
-\cmidrulesep=\dimen147
-\cmidrulekern=\dimen148
-\defaultaddspace=\dimen149
-\@cmidla=\count125
-\@cmidlb=\count126
-\@aboverulesep=\dimen150
-\@belowrulesep=\dimen151
-\@thisruleclass=\count127
-\@lastruleclass=\count128
-\@thisrulewidth=\dimen152
+\heavyrulewidth=\dimen147
+\lightrulewidth=\dimen148
+\cmidrulewidth=\dimen149
+\belowrulesep=\dimen150
+\belowbottomsep=\dimen151
+\aboverulesep=\dimen152
+\abovetopsep=\dimen153
+\cmidrulesep=\dimen154
+\cmidrulekern=\dimen155
+\defaultaddspace=\dimen156
+\@cmidla=\count126
+\@cmidlb=\count127
+\@aboverulesep=\dimen157
+\@belowrulesep=\dimen158
+\@thisruleclass=\count128
+\@lastruleclass=\count129
+\@thisrulewidth=\dimen159
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -376,7 +399,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count129
+\c@r@tfl@t=\count130
 \rotFPtop=\skip76
 \rotFPbot=\skip77
 \rot@float@box=\box38
@@ -441,16 +464,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen153
-\Hy@linkcounter=\count130
-\Hy@pagecounter=\count131
+\@linkdim=\dimen160
+\Hy@linkcounter=\count131
+\Hy@pagecounter=\count132
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count132
+\Hy@SavedSpaceFactor=\count133
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -462,17 +485,17 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count133
+\c@Hy@tempcnt=\count134
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen154
-\Fld@menulength=\count134
-\Field@Width=\dimen155
-\Fld@charsize=\dimen156
+\XeTeXLinkMargin=\dimen161
+\Fld@menulength=\count135
+\Field@Width=\dimen162
+\Fld@charsize=\dimen163
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -482,16 +505,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count135
-\c@Item=\count136
-\c@Hfootnote=\count137
+\Hy@abspage=\count136
+\c@Item=\count137
+\c@Hfootnote=\count138
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count138
-\c@bookmark@seq@number=\count139
+\Fld@listcount=\count139
+\c@bookmark@seq@number=\count140
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -503,41 +526,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip79
-\multirow@cntb=\count140
+\multirow@cntb=\count141
 \multirow@dima=\skip80
-\bigstrutjot=\dimen157
+\bigstrutjot=\dimen164
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen158
-\captionmargin@=\dimen159
-\captionwidth=\dimen160
-\caption@tempdima=\dimen161
-\caption@indent=\dimen162
-\caption@parindent=\dimen163
-\caption@hangindent=\dimen164
-)
-\c@ContinuedFloat=\count141
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: longtable package is loaded.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
-)
-Package caption Info: rotating package is loaded.
-Package caption Info: subfigure package is loaded.
-Package caption Info: threeparttable package is loaded.
-)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
@@ -1173,33 +1169,37 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fundus-calligra/calligra.sty
 Package: calligra 2012/04/10 v1.9 LaTeX package calligra
 )
-(./elections_draft.aux
-
-LaTeX Warning: Label `eq:pred_neg' multiply defined.
-
-)
+(./elections_draft.aux)
 \openout1 = `elections_draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 23.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 30.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 30.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count184
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1233,7 +1233,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box86
-Package hyperref Info: Link coloring ON on input line 23.
+Package hyperref Info: Link coloring ON on input line 30.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1243,47 +1243,45 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count191
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 
 (./elections_draft.out) (./elections_draft.out)
 \@outlinefile=\write7
 \openout7 = `elections_draft.out'.
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 23.
+ on input line 30.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 25.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 32.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
  [1
 Non-PDF special ignored!
 <special> papersize=597.50787pt,845.04684pt
@@ -1299,28 +1297,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 
-LaTeX Warning: Reference `sec:supply' on page 3 undefined on input line 68.
+LaTeX Warning: Reference `sec:supply' on page 3 undefined on input line 75.
 
-<figures/media_es.pdf, id=167, 722.7pt x 433.62pt>
-File: figures/media_es.pdf Graphic file (type pdf)
-<use figures/media_es.pdf>
-Package pdftex.def Info: figures/media_es.pdf  used on input line 91.
-(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
-<figures/media_fr.pdf, id=168, 722.7pt x 433.62pt>
-File: figures/media_fr.pdf Graphic file (type pdf)
-<use figures/media_fr.pdf>
-Package pdftex.def Info: figures/media_fr.pdf  used on input line 97.
-(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
-<figures/media_be.pdf, id=169, 722.7pt x 433.62pt>
-File: figures/media_be.pdf Graphic file (type pdf)
-<use figures/media_be.pdf>
-Package pdftex.def Info: figures/media_be.pdf  used on input line 103.
-(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
-<figures/media_it.pdf, id=170, 722.7pt x 433.62pt>
-File: figures/media_it.pdf Graphic file (type pdf)
-<use figures/media_it.pdf>
-Package pdftex.def Info: figures/media_it.pdf  used on input line 109.
-(pdftex.def)             Requested size: 209.97983pt x 125.98477pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1328,20 +1306,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
+<figures/age_cohorts.pdf, id=194, 715.40149pt x 425.28522pt>
+File: figures/age_cohorts.pdf Graphic file (type pdf)
+<use figures/age_cohorts.pdf>
+Package pdftex.def Info: figures/age_cohorts.pdf  used on input line 99.
+(pdftex.def)             Requested size: 341.43306pt x 202.97299pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./figures/media_es.pdf> <./figures/media_fr.pdf> <./figures/media_be.pdf> <
-./figures/media_it.pdf>]
-<figures/corr_party_channel3.pdf, id=380, 1121.30234pt x 538.6825pt>
+[4 <./figures/age_cohorts.pdf>]
+<figures/corr_party_channel3.pdf, id=259, 860.22693pt x 552.56438pt>
 File: figures/corr_party_channel3.pdf Graphic file (type pdf)
 <use figures/corr_party_channel3.pdf>
 Package pdftex.def Info: figures/corr_party_channel3.pdf  used on input line 13
-8.
-(pdftex.def)             Requested size: 455.24408pt x 218.69948pt.
+2.
+(pdftex.def)             Requested size: 341.43306pt x 219.31868pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1357,11 +1340,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-<figures/political_words2.pdf, id=439, 867.24pt x 433.62pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+<figures/political_words2.pdf, id=342, 867.24pt x 433.62pt>
 File: figures/political_words2.pdf Graphic file (type pdf)
 <use figures/political_words2.pdf>
-Package pdftex.def Info: figures/political_words2.pdf  used on input line 197.
-(pdftex.def)             Requested size: 426.79134pt x 213.39536pt.
+Package pdftex.def Info: figures/political_words2.pdf  used on input line 194.
+(pdftex.def)             Requested size: 341.43306pt x 170.71892pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1369,33 +1359,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7 <./figures/political_words2.pdf>]
-<figures/chatgpt.pdf, id=507, 1153.32823pt x 538.6825pt>
+[8 <./figures/political_words2.pdf>]
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 227.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/doublestroke/Udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+)
+<figures/chatgpt.pdf, id=416, 631.88574pt x 423.70294pt>
 File: figures/chatgpt.pdf Graphic file (type pdf)
 <use figures/chatgpt.pdf>
-Package pdftex.def Info: figures/chatgpt.pdf  used on input line 219.
-(pdftex.def)             Requested size: 455.24408pt x 212.62518pt.
+Package pdftex.def Info: figures/chatgpt.pdf  used on input line 242.
+(pdftex.def)             Requested size: 341.43306pt x 228.94487pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Reference `fig:congress2' on page 9 undefined on input line 253.
 
-[8]
-<figures/average_tone_pre_post_election.pdf, id=522, 1445.4pt x 505.89pt>
-File: figures/average_tone_pre_post_election.pdf Graphic file (type pdf)
-<use figures/average_tone_pre_post_election.pdf>
-Package pdftex.def Info: figures/average_tone_pre_post_election.pdf  used on in
-put line 237.
-(pdftex.def)             Requested size: 512.1496pt x 179.24869pt.
-
-Overfull \hbox (45.52457pt too wide) in paragraph at lines 237--238
- [][] 
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1403,19 +1385,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./figures/chatgpt.pdf> <./figures/average_tone_pre_post_election.pdf>]
+[9]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 295.
-
- (/usr/local/texlive/2018/texmf-dist/tex/latex/doublestroke/Udsrom.fd
-File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
+[10 <./figures/chatgpt.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1424,60 +1401,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11]
 
-LaTeX Warning: Reference `table:iv_table' on page 12 undefined on input line 36
-6.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [12]
-<figures/predicted_bad_left.pdf, id=658, 397.485pt x 289.08pt>
-File: figures/predicted_bad_left.pdf Graphic file (type pdf)
-<use figures/predicted_bad_left.pdf>
-Package pdftex.def Info: figures/predicted_bad_left.pdf  used on input line 377
-.
-(pdftex.def)             Requested size: 209.97983pt x 152.71762pt.
-<figures/predicted_bad_right.pdf, id=659, 397.485pt x 289.08pt>
-File: figures/predicted_bad_right.pdf Graphic file (type pdf)
-<use figures/predicted_bad_right.pdf>
-Package pdftex.def Info: figures/predicted_bad_right.pdf  used on input line 38
-2.
-(pdftex.def)             Requested size: 209.97983pt x 152.71762pt.
-<figures/predicted_good_left.pdf, id=660, 397.485pt x 289.08pt>
-File: figures/predicted_good_left.pdf Graphic file (type pdf)
-<use figures/predicted_good_left.pdf>
-Package pdftex.def Info: figures/predicted_good_left.pdf  used on input line 38
-8.
-(pdftex.def)             Requested size: 209.97983pt x 152.71762pt.
-<figures/predicted_good_right.pdf, id=661, 397.485pt x 289.08pt>
-File: figures/predicted_good_right.pdf Graphic file (type pdf)
-<use figures/predicted_good_right.pdf>
-Package pdftex.def Info: figures/predicted_good_right.pdf  used on input line 3
-94.
-(pdftex.def)             Requested size: 209.97983pt x 152.71762pt.
-
-
-LaTeX Warning: Reference `table:results_blp' on page 13 undefined on input line
- 418.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./figures/predicted_bad_left.pdf> <./figures/predicted_bad_right.pdf> <./f
-igures/predicted_good_left.pdf> <./figures/predicted_good_right.pdf>]
+[13]
+<figures/fwl_plots.pdf, id=563, 433.62pt x 289.08pt>
+File: figures/fwl_plots.pdf Graphic file (type pdf)
+<use figures/fwl_plots.pdf>
+Package pdftex.def Info: figures/fwl_plots.pdf  used on input line 427.
+(pdftex.def)             Requested size: 455.24408pt x 303.51207pt.
 
-LaTeX Warning: Float too large for page by 37.14352pt on input line 492.
 
-
-Overfull \hbox (8.68721pt too wide) detected at line 505
-[][][][]
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1492,7 +1436,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
+[15 <./figures/fwl_plots.pdf>]
+
+LaTeX Warning: Reference `tab:results_blp_updated' on page 16 undefined on inpu
+t line 506.
+
+
+LaTeX Warning: Float too large for page by 10.8751pt on input line 576.
+
+
+LaTeX Warning: Float too large for page by 10.8751pt on input line 640.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1500,39 +1454,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-<figures/pipeline3.png, id=718, 963.72044pt x 542.025pt>
-File: figures/pipeline3.png Graphic file (type png)
-<use figures/pipeline3.png>
-Package pdftex.def Info: figures/pipeline3.png  used on input line 561.
-(pdftex.def)             Requested size: 426.79134pt x 240.0466pt.
-<figures/average_tone_pre_post_election.png, id=719, 963.72044pt x 542.025pt>
-File: figures/average_tone_pre_post_election.png Graphic file (type png)
-<use figures/average_tone_pre_post_election.png>
-Package pdftex.def Info: figures/average_tone_pre_post_election.png  used on in
-put line 569.
-(pdftex.def)             Requested size: 426.79134pt x 240.0466pt.
-<figures/channel_ideology_density_python.pdf, id=720, 1011.78pt x 578.16pt>
-File: figures/channel_ideology_density_python.pdf Graphic file (type pdf)
-<use figures/channel_ideology_density_python.pdf>
-Package pdftex.def Info: figures/channel_ideology_density_python.pdf  used on i
-nput line 577.
-(pdftex.def)             Requested size: 426.79134pt x 243.88419pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17
-
- <./figures/pipeline3.png> <./figures/average_tone_pre_post_election.png>]
-Overfull \hbox (60.45372pt too wide) in alignment at lines 598--621
- [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 621
+Overfull \hbox (24.94777pt too wide) in paragraph at lines 781--782
+[]\T1/cmr/m/n/12 Channels want to re-tain max-i-mum amount of au-di-ence over a
+ll the re-gions :$[][] \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (\OML/cmm/b/it/12 x[
+]\OML/cmm/m/it/12 ; \OML/cmm/b/it/12 x[]\OT1/cmr/m/n/12 )[]$
  []
 
 
@@ -1541,20 +1466,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <./figures/channel_ideology_density_python.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 641.
+[17]
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-<figures/sentiment_distribution.png, id=773, 867.24pt x 578.16pt>
-File: figures/sentiment_distribution.png Graphic file (type png)
-<use figures/sentiment_distribution.png>
-Package pdftex.def Info: figures/sentiment_distribution.png  used on input line
- 655.
-(pdftex.def)             Requested size: 341.43306pt x 227.62523pt.
-
+[18]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1563,13 +1482,185 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [19]
 
-LaTeX Warning: Reference `sec:endogeneity' on page 20 undefined on input line 6
-88.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+<figures/pipeline3.png, id=651, 963.72044pt x 542.025pt>
+File: figures/pipeline3.png Graphic file (type png)
+<use figures/pipeline3.png>
+Package pdftex.def Info: figures/pipeline3.png  used on input line 836.
+(pdftex.def)             Requested size: 426.79134pt x 240.0466pt.
+<figures/age_cohorts_full.pdf, id=652, 722.7pt x 433.62pt>
+File: figures/age_cohorts_full.pdf Graphic file (type pdf)
+<use figures/age_cohorts_full.pdf>
+Package pdftex.def Info: figures/age_cohorts_full.pdf  used on input line 847.
+(pdftex.def)             Requested size: 341.43306pt x 204.86006pt.
 
 
-Overfull \hbox (31.92805pt too wide) detected at line 694
-[][][][]
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21
+
+ <./figures/pipeline3.png>]
+<figures/average_tone_pre_post_election.pdf, id=657, 729.84676pt x 442.37245pt>
+
+File: figures/average_tone_pre_post_election.pdf Graphic file (type pdf)
+<use figures/average_tone_pre_post_election.pdf>
+Package pdftex.def Info: figures/average_tone_pre_post_election.pdf  used on in
+put line 856.
+(pdftex.def)             Requested size: 426.79134pt x 258.6822pt.
+
+
+LaTeX Warning: Characters dropped after `\end{comment}' on input line 869.
+
+<figures/channel_ideology_density_python.pdf, id=658, 722.7pt x 433.62pt>
+File: figures/channel_ideology_density_python.pdf Graphic file (type pdf)
+<use figures/channel_ideology_density_python.pdf>
+Package pdftex.def Info: figures/channel_ideology_density_python.pdf  used on i
+nput line 875.
+(pdftex.def)             Requested size: 341.43306pt x 204.86006pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./figures/age_cohorts_full.pdf> <./figures/average_tone_pre_post_election.
+pdf>]
+Overfull \hbox (33.73616pt too wide) in paragraph at lines 889--927
+ [][] 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (60.45372pt too wide) in alignment at lines 1000--1023
+ [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1023
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23 <./figures/channel_ideology_density_python.pdf>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1043
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+<figures/sentiment_distribution.png, id=823, 867.24pt x 578.16pt>
+File: figures/sentiment_distribution.png Graphic file (type png)
+<use figures/sentiment_distribution.png>
+Package pdftex.def Info: figures/sentiment_distribution.png  used on input line
+ 1079.
+(pdftex.def)             Requested size: 341.43306pt x 227.62523pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26 <./figures/sentiment_distribution.png>]
+
+LaTeX Warning: Command \; invalid in math mode on input line 1094.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1094.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1094.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1094.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1094.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1094.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1094.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1094.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1100.
+
+
+LaTeX Warning: Reference `fig:worcloud1' on page 27 undefined on input line 110
+8.
+
+
+Package caption Warning: \label without proper reference on input line 1126.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:worcloud2' on page 27 undefined on input line 110
+8.
+
+<figures/congress_left.pdf, id=843, 556.47902pt x 278.23952pt>
+File: figures/congress_left.pdf Graphic file (type pdf)
+<use figures/congress_left.pdf>
+Package pdftex.def Info: figures/congress_left.pdf  used on input line 1121.
+(pdftex.def)             Requested size: 214.65063pt x 107.3242pt.
+<figures/congress_right.pdf, id=844, 556.47902pt x 278.23952pt>
+File: figures/congress_right.pdf Graphic file (type pdf)
+<use figures/congress_right.pdf>
+Package pdftex.def Info: figures/congress_right.pdf  used on input line 1129.
+(pdftex.def)             Requested size: 214.65063pt x 107.3242pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+<figures/congress_line.pdf, id=853, 578.16pt x 144.54pt>
+File: figures/congress_line.pdf Graphic file (type pdf)
+<use figures/congress_line.pdf>
+Package pdftex.def Info: figures/congress_line.pdf  used on input line 1147.
+(pdftex.def)             Requested size: 341.43306pt x 85.35724pt.
+
+
+LaTeX Warning: Reference `sec:endogeneity' on page 28 undefined on input line 1
+180.
 
 (./tables/check_exogeneity.tex)
 
@@ -1578,36 +1669,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 <./figures/sentiment_distribution.png>]
-
-Package caption Warning: \label without proper reference on input line 724.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `figure:image_rec' on page 21 undefined on input line 
-719.
-
+[28 <./figures/congress_left.pdf> <./figures/congress_right.pdf> <./figures/con
+gress_line.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]
-<figures/image_recog.png, id=799, 894.34125pt x 502.87875pt>
+[29]
+<figures/image_recog.png, id=904, 894.34125pt x 502.87875pt>
 File: figures/image_recog.png Graphic file (type png)
 <use figures/image_recog.png>
-Package pdftex.def Info: figures/image_recog.png  used on input line 723.
+Package pdftex.def Info: figures/image_recog.png  used on input line 1216.
 (pdftex.def)             Requested size: 284.52756pt x 159.98834pt.
-<figures/speakers_all.png, id=801, 1011.78pt x 289.08pt>
+<figures/speakers_all.png, id=906, 1011.78pt x 289.08pt>
 File: figures/speakers_all.png Graphic file (type png)
 <use figures/speakers_all.png>
-Package pdftex.def Info: figures/speakers_all.png  used on input line 740.
+Package pdftex.def Info: figures/speakers_all.png  used on input line 1234.
 (pdftex.def)             Requested size: 341.43306pt x 97.55367pt.
-<figures/speaker_timeline.png, id=802, 1011.78pt x 289.08pt>
+<figures/speaker_timeline.png, id=907, 1011.78pt x 289.08pt>
 File: figures/speaker_timeline.png Graphic file (type png)
 <use figures/speaker_timeline.png>
-Package pdftex.def Info: figures/speaker_timeline.png  used on input line 741.
+Package pdftex.def Info: figures/speaker_timeline.png  used on input line 1235.
+
 (pdftex.def)             Requested size: 341.43306pt x 97.55367pt.
 
 
@@ -1616,14 +1701,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 <./figures/image_recog.png>]
+[30 <./figures/image_recog.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 <./figures/speakers_all.png> <./figures/speaker_timeline.png>]
+[31 <./figures/speakers_all.png> <./figures/speaker_timeline.png>]
 (./elections_draft.bbl
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1631,7 +1716,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24
+[32
 
 ])
 
@@ -1640,66 +1725,70 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 769.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 769.
+[33]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1270.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1270.
  (./elections_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 769.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 769.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1270.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1270.
+
 Package rerunfilecheck Info: File `elections_draft.out' has not changed.
-(rerunfilecheck)             Checksum: CBD2004789DB794A05527C9E94740D00;1232.
+(rerunfilecheck)             Checksum: C2EC18A3DD271ADFF82937FE1F964F97;1536.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 769.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1270.
  ) 
 Here is how much of TeX's memory you used:
- 38868 strings out of 492649
- 907798 string characters out of 6129622
- 1262308 words of memory out of 5000000
- 41892 multiletter control sequences out of 15000+600000
- 36644 words of font info for 112 fonts, out of 8000000 for 9000
+ 38913 strings out of 492649
+ 908177 string characters out of 6129622
+ 1273882 words of memory out of 5000000
+ 41910 multiletter control sequences out of 15000+600000
+ 37865 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,18n,96p,1187b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,18n,96p,1190b,783s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/cm-super/sfti0800.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/cm-super/sfti1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
-lic/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/cm-super/sftt1200.pfb>
-Output written on elections_draft.pdf (25 pages, 1828791 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/20
+18/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/cm-super/sfti1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/cm-super/sfti1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/cm-super/sftt1200.pfb>
+Output written on elections_draft.pdf (33 pages, 3644844 bytes).
 PDF statistics:
- 947 PDF objects out of 1000 (max. 8388607)
- 476 compressed objects within 5 object streams
- 95 named destinations out of 1000 (max. 500000)
- 396 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1073 PDF objects out of 1200 (max. 8388607)
+ 625 compressed objects within 7 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
