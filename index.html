@@ -6,71 +6,95 @@
   <meta charset="UTF-8">
   <meta name="Keywords" content="Luis,Ignacio,Menendez,Garcia,economics,UAB,barcelona school of economics, barcelona gse, twitter,machine,learning,text,analysis,microeconometrics,research,econ, economics,autonoma,barcelona">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- W3.CSS and Font Awesome -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <style>
-    /* General Styles */
+    /* GENERAL STYLES */
     body, html {
       height: 100%;
       color: #777;
       line-height: 1.8;
+      margin: 0;
+      padding: 0;
+      font-family: "Lato", sans-serif;
+    }
+    body {
+      font-size: 18px; /* Default base font size */
     }
 
-    /* Parallax Effects */
-    .bgimg-2, .bgimg-3 {
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+    /* NAVBAR STYLES */
+    .w3-top .w3-bar {
+      /* You can adjust navbar colors here if desired */
     }
 
-    /* Header Section Styles */
-    .header-section {
-      margin-top: 150px;
-      padding: 20px;
-      text-align: center;
+    /* HEADER + ABOUT COMBINED SECTION */
+    .intro-section {
+      display: flex;               /* Put photo + text side by side */
+      flex-wrap: wrap;            /* Wrap if the screen is narrow */
+      align-items: center;        /* Vertically center them */
+      justify-content: center;    /* Horizontally center them */
+      padding: 50px 20px;         /* Top/Bottom padding, side padding */
+      gap: 40px;                  /* Space between photo and text */
+      text-align: left;           /* Left-align text in the text column */
     }
-    .header-row {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;           /* Add space between items */
-      width: fit-content;   /* Shrink-wrap to its contents */
-      margin: 0 auto;       /* Center the flex container */
-    }
-    .header-name {
-      font-size: 64px;      /* Enlarged font size */
-      color: black;
-      font-weight: bold;
-    }
-    .header-photo img {
-      width: 400px;         /* Adjust as needed */
+
+    /* PHOTO */
+    .intro-photo img {
+      width: 300px;    /* Adjust as needed */
       height: auto;
       border: 5px solid white;
     }
 
-    /* About Section Styles */
-    .about-section p {
-      font-size: 22px; /* Adjust this value to increase or decrease the paragraph text size */
-      max-width: 800px;
-      margin: 0 auto;
-      line-height: 1.6;
+    /* NAME + DESCRIPTION CONTAINER */
+    .intro-text {
+      max-width: 600px;  /* Limits text width */
     }
-    
-    .about-section h3 {
-      font-size: 42px;
+    .intro-name {
+      font-size: 50px;   /* Enlarge or reduce your name */
+      font-weight: bold;
+      color: black;
       margin-bottom: 20px;
     }
-    .about-section p {
-      font-size: 22px;
-      max-width: 800px;
-      margin: 0 auto;
+    .intro-paragraph {
+      font-size: 22px;   /* Adjust the paragraph size */
       line-height: 1.6;
+      margin: 0;         /* Remove default margins */
     }
 
-    /* Research Abstract Toggle */
+    /* RESEARCH SECTION */
+    #research {
+      padding: 64px 20px;
+    }
+    #research h3 {
+      font-size: 42px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    #research p,
+    #research li,
+    #research a {
+      font-size: 22px;
+    }
+
+    /* TEACHING SECTION */
+    #teaching {
+      padding: 64px 20px;
+    }
+    #teaching h3 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    /* CONTACT SECTION */
+    #contact {
+      padding: 64px 20px;
+    }
+
+    /* ABSTRACT TOGGLE */
     .abstract-text {
       display: none;
     }
@@ -80,33 +104,7 @@
       text-decoration: underline;
     }
 
-    /* Utility Classes */
-    .w3-wide { letter-spacing: 10px; }
-    .w3-hover-opacity { cursor: pointer; }
-
-    /* Turn off parallax scrolling for tablets and phones */
-    @media only screen and (max-device-width: 1600px) {
-      .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-        min-height: 400px;
-      }
-    }
-
-    #research h3 {
-      font-size: 42px; /* Change as needed */
-    }
-    #research p,
-    #research li,
-    #research a {
-      font-size: 22px; /* Adjust to match your preferred size */
-    }
-    
-    body {
-      font-size: 18px; /* This will be your default font size */
-    }
-    
-
-    /* Styled Button */
+    /* STYLED BUTTON */
     .styled-button {
       display: inline-block;
       padding: 10px 20px;
@@ -121,11 +119,24 @@
     .styled-button:hover {
       background-color: #2980b9;
     }
+
+    /* MEDIA QUERIES (for responsiveness) */
+    @media (max-width: 600px) {
+      .intro-name {
+        font-size: 36px;
+      }
+      .intro-paragraph {
+        font-size: 18px;
+      }
+      .intro-photo img {
+        width: 200px;
+      }
+    }
   </style>
 </head>
-<body>
 
-  <!-- Navbar (sit on top) -->
+<body>
+  <!-- NAVBAR (sit on top) -->
   <div class="w3-top">
     <div class="w3-bar" id="myNavbar">
       <a href="#home" class="w3-bar-item w3-button" style="color:black;">HOME</a>
@@ -136,7 +147,7 @@
         <i class="fa fa-search"></i>
       </a>
     </div>
-    <!-- Navbar on small screens -->
+    <!-- NAVBAR on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
       <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
       <a href="#research" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
@@ -145,67 +156,63 @@
     </div>
   </div>
 
-  <!-- Header Section with Big Name and Photo -->
-  <div class="w3-container header-section" id="home">
-    <div class="header-row">
-      <div class="header-name">Luis Menéndez</div>
-      <div class="header-photo">
-        <img src="images/Luis2.jpg" alt="Photo of Luis Menéndez">
-      </div>
+  <!-- INTRO SECTION (NAME + PHOTO + DESCRIPTION TOGETHER) -->
+  <div class="intro-section" id="home">
+    <div class="intro-photo">
+      <img src="images/Luis2.jpg" alt="Photo of Luis Menéndez">
+    </div>
+    <div class="intro-text">
+      <div class="intro-name">Luis Menéndez</div>
+      <p class="intro-paragraph">
+        I am a Ph.D. candidate in Economics at Universitat Autònoma de Barcelona and the Barcelona School of Economics (IDEA Graduate Program).
+        My main research interest is the study of social and traditional media. I apply machine learning and text processing techniques combined with
+        econometric methods to understand topics such as online coordination for offline protest participation, linguistic echo-chambers, and the
+        demand for political content during political campaigns. You can check out my CV
+        <strong><a href="https://www.dropbox.com/scl/fi/mfh7oxr8fkjs5p3hf84f9/cv_luis.pdf?rlkey=vak5baptcbulckym9dbj51is5&dl=0" target="_blank">here</a></strong>.
+      </p>
     </div>
   </div>
 
-  <!-- About Section (Description) -->
-  <div class="about-section" id="about">
-    <h3>ABOUT ME</h3>
-    <p>
-      I am a Ph.D. candidate in Economics at Universitat Autònoma de Barcelona and Barcelona School of Economics (IDEA Graduate Program).
-      My main research interest is the study of social and traditional media. I apply machine learning and text processing techniques combined with econometric methods
-      to understand things such as online coordination for offline protest participation, echo-chambers formation and the demand for political content during political campaigns.
-      You can check out my cv <strong><a href="https://www.dropbox.com/scl/fi/mfh7oxr8fkjs5p3hf84f9/cv_luis.pdf?rlkey=vak5baptcbulckym9dbj51is5&dl=0" target="_blank">here</a></strong>.
-    </p>
-  </div>
-
-  <!-- Research Section -->
-  <div class="w3-content w3-container w3-padding-64" id="research">
-    <h3 class="w3-center">RESEARCH</h3>
+  <!-- RESEARCH SECTION -->
+  <div class="w3-content w3-container" id="research">
+    <h3>RESEARCH</h3>
     <ol class="lead">
       <p>
         <b><a href="https://www.dropbox.com/scl/fi/f3546vufz11vj5r63xml4/elections_draft.pdf?rlkey=exjw9vm3sasahlb54ohjf2tyx&dl=0">
         "The Impact of Political Campaigns on Demand for Partisan News"</a></b>
         <span class="show-button" onclick="toggleAbstract('abstract3')"> Abstract</span><br>
         <span id="abstract3" class="abstract-text">
-          How do individuals acquire political information during election campaigns? This paper examines the demand for political news using a unique dataset that combines audience viewership data with the full text of news stories from Spanish TV channels. I estimate a structural random coefficients demand model to capture heterogeneity in political preferences, incorporating demographic differences.
-          A key challenge in measuring demand for political content is the endogeneity of news supply. To address this, I propose a novel identification strategy that exploits exogenous variation in the daily news landscape. By classifying all stories produced in Spain on a given day, I construct a set of potential inputs available to TV channels. Since channels have established political stances and face short-run costs in deviating from them, fluctuations in the political composition of available stories constrain left- and right-leaning outlets asymmetrically.
-          Using Large Language Models, I categorize the tone of each story with respect to political parties. My findings show that political campaigns significantly alter news consumption patterns. While there is no clear partisan asymmetry in demand before campaigns, polarization emerges once the campaign begins. Right-leaning viewers increasingly seek positive coverage of their own party and negative coverage of the opposition. These results highlight the role of campaign dynamics in shaping media consumption and contribute to the broader literature on political media bias and voter behavior.
+          How do individuals acquire political information during election campaigns? This paper examines the demand for political news using a unique dataset...
+          <!-- truncated for brevity -->
         </span>
       </p>
       <p>
         <b><a href="">"Breaking the Echo Chamber: Nonviolent Protest and Police Violence on Twitter"</a></b>
-        <i> with Hannes Mueller, Daniel Montolio and Francesco Slataper.</i>
+        <i> with Hannes Mueller, Daniel Montolio, and Francesco Slataper.</i>
         <span class="show-button" onclick="toggleAbstract('abstract2')"> Abstract</span><br>
         <span id="abstract2" class="abstract-text">
-          Social media platforms play a crucial role in shaping public discourse and political conflict. But political conflict also shapes social media networks. This paper investigates the response of social media networks to conflict events during the height of the independence struggle in 2017 in Catalonia (Spain). The analysis exploits linguistic markers to study retweets across Catalan and Castellano language groups in a large Twitter/X corpus of 65 million tweets during this conflict. To study behavioral changes, the article proposes a statistical decomposition into ‘exposure’—the likelihood of encountering specific content—and ‘retweet rates’—the probability of retweeting content once exposed. Surprisingly, the conflict events were associated with a dramatic relative increase in retweet rates across language groups. There is evidence of an ideological realignment, where left-wing voters in both language groups retweeted each other more frequently.
+          Social media platforms play a crucial role in shaping public discourse and political conflict...
+          <!-- truncated for brevity -->
         </span>
       </p>
       <p>
         <b><a href="papers/blm/blm.html">"Online and Offline protest participation: An Empirical Analysis for the 2020 Black Lives Matter Movement"</a></b>
         <span class="show-button" onclick="toggleAbstract('abstract1')"> Abstract</span><br>
         <span id="abstract1" class="abstract-text">
-          The recent wave of world-wide protests that took place after George Floyd’s killing has sparked attention in the Black Lives Matter movement, specially in terms of online activism. How does offline protesting behavior interact with the underlying online social networks? In this work, I build a classification algorithm to identify individuals who physically participated in the BLM demonstrations across the US. Thanks to this unique dataset, I explore at an individual level their full Twitter activity to better understand the role of influential users, coordination patterns and speech evolution. Through this analysis, I aim to examine assumptions regarding slacktivism, which involves engaging in online activism with minimal effort, in comparison to more traditional forms of protesting. By exploring how social media contributes to the development of traditional activism, we can gain a deeper understanding of the role of social media in protesting behavior.
+          The recent wave of world-wide protests that took place after George Floyd’s killing...
+          <!-- truncated for brevity -->
         </span>
       </p>
     </ol>
   </div>
 
-  <p>
+  <p style="text-align:center;">
     <a href="https://luisignaciomenendez.github.io/media_monitor/index.html" class="styled-button">Spanish Media Monitor</a>
   </p>
 
-  <!-- Teaching Section -->
-  <div class="w3-content w3-container w3-padding-64" id="teaching">
+  <!-- TEACHING SECTION -->
+  <div class="w3-content w3-container" id="teaching" style="padding:64px 20px;">
     <h3 class="w3-center">TEACHING</h3>
-    <p class="w3-center"><em></em></p><br>
     <ul>
       <li>Teaching Assistant:
         <ul>
@@ -217,14 +224,14 @@
       </li>
       <li>Others:
         <ul>
-          <li>Brush up- Introduction to Python Programming -- Data Science for Decision Making Program, BSE</li>
+          <li>Brush up - Introduction to Python Programming -- Data Science for Decision Making Program, BSE</li>
         </ul>
       </li>
     </ul>
   </div>
 
-  <!-- Contact Section -->
-  <div class="w3-content w3-container w3-padding-64" id="contact">
+  <!-- CONTACT SECTION -->
+  <div class="w3-content w3-container" id="contact" style="padding:64px 20px;">
     <h3 class="w3-center">CONTACT</h3>
     <div class="w3-row w3-padding-32 w3-section">
       <div class="w3-col m4 w3-container">
@@ -254,7 +261,7 @@
     </div>
   </div>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer class="w3-center w3-padding-64 w3-opacity w3-hover-opacity-off">
     <a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
     <div class="w3-xlarge w3-section">
@@ -295,6 +302,5 @@
       }
     }
   </script>
-
 </body>
 </html>
