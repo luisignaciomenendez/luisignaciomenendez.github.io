@@ -3,50 +3,49 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: elections_draft.aux
 The style file: apa.bst
 Database file #1: ./bib/media_bias.bib
+Warning--entry type for "reuters_dnr_2023" isn't style-file defined
+--line 1 of file ./bib/media_bias.bib
 Warning--entry type for "europarl2024" isn't style-file defined
---line 176 of file ./bib/media_bias.bib
-Warning--empty journal in patterson2000doing
-Warning--there's a number but no volume in patterson2000doing
-Warning--empty journal in puglisi_review
-You've used 21 entries,
+--line 289 of file ./bib/media_bias.bib
+You've used 26 entries,
             1940 wiz_defined-function locations,
-            599 strings with 7098 characters,
-and the built_in function-call counts, 7597 in all, are:
-= -- 763
-> -- 255
-< -- 18
-+ -- 82
-- -- 80
-* -- 632
-:= -- 1313
-add.period$ -- 61
-call.type$ -- 21
-change.case$ -- 144
-chr.to.int$ -- 21
-cite$ -- 24
-duplicate$ -- 312
-empty$ -- 527
-format.name$ -- 117
-if$ -- 1476
+            627 strings with 8086 characters,
+and the built_in function-call counts, 9515 in all, are:
+= -- 943
+> -- 388
+< -- 21
++ -- 130
+- -- 128
+* -- 812
+:= -- 1691
+add.period$ -- 76
+call.type$ -- 26
+change.case$ -- 193
+chr.to.int$ -- 26
+cite$ -- 26
+duplicate$ -- 362
+empty$ -- 609
+format.name$ -- 170
+if$ -- 1814
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 18
-newline$ -- 106
-num.names$ -- 63
-pop$ -- 115
+newline$ -- 131
+num.names$ -- 78
+pop$ -- 143
 preamble$ -- 1
-purify$ -- 145
+purify$ -- 194
 quote$ -- 0
-skip$ -- 263
+skip$ -- 307
 stack$ -- 0
-substring$ -- 517
-swap$ -- 70
-text.length$ -- 2
+substring$ -- 593
+swap$ -- 78
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 124
-warning$ -- 3
-while$ -- 61
+type$ -- 154
+warning$ -- 0
+while$ -- 73
 width$ -- 0
-write$ -- 262
-(There were 4 warnings)
+write$ -- 326
+(There were 2 warnings)

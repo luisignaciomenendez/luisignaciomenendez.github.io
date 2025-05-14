@@ -8,6 +8,8 @@
 \usepackage{bm}
 
 \usepackage{caption}
+
+
 \captionsetup[figure]{font=normalsize, labelfont=bf}
 
 
@@ -32,14 +34,26 @@
 	
 	\begin{abstract}
 		
-	How do individuals acquire political information during election campaigns? This paper examines the demand for political news using a unique dataset that combines audience viewership data with the full text of news stories from Spanish TV channels. I estimate a structural random coefficients demand model to capture heterogeneity in political preferences, incorporating demographic differences.
-	A key challenge in measuring demand for political content is the endogeneity of news supply. To address this, I propose a novel identification strategy that exploits exogenous variation in the daily news landscape. By classifying all stories produced in Spain on a given day, I construct a set of potential inputs available to TV channels. Since channels have established political stances and face short-run costs in deviating from them, fluctuations in the political composition of available stories constrain left- and right-leaning outlets asymmetrically.
-	Using Large Language Models, I categorize the tone of each story with respect to political parties. My findings show that political campaigns significantly alter news consumption patterns. While there is no clear partisan asymmetry in demand before campaigns, polarization emerges once the campaign begins. Right-leaning viewers increasingly seek positive coverage of their own party and negative coverage of the opposition. These results highlight the role of campaign dynamics in shaping media consumption and contribute to the broader literature on political media bias and voter behavior.
+
 		
+		
+
+		
+		Political polarization in news consumption has recently gained attention, yet policies to limit it are hard to evaluate. This paper introduces a novel, self-collected dataset on Spanish prime-time TV news—the dominant source of political information in Europe. I identify stories minute-by-minute and match them across newscasts to compare editorial treatment. Combining machine-learning methods with large language models, I classify the partisan slant of each story and use the resulting data to document changes in news coverage during the 2023 presidential campaign. I then match these data to high-frequency audience-meter records and estimate a structural random-coefficients demand model to understand how outlets compete in coverage and tone of news about different political parties. Exogenous shifts in the news landscape that constrain channels’ ability to shape content serve as instruments for slant and allow me to recover demand preferences. I find significant evidence of affective polarization only after the election campaign begins. Given the demand estimates, I back out outlets’ content preferences from a horizontal-differentiation game. Finally, I run counterfactual simulations to assess the effects of adopting the proportional-airtime rules enforced in other European countries but not in Spain. The framework offers a tractable tool for evaluating media policies aimed at content fairness or fighting misinformation.
 		
 		
 		
 	\end{abstract}
+	
+	
+
+
+	
+	
+	
+	
+	
+	
 	
 	\clearpage
 	
@@ -49,28 +63,68 @@
 	
 	
 
-Media plays a crucial role in disseminating information and can influence voting outcomes. Consequently, policymakers often regulate media markets to ensure informational plurality. One common approach is enforcing proportional airtime rules during political campaigns, a policy implemented in several countries.
+Media plays a crucial role in disseminating information and can influence voting outcomes \citep{Zhuravskaya2020}. Consequently, policymakers often regulate media markets to ensure informational plurality during political campaigns.   \footnote{In Italy, the Par Condicio law mandates equal time and space on television, radio, and press for all political actors during campaign periods. Similarly, the Conseil supérieur de l’audiovisuel applies a similar rule to both private and public broadcasters in France. Spanish "Ley de Medios" recommends equal time rule policies only for the public broadcaster Televisión Española (TVE).}
 
-However, assessing the effectiveness of these regulations requires understanding how viewers respond to the content they consume. Previous research has demonstrated media’s influence on voting behavior during political campaigns \citep{enikolopov}. This issue is particularly relevant in Spain, where political polarization ranks among the highest in Europe, according to recent surveys \citep{edelman_trust_2023}. Notably, affective polarization has increased significantly during our sampling period, raising the question of whether citizens’ political news consumption patterns reflect similar trends.
-
-
-In this paper, I use a unique dataset that combines Spanish TV news demand from audimeter data with the "product characteristics" of news channels to estimate preferences for political content through a revealed preferences approach; thereby addressing some of the well-known limitations of survey-based studies \citep{prior}.
-
-My analysis focuses on how TV news demand changes during political campaign periods. Previous research has shown that the rise of soft news has contributed to declining interest in political news \citep{patterson2000doing}. Consistent with \cite{gambaro2021revealed}, my findings suggest that periods in which political content is mixed with other types of programming encourage greater audience engagement with politics.
-
-I then investigate the extent of polarized news consumption. Using different machine learning methods, I desing a pipeline that extracts the daily news videos, converts the audio into text and splits the different stories of the day. This methodology allows me to build comparative statics on tone and duration of the same story treated by different outlets on a given day. Using text analysis techniques, I control for the political stance and duration of news stories \citep{puglisi_review}. Specifically, I make use of Large Language Models (LLMs) by inputting all stories into ChatGPT-4, prompting it to identify the tone various political parties. The tone analysis across outlets aligns with viewers' self-reported preferences in survey data, allowing us to classify outlets as left-, right-, or center-leaning based on the parties they most support.
-
-To isolate content choices from demand- or supply-driven factors \citep{gentzkow2011competition}, I assume that news channels engage in a purely horizontal competition, adjusting their content to attract viewers. I then estimate a discrete choice model \citep{berry1994estimating}, in which individuals select their preferred channel based on the political content offered.
+However, assessing the effectiveness of these regulations requires understanding how viewers respond to the content they consume. Previous research has demonstrated media’s influence on voting behavior during political campaigns . This issue is particularly relevant in Spain, where political polarization ranks among the highest in Europe, according to recent surveys \citep{edelman_trust_2023}. Notably, affective polarization has increased significantly during our sampling period, raising the question of whether citizens’ political news consumption patterns reflect similar trends.
 
 
-In this framework, the political tone offered by news outlets emerges as an equilibrium outcome, making it endogenous in the demand estimation. To address this endogeneity, I exploit random variation in the inputs available to channels. Specifically, I classify all daily news stories produced in Spain during the sample period using data from a major news provider and treat them as the potential story pool for TV outlets. Since channels have established political stances within the differentiation game and face short-run costs in deviating from them, daily fluctuations in the political composition of available stories constrain left- and right-leaning channels differently.
+In this paper I estimate the extent of confirmation bias and polarization in the demand forpolitical content and how this changes with political campaigns. To this purpose I make use of a unique dataset that comprises both the demand and the supply of political content in Spainish TV news. On the demand side, I use high frequency audimeter data; thereby addressing some of the well-known limitations of survey-based studies \citep{prior}. For the supply of content, I built a unique text dataset and use Natural Language processing and LLMs to classify the political tone of the news. This classification is robust to previous methods used in the literature but allows me to do a more flexible specification where I can distinguish the airtime devoted to each party-tone on a given day. 
 
-My findings align with previous research on polarized news consumption in the U.S. \citep{Peterson2017Echo}. In the pre-campaign period, there is no systematic asymmetry in political content demand between right- and left-leaning audiences, even when controlling for voting intentions or channel-specific preferences. However, during political campaigns, I find evidence of affective polarization: right-leaning viewers increasingly seek negative coverage of the opposing left-wing party while favoring more positive coverage of their own. This shift in demand coincides with a homogenization of political stances across outlets. Moreover, my results suggest a partisan divide in the overall preference for political content.
+By exploiting geographical variation in the audience demand, I allow the preferences for content to differ by demographics- i.e political ideology. This allows me to study polarization in the news consumption. 
+
+I document the market equilibrium and the endogeneity that arises from it. More right wing outlets also match woth more right wing viewers and viceversa. This makes the content offered by a channel an equilibrium outcome of a differentiation game and poses endogeneity concerns in the demand estiamtion. I propose a novel identification strategy that allows me to track supply shocks in the content offered by the outlets. Specifically, I obtain all the sotires that have been produce in Spain by the largest Spanish news agency which supplies the content to all the outlets in my sample. I see this as a proxy for the "news landscape" available for the outlets to produce. The mechanism is then intuitive: Outlets are in a long run equilibrium in the differentiation game and want to stick to their ideological positions. Daily news shocks limit what they can produce and thus make some days more or less favorable for a given outlet depending on the nature of the stories available. My descriptive evidence confirms this intuition: Right (left) wing channels increase their production of stories more whenever the pool of favorable right wing stories is higher. 
+
+
+
+My findings align with previous research on polarized news consumption in the U.S. \citep{Peterson2017Echo}. In the pre-campaign period, there is no systematic asymmetry in political content demand between right- and left-leaning audiences, even when controlling for voting intentions or channel-specific preferences. However, during political campaigns, I find evidence of affective polarization: right-leaning viewers increasingly seek negative coverage of the opposing left-wing party while favoring more positive coverage of their own. This shift in demand coincides with a homogenization of political stances across outlets. Moreover, my results suggest a partisan divide in the overall preference for political content. XXX
+
+
+In the last part of the paper I model and estimate the news production of the outlets making use of the demand estimates. Outlets play a pure horizontal differentiation game (no prices) and choose the slant of the day to maximize their viewership. Costs come from producing content as a function of the inputs they have available on that given day. Key for identification is the timing of the game. By using the initial audience of the day (i.e before viewer's have been exposed to the actual content); I avoid simultaneity issues as audience reactions follow content chosen since the later can't be modified life. 
+
+I estimate the cost parameters and solve the new equilibrium under different counterfactual scenarios evaluating the impact of recently debated regulations such as the proportional airtime rule. 
+
 
 This study contributes to the literature on political preferences in media consumption by leveraging exogenous variation in the news landscape to identify political preferences. Notably, my approach relies on unsupervised classification techniques that streamline political categorization. To the best of my knowledge, this is the first paper to examine preferences for political content during campaign periods while explicitly addressing the endogeneity in content supply.
 
 
 
+
+
+
+
+
+%My analysis focuses on how TV news demand changes during political campaign periods. Previous research has shown that the rise of soft news has contributed to declining interest in political news \citep{patterson2000doing}. Consistent with \cite{gambaro2021revealed}, my findings suggest that periods in which political content is mixed with other types of programming encourage greater audience engagement with politics.
+
+%I then investigate the extent of polarized news consumption. Using different machine learning methods, I desing a pipeline that extracts the daily news videos, converts the audio into text and splits the different stories of the day. This methodology allows me to build comparative statics on tone and duration of the same story treated by different outlets on a given day. Using text analysis techniques, I control for the political stance and duration of news stories \citep{puglisi_review}. Specifically, I make use of Large Language Models (LLMs) by inputting all stories into ChatGPT-4, prompting it to identify the tone various political parties. The tone analysis across outlets aligns with viewers' self-reported preferences in survey data, allowing us to classify outlets as left-, right-, or center-leaning based on the parties they most support.
+
+%To isolate content choices from demand- or supply-driven factors \citep{gentzkow2011competition}, I assume that news channels engage in a purely horizontal competition, adjusting their content to attract viewers. I then estimate a discrete choice model \citep{berry1994estimating}, in which individuals select their preferred channel based on the political content offered.
+
+
+%In this framework, the political tone offered by news outlets emerges as an equilibrium outcome, making it endogenous in the demand estimation. To address this endogeneity, I exploit random variation in the inputs available to channels. Specifically, I classify all daily news stories produced in Spain during the sample period using data from a major news provider and treat them as the potential story pool for TV outlets. Since channels have established political stances within the differentiation game and face short-run costs in deviating from them, daily fluctuations in the political composition of available stories constrain left- and right-leaning channels differently.
+
+
+\textbf{Related Literature}
+	
+	
+	This paper contributes to several strands of literature on media economics and political economics. The first and more close is the estimation of the demand for political information and polarization both in social and traditional media. Previous works have estimated the demand for political content on online browsing behavior \citep{SimonovRao2022} and, more descriptively, attention has been paid to the study of consumers news outlets  \citep{peterson2018echo} \citep{gambaro2021revealed}. I contribute to this literature by first making use of detailed content data that allows me to track daily variations in the stance of the channels. I also propose a novel identification strategy that relies on \textit{external} news aggregators providers. This methodological contribution allows to find proper instruments for a broad variety of media production set ups where news sources rely on external providers to filter and publish their news. 
+	
+This work could also inform theoretical works on the sources of media bias.  Even profit maximizing media might choose biased reports when there is a high demand for confirmatory reports. Although it goes far beyond the scope of this work, the \textit{delegation} mechanism; where viewers need to rely on media sources that filter all the information available. In this case, perfectly rational individuals might demand confirmatory reports. My work contributes to this literature by proposing nice mechanisms to measure and estimate news production from a pool of stories; thereby tracking different source of biases (i.e filtering vs outright distortion) \citep{gentzkow2014media}.
+	
+
+	
+Social media has been shown to drive polarization attitudes  through the creating on online echo chambers (\cite{bail2018exposure} ; \cite{Zhuravskaya2020} ); I join the recent work on traditional media \citep{schneider2025media} and show that TV remains to be the primary source of political information in Europe and how it might contribute to polarization in key times such as political campaigns. 
+	
+
+
+	
+My paper is methodologically related to the estimation of complete market structures for political estimation. Although in a different context, \cite{longuet-marx2025party} also models a BLP \citep{berry1994estimating} style demand for political candidates position that then allows him to track the candidates positioning game. I contribute to this literature by introducing a set up that has not been extensively studied before but it's at the core of social and traditional media: pure horizontal games under the absence of prices. The introduction of endogenous content impedes the treatment of product characteristics as exogenous and reuiqres the need of high dimensional instruments that serve as supply shocks. Furthermore, thanks to the availability of high frequency data; I exploit timing on the news' decision of the channels dealing with simultaneity concerns in the cost estimation. 
+	
+
+	
+	
+	
+	\textbf{Rest of the paper}
+	
 	
 	The rest of the paper is organized as follows. In section \ref{section:context}, I briefly summarize the Spanish political and TV landscape. Section \ref{section:data} introduces our data and describes the text analysis techniques we employ, along with some descriptive statistics on both the content and audience sides. In section \ref{section:market}, I describe our market setup and consider the estimation of soft vs. hard news. Section \ref{section:politics} discusses the endogeneity problem and the relevance of our instrument. Results from the demand estimation are shown in section \ref{section:results} Finally, section \ref{sec:supply} shows the current work in progress where I incorporate a supply side estimation.
 	
@@ -80,22 +134,28 @@ This study contributes to the literature on political preferences in media consu
 	
 	\section{Context} 
 	
+	
+	Before detailing the data used and the text classification methodology I provide a brief context on the Spanish TV market and the political landscape heading to the 2023 general elections. 
+	
+	
 	\label{section:context}
 	
 	
-	\subsection{Spanish TV market}
+	\subsection*{Spanish TV market}
+	
+	
+	The Spanish TV market is a competitive mix of public and private broadcasters, with Televisión Española (TVE) positioned as the state-owned provider of a variety of news, cultural programs, and entertainment. The two primary private conglomerates, Atresmedia and Mediaset, dominate most of the market. Atresmedia operates Antena 3 and LaSexta, while Mediaset controls Telecinco. Altogether, the night editions of these TV news programs capture around $50\%$ of the market share, equating to 8 million viewers, which represents $23\%$ of the potential voting population. For comparison, the average number of viewers for the most popular TV news program in the U.S., Fox News, is around 1.7 million. 
+	
+	\subsection*{Traditional Media and Political Information}
+	
 	
 	Television is still the primary source of information in most European countries \citep{europarl2024}. Figure \ref{fig:motivation} shows the main media used to acquire political information for Spain and age groups, as reported by the 2023 survey from CIS. Traditional media are represented in the left panel as radio, press and television. Television remains the dominant source of political information for cohorts of 50 years and onward and dominates social media for all but the youngest cohort. This pattern, however, is not specific to Spain. Figure \ref{fig:motivation2} shows that television remains the dominant source of political information in Europe, particularly among older age groups. While younger cohorts (15-24, 25-39) rely more on social media, TV consistently outweighs social media among those aged 40 and above, with the gap widening significantly in the 55+ group. This pattern highlights television’s enduring influence in European media landscapes, especially for older demographics, despite the rise of digital platforms.
 	
 	
-	
-	
 
-	
-	
 	\begin{figure}[h!]
 		\centering
-		\caption{Top media source to acquire political information by age cohorts}
+		\caption{Top media source to acquire political information by age cohorts in Spain}
 		\includegraphics[width=120mm]{figures/age_cohorts}
 \caption*{\small Notes: Histogram on the preferred media used for political information in Spain.  
 	Source: Barómetro CIS, 2023. }
@@ -103,88 +163,66 @@ This study contributes to the literature on political preferences in media consu
 	\end{figure}
 	
 	
+
 	
 	
 	
 	
-	
-	
-	The Spanish TV market is a competitive mix of public and private broadcasters, with Televisión Española (TVE) positioned as the state-owned provider of a variety of news, cultural programs, and entertainment. The two primary private conglomerates, Atresmedia and Mediaset, dominate most of the market. Atresmedia operates Antena 3 and LaSexta, while Mediaset controls Telecinco. The mean audience for the channels considered in this study is 2.6 million viewers per day—half a million more than the largest U.S. broadcaster alone: Fox News.
-	
-	We focus only on the night edition of TV news programs for several reasons. First, it is the so-called "golden time" of the day, attracting the maximum number of viewers on TV. Second, even though channels offer other political programs, the homogeneity of TV news allows us to make very clean comparisons. These programs are broadcast every day at almost the same time and all share a very similar structure, with a presenter introducing the main stories of the day. The well-known informational motives of these shows ensure that people seek to get informed but do so through the outlet that treats news in their preferred way, either due to some perceived outlet quality or differences in the way content is presented.
-	
-	Altogether, the night editions of these TV news programs capture around $50\%$ of the market share, equating to 8 million viewers, which represents $23\%$ of the potential voting population. For comparison, the average number of viewers for the most popular TV news program in the U.S., Fox News, is around 1.7 million.
-	
-	
-	
-	
-	
-	
-	
-	\subsection{Political orientation of the audience }
-	
-	
-	Figure \ref{opinion} shows the correlation between political orientation and preferred channel for acquiring political information, based on survey data from the Centro de Investigaciones Sociológicas (CIS). The figure confirms the brief description outlined above. Right-wing individuals (PP-VOX) tend to watch Antena 3 more, whereas left-leaning individuals are divided between LaSexta and the public channel TVE. We can also observe that the correlation with Telecinco initially appears counterintuitive: it attracts viewers from both extremes of the political spectrum, supporting the hypothesis that third factors, such as entertainment, may influence their choice.
-	
-	\begin{figure}[h!]
-		\centering
-		\caption{Correlation between preferred channel and political party}
-		\includegraphics[width=120mm]{figures/corr_party_channel3}
-		\caption*{\small Notes:  The survey ask respondents if they watch TV for political content and what is their preferred channel. Bars represent a correlation coefficient between the declared preferred political party (pooling left and right parties) and the most watched channel.Source: Built using data from CIS's Encuesta Pre-electoral 2023 }
-		\label{opinion}
-	\end{figure}
-	
-	
-	
-	Of course, audiences might be politically different because they sort themselves into the channels they like, because they are persuaded by them or, most likely, a combination of both. It goes beyond the scope of this paper to study these effects. 
-	
-	
-	
-	
-	
-	\section{Data and Descriptive Statistics}
-	
-	\label{section:data}
-	
-	We have access to a unique dataset that captures both the demand and supply sides of TV news in the Spanish market. For the demand side, I use minute-by-minute viewership data for the four main channels that offer daily TV news programs: TVE, Antena 3, LaSexta, and Telecinco. On the content side, I have daily transcripts that I match to the minute level to see what content people were exposed to. This data spans from November 2022 to the present, on a daily frequency.
-	
-	
-	
-	\subsection*{Audience data }
-	
-	
-	I make use of audimeter, high-frequency audience data provided by Kantar Media. For our sample period, I  observe the shares of viewers for each channel on a given day and minute. Although I don't have individual data on choices, I do have geographical disaggregation for the 16 Autonomous regions in Spain (also referred to as regions hereinafter), which I will match to survey demographics.\footnote{The Canary Islands and La Rioja are excluded due to different time zones and zero market shares; respectively.}
-	
-	Furthermore, I match this dataset with one from another media provider, Barlovento. The advantage of this data is that it contains manually annotated sections on a minute-by-minute basis, allowing us to split the unstructured text into different segments of the day. 
-	
-	The data is pre-processed by first removing the first 5 minutes of the day where audience shifts are likely driven by inertia and not that much to content characteristics. I also homogenize all the outlets to have the same duration and exclude instances in which regions exhibit 0 market shares. 
-	
-	
-	
-	\subsection*{TV Content}
-	
-	I record daily TV news and use Google Cloud infrastructure to store and process the data with \textit{speech-to-text}. Although visuals play a key role in information transmission, I focus only on text transcripts. A more detailed explanation of the entire downloading pipeline can be seen in Appendix Figure \ref{fig:pipeline}.
-	
-	
-	\subsection*{Agencia EFE}
-	
-	I obtain all news stories provided in Spanish by one of the largest news agencies in the world, Agencia EFE. Due to access limitations, I receive only the title of each story along with a short summary segment. The sample contains a total of 41K stories.
-	
-	\subsection*{Survey Data}
-	
-	To understand polarization behavior, I use survey data gathered from the Centro de Investigaciones Sociológicas (CIS). Specifically, I construct the proportion of people intending to vote for right-wing parties in each region  for each month.
-	
-	\subsection*{Weather}
-	
-	I use meteorological data of daily precipitations per Autonomous Community on the time-span matching the TV news programs (18h-00h) from the Spanish Meteorological Agency (AEMET).
-	
-	
-	\subsection{Political Coverage and Elections}
+	\subsection*{Political Context}
 	
 	Political power in Spain has historically been dominated by a two-party system, with either the Socialist Party (PSOE) or the Conservative Party (PP) in power. The emergence of the left-wing party Podemos (UP) following the 15M movement marked a significant shift, as the party began to attract a substantial portion of the electorate.\footnote{Relevant for this period of study is the integration of Podemos into the new political party SUMAR. All classification metrics account for this transition, but throughout the text, I refer to UP as either Podemos or SUMAR after its creation.} Of particular interest is the rise of the far-right party VOX, which made notable gains in the regional elections of 2023, raising the possibility of forming a coalition with the Popular Party (PP) in the regional elections held on May 28, 2023. In response, President Pedro Sánchez decided to bring forward the general elections to June 23, 2023 \footnote{ I refer readers to the \href{https://luisignaciomenendez.github.io/media_monitor/index.html}{Spanish Media Monitor} webpage to explore various metrics of coverage across political parties and actors.} 
 	
 	
-	Due to sample restrictions, I divide our time span into two. The \textit{pre-campaign} period starts at the beginning of our data collection in December 2022 and extends to the start of the first publicly announced political campaign on May 13, 2023. The \textit{campaign} period covers both regional and general election campaigns and lasts until the day of the general elections, July 17, 2023.
+	
+	
+
+	
+
+	\section{Data and Descriptive Statistics}
+	
+	\label{section:data}
+	
+	I built a unique dataset that captures both the demand and supply sides of TV news in the Spanish market. For the demand side, I use minute-by-minute viewership data for the four main channels that offer daily TV news programs: TVE, Antena 3, LaSexta, and Telecinco. On the content side, I build a scraping pipeline that records live the daily news programs and process this information onto text.  This data spans from December 2022 to July 2023 on a daily frequency. 
+	
+	
+	
+	\textbf{Audience data }
+	
+	
+	I make use of audimeter, high-frequency audience data provided by Kantar Media.  I  observe the shares of viewers for each channel on a given day and minute. Although I don't have individual data on choices, I do have geographical disaggregation for the 16 Autonomous regions in Spain (also referred to as regions hereinafter), which I will match to survey demographics.\footnote{The Canary Islands and La Rioja are excluded due to different time zones and zero market shares; respectively.}
+
+	
+	\textbf{TV Content}
+	
+	I record daily TV news and use Google Cloud infrastructure to store and process the data with \textit{speech-to-text}. Although visuals play a key role in information transmission, I focus only on text transcripts. A more detailed explanation of the entire downloading pipeline can be seen in Appendix Figure \ref{fig:pipeline}.
+	
+	
+	
+	I focus only on the night edition of TV news programs for several reasons. First, it is the so-called "golden time" of the day, attracting the maximum number of viewers on TV. Second, even though channels offer other political programs, the homogeneity of TV news allows me to make very clean comparisons. These programs are broadcasted every day at almost the same time and all share a very similar structure, with a presenter introducing the main stories of the day. The well-known informational motives of these shows ensure that people seek to get informed but do so through the outlet that treats news in their preferred way, either due to some perceived outlet quality or differences in the way content is presented. Third, all TV news are highly fact checked and they remain the most trusted source of information in Spain \footnote{The Digital News Report 2023 reveals notable patterns in public trust towards news media across Europe, with Spain reflecting a stable but modest level of confidence. According to the Digital News Report 2023, the public service broadcaster RTVE and Antena 3 Noticias continue to rank as the most trusted news sources, with trust levels of 53\% and 52\% respectively. laSexta registers a trust increase of 2.7 percentage points over the previous year, reaching approximately 47\%, and Telecinco follows at 39\% \citep{reuters_dnr_2023}.}
+	
+	
+	
+	
+	\textbf{Agencia EFE}
+	
+	I obtain all news stories provided in Spanish by one of the largest news agencies in the world, Agencia EFE. Due to access limitations, I receive only the title of each story along with a short summary segment. The sample contains a total of 41K stories for my sample period. 
+	
+	\textbf{Survey Data}
+	
+	To understand polarization behavior, I use survey data gathered from the Centro de Investigaciones Sociológicas (CIS). Specifically, I rely on the "intention to vote" question and map it into my binary left-right spectrum. 
+	
+	\textbf{Weather}
+	
+	I use meteorological data of daily precipitations per Autonomous Community on the time-span matching the TV news programs (18h-00h) from the Spanish Meteorological Agency (AEMET).
+	
+	
+	
+	\subsection{Political Coverage and Elections}
+	
+	
+	
+	
+	Due to sample restrictions, I divide the time span into two. The \textit{pre-campaign} period starts at the beginning of our data collection in December 2022 and extends to the start of the first publicly announced political campaign on May 13, 2023. The \textit{campaign} period covers both regional and general election campaigns and lasts until the day of the general elections, July 17, 2023.
 	
 	Figure \ref{fig:coverage} shows the (weekly) average proportion of time devoted to national politics over time; where the \textit{campaign} period corresponds to the shaded time span and vertical dashed lines mark the beginning of the campaign, the regional and the national elections; respectively.  A channel is defined to spend one minute on national politics if the associated text for that minute contains any of the party matches in the dictionaries in table \ref{table:politics}. Pre-campaign, channels spend on average nearly 18\% of their daily time on politics. Naturally, this increases to 30\% in campaign periods. 
 	
@@ -199,10 +237,33 @@ This study contributes to the literature on political preferences in media consu
 	
 	
 	
-	\subsection{ Tone}
+	\subsection{ Political Tone}
 	
 	
-	Do channels align with their viewers' demand in the political content they offer? In this section, I describe the methodology to classify TV content by political leaning. Traditionally, basic text analysis methods, such as measuring mentions or airtime devoted to political actors, have been used to assess plurality and sometimes interpreted as a positive indicator for providing greater publicity. Similarly, sentiment analysis techniques based on semantics cannot reliably discern named entities or context. For this reason, I rely on Large Language Models to classify the stories of the day. The use of LLMs as classifiers has gained popularity in recent years for a variety of context such as classification of political stances \citep{lemens} and has even been found to archive higher precision and accuracy scores for ideological classification when compared to human annotators \citep{tornberg2023}.
+	Here I describe the methodology used to classify the political tone of the content broadcasted. I first document the political orientation of the audiences and then use this as intuitive benchmark to validate the content after classification. 
+	
+	
+	\subsection*{Political orientation of the audience }
+	
+	
+	Figure \ref{opinion} shows the correlation between political orientation and preferred channel for acquiring political information, based on survey data from the Centro de Investigaciones Sociológicas (CIS). Right-wing individuals (PP-VOX) tend to watch Antena 3 more, whereas left-leaning individuals are divided between LaSexta and the public channel TVE. We can also observe that the correlation with Telecinco initially appears counterintuitive: it attracts viewers from both extremes of the political spectrum, supporting the hypothesis that third factors, such as entertainment, may influence their choice.
+	
+	\begin{figure}[h!]
+		\centering
+		\caption{Correlation between preferred channel and political party}
+		\includegraphics[width=120mm]{figures/corr_party_channel3}
+		\caption*{\small Notes:  Bars represent a correlation coefficient between the declared preferred political party (pooling left and right parties) and the most watched channel. The survey ask respondents if they watch TV for political content and what is their preferred channel. Source: Built using data from CIS's Encuesta Pre-electoral 2023 }
+		\label{opinion}
+	\end{figure}
+	
+	I also build a density estimate of the audience prefenreces based on the audience shares.	Figure \ref{fig:density} shows the political density in the left right spectrum of each channels' audience using demographics $y$. The left-right position is consistent with the survey correlations shown above and allows me to use these broad preferences as a benchmark from what to expect from the political slant of the outlets. 
+	
+	
+	
+	\subsection*{Text Classification}
+	
+	
+	Do channels align with their viewers' demand in the political content they offer? Traditionally, basic text analysis methods, such as measuring mentions or airtime devoted to political actors, have been used to assess plurality and sometimes interpreted as a positive indicator for providing greater publicity. Similarly, sentiment analysis techniques based on semantics cannot reliably discern named entities or context. For this reason, I rely on Large Language Models to classify the stories of the day. The use of LLMs as classifiers has gained popularity in recent years for a variety of context such as classification of political stances \citep{lemens} and has even been found to archive higher precision and accuracy scores for ideological classification when compared to human annotators \citep{tornberg2023}.
 	
 	
 	
@@ -244,14 +305,37 @@ The challenge is now to map these tone measures accounting for the intensity. I 
 		\label{fig:chat}
 	\end{figure}
 	
+	The results match closely those from declared survey data. 	Figure \ref{fig:channel_ideology_lines} shows the normalized left-right position of the channels based on the survey data shown in \ref{fig:tone2} and the ChatGPT classification. 
+	
+	
+		\begin{figure}[ht]
+		\centering
+		\caption{Normalized Ideology Scores by Channel}
+		% Panel (a): ChatGPT-based
+		\begin{minipage}[t]{0.48\textwidth}
+			\centering
+			\textit{(a) ChatGPT-based Classification}
+			\includegraphics[width=\linewidth]{figures/congress_line_chatgpt}
+			
+		\end{minipage}
+		\hfill
+		% Panel (b): CIS-based
+		\begin{minipage}[t]{0.48\textwidth}
+			\centering
+			\textit{(b) CIS-based Classification}
+			\includegraphics[width=\linewidth]{figures/congress_line_cis}
+			
+		\end{minipage}
+		
+		
+		\caption*{\small \textit{Notes:} The figure compares normalized left–right audience positions for Spanish television channels. Panel (a) uses ChatGPT-based text classification; panel (b) uses viewer ideology data from CIS surveys. Channels are mapped into the $[-1,1]$ scale using their correlation (tone) and normalizing values into this scale. }
+		\label{fig:channel_ideology_lines}
+	\end{figure}
 	
 	
 	\textbf{Robustness of  the text classification}
 	
-	Two main concerns arise with the use of LLMs as text classifiers. First, one can wonder about performance with other text classification methods. Second, LLM's have been shown to suffer from potential stochasticity making results unstable when using multiple runs of the same prompt. 
-	
-	To tackle the first one, I follow previous methods that used congress speeches to measure similarity to declared party labels \citep{gentzkow2011competition} \citep{laver2003extracting}. Similar to \cite{laver2003extracting}, I build a simple word score based on the top 100 words that mostly distinguish left and right congress speeches. Figure \ref{fig:congress2} shows the normalized ideology for each of the outlets, which reinforces the left-right positions obtained by the ChatGPT classification in figure \ref{fig:chat}.
-	
+	Two main concerns arise with the use of LLMs as text classifiers. First, LLM's have been shown to suffer from potential stochasticity making results unstable when using multiple runs of the same prompt.  Second, one can wonder about performance with other text classification methods.
 	
 	Due to their inherent stochasticity, repeated queries using the same prompt may yield different classifications. As shown in \citet{llmclassification2024}, this variability can introduce noise in tasks that require high consistency, particularly in content classification. To mitigate this issue, I leverage OpenAI’s ``functions''  tool, which constrains the classifier’s responses to predefined discrete, numerical outputs, reducing potential inconsistencies.  Table \ref{tab:table_stability} presents the mean classification scores from 100 iterations of a random sample of political stories, along with the corresponding standard errors. The relatively small standard errors suggest that despite the model’s stochastic nature, the classification remains stable, in line with the findings of \citet{llmstability2024}, who recommend running multiple iterations when using LLMs as classifiers.
 	
@@ -278,7 +362,7 @@ The challenge is now to map these tone measures accounting for the intensity. I 
 	
 	
 	
-	An individual $ i $  a region $d$ chooses an outlet $ j $ to watch at the beginning of day $d$ based on the following indirect utility : 
+	An individual $ i $  a region $r$ chooses an outlet $ j \in \mathcal{J}\equiv \{La6,TVE,T5,A3,\emptyset\}$ to watch at the beginning of day $d$ based on the following indirect utility : 
 	
 	
 	\begin{equation}\label{eq:utility}
@@ -291,11 +375,11 @@ The challenge is now to map these tone measures accounting for the intensity. I 
 	
 	
 	
-	I decompose the unobserved characteristics into $\xi_{jrd}= \xi_j + \xi_{dow} + \Delta \xi_{jrd}$, where I include product dummies that account for unobserved quality factors and day of the week dummies to control for the seasonality in our audience data. 
+	I decompose the unobserved characteristics into $\xi_{jrd}= \xi_j + \xi_{dow} + \Delta \xi_{jrd}$, where I include product dummies that account for unobserved quality factors and day of the week dummies to control for  seasonality. 
 	
 	The outside option is modeled in terms of \textit{potential} audience. Formally, the observed share of people consuming a channel  is $ s_{jrd}\equiv \frac{q_{jrd}}{L_{r}}$where $ q_{jrd} $ is the (initial) total number of viewers watching channel $ j $ and  $ L_{r} $ is the potential of viewers having access to TV on region $ r$; defined by Kantar media as the population that has access to television in a given region. Importantly, I fit the model using data from the first 5 minutes of the day, where viewers have not been exposed to the daily content yet. This timing will become important for the supply identification later on. 
 	
-	Market shares  can be approximated by a sum over the individuals in a given market, $\mathcal{I}_{rd}$ as: 
+	Market shares are just the integral over the individual choice indicators:  
 	
 	
 	\begin{equation}\label{eq:shares}
@@ -310,11 +394,69 @@ The challenge is now to map these tone measures accounting for the intensity. I 
 	\subsection{Content endogeneity and News Shocks} \label{section:endogeneity}
 	
 	
-	Content characteristics are an equilibrium outcome of the differentiation game therefore creating endogeneity problems due to simultaneity bias. If, for example, local shocks to viewers' preferences are taken into account by the outlets, this would shift their content production making $\E(\mathbf{x}_{jrd-1}\xi_{jrd})\neq \mathbf{0} $.  Figure \ref{fig:density} shows the political density in the left right spectrum of each channels' audience using demographics $y$. Once again, the left-right position of the channels coincides with the content classification shown above and makes it likely that channels are aware of their audience political tastes thereby adapting their content to them. 
+	Content characteristics are an equilibrium outcome of the differentiation game therefore creating endogeneity problems due to simultaneity bias.  Figure \ref{fig:diagram} illustrates the trafe-offs in the model. Viewers make expectations about the utility for each choice. This depends on exogenous factors such as weather, individual attrbitues (i.e ideology) and shcoks that are unobserved to the econometrician; $ \xi$.  On the supply side, channels make their content decisions for the next day forecasting their audience tastes and the shocks that the might have the next day. Editors tweak today’s rundown knowing which stories will make viewers lean in tomorrow. The red dashed arrow indicates thus the endogeneity concern $\E(\mathbf{x}_{jrd-1}\xi_{jrd})\neq \mathbf{0} $.
+	
+	
+	\begin{figure}
+				\caption{Trade-offs in the model}
+				\label{fig:diagram}
+			\begin{tikzpicture}[
+			inst/.style   ={rectangle, draw, fill=blue!10,  rounded corners, align=center,
+				minimum width=2.6cm, minimum height=0.8cm},
+			decision/.style={rectangle, draw, fill=yellow!10, rounded corners, align=center,
+				minimum width=3.0cm, minimum height=0.9cm},
+			util/.style   ={ellipse,   draw, fill=green!10,  align=center,
+				minimum width=3.4cm, minimum height=1.0cm},
+			shock/.style  ={rectangle, draw, fill=red!10,   align=center,
+				minimum width=2.6cm, minimum height=0.8cm},
+			exo/.style    ={rectangle, draw, fill=gray!15,  align=center,
+				minimum width=2.6cm, minimum height=0.8cm},
+			actor/.style  ={rectangle, draw, fill=purple!20, rounded corners, align=center,
+				minimum width=2.6cm, minimum height=0.8cm},
+			flow/.style   ={-Stealth, thick},
+			feed/.style   ={dashed,-Stealth, thick, red},
+			node distance = 1.8cm and 1.1cm,
+			font=\footnotesize
+			]
+			% -------- DAY d (supply) ---------
+			\node[inst]                    (news)   {News\\Landscape\\$z_{d}$};
+			\node[actor, above=of news]    (channel) {Channel};
+			
+			\node[decision, right=of news] (x)      {Chooses content\\$\bm{x_{j,d}}$};
+			
+			% -------- DAY d+1 (demand) ------
+			\node[actor, right=of x, yshift=0.55cm] (viewer) {Viewers};
+			
+			\node[util,  below=of viewer, yshift=-0.1cm] (util)
+			{Expected utility\\Day $d\!+\!1$};
+			\node[shock, below=of util]     (xi)     {$\xi_{j,d+1}$};
+			\node[exo,   below left=0.6cm and 0.4cm of util]
+			(weather){Weather\\$w_{rd+1}$};
+			\node[exo,   below right=0.6cm and 0.4cm of util]
+			(prefs)  {Indiv.\ attrib.\\$(\nu_{ird+1},y_{ir})$};
+			
+			% ---------- flows ---------------
+			\draw[flow] (channel) -- (x);
+			\draw[flow] (news)    -- (x);
+			\draw[flow] (x)       -- (util);
+			\draw[flow] (prefs)   -- (util);
+			\draw[flow] (weather) -- (util);
+			\draw[flow] (xi)      -- (util);
+			\draw[flow] (util)    -- (viewer) node[midway,right,font=\tiny]{choose channel};
+			
+			% ------ anticipation feedback ---
+			\draw[feed] (x) to[out=-110,in=190] node[midway,below,font=\tiny]
+			{} (xi);
+			\end{tikzpicture}
+
+	\end{figure}
+	
+	
+	
 	
 
 	
-	To address this endogeneity concern, I instrument for each of the $k$ endogenous product characteristics using supply shocks. I proxy the daily news landscape by using all available stories (approximately $N\approx40\text{K}$) from Spain provided by Agencia EFE, one of the largest communication agencies in the world. Importantly, unlike traditional media such as newspapers, television stations rely heavily on third-party news aggregators to purchase stories, images, and related content.	All the channels considered in this study collaborate with Agencia EFE, thereby minimizing concerns about the agency having a specific political bias or being uninformed\footnote{See collaborations for \href{https://www.telecinco.es/autores/agencia-efe/}{Mediaset}, \href{https://cadenaser.com/nacional/2024/09/22/el-teletexto-una-herramienta-olvidada-que-aun-perdura-en-nuestras-televisiones-cadena-ser/}{Atresmedia}, and \href{https://www.rtve.es/rtve/20130301/rtve-agencia-efe-firman-convenio-colaboracion/611440.shtml}{RTVE}.}.
+	To address this endogeneity concern, I instrument for each of the $k$ endogenous product characteristics using supply shocks. I proxy the daily news landscape by using all available stories ( $N\approx41\text{K}$) from Spain provided by Agencia EFE, one of the largest communication agencies in the world. Importantly, unlike traditional media such as newspapers, television stations rely heavily on third-party news aggregators to purchase stories, images, and related content.	All the channels considered in this study collaborate with Agencia EFE, thereby minimizing concerns about the agency having a specific political bias or being uninformed\footnote{See collaborations for \href{https://www.telecinco.es/autores/agencia-efe/}{Mediaset}, \href{https://cadenaser.com/nacional/2024/09/22/el-teletexto-una-herramienta-olvidada-que-aun-perdura-en-nuestras-televisiones-cadena-ser/}{Atresmedia}, and \href{https://www.rtve.es/rtve/20130301/rtve-agencia-efe-firman-convenio-colaboracion/611440.shtml}{RTVE}.}.
 	
 	
 	Analogous to the content covariates in \ref{eq:controls}, I control for the political composition of the news landscape using the relative number of stories available for each of the $K$ characteristics: 
@@ -329,11 +471,12 @@ The challenge is now to map these tone measures accounting for the intensity. I 
 	\end{equation} 
 	
 	
-where I slightly abuse notation and take the relative with respect to the total number of stories in a given day produced by Agencia EFE, $S_d$, and tone of the stories is computed under the same ChatGPT specification and query. 
+where I slightly abuse notation and take the relative with respect to the total number of stories in a given day produced by Agencia EFE, $S_d$, and tone of the stories is computed under the same ChatGPT specification and query as in the TV data. 
 
-Importantly for the specification, channels suffer short run shocks that impede them to place their content at their optimal long-run equilibrium. As an illustration of how this mechanism works in practice, consider the average tone results from \ref{fig:chat}.  Broadly, outlets can be placed in a lef-right spectrum illustrated in figure \ref{fig:game}. Channel would like to stick to their ideal positions but their production of stories depends on news availability. On days where the news landscape contains more stories on a particular party-tone combination, outlets are less or more constrained depending on whether this allows them to get closer to their ideal points. 
+Importantly for the specification, I assume that channels suffer short run shocks that impede them to place their content at their optimal long-run equilibrium. As an illustration of how this mechanism works in practice, consider the average tone results from \ref{fig:chat}.  
+    Channel would like to stick to their ideal positions (i.e those shown in \ref{fig:channel_ideology_lines}) but their production of stories depends on news availability. On days where the news landscape contains more stories on a particular party-tone combination, outlets are less or more constrained depending on whether this allows them to get closer to their ideal points. 
 
-	
+	\begin{comment}
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}
@@ -362,6 +505,14 @@ Importantly for the specification, channels suffer short run shocks that impede 
 		\caption{Illustration of the channel's equilibrium position in the political spectrum according to their average reported tone on left and right channels. }
 		\label{fig:game}
 	\end{figure}
+	\end{comment}
+	
+
+
+
+
+	
+	
 	
 Tables \ref{tab:neg_left_channels} and \ref{tab:neg_right_channels} illustrate this mechanism by displaying the stories from the most negative day for the left- and right-wing parties, respectively. The most unfavorable day for left-wing parties in the sample is February 27, 2023. On this day, a technical failure in the "ley solo sí es sí" law, promoted by the left-wing party Unidas Podemos, resulted in reduced sentences for convicted rapists. Additionally, a motion of no confidence was submitted against the Socialist Prime Minister Pedro Sánchez, and the corruption scandal known as "Caso Mediador" was affecting the government. The distribution of airtime dedicated to negative left-wing content varies across channels: A3 allocates nearly 19\%, followed by TVE and Telecinco with 4\% each, and La Sexta with only 2\%.
 
@@ -377,7 +528,7 @@ Conversely, the day with the highest volume of negative coverage for right-wing 
 	\begin{equation}\label{eq:pred_pos}
 	\begin{aligned}
 x^{party+}_{jd}=& \sum_{party \in \{L,R\}} \sum_{j' \in \mathcal{J} }  \left(d(j')_j \times z^{party+} _d      \right) \beta_{j}^{(party,+ )}  + \\
-		+ &   \sum_{party \in \mathcal{P}} \sum_{j' \in \mathcal{J} }   \left(d(j')_j \times z^{party-} _d      \right) \beta_{j}^{(party,- )} +    \sum_{j' \in \mathcal{J} }   \left(d(j')_j \times z^{political}_d      \right) \delta_{j} +\epsilon_{jd}
+		+ &   \sum_{party \in \{L,R\}} \sum_{j' \in \mathcal{J} }   \left(d(j')_j \times z^{party-} _d      \right) \beta_{j}^{(party,- )} +    \sum_{j' \in \mathcal{J} }   \left(d(j')_j \times z^{political}_d      \right) \delta_{j} +\epsilon_{jd}
 	\end{aligned}	
 \end{equation} 
 
@@ -386,7 +537,7 @@ x^{party+}_{jd}=& \sum_{party \in \{L,R\}} \sum_{j' \in \mathcal{J} }  \left(d(j
 \begin{equation}\label{eq:pred_neg}
 	\begin{aligned}
 	x^{party-}_{jd}=& \sum_{party \in \{L,R\}} \sum_{j' \in \mathcal{J} }  \left(d(j')_j \times z^{party+} _d      \right) \phi_{j}^{(party,+ )}  + \\
-		+ &   \sum_{party \in \mathcal{P}} \sum_{j' \in \mathcal{J} }   \left(d(j')_j \times z^{party-} _d      \right) \phi_{j}^{(party,- )} +    \sum_{j' \in \mathcal{J} }   \left(d(j')_j \times z^{political}_d      \right) \rho_{j} +\epsilon_{jd}
+		+ &   \sum_{party \in \{L,R\}} \sum_{j' \in \mathcal{J} }   \left(d(j')_j \times z^{party-} _d      \right) \phi_{j}^{(party,- )} +    \sum_{j' \in \mathcal{J} }   \left(d(j')_j \times z^{political}_d      \right) \rho_{j} +\epsilon_{jd}
 	\end{aligned}
 \end{equation} 
 	
@@ -436,7 +587,7 @@ The top left panel shows that on days highly unfavorable for the left, it is the
 		\centering
 	
 		\label{tab:tests}
-		\caption{F and t-tests }
+		\caption{F and t-tests for Regression Coefficients}
 		\begin{tabular}{lcccc}
 			\hline
 			Characteristic & F-test  & F-test p-value & T-test  & T-test p-value \\
@@ -493,7 +644,7 @@ $ {R+}$ & 8.78 & 0.0002 & 17.55  & 0.0000 \\
 	
 	
 
-Based on the previous discussion, I use $\left(z_d^{party+},z_d^{party+}, z_d^{political}\right)_{party \in \{L,R\}}$	as instruments for the linear characteristics. For the $ K $ non linear coefficients that represent the variance of the individual heterogeneity I follow \cite{gandhi2019measuring} and target predicted product differentiation instruments of the form $ \left(\hat{x}_{jd}^k- \sum_{l \neq j} \hat{x}_{ld}^k\right)^2 $, where $ \hat{x}_{jd}^k $ is the predicted $ k $th characteristic from the first stage of the instrumental variable regression \ref{eq:first_stage}. To target the demographic parameters, I interact the mean proportion of right votes with those instruments: $ \bar{y}_r\left(\hat{x}_{jd}^k- \sum_{l \neq j} \hat{x}_{ld}^k\right)^2 $.
+Based on the previous discussion, I use $\left(z_d^{party+},z_d^{party+}, z_d^{political}\right)_{party \in \{L,R\}}$	as instruments for the linear characteristics. For the $ K $ non linear coefficients that represent the variance of the individual heterogeneity I follow \cite{gandhi2019measuring} and target predicted product differentiation instruments of the form $ \left(\hat{x}_{jd}^k- \sum_{l \neq j} \hat{x}_{ld}^k\right)^2 $, where $ \hat{x}_{jd}^k $ is the predicted $ k $th characteristic from the first stage of the instrumental variable regression \ref{eq:first_stage}. To target the demographic parameters, I interact the mean proportion of right votes with those instruments: $ \bar{y}_r\hat{x}_{jd}^k $.
 	
 
 	
@@ -503,7 +654,7 @@ Based on the previous discussion, I use $\left(z_d^{party+},z_d^{party+}, z_d^{p
 	\label{section:results}
 	
 	
-	I present results of the BLP estimation for the pre-campaign and campaign periods in table   \ref{tab:results_blp_updated}. I show the preferred specification under outlet and day of the week fixed effects with standard errors clustered at the region level. 
+	I present results of the BLP estimation for the pre-campaign and campaign periods in table   \ref{tab:results_blp}. I show the preferred specification under outlet and day of the week fixed effects with standard errors clustered at the region level. 
 	
 	The pre-campaign period estimation shows a significant, positive average taste for negative stories on the right party with significance dispersion ($\sigma^{\text{R-}}$) in the population. Importantly, this dispersion is not explained by ideology heterogeneity ($\pi$ coefficients).
 	
@@ -513,71 +664,11 @@ Based on the previous discussion, I use $\left(z_d^{party+},z_d^{party+}, z_d^{p
 	
 	The taste for national politics overall is negative with right wing viewers having a higher demand for it. 
 	
-\begin{table}[ht]
-	\centering
-	\begin{threeparttable}
-		\begin{tabular}{lccc}
-			\hline
-			\textbf{Coefficient} & \textbf{Parameter} & \textbf{Estimate} & \textbf{Std. Error} \\
-			\hline
-			\multicolumn{4}{c}{Pre-campaign} \\
-			\hline
-			\hline
-			Positive Left & $\beta^{L+}$ & -14.19 & (23.16) \\
-			Positive Right & $\beta^{R+}$ & -21.17 & (45.04) \\
-			Negative Left & $\beta^{L-}$ & 45.26** & (19.82) \\
-			Negative Right & $\beta^{R-}$ & 41.82* & (23.91) \\
-			Political & $\beta^{political}$ & 8.23 & (6.62) \\
-			Weather & $\gamma$ & -0.01 & (0.02) \\
-			\hline
-			Positive Left & $\sigma^{L+}$ & 0.82 & (397.80) \\
-			Positive Right & $\sigma^{R+}$ & 0.77 & (453.14) \\
-			Negative Left & $\sigma^{L-}$ & 29.22*** & (6.01) \\
-			Negative Right & $\sigma^{R-}$ & 23.38*** & (4.39) \\
-			Political & $\sigma^{political}$ & 0.00 & (70.70) \\
-			\hline
-			Right-Wing $\times$  Positive Left & $\pi^{L+}$ & 25.79 & (33.64) \\
-			Right-Wing $\times$  Positive Right & $\pi^{R+}$ & 91.36 & (117.38) \\
-			Right-Wing $\times$  Negative Left & $\pi^{L-}$ & -69.55** & (32.71) \\
-			Right-Wing $\times$  Negative Right & $\pi^{R-}$ & -87.95 & (67.72) \\
-			Right-Wing $\times$  Political & $\pi^{political}$ & -21.63 & (17.22) \\
-			\hline
-			\hline
-			\multicolumn{4}{c}{Campaign} \\
-			\hline
-			\hline
-			Positive Left & $\beta^{L+}$ & 144.87* & (78.34) \\
-			Positive Right & $\beta^{R+}$ & -122.19** & (51.20) \\
-			Negative Left & $\beta^{L-}$ & -105.33** & (45.34) \\
-			Negative Right & $\beta^{R-}$ & 99.64** & (50.52) \\
-			Political & $\beta^{political}$ & -6.93* & (3.82) \\
-			Weather & $\gamma$ & 0.00 & (0.01) \\
-			\hline
-			Positive Left & $\sigma^{L+}$ & 0.00 & (327.82) \\
-			Positive Right & $\sigma^{R+}$ & 10.57 & (14.31) \\
-			Negative Left & $\sigma^{L-}$ & 0.20 & (120.18) \\
-			Negative Right & $\sigma^{R-}$ & 0.08 & (57.87) \\
-			Political & $\sigma^{political}$ & 0.00 & (21.75) \\
-			\hline
-			Right-Wing $\times$  Positive Left & $\pi^{L+}$ & -458.00** & (215.29) \\
-			Right-Wing $\times$  Positive Right & $\pi^{R+}$ & 335.88** & (140.29) \\
-			Right-Wing $\times$  Negative Left & $\pi^{L-}$ & 293.56** & (131.61) \\
-			Right-Wing $\times$  Negative Right & $\pi^{R-}$ & -300.91** & (129.69) \\
-			Right-Wing $\times$  Political & $\pi^{political}$ & 20.55* & (10.56) \\
-			\hline
-			\hline
-		\end{tabular}
-		\caption{BLP Estimation Results with Standard Errors}
-		\begin{tablenotes}
-			\small
-			\item \footnotesize{The table shows the results of the BLP estimation of model \ref{eq:utility}. The estimations are divided into the pre-campaign and campaign period. Both day-of-the-week and outlet fixed effects are included. Standard errors are clustered at the region level. The total number of observations are $N_{campaign}=2307$ and  $N_{pre\_campaign}=6604$.}
-		\end{tablenotes}
-	\end{threeparttable}
-\end{table}
-	
 	
 	
 	\begin{table}[ht]
+					\caption{BLP Estimation Results with Standard Errors}
+					\label{tab:results_blp}
 		\centering
 		\begin{threeparttable}
 			\begin{tabular}{lccc}
@@ -587,58 +678,57 @@ Based on the previous discussion, I use $\left(z_d^{party+},z_d^{party+}, z_d^{p
 				\multicolumn{4}{c}{Pre-campaign} \\
 				\hline
 				\hline
-				Positive Left & $\beta^{L+}$ & -14.23 & (66.23) \\
-				Positive Right & $\beta^{R+}$ & -22.22 & (104.36) \\
-				Negative Left & $\beta^{L-}$ & -46.87* & (26.03) \\
-				Negative Right & $\beta^{R-}$ & -48.78* & (26.15) \\
-				Political & $\beta^{political}$ & 8.93 & (12.42) \\
-				Weather & $\gamma$ & -0.01 & (0.04) \\
+				Positive Left & $\beta^{L+}$ & -16.90 & (11.73) \\
+				Positive Right & $\beta^{R+}$ & -25.53 & (31.03) \\
+				Negative Left & $\beta^{L-}$ & 28.29 & (25.89) \\
+				Negative Right & $\beta^{R-}$ & 56.44** & (28.45) \\
+				Political & $\beta^{political}$ & 11.49*** & (4.28) \\
+				Weather & $\gamma$ & 0.00 & (0.03) \\
 				\hline
-				Positive Left & $\sigma^{L+}$ & 0.19 & (1402.79) \\
-				Positive Right & $\sigma^{R+}$ & 0.90 & (517.58) \\
-				Negative Left & $\sigma^{L-}$ & 28.98 & (24.18) \\
-				Negative Right & $\sigma^{R-}$ & 25.43*** & (8.34) \\
-				Political & $\sigma^{political}$ & 0.06 & (8.13) \\
+				Positive Left & $\sigma^{L+}$ & 0.44 & (296.90) \\
+				Positive Right & $\sigma^{R+}$ & 0.68 & (715.26) \\
+				Negative Left & $\sigma^{L-}$ & 12.64 & (8.68) \\
+				Negative Right & $\sigma^{R-}$ & 21.99 & (13.83) \\
+				Political & $\sigma^{political}$ & 0.00 & (46.79) \\
 				\hline
-				Right-Wing $\times$  Positive Left & $\pi^{L+}$ & 26.02 & (127.62) \\
-				Right-Wing $\times$  Positive Right & $\pi^{R+}$ & 95.32 & (366.32) \\
-				Right-Wing $\times$  Negative Left & $\pi^{L-}$ & 73.17*** & (28.15) \\
-				Right-Wing $\times$  Negative Right & $\pi^{R-}$ & 100.98 & (67.13) \\
-				Right-Wing $\times$  Political & $\pi^{political}$ & -23.49 & (23.16) \\
+				Right-Wing $\times$  Positive Left & $\pi^{L+}$ & 46.26 & (48.70) \\
+				Right-Wing $\times$  Positive Right & $\pi^{R+}$ & 77.81 & (95.92) \\
+				Right-Wing $\times$  Negative Left & $\pi^{L-}$ & -70.09 & (57.97) \\
+				Right-Wing $\times$  Negative Right & $\pi^{R-}$ & -103.71 & (97.76) \\
+				Right-Wing $\times$  Political & $\pi^{political}$ & -25.17** & (12.59) \\
 				\hline
 				\hline
 				\multicolumn{4}{c}{Campaign} \\
 				\hline
 				\hline
-				Positive Left & $\beta^{L+}$ & 167.41*** & (61.46) \\
-				Positive Right & $\beta^{R+}$ & -147.17** & (61.22) \\
-				Negative Left & $\beta^{L-}$ & 120.77*** & (29.52) \\
-				Negative Right & $\beta^{R-}$ & -114.01*** & (27.21) \\
-				Political & $\beta^{political}$ & -9.67** & (4.48) \\
-				Weather & $\gamma$ & 0.01 & (0.02) \\
+				Positive Left & $\beta^{L+}$ & 134.16** & (65.57) \\
+				Positive Right & $\beta^{R+}$ & -129.79*** & (48.43) \\
+				Negative Left & $\beta^{L-}$ & -104.84** & (41.32) \\
+				Negative Right & $\beta^{R-}$ & 92.62** & (41.63) \\
+				Political & $\beta^{political}$ & -6.43** & (3.26) \\
+				Weather & $\gamma$ & 0.00 & (0.01) \\
 				\hline
-				Positive Left & $\sigma^{L+}$ & 0.06 & (355.44) \\
-				Positive Right & $\sigma^{R+}$ & 21.05 & (17.47) \\
-				Negative Left & $\sigma^{L-}$ & 0.00 & (394.60) \\
-				Negative Right & $\sigma^{R-}$ & 0.01 & (182.36) \\
-				Political & $\sigma^{political}$ & 2.37 & (4.57) \\
+				Positive Left & $\sigma^{L+}$ & 0.00 & (320.36) \\
+				Positive Right & $\sigma^{R+}$ & 19.25* & (10.89) \\
+				Negative Left & $\sigma^{L-}$ & 0.00 & (134.33) \\
+				Negative Right & $\sigma^{R-}$ & 0.02 & (73.18) \\
+				Political & $\sigma^{political}$ & 0.00 & (19.55) \\
 				\hline
-				Right-Wing $\times$  Positive Left & $\pi^{L+}$ & -533.26*** & (142.68) \\
-				Right-Wing $\times$  Positive Right & $\pi^{R+}$ & 396.27*** & (116.17) \\
-				Right-Wing $\times$  Negative Left & $\pi^{L-}$ & -340.36*** & (91.12) \\
-				Right-Wing $\times$  Negative Right & $\pi^{R-}$ & 345.05*** & (84.14) \\
-				Right-Wing $\times$  Political & $\pi^{political}$ & 24.06*** & (6.13) \\
+				Right-Wing $\times$  Positive Left & $\pi^{L+}$ & -421.99** & (176.15) \\
+				Right-Wing $\times$  Positive Right & $\pi^{R+}$ & 334.94*** & (127.41) \\
+				Right-Wing $\times$  Negative Left & $\pi^{L-}$ & 288.65** & (116.22) \\
+				Right-Wing $\times$  Negative Right & $\pi^{R-}$ & -280.33*** & (104.44) \\
+				Right-Wing $\times$  Political & $\pi^{political}$ & 19.34** & (8.93) \\
 				\hline
 				\hline
 			\end{tabular}
-			\caption{BLP Estimation Results with Standard Errors}
+
 			\begin{tablenotes}
 				\small
 				\item \footnotesize{The table shows the results of the BLP estimation of model \ref{eq:utility}. The estimations are divided into the pre-campaign and campaign period. Both day-of-the-week and outlet fixed effects are included. Standard errors are clustered at the region level. The total number of observations are $N_{campaign}=2307$ and  $N_{pre\_campaign}=6604$.}
 			\end{tablenotes}
 		\end{threeparttable}
 	\end{table}
-	
 	
 	
 	
@@ -718,58 +808,80 @@ Based on the previous discussion, I use $\left(z_d^{party+},z_d^{party+}, z_d^{p
 	
 	
 	
-	The average own-elasticities for each characteristic are shown in table \ref{tab:elasticities_comparison}. Given that increasing the positive relative minutes to a party also implies increasing the overall total minutes on politics, I compute them as:
+ Given that increasing the positive relative minutes to a party also implies increasing the overall total minutes on politics, I compute them as:
 	
 	\begin{equation}\label{eq:elasticities}
 		\begin{aligned}
-			& \bar{\epsilon}^k= \frac{1}{J_t}\frac{1}{T}\sum_{j}\sum_{t} \left(\frac{\partial s_{jt}}{\partial x_{jt}^k} +  \frac{\partial s_{jt}}{\partial x_{jt}^{political}} \right)\quad \forall k \in \{R+,R-,L+,L-\}
+			& \bar{\epsilon}^k= \frac{1}{J\times R \times D}\sum_{j}\sum_{r} \sum_{d} \left(\frac{\partial s_{jrd}}{\partial x_{jt}^k} +  \frac{\partial s_{jrd}}{\partial x_{jt}^{political}} \right) \frac{x_{jd}^k}{s_{jrd}}    \quad \forall k \in \{R+,R-,L+,L-\}
 		\end{aligned}
 	\end{equation}             
 	
 	
+The estimated elasticities for right and left-markets \footnote{Where a region is define as right if the proportion of right-wing voters is above the median. } across tones are shown in figures \ref{fig:2figsA} and \ref{fig:2figsB} for the pre-campaign and campaign periods; respectively. estimate results are also shown in table \ref{tab:elasticities} on the Appendix. 
+
+The polarization in preferences clearly emerges in the right pane, where it is shown how the right and left markets present opposed elasticities for the tones that opposed their ideological views. 
+
+To give a size effect of this change; an increase of 1 per cent on net tone towards a party (i.e $ \bar{\epsilon}^{party+}- \bar{\epsilon}{party-}$) is associated with a 0.31 per cent increase in audience share during campaign periods vs a 0.31 per cent decline in pre-campaign.
+
+This means that an in crease of 1 per cent of negative right tone during the campaign is associated with a loss of 8015 total viewers in right markets with respect to the pre-campaign period. 
+
+
+
+
+
+
+
+
+\begin{figure}[ht]
+	\centering
+	\caption{Estimated Elasticities for Right and Left markets, Pre-campaign and Campaign}
 	
+	\vspace{0.5em} % space between caption and figures
 	
-	\begin{table}[H]
+	\begin{minipage}{0.45\textwidth}
 		\centering
-		\begin{tabular}{|l|c|c|}
-			\hline
-			\textbf{Variable} & \textbf{Pre-Campaign} & \textbf{Campaign} \\
-			\hline
-			$x^{L+}$ & -0.046 & -0.299 \\
-   $x^{L-}$& 0.050 & 0.219 \\
-			$x^{R+}$ & 0.034 & -0.006 \\
-			$x^{R-}$ & -0.033 & 0.045 \\
-			\hline
-		\end{tabular}
-		\caption{The table shows the estimated elasticities for the political characteristics from equation \ref{eq:elasticities}.}
-		\label{tab:elasticities_comparison}
-	\end{table}
+		\textbf{(a)} Pre-campaign\\
+		\includegraphics[width=\linewidth]{figures/elasticities_pre_campaign}
+		\label{fig:2figsA}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\textbf{(b)} Campaign\\
+		\includegraphics[width=\linewidth]{figures/elasticities_campaign}
+		\label{fig:2figsB}
+	\end{minipage}
 	
+	\vspace{0.5em} % space between figures and note
 	
-	
-	
-	
-	
+	\captionsetup{justification=justified}
+	\caption*{\textit{Note:} \small Each panel shows estimated elasticities for consumer responses in right- and left-leaning markets. Panel (a) reports results for the pre-campaign period, while Panel (b) covers the campaign period.}
+\end{figure}
+
+
+
+
+
+
+
 	\section{Supply Side: Work in progress}
 	
+	\label{sec:supply}
 
 
 
 	
-	In this section, I model the channels' editorial decisions. The following quote by A3 news director Vicente Vallés clearly illustrates their slant decision process. Given that the audience information available to outlets is similar to the information used in our demand estimation, I model their production decisions as a pure horizontal differentiation game. In this framework, channels choose the content to offer on a given day while incurring searching costs for producing stories of a given type. Intuitively, the goal of the outlets is to retain as much audience as possible with the content they offer.
-	
+	In this section, I model the channels' editorial decisions. The following quote by A3 news director Vicente Vallés clearly illustrates their slant decision process. 
 	\begin{quote}
-		``Even in a news program, it’s deeply subject to the daily variation of audiences. It’s measured minute by minute how the interest of the viewers shifts and how a drop of half a point when tackling a current issue can provoke the decision not to revisit that topic... simply because audience is lost, and thus, profitability.''
+		``Even in a news program, it’s deeply subject to the daily variation of audiences [...] A drop of half a point when tackling a current issue can provoke the decision not to revisit that topic... simply because audience is lost, and thus, profitability.''
 	\end{quote}
 	\hspace*\fill{\small -- Vicente Vallés, Director and presenter of Antena 3 TV News, 2014\footnote{Source: \href{https://cadenaser.com/ser/2014/12/03/television/1417630810_539829.html}{https://cadenaser.com/ser/2014/12/03/television/1417630810\_539829.html}}}
 	
-	Key for identification is the timing of preferences as outlined in the demand estimation. Audience preference for which channel to start watching the news is driven by the content presented on the previous day, since viewers have not yet been exposed to the current day’s content. Since outlets must decide which content to offer on a given day based solely on audience information from the previous day, there is no simultaneity in their editorial production and \textbf{[further explanation needed]}.
+Two important facts emerge from this quote. First, even though adds do not directly appear during the news slot; profitability is a key driver in their decisions. Outlets want to retain as much as audience as possible for the next slots. Second, their content choice decisions are done in a high frequency basis: Journalists meet every day and consider both the audience numbers and the events of the day in order to make their editorial lines. 
 	
+	Under that motivation, I model 	the maximization problem for a  given channel $j$ on  day $d$ is:
 	
-	
-	The maximization problem for a  given channel $j$ on  day $d$ is:
-	
-	\begin{equation}\label{}
+	\begin{equation}\label{eq:payoffs}
 		\begin{aligned}
 			\max_{\{\mathbf{x}_{jd}\}}   & \left\{   \sum_{r}s_{jrd+1}(\bm{x}_{jd}, \bm{x}_{-jd})\frac{L_r}{L} - \sum_k {\lambda^k}\mathcal{C}({x}^k_{jd}, {z}^k_d)+ \bm{\eta}_{jd}\bm{x}_{jd} \right\}\\
 			s.t.   \quad &   x_{jd}^{L+} +x_{jd}^{R+} + x_{jd}^{L-} + x_{jd}^{R-} + x_{jd}^{\emptyset} = x_{jd}^{political}\\
@@ -778,35 +890,99 @@ Based on the previous discussion, I use $\left(z_d^{party+},z_d^{party+}, z_d^{p
 	\end{equation} 
 	
 	
-Channels want to retain maximum amount of audience over all the regions :$\sum_{r}s_{jrd+1}(\bm{x}_{jd}, \bm{x}_{-jd})\frac{L_r}{L} $ who has preferences over the content they offered on that day:  $\mathbf{x}_{jd}$. 
+Channels want to retain maximum amount of audience over all the regions :$\sum_{r}s_{jrd+1}(\bm{x}_{jd}, \bm{x}_{-jd})\frac{L_r}{L} $ who has preferences over the content they offered on that day:  $\mathbf{x}_{jd}$. I model a simple functional form $ \mathcal{C}({x}_{jd}^k, {z}_d^k) = \frac{(x_{jd}^k) ^2}{z_d^k}$ where the inverse of the available stories acts analogously to input prices. The goal is to estimate each of the parameters $\lambda^k$ that controls for the asymmetric production costs of each type of content. 
+
 	
-Outlets face searching cost of producing stories analogous to those suggested in \citep{SimonovRao2022}. The more stories of a type there are available on a given day, i.e high $z_d^k $ , the cheaper it is for them to produce them. I model a simple functional form $ \mathcal{C}({x}_{jd}^k, {z}_d^k) = \frac{(x_{jd}^k) ^2}{z_d^k}$ where the inverse of the available stories acts analogously to input prices. Te goal is to estimate each of the parameters $\lambda^k$ that controls for the asymmetric production costs of each type of content. 
+Production of content also depends on the news landascape trhough  $C(\cdot)$. Under $\lambda >0$, the more stories of a type there are available on a given day, i.e high $z_d^k $ , the cheaper it is for them to produce them. These costs can have been already suggested but not estimated in previous works \citep{SimonovRao2022}.  On the other hand, if channels act as news aggregators a higher volume of stories could also increase costs since they need to read and filter what they will actually show. In this case $\lambda<0$ would indicate an \textit{informational filtering} type of cost with an inverse relation between the volume of stories and their production. The sign of $\lambda$ is therefore not clear ex-ante. 
+
+Key for identification is the timing of preferences as outlined in the demand estimation. Audience preference for which channel to start watching the news is driven by the content presented on the previous day, since viewers have not yet been exposed to the current day’s content. Since outlets must decide which content to offer on a given day based solely on audience information from the previous day, there is no simultaneity in their editorial production and audience reactions which precludes the need of demand shifters for the estimation. 
+
+
 	
-	Rearranging the first order conditions \footnote{Notice that constrains can be ignored for estimation but should be recovered when the game is use for counterfactual analysis. } and normalizing by the neutral category $k= \emptyset$  I get:
+	The system of first order conditions is \footnote{Notice that constrains can be ignored for estimation but should be recovered when the game is used for counterfactual analysis. }:
 	
 		\begin{equation}
 		\begin{aligned}
-			&   \frac{\partial \mathcal{C}(\cdot)}{\partial x_{jd}^k}  =\frac{\lambda^\emptyset}{\lambda^k} \sum_{r} \frac{\partial s_{jrd+1}}{\partial x_{jd}^k}L_r + \xi^k_{jd} \quad \forall j,k 
+			&   \sum_r\frac{\partial s_{jrd+1}}{\partial x_{jd}^k}\frac{L_r}{L}  -2\lambda_j^k \frac{x_{jd}^k}{z_d^k}  +\eta^k_{jd} =0 \quad \forall j,k 
 		\end{aligned}
 		\label{eq:focs}
 	\end{equation} 
 	
 
-	Equation \ref{eq:focs} can be estimated with GMM; and it is a particular case of the \textit{common coefficients} GMM estimation in \cite{hayashi2000econometrics}. 
+	Equation \ref{eq:focs} can be estimated with GMM under $\E(\bm{\eta_d})=0$; and it is a particular case of the \textit{common coefficients} GMM estimation \citep{hayashi2000econometrics}. 
+	
+	  Cost parameters capture efficiency in story telling from the channels that comes from factors other than demand. \cite{boxell2022journalist} show that journalist have ideology and this is an important factor of sorting across firms. If editors hire (or retain) reporters whose ideological leanings fit the outlet’s brand, the reporter’s ideology shows up as lower marginal effort when she covers “her” side, not as a new taste term in viewers’ utility. Outlets might also enjoy higher benefits by saving in discretion and hiring journalists that are willing to work in positions in which they can advance their careers \citep{baron2006persistent}.
+	  
+	  
+	
+The estimated parameters are shown in table \ref{table:costs}. Content characteristics are grouped into content that favors the right and the left (top and bottom row blocks). Within each block coefficients coincide in sign for all the outlets. This might be a byproduct of the modeling assumption were  every channel draws from the same wire services. Idiosyncrasies in the pool of these stories might make all channels face costs or benefits in producing them. 
+
+
 	
 	
-	\subsection{Cost estimates}
+	\begin{table}[H]
+				
+		\caption{Estimated Cost Parameters ($\lambda$) by Channel and Content Type}
+		
+		\centering
+		\begin{tabular}{lcccc}
+			\toprule
+			& LA6 & TVE & T5 & A3 \\
+			Characteristic &  &  &  &  \\
+			\midrule
+			Negative Left & -0.211 & -0.345 & -0.560 & -0.305 \\
+			Positive Right & -1.367 & -1.747 & -3.952 & -2.380 \\
+			\hline
+			Positive Left & 0.179 & 0.144 & 3.138 & 0.674 \\
+			Negative Right & 0.076 & 0.144 & 1.601 & 0.299 \\
+			\hline
+			Political & -0.005 & -0.007 & -0.066 & -0.012 \\
+			\bottomrule
+		\end{tabular}
+			\caption*{\textit{Note:} \small Estimated $\lambda$ from equation \ref{eq:focs}.}
+	\label{table:costs}
+	\end{table}
 
 
 
 
+Producing both negative right and positive left content (i.e content favorable to the left) has an associated cost with positive $\lambda$ values. The left channels La6 and TVE have lower cost of production of this type compared to the right wing channel, A3.  The situation is reversed for content favorable to the right. In this case, producing this content increases the payoff of all the channels but the right wing outlet wings significantly more than the left ones. Finally, notice how the centrist Telecinco (T5) dominates the absolute values in every row.
+
+
+
+
+
+\section{Counterfactuals}
+
+
+Across Europe, broadcast regulators increasingly impose proportional-air-time rules to curb partisan imbalances in election coverage: France’s ARCOM stopwatches every political segment to enforce strict minute-for-minute equality during the “période officielle”; Italy’s Par Condicio law compels both public and private stations to “balance and compare” exposure for all lists; and Germany grants each registered party free television slots whose length scales with its prior vote share. Spain, by contrast, still relies on a voluntary pluralism. The public network TVE issues a proportional airtime manifesto while commercial groups—Atresmedia and Mediaset—entirely unconstrained. 
+
+My model estimates allow to test what would be the implications of enforcing such policy to all the broadcasters.  I take the proportion of votes in the past general elections for each party and estimate the new equilibrium under the following problem: 
+
+
+
+\begin{equation}\label{eq:payoffs2}
+	\begin{aligned}
+		\max_{\{\mathbf{x}_{jd}\}}   & \left\{   \sum_{r}s_{jrd+1}(\bm{x}_{jd}, \bm{x}_{-jd})\frac{L_r}{L} - \sum_k {\lambda^k}\mathcal{C}({x}^k_{jd}, {z}^k_d)+ \bm{\eta}_{jd}\bm{x}_{jd} \right\}\\
+		s.t.   \quad &   \frac{x_{jd}^{R+} + x_{jd}^{R-} }{x_{jd}^{political}}=vote^R\\
+		&  \frac{x_{jd}^{L+} + x_{jd}^{L-} }{x_{jd}^{political}}= vote^L\\
+		& x_{jd}^k \geq 0 \quad \forall k
+	\end{aligned}
+\end{equation} 
+
+
+where I assume that time to a political party can only be discerned if that story has some specific slant and that all outlets must devote the proportion of political time given by previous proportions of votes $(vote^R, vote^L)$ (i.e constraints bind). 
+
+
+\clearpage
 
 	
 	\section{Conclusion}
 	
 	Understanding the demand of political information is crucial to understand political polarization and media market regulation. However, endogeneity concerns often  impede classical demand estimation techniques due to the lack of valid instruments. In this paper,  I introduce a novel dataset that comprises the Spanish TV market, where I match daily transcripts of the TV news to audimeter data on viewership. I propose a new methodology that makes uses of text analysis and Large Language Models (LLMS ) to analyze the production of political content in TV news. This methodology extracts the political tone and intensity of the daily TV news and  exploits the random availability of political events, together with channel's long-run ideological positions, to measure supply shocks that allow the estimation of  demand preferences.
 	
-	I show that channels face asymmetric constraints  in their production of political content depending on whether the composition of the day is more or less favorable to their ideological stance. I estimate a structural BLP demand model where I split my sample into both pre-campaign and during political campaign periods. This model allows me to introduce heterogeneity into the demand estimation and decompose political preferences based on the  ideological composition of the audience. My results reveal that while there is no significant asymmetric demand for political content during the pre-campaign period, affective polarization emerges during the political campaign, with right-wing viewers demanding more negative content about the opposing party and more favorable content about their own.
+	I show that channels face asymmetric constraints  in their production of political content depending on whether the composition of the day is more or less favorable to their ideological stance. I estimate a structural BLP demand model where I split my sample into both pre-campaign and during political campaign periods. This model allows me to introduce heterogeneity into the demand estimation and decompose political preferences based on the  ideological composition of the audience. My results reveal that while there is no significant asymmetric demand for political content during the pre-campaign period, affective polarization emerges during the political campaign, with right-wing viewers demanding more negative content about the opposing party and more favorable content about their own. Finally, I model the competition game into channels' daily content production and estimate their cost structures. Right wing media enjoy higher benefits/costs on producing content that goes against their editorial line.
+	
 	
 	
 	
@@ -878,6 +1054,11 @@ Outlets face searching cost of producing stories analogous to those suggested in
 	\end{figure}
 	
 	
+	
+	
+	
+	\clearpage
+	
 	\subsection{Tables}
 	
 	
@@ -946,10 +1127,10 @@ Outlets face searching cost of producing stories analogous to those suggested in
 			\toprule
 			\textbf{Channel} & \textbf{Proportion of Negative Left} \\
 			\midrule
-			TVE & 0.04 \\
-			Antena 3  & 0.19 \\
-			Telecinco  & 0.04 \\
-			La Sexta  & 0.02 \\
+			TVE & 0.037 \\
+			Antena 3  & 0.184 \\
+			Telecinco  & 0.037 \\
+			La Sexta  & 0.01 \\
 			\bottomrule
 		\end{tabular}
 		\caption{Top table shows the main stories contributing to negative left content on 2023-02-27, the highest day with negative left content,  summarized and translated to English by ChatGPT. Bottom table shows the proportion of minutes devoted to negative left content per channel on the same date.}
@@ -977,13 +1158,134 @@ Outlets face searching cost of producing stories analogous to those suggested in
 			\midrule
 			TVE & 0.074 \\
 			Antena 3  & 0.038 \\
-			Telecinco  & 0.077 \\
+			Telecinco  & 0.067 \\
 			La Sexta  & 0.148 \\
 			\bottomrule
 		\end{tabular}
 		\caption{Top table shows the main stories contributing to negative right content on 2023-05-17, the highest day with negative right content,  summarized and translated to English by ChatGP. Bottom table shows the proportion of minutes devoted to negative right content per channel on the same date. }
 		\label{tab:neg_right_channels}
 	\end{table}
+	
+	
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Positive Right & Negative Right \\
+		\hline
+		secretario general vox & gürtel servicio nacional \\
+		vox ignacio garriga & juicio gürtel servicio \\
+		general vox ignacio & valenciana francisco camps \\
+		núñez feijóo llamado & gürtel juicio gürtel \\
+		candidato pp elecciones & expresidente generalitat valenciana \\
+		partidos vox madrid & generalitat valenciana francisco \\
+		josé sáenz buruaga & vicesecretaria general psoe \\
+		núñez feijóo pedido & juicio gürtel madrid \\
+		maría josé sáenz & reforma ley aborto \\
+		may presidente pp & expresidente valenciano francisco \\
+		\hline
+	\end{tabular}
+	\caption{Top trigrams for Positive Right and Negative Right on the Agencia EFE dataset using the ChatGPT categories.}
+	\label{tab:top_words_pos_right_neg_right}
+\end{table}
+	
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Positive Left & Negative Left \\
+		\hline
+		agricultura pesca alimentación & tribunales ere sevilla \\
+		ministro agricultura pesca & derechos sociales ione \\
+		dic presidente gobierno & sociales ione belarra \\
+		pesca alimentación luis & junta andalucía josé \\
+		alimentación luis planas & andalucía josé antonio \\
+		ene presidente gobierno & aplicación ley solo \\
+		vicesecretaria general psoe & expresidente junta andalucía \\
+		consejo ministros aprobado & caso mediador palmas \\
+		ministra asuntos económicos & mediador palmas gran \\
+		vicepresidenta primera ministra & núñez feijóo acusado \\
+		\hline
+	\end{tabular}
+	\caption{Top trigrams for Positive Left and Negative Left on the Agencia EFE dataset using the ChatGPT categories.}
+	\label{tab:top_words_pos_left_neg_left}
+\end{table}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\begin{table}[ht]
+		\label{tab:elasticities}
+		\caption{Estimated Elasticities by Left and Right markets}
+		\begin{tabular}{l|cc|cc}
+			\toprule
+			& \multicolumn{2}{c|}{\textbf{Pre-campaign}} & \multicolumn{2}{c}{\textbf{Campaign}} \\
+			Characteristic & Left Market & Right Market & Left Market & Right Market \\
+			\midrule
+			Negative Left & 1.481 & 0.136 & -0.681 & 0.380 \\
+			Positive Left & -0.011 & 0.129 & 0.754 & -0.716 \\
+			Negative Right & 1.358 & 0.469 & 0.462 & -0.182 \\
+			Positive Right & -0.029 & 0.152 & -1.371 & 0.133 \\
+			\bottomrule
+		\end{tabular}
+		\caption*{\textit{Note:} \small The table shows the average elasticities for each characteristic by right and left markets as defined in equation \ref{eq:elasticities}. Right markets are defined as regions with proportion of right wing voters above the median. }
+	\end{table}
+	
+	\clearpage
+	
+	
+	\subsection{Examples stories and classification}
+	
+	
+	\begin{longtable}{|p{8cm}|c|c|c|}
+		\hline
+		\textbf{Story} & \textbf{Channel} & \textbf{Date} & \textbf{Sentiment} \\
+		\hline
+		A survey of 6,000 teenagers in Madrid schools reveals that 26\% do not identify as heterosexual, though fear of expressing it publicly is growing. Trans students represent 3\%. The Minister of Equality has called for commitment against harassment. She emphasized the importance of addressing not only positive progress but also areas where work remains, condemning normalization of hate speech... & TVE & 2023-04-14 & positive UP \\
+		\hline
+		In Mallorca, Unidas Podemos claims the elections are a referendum on the right to housing. They take credit for the new housing law and accuse their government partners of delaying its approval over the legislative term... & A3 & 2023-05-15 & positive UP \\
+		\hline
+		Pedro S\'anchez will pause his electoral campaign to attend the NATO Summit in Vilnius, following Spain's assumption of the EU Council presidency. U.S. President Joe Biden will also attend after a stop in London to meet King Charles III. & A3 & 2023-07-09 & positive PSOE \\
+		\hline
+		Prime Minister Pedro S\'anchez visited the command center for those affected by a wildfire, linking it to climate change and urging serious action. He announced a cabinet reshuffle, naming new ministers for Health, and Industry, Trade, and Tourism. & TVE & 2023-03-27 & positive PSOE \\
+		\hline
+		Regarding the Penal Code reform, the Popular Party leader called for reinstating the sedition charge, criticizing Pedro S\'anchez's decisions as ridiculous and opportunistic. & TVE & 2023-02-14 & positive PP \\
+		\hline
+		PP leader Feij\'oo criticized the PSOE for aligning with Podemos, suggesting a streamlined government structure with 13-14 ministries compared to the current 22. He equated PSOE's approach to that of Podemos while Pedro S\'anchez likened PP to Vox. & A3 & 2023-06-01 & positive PP \\
+		\hline
+		The new PP government in the Balearic Islands abolished inheritance and donation taxes for direct relatives, reduced taxes for other relatives, and lowered property transfer taxes for young first-time buyers. & A3 & 2023-07-18 & positive PP \\
+		\hline
+		Vox is key in provincial capitals like Valladolid, where their alliance could secure an absolute majority. Talks are ongoing in regional governments, with Azc\'on meeting Vox representatives to negotiate a coalition for Arag\'on. & LA6 & 2023-06-13 & positive Vox \\
+		\hline
+		Vox filed its second motion of no-confidence against the government, this time with a candidate who is not the party leader. & A3 & 2023-02-27 & positive Vox \\
+		\hline
+		In Extremadura, the Socialist Party risks losing its majority, while the PP and Vox could enter the regional parliament for the first time, potentially tipping the balance after the elections. & T5 & 2023-05-23 & positive Vox \\
+		\hline
+		On Thursday, the commission for the reform of the law begins. A reform that creates significant division between the Socialist Party and Podemos. Podemos is also facing another challenge: negotiations with Yolanda Díaz to run together in the elections. - They are still searching for a formula to run together in the general elections. And since no agreement has been reached yet, Belarra is asking Yolanda Díaz today to campaign for Podemos in the May 28 elections. & A3 & 2023-04-09 & negative UP\\
+		\hline
+		Here in Spain, a day after the launch of her platform, Yolanda Díaz continues exchanging criticisms with Podemos. The Podemos party did not attend, highlighting the division to the left of the PSOE. Díaz urges them to explain their absence while asserting that a "Sumar" without Podemos would not be a failure. This diagnosis contrasts sharply with that of Podemos. It remains to be seen whether, in the end, Sumar decides to proceed without Podemos. & T5 & 2023-04-03 & negative UP \\
+		\hline
+		The alleged extortion scheme involving former Socialist deputy Juan Bernardo Fuentes, who is under investigation. The PSOE highlights the swift action taken by the party to suspend his membership and force him to relinquish his seat.
+		We need explanations, and we need them now because, with each passing day, what we learn only adds to the shame, and it keeps getting worse. & TVE & 2023-02-27 & negative PSOE \\
+		\hline
+		The weekend arrives after a few intense days for the governing coalition. The insults from Podemos towards the PSOE continue over their reliance on the PP to reform the "Only Yes is Yes" law. However, nothing changes, and now everyone is focusing on the campaign for the May 28 elections. & A3 & 2023-04-21 & negative PSOE\\
+		\hline
+		"We're going in, and we're stopping the machines." Residents of San Fernando de Henares, in Madrid, temporarily halted Metro construction works that are damaging their homes. They accuse Ayuso's government of not listening to them. Workers are injecting cement to stabilize the ground, which has shifted due to the subway extension—a measure that is cracking their walls. & LA6&  2023-01-05 & negative PP\\
+		\hline
+		The Supreme Court upholds the sentences handed down by the National Court to the ringleaders of the Gürtel Scheme for the embezzlement of public funds during the Pope's visit to Valencia in 2006. Francisco Correa has been sentenced to 13 years in prison for rigging contracts, Pablo Crespo to 15 years, and "El Bigotes" to 6 years. & A3 & 2023-04-10 & negative PP\\
+		\hline
+		But this is the strategy devised by the Madrid PP, led by Ayuso, and endorsed by the national PP under Feijóo: to raise the level of tension in the discourse to take votes away from Vox in the Community of Madrid. This is part of Ayuso's attempt to secure an absolute majority, which, according to polls, is within reach but not guaranteed.& A3 & 2023-05-18 & negative VOX\\
+		\hline
+		The results could be excellent. That said, like my colleagues, I must tell you that nothing is certain yet. Sumar is calling for votes to avoid a return to black-and-white. Yolanda Díaz is rallying women against the prospect of Abascal becoming vice president under Feijóo and predicts a return to an austerity-driven Spain with a right-wing government. & LA6 & 2023-07-15 & negative VOX\\
+		\hline
+		
+		\caption{The table shows examples of fragments of stories associated with different tone for each party according to the Chat GPT classification. Stories has been translated to English with the help of ChatGPT.}
+	\end{longtable}
 	
 	
 	
@@ -996,6 +1298,8 @@ Outlets face searching cost of producing stories analogous to those suggested in
 	
 	
 	To reduce both computational and monetary costs, I first filter our split stories using a simple dictionary based approach into those that might contain any relevant political information. Table \ref{table:politics} shows the key terms used to filter the political stories. After the match, I obtain a final number of 15406 political stories that I feed into the chat GPT classifier.
+	
+	\clearpage
 	
 	\begin{longtable}{|l|l|l|l|l|}
 		\hline
@@ -1024,7 +1328,7 @@ Outlets face searching cost of producing stories analogous to those suggested in
 	
 	
 	
-	We use OpenAI PI research  using model \textit{gpt-4-0125-preview} to build queries of the form: 
+	I use OpenAI PI research  using model \textit{gpt-4-0125-preview} to build queries of the form: 
 	
 	
 	\begin{tcolorbox}[colback=blue!5!white, colframe=blue!75!black, title=Prompt]
@@ -1177,7 +1481,7 @@ I follow a similar, non-linear version of \cite{laver2003extracting} and create 
 		\subsection{Instrument validity}
 	
 	
-	The instrumental variable approach outlined in section \ref{sec:endogeneity} relies on the assumption that the supply shifters are uncorrelated to demand. This assumption would be violated if viewers exhibit some anticipation behavior. For example, individuals might get information about what has happened on a given day and tune into the channel they prefer accordingly. Although this cannot be tested directly, I propose a simple test of this behavior in a reduced form approach. We want to see if the minute 0 audience is correlated to the political composition of the day. By considering the initial audience, I make sure that channel's content has not play a role yet. Specifically, I run channel by channel regressions of the form: 
+	The instrumental variable approach outlined in section \ref{section:endogeneity} relies on the assumption that the news landscape, proxied by the pool of stories, is a pure supply shifter. This assumption would be violated if viewers exhibit some anticipation behavior. Viewers naturally know that, for instance,  a scandal occurred; the assumption is that they cannot see is the volume and polarity of the raw wire material that the channels count on. As a diagnostic, I regress minute-0 audience shares on the available pool of stories on the same day. In this sense, these results serve as a falsification test where, if there was anticipation behavior, initial audience would tune into different channels according to the news landscape of that given day.
 	
 	\begin{equation}\label{eq:check_exogeneity}
 		\begin{aligned}

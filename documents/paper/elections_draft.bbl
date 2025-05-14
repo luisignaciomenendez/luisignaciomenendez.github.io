@@ -1,9 +1,33 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Atil et~al.}{2024}]{llmstability2024}
+Atil, B., Chittams, A., Fu, L., Ture, F., Xu, L., and Baldwin, B. (2024).
+\newblock Llm stability: A detailed analysis with some surprises.
+\newblock {\em CoRR}, abs/2408.04667.
+
+\bibitem[\protect\astroncite{Bail et~al.}{2018}]{bail2018exposure}
+Bail, C.~A., Argyle, L.~P., Brown, T.~W., Bumpus, J.~P., Chen, H.,
+  Fallin~Hunzaker, M.~B., Lee, J., Mann, M., Merhout, F., and Volfovsky, A.
+  (2018).
+\newblock Exposure to opposing views on social media can increase political
+  polarization.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  115(37):9216--9221.
+
+\bibitem[\protect\astroncite{Baron}{2006}]{baron2006persistent}
+Baron, D.~P. (2006).
+\newblock Persistent media bias.
+\newblock {\em Journal of Public Economics}, 90(1--2):1--36.
+
 \bibitem[\protect\astroncite{Berry}{1994}]{berry1994estimating}
 Berry, S.~T. (1994).
 \newblock Estimating discrete-choice models of product differentiation.
 \newblock {\em The RAND Journal of Economics}, 25(2):242--262.
+
+\bibitem[\protect\astroncite{Boxell and Conway}{2022}]{boxell2022journalist}
+Boxell, L. and Conway, J. (2022).
+\newblock Journalist ideology and the production of news: Evidence from movers.
+\newblock SSRN Working Paper No. 4295587.
 
 \bibitem[\protect\astroncite{Brown and Lee}{2024}]{llmclassification2024}
 Brown, E. and Lee, D. (2024).
@@ -17,19 +41,9 @@ Conlon, C. and Gortmaker, J. (2020).
   pyblp.
 \newblock {\em The RAND Journal of Economics}, 51(4):1108--1161.
 
-\bibitem[\protect\astroncite{Doe and Smith}{2024}]{llmstability2024}
-Doe, J. and Smith, A. (2024).
-\newblock Llm stability: A detailed analysis with some surprises.
-\newblock {\em arXiv preprint arXiv:2408.04667}.
-
 \bibitem[\protect\astroncite{{Edelman}}{2023}]{edelman_trust_2023}
 {Edelman} (2023).
 \newblock Edelman trust barometer 2023: Global report.
-
-\bibitem[\protect\astroncite{Enikolopov et~al.}{2011}]{enikolopov}
-Enikolopov, R., Petrova, M., and Zhuravskaya, E. (2011).
-\newblock Media and political persuasion: Evidence from russia.
-\newblock {\em American Economic Review}, 101(7):3253--85.
 
 \bibitem[\protect\astroncite{Gambaro et~al.}{2021}]{gambaro2021revealed}
 Gambaro, M., Larcinese, V., Puglisi, R., and Snyder~Jr, J.~M. (2021).
@@ -48,11 +62,10 @@ Gentzkow, M. and Shapiro, J.~M. (2010).
 \newblock What drives media slant? evidence from us daily newspapers.
 \newblock {\em Econometrica}, 78(1):35--71.
 
-\bibitem[\protect\astroncite{Gentzkow et~al.}{2011}]{gentzkow2011competition}
-Gentzkow, M., Shapiro, J.~M., and Sinkinson, M. (2011).
-\newblock Competition and ideological diversity: Historical evidence from us
-  newspapers.
-\newblock {\em American Economic Review}, 101(7):1927--1958.
+\bibitem[\protect\astroncite{Gentzkow et~al.}{2014}]{gentzkow2014media}
+Gentzkow, M., Shapiro, J.~M., and Stone, D.~F. (2014).
+\newblock Media bias in the marketplace: Theory.
+\newblock NBER Working Paper 19880, National Bureau of Economic Research.
 
 \bibitem[\protect\astroncite{Hayashi}{2000}]{hayashi2000econometrics}
 Hayashi, F. (2000).
@@ -71,14 +84,26 @@ Laver, M., Benoit, K., and Garry, J. (2003).
   averaging.
 \newblock {\em arXiv e-prints}, page arXiv:2311.16639.
 
+\bibitem[\protect\astroncite{Longuet-Marx}{2025}]{longuet-marx2025party}
+Longuet-Marx, N. (2025).
+\newblock Party lines or voter preferences? explaining political realignment.
+\newblock Presented at the Spring 2025 IOG-BFI Conference, March 28–30, 2025.
+
+\bibitem[\protect\astroncite{Newman et~al.}{2023}]{reuters_dnr_2023}
+Newman, N., Fletcher, R., Schulz, A., Andı, S., Robertson, C.~T., and Nielsen,
+  R.~K. (2023).
+\newblock Digital news report 2023.
+\newblock Accessed: 2025-05-13.
+
 \bibitem[\protect\astroncite{Parliament}{2024}]{europarl2024}
 Parliament, E. (2024).
 \newblock Audiovisual and media policy.
 
-\bibitem[\protect\astroncite{Patterson}{2000}]{patterson2000doing}
-Patterson, T.~E. (2000).
-\newblock Doing well and doing good.
-\newblock (RWP01-001).
+\bibitem[\protect\astroncite{Peterson}{2018}]{peterson2018echo}
+Peterson, E. (2018).
+\newblock Echo chambers and partisan polarization: Evidence from the 2016
+  presidential campaign.
+\newblock Working paper.
 
 \bibitem[\protect\astroncite{Peterson et~al.}{2017}]{Peterson2017Echo}
 Peterson, E., Goel, S., and Iyengar, S. (2017).
@@ -93,10 +118,11 @@ Prior, M. (2009).
   exposure.
 \newblock {\em The Journal of Politics}, 71(3):893--908.
 
-\bibitem[\protect\astroncite{Puglisi and Snyder}{2015}]{puglisi_review}
-Puglisi, R. and Snyder, J.~M. (2015).
-\newblock Chapter 15 - empirical studies of media bias.
-\newblock 1:647--667.
+\bibitem[\protect\astroncite{Schneider-Strawczynski and
+  Valette}{2025}]{schneider2025media}
+Schneider-Strawczynski, S. and Valette, J. (2025).
+\newblock Media coverage of immigration and the polarization of attitudes.
+\newblock {\em American Economic Journal: Applied Economics}, 17(1):337--368.
 
 \bibitem[\protect\astroncite{Simonov and Rao}{2022}]{SimonovRao2022}
 Simonov, A. and Rao, J. (2022).
@@ -114,5 +140,10 @@ Wire, A.~N. (2023).
 \newblock Ties with far-right hinder spain's popular party forming a government
   despite election win.
 \newblock {\em The Independent}.
+
+\bibitem[\protect\astroncite{Zhuravskaya et~al.}{2020}]{Zhuravskaya2020}
+Zhuravskaya, E., Petrova, M., and Enikolopov, R. (2020).
+\newblock Political effects of the internet and social media.
+\newblock {\em Annual Review of Economics}, 12(1):415--438.
 
 \end{thebibliography}
