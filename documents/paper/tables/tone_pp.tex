@@ -1,0 +1,20 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Effect of Mentions on Tone toward Feijóo}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         \\
+\hline
+Text Mentions   &  -25.763         &  -51.515         &   42.517         &    6.957         \\
+                & (50.044)         & (51.028)         & (61.383)         & (64.934)         \\
+Image Mentions  &   -4.373         &   -2.024         &  -12.421\sym{**} &   -9.379\sym{*}  \\
+                &  (3.785)         &  (3.852)         &  (4.815)         &  (5.112)         \\
+constant          &   -0.088         &   -0.093         &   -0.049         &   -0.053         \\
+                &  (0.076)         &  (0.077)         &  (0.093)         &  (0.101)         \\
+Channel FE      &       No         &      Yes         &       No         &      Yes         \\
+Date FE         &       No         &       No         &      Yes         &      Yes         \\
+\hline
+Observations    &      238         &      238         &      234         &      234         \\
+\hline\hline
+\end{tabular}
+\end{table}

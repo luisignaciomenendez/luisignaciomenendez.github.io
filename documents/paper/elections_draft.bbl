@@ -1,5 +1,24 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Arceneaux and
+  Johnson}{2013}]{arceneaux_johnson_2013}
+Arceneaux, K. and Johnson, M. (2013).
+\newblock {\em Changing Minds or Changing Channels? Partisan News in an Age of
+  Choice}.
+\newblock Chicago Studies in American Politics. University of Chicago Press,
+  Chicago, IL.
+
+\bibitem[\protect\astroncite{{Assemblée nationale}}{2024}]{cage_assemblee}
+{Assemblée nationale} (2024).
+\newblock Compte rendu n6 : Commission d’enquête sur l’attribution, le
+  contenu et le contrôle des autorisations de services de télévision à
+  caractère national sur la télévision numérique terrestre – table ronde,
+  ouverte à la presse, réunissant mme julia cagé et mme claire sécail.
+\newblock
+  \url{https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L16S2024PO831733N006.html}.
+\newblock Compte rendu n6, séance du jeudi 18 janvier 2024 à 10 h 30 (session
+  ordinaire 2023–2024, présidence de M. Quentin Bataillon).
+
 \bibitem[\protect\astroncite{Atil et~al.}{2024}]{llmstability2024}
 Atil, B., Chittams, A., Fu, L., Ture, F., Xu, L., and Baldwin, B. (2024).
 \newblock Llm stability: A detailed analysis with some surprises.
@@ -14,26 +33,53 @@ Bail, C.~A., Argyle, L.~P., Brown, T.~W., Bumpus, J.~P., Chen, H.,
 \newblock {\em Proceedings of the National Academy of Sciences},
   115(37):9216--9221.
 
-\bibitem[\protect\astroncite{Baron}{2006}]{baron2006persistent}
-Baron, D.~P. (2006).
-\newblock Persistent media bias.
-\newblock {\em Journal of Public Economics}, 90(1--2):1--36.
+\bibitem[\protect\astroncite{Bang et~al.}{2023}]{bang2023}
+Bang, M., L'Heude, L., Postlewaite, A., and Sieg, H. (2023).
+\newblock Access and exposure to local news media in the digital era: Evidence
+  from u.s. media markets.
+\newblock NBER Working Paper 31436, National Bureau of Economic Research.
 
 \bibitem[\protect\astroncite{Berry}{1994}]{berry1994estimating}
 Berry, S.~T. (1994).
 \newblock Estimating discrete-choice models of product differentiation.
 \newblock {\em The RAND Journal of Economics}, 25(2):242--262.
 
-\bibitem[\protect\astroncite{Boxell and Conway}{2022}]{boxell2022journalist}
-Boxell, L. and Conway, J. (2022).
-\newblock Journalist ideology and the production of news: Evidence from movers.
-\newblock SSRN Working Paper No. 4295587.
+\bibitem[\protect\astroncite{Berry and Haile}{2014}]{berry_haile}
+Berry, S.~T. and Haile, P.~A. (2014).
+\newblock Identification in differentiated products markets using market level
+  data.
+\newblock {\em Econometrica}, 82(5):1749--1797.
 
-\bibitem[\protect\astroncite{Brown and Lee}{2024}]{llmclassification2024}
-Brown, E. and Lee, D. (2024).
+\bibitem[\protect\astroncite{Boehnke and
+  Bhargava}{2024}]{llmclassification2024}
+Boehnke, Jörn, P.~E. and Bhargava, H. (2024).
 \newblock Decoding unstructured text: Enhancing llm classification accuracy
   with redundancy and confidence.
 \newblock {\em Conference on AI Applications in NLP}.
+
+\bibitem[\protect\astroncite{Boxell et~al.}{2020}]{Boxell2020CrossCountryTI}
+Boxell, L., Gentzkow, M., and Shapiro, J.~M. (2020).
+\newblock Cross-country trends in affective polarization.
+\newblock {\em Review of Economics and Statistics}, 106:557--565.
+
+\bibitem[\protect\astroncite{Cagé et~al.}{2022}]{CageHengelHerveUrvoy2022}
+Cagé, J., Hengel, M., Hervé, N., and Urvoy, C. (2022).
+\newblock Hosting media bias: Evidence from the universe of french broadcasts,
+  2002--2020.
+\newblock SSRN Electronic Journal.
+\newblock Working paper; later issued as CEPR Discussion Paper No. 18905
+  (2024).
+
+\bibitem[\protect\astroncite{Chiang and Knight}{2011}]{ChiangKnight2011}
+Chiang, C.-F. and Knight, B. (2011).
+\newblock Media bias and influence: Evidence from newspaper endorsements.
+\newblock {\em The Review of Economic Studies}, 78(3):795--820.
+\newblock Accessed 19 June 2025.
+
+\bibitem[\protect\astroncite{Compiani
+  et~al.}{2025}]{compiani2025demandestimationtextimage}
+Compiani, G., Morozov, I., and Seiler, S. (2025).
+\newblock Demand estimation with text and image data.
 
 \bibitem[\protect\astroncite{Conlon and Gortmaker}{2020}]{conlon2020best}
 Conlon, C. and Gortmaker, J. (2020).
@@ -41,9 +87,42 @@ Conlon, C. and Gortmaker, J. (2020).
   pyblp.
 \newblock {\em The RAND Journal of Economics}, 51(4):1108--1161.
 
+\bibitem[\protect\astroncite{Crawford et~al.}{2018}]{crawford_vertical}
+Crawford, G.~S., Lee, R.~S., Whinston, M.~D., and Yurukoglu, A. (2018).
+\newblock The welfare effects of vertical integration in multichannel
+  television markets.
+\newblock {\em Econometrica}, 86(3):891--954.
+
+\bibitem[\protect\astroncite{Crawford and Yurukoglu}{2012}]{crawford_yurukoglu}
+Crawford, G.~S. and Yurukoglu, A. (2012).
+\newblock The welfare effects of bundling in multichannel television markets.
+\newblock {\em American Economic Review}, 102(2):643–85.
+
+\bibitem[\protect\astroncite{DellaVigna and Kaplan}{2007}]{dellavigna2007fox}
+DellaVigna, S. and Kaplan, E. (2007).
+\newblock The fox news effect: Media bias and voting.
+\newblock {\em The Quarterly Journal of Economics}, 122(3):1187--1234.
+
+\bibitem[\protect\astroncite{Djourelova}{2023}]{milena}
+Djourelova, M. (2023).
+\newblock Persuasion through slanted language: Evidence from the media coverage
+  of immigration.
+\newblock {\em American Economic Review}, 113(3):800–835.
+
+\bibitem[\protect\astroncite{Durante and Knight}{2012}]{durante2012partisan}
+Durante, R. and Knight, B. (2012).
+\newblock Partisan control, media bias, and viewer responses: Evidence from
+  berlusconi's italy.
+\newblock {\em Journal of the European Economic Association}, 10(3):451--481.
+
 \bibitem[\protect\astroncite{{Edelman}}{2023}]{edelman_trust_2023}
 {Edelman} (2023).
 \newblock Edelman trust barometer 2023: Global report.
+
+\bibitem[\protect\astroncite{Esteban and Ray}{1994}]{esteban}
+Esteban, J. and Ray, D. (1994).
+\newblock {On the Measurement of Polarization}.
+\newblock {\em Econometrica}, 62(4):819--851.
 
 \bibitem[\protect\astroncite{Gambaro et~al.}{2021}]{gambaro2021revealed}
 Gambaro, M., Larcinese, V., Puglisi, R., and Snyder~Jr, J.~M. (2021).
@@ -57,6 +136,25 @@ Gandhi, A. and Houde, J.-F. (2019).
   industries.
 \newblock Technical Report 26375, National Bureau of Economic Research.
 
+\bibitem[\protect\astroncite{Geitgey}{2017}]{face_recognition}
+Geitgey, A. (2017).
+\newblock face\_recognition: Simple facial recognition api for python.
+\newblock \url{https://github.com/ageitgey/face_recognition}.
+
+\bibitem[\protect\astroncite{Gentzkow}{2006}]{gentzkow_turnout}
+Gentzkow, M. (2006).
+\newblock Television and voter turnout*.
+\newblock {\em The Quarterly Journal of Economics}, 121(3):931--972.
+
+\bibitem[\protect\astroncite{Gentzkow and
+  Shapiro}{2008}]{gentzkow2008preschool}
+Gentzkow, M. and Shapiro, J.~M. (2008).
+\newblock Preschool television viewing and adolescent test scores: Historical
+  evidence from the coleman study.
+\newblock {\em The Quarterly Journal of Economics}, 123(1):279--323.
+\newblock Available at
+  \url{https://web.stanford.edu/~gentzkow/research/TV_QJE_2008.pdf}.
+
 \bibitem[\protect\astroncite{Gentzkow and Shapiro}{2010}]{gentzkow2010media}
 Gentzkow, M. and Shapiro, J.~M. (2010).
 \newblock What drives media slant? evidence from us daily newspapers.
@@ -67,11 +165,17 @@ Gentzkow, M., Shapiro, J.~M., and Stone, D.~F. (2014).
 \newblock Media bias in the marketplace: Theory.
 \newblock NBER Working Paper 19880, National Bureau of Economic Research.
 
-\bibitem[\protect\astroncite{Hayashi}{2000}]{hayashi2000econometrics}
-Hayashi, F. (2000).
-\newblock {\em Econometrics}.
-\newblock Princeton University Press, Princeton, NJ.
-\newblock See Chapter 8, p. 286 for common-coefficients GMM discussion.
+\bibitem[\protect\astroncite{Gentzkow et~al.}{2019}]{GentzkowShapiroTaddy2019}
+Gentzkow, M., Shapiro, J.~M., and Taddy, M. (2019).
+\newblock Measuring group differences in high‐dimensional choices: Method and
+  application to congressional speech.
+\newblock {\em Econometrica}, 87(4):1307--1340.
+
+\bibitem[\protect\astroncite{Jensen and Oster}{2009}]{jensen2009power}
+Jensen, R.~T. and Oster, E. (2009).
+\newblock The power of tv: Cable television and women's status in india.
+\newblock {\em The Quarterly Journal of Economics}, 124(3):1057--1094.
+\newblock Also available as NBER Working Paper No. 13305.
 
 \bibitem[\protect\astroncite{Laver et~al.}{2003}]{laver2003extracting}
 Laver, M., Benoit, K., and Garry, J. (2003).
@@ -84,10 +188,36 @@ Laver, M., Benoit, K., and Garry, J. (2003).
   averaging.
 \newblock {\em arXiv e-prints}, page arXiv:2311.16639.
 
+\bibitem[\protect\astroncite{Lenz and Lawson}{2011}]{tv_appeareance}
+Lenz, G.~S. and Lawson, C. (2011).
+\newblock Looking the part: Television leads less informed citizens to vote
+  based on candidates' appearance.
+\newblock {\em American Journal of Political Science}, 55(3):574--589.
+
+\bibitem[\protect\astroncite{Levendusky}{2013}]{levendusky}
+Levendusky, M.~S. (2013).
+\newblock Why do partisan media polarize viewers?
+\newblock {\em American Journal of Political Science}, 57(3):611--623.
+
 \bibitem[\protect\astroncite{Longuet-Marx}{2025}]{longuet-marx2025party}
 Longuet-Marx, N. (2025).
 \newblock Party lines or voter preferences? explaining political realignment.
 \newblock Presented at the Spring 2025 IOG-BFI Conference, March 28–30, 2025.
+
+\bibitem[\protect\astroncite{Martin et~al.}{2024}]{martin_demand}
+Martin, G., Pfiffer, C., and Vasserman, S. (2024).
+\newblock What do news readers want?
+\newblock Technical report.
+
+\bibitem[\protect\astroncite{Martin and McCrain}{2019}]{MARTIN_McCRAIN_2019}
+Martin, G.~J. and McCrain, J. (2019).
+\newblock Local news and national politics.
+\newblock {\em American Political Science Review}, 113(2):372–384.
+
+\bibitem[\protect\astroncite{Martin and Yurukoglu}{2017}]{martin2017}
+Martin, G.~J. and Yurukoglu, A. (2017).
+\newblock Bias in cable news: Persuasion and polarization.
+\newblock {\em American Economic Review}, 107(9):2565–99.
 
 \bibitem[\protect\astroncite{Newman et~al.}{2023}]{reuters_dnr_2023}
 Newman, N., Fletcher, R., Schulz, A., Andı, S., Robertson, C.~T., and Nielsen,
@@ -99,12 +229,6 @@ Newman, N., Fletcher, R., Schulz, A., Andı, S., Robertson, C.~T., and Nielsen,
 Parliament, E. (2024).
 \newblock Audiovisual and media policy.
 
-\bibitem[\protect\astroncite{Peterson}{2018}]{peterson2018echo}
-Peterson, E. (2018).
-\newblock Echo chambers and partisan polarization: Evidence from the 2016
-  presidential campaign.
-\newblock Working paper.
-
 \bibitem[\protect\astroncite{Peterson et~al.}{2017}]{Peterson2017Echo}
 Peterson, E., Goel, S., and Iyengar, S. (2017).
 \newblock Echo chambers and partisan polarization: Evidence from the 2016
@@ -112,11 +236,29 @@ Peterson, E., Goel, S., and Iyengar, S. (2017).
 \newblock In {\em Proceedings of the Annual Meeting of the American Political
   Science Association}.
 
+\bibitem[\protect\astroncite{Prat and
+  Str{\"o}mberg}{2005}]{prat_stromberg_entry}
+Prat, A. and Str{\"o}mberg, D. (2005).
+\newblock Commercial television and voter information.
+\newblock CEPR Discussion Paper DP4989, Centre for Economic Policy Research.
+\newblock Available at SSRN: \url{https://ssrn.com/abstract=772002}.
+
 \bibitem[\protect\astroncite{Prior}{2009}]{prior}
 Prior, M. (2009).
 \newblock Improving media effects research through better measurement of news
   exposure.
 \newblock {\em The Journal of Politics}, 71(3):893--908.
+
+\bibitem[\protect\astroncite{Puglisi and Snyder}{2015}]{puglisi_review}
+Puglisi, R. and Snyder, J.~M. (2015).
+\newblock Chapter 15 - empirical studies of media bias.
+\newblock 1:647--667.
+
+\bibitem[\protect\astroncite{Reiljan}{2019}]{Reiljan2019FearAL}
+Reiljan, A. (2019).
+\newblock ‘fear and loathing across party lines’ (also) in europe:
+  Affective polarisation in european party systems.
+\newblock {\em European Journal of Political Research}.
 
 \bibitem[\protect\astroncite{Schneider-Strawczynski and
   Valette}{2025}]{schneider2025media}
@@ -135,11 +277,11 @@ Törnberg, P. (2023).
 \newblock Chatgpt-4 outperforms experts and crowd workers in annotating
   political twitter messages with zero-shot learning.
 
-\bibitem[\protect\astroncite{Wire}{2023}]{independent2023vox}
-Wire, A.~N. (2023).
-\newblock Ties with far-right hinder spain's popular party forming a government
-  despite election win.
-\newblock {\em The Independent}.
+\bibitem[\protect\astroncite{Wilbur}{2008}]{wilbur}
+Wilbur, K.~C. (2008).
+\newblock A two-sided, empirical model of television advertising and viewing
+  markets.
+\newblock {\em Marketing Science}, 27(3):356--378.
 
 \bibitem[\protect\astroncite{Zhuravskaya et~al.}{2020}]{Zhuravskaya2020}
 Zhuravskaya, E., Petrova, M., and Enikolopov, R. (2020).

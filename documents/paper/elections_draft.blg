@@ -4,48 +4,60 @@ The top-level auxiliary file: elections_draft.aux
 The style file: apa.bst
 Database file #1: ./bib/media_bias.bib
 Warning--entry type for "reuters_dnr_2023" isn't style-file defined
---line 1 of file ./bib/media_bias.bib
+--line 354 of file ./bib/media_bias.bib
 Warning--entry type for "europarl2024" isn't style-file defined
---line 289 of file ./bib/media_bias.bib
-You've used 26 entries,
+--line 634 of file ./bib/media_bias.bib
+Repeated entry---line 923 of file ./bib/media_bias.bib
+ : @article{dellavigna2007fox
+ :                           ,
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Boehnke, Jörn, Pontikes, Elizabeth and Bhargava, Hemant" for entry llmclassification2024
+while executing---line 1048 of file apa.bst
+Too many commas in name 1 of "Boehnke, Jörn, Pontikes, Elizabeth and Bhargava, Hemant" for entry llmclassification2024
+while executing---line 1048 of file apa.bst
+Too many commas in name 1 of "Boehnke, Jörn, Pontikes, Elizabeth and Bhargava, Hemant" for entry llmclassification2024
+while executing---line 1123 of file apa.bst
+Warning--empty institution in martin_demand
+Warning--empty journal in puglisi_review
+You've used 49 entries,
             1940 wiz_defined-function locations,
-            627 strings with 8086 characters,
-and the built_in function-call counts, 9515 in all, are:
-= -- 943
-> -- 388
-< -- 21
-+ -- 130
-- -- 128
-* -- 812
-:= -- 1691
-add.period$ -- 76
-call.type$ -- 26
-change.case$ -- 193
-chr.to.int$ -- 26
-cite$ -- 26
-duplicate$ -- 362
-empty$ -- 609
-format.name$ -- 170
-if$ -- 1814
+            768 strings with 12558 characters,
+and the built_in function-call counts, 18630 in all, are:
+= -- 1855
+> -- 719
+< -- 39
++ -- 246
+- -- 234
+* -- 1665
+:= -- 3259
+add.period$ -- 150
+call.type$ -- 49
+change.case$ -- 362
+chr.to.int$ -- 49
+cite$ -- 51
+duplicate$ -- 671
+empty$ -- 1251
+format.name$ -- 325
+if$ -- 3567
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 18
-newline$ -- 131
-num.names$ -- 78
-pop$ -- 143
+missing$ -- 36
+newline$ -- 250
+num.names$ -- 147
+pop$ -- 251
 preamble$ -- 1
-purify$ -- 194
+purify$ -- 362
 quote$ -- 0
-skip$ -- 307
+skip$ -- 543
 stack$ -- 0
-substring$ -- 593
-swap$ -- 78
-text.length$ -- 3
+substring$ -- 1351
+swap$ -- 120
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 154
-warning$ -- 0
-while$ -- 73
+type$ -- 292
+warning$ -- 2
+while$ -- 147
 width$ -- 0
-write$ -- 326
-(There were 2 warnings)
+write$ -- 630
+(There were 4 error messages)

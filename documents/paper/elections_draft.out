@@ -1,22 +1,22 @@
-\BOOKMARK [1][-]{section.1}{Introduction }{}% 1
-\BOOKMARK [1][-]{section.2}{Context}{}% 2
-\BOOKMARK [1][-]{section.3}{Data and Descriptive Statistics}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Political Coverage and Elections}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{ Political Tone}{section.3}% 5
-\BOOKMARK [1][-]{section.4}{Preferences for Politics}{}% 6
-\BOOKMARK [2][-]{subsection.4.1}{Political Tone and Electoral Campaign}{section.4}% 7
-\BOOKMARK [1][-]{section.5}{Market set up}{}% 8
-\BOOKMARK [2][-]{subsection.5.1}{Content endogeneity and News Shocks}{section.5}% 9
-\BOOKMARK [1][-]{section.6}{Results}{}% 10
-\BOOKMARK [1][-]{section.7}{Supply Side: Work in progress}{}% 11
-\BOOKMARK [1][-]{section.8}{Counterfactuals}{}% 12
-\BOOKMARK [1][-]{section.9}{Conclusion}{}% 13
-\BOOKMARK [1][-]{section.10}{Appendix}{}% 14
-\BOOKMARK [2][-]{subsection.10.1}{Figures}{section.10}% 15
-\BOOKMARK [2][-]{subsection.10.2}{Tables}{section.10}% 16
-\BOOKMARK [2][-]{subsection.10.3}{Examples stories and classification}{section.10}% 17
-\BOOKMARK [2][-]{subsection.10.4}{Chat GPT ideology classification}{section.10}% 18
-\BOOKMARK [2][-]{subsection.10.5}{ Digression: LLMs Stability and Alternative Ideology classifications }{section.10}% 19
-\BOOKMARK [2][-]{subsection.10.6}{Instrument validity}{section.10}% 20
-\BOOKMARK [2][-]{subsection.10.7}{Alternative methods for segment splitting in unstructured text}{section.10}% 21
-\BOOKMARK [0][-]{figure.caption.29}{Bibliography}{}% 22
+\BOOKMARK [0][-]{part.1}{ }{}% 1
+\BOOKMARK [1][-]{section.1}{Introduction}{part.1}% 2
+\BOOKMARK [1][-]{section.2}{Context}{part.1}% 3
+\BOOKMARK [1][-]{section.3}{Data and Descriptive Statistics}{part.1}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Political Coverage and Elections}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Political Tone}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Text Classification}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Market set up}{part.1}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Content endogeneity and news shocks}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{Results}{part.1}% 10
+\BOOKMARK [1][-]{section.6}{Supply Side}{part.1}% 11
+\BOOKMARK [2][-]{subsection.6.1}{Results}{section.6}% 12
+\BOOKMARK [1][-]{section.7}{Counterfactuals: Work in progress}{part.1}% 13
+\BOOKMARK [1][-]{section.8}{Conclusion}{part.1}% 14
+\BOOKMARK [1][-]{section.8}{Appendix}{part.1}% 15
+\BOOKMARK [0][-]{part.2}{ Appendix}{}% 16
+\BOOKMARK [1][-]{appendix.A}{Figures}{part.2}% 17
+\BOOKMARK [1][-]{appendix.B}{Tables}{part.2}% 18
+\BOOKMARK [2][-]{subsection.B.1}{Additional Results}{appendix.B}% 19
+\BOOKMARK [2][-]{subsection.B.2}{Text Examples}{appendix.B}% 20
+\BOOKMARK [1][-]{appendix.C}{Chat GPT ideology classification}{part.2}% 21
+\BOOKMARK [1][-]{appendix.D}{ Digression: LLMs Stability and Alternative Ideology classifications }{part.2}% 22
