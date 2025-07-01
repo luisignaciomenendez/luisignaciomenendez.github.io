@@ -24,28 +24,32 @@ Atil, B., Chittams, A., Fu, L., Ture, F., Xu, L., and Baldwin, B. (2024).
 \newblock Llm stability: A detailed analysis with some surprises.
 \newblock {\em CoRR}, abs/2408.04667.
 
-\bibitem[\protect\astroncite{Bail et~al.}{2018}]{bail2018exposure}
-Bail, C.~A., Argyle, L.~P., Brown, T.~W., Bumpus, J.~P., Chen, H.,
-  Fallin~Hunzaker, M.~B., Lee, J., Mann, M., Merhout, F., and Volfovsky, A.
-  (2018).
-\newblock Exposure to opposing views on social media can increase political
-  polarization.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  115(37):9216--9221.
-
 \bibitem[\protect\astroncite{Bang et~al.}{2023}]{bang2023}
 Bang, M., L'Heude, L., Postlewaite, A., and Sieg, H. (2023).
 \newblock Access and exposure to local news media in the digital era: Evidence
   from u.s. media markets.
 \newblock NBER Working Paper 31436, National Bureau of Economic Research.
 
+\bibitem[\protect\astroncite{Bang and Sieg}{2025}]{BangSieg2025}
+Bang, M. and Sieg, H. (2025).
+\newblock Estimating a time allocation and information acquisition model using
+  revealed and stated preference data.
+\newblock Working-paper draft, University of Cambridge and University of
+  Pennsylvania.
+
 \bibitem[\protect\astroncite{Berry}{1994}]{berry1994estimating}
 Berry, S.~T. (1994).
 \newblock Estimating discrete-choice models of product differentiation.
 \newblock {\em The RAND Journal of Economics}, 25(2):242--262.
 
-\bibitem[\protect\astroncite{Berry and Haile}{2014}]{berry_haile}
-Berry, S.~T. and Haile, P.~A. (2014).
+\bibitem[\protect\astroncite{Berry and Haile}{2014a}]{berry_haile_econometrica}
+Berry, S.~T. and Haile, P.~A. (2014a).
+\newblock Identification in differentiated products markets using market level
+  data.
+\newblock {\em Econometrica}, 82(5):1749--1797.
+
+\bibitem[\protect\astroncite{Berry and Haile}{2014b}]{berry_haile}
+Berry, S.~T. and Haile, P.~A. (2014b).
 \newblock Identification in differentiated products markets using market level
   data.
 \newblock {\em Econometrica}, 82(5):1749--1797.
@@ -124,6 +128,12 @@ Esteban, J. and Ray, D. (1994).
 \newblock {On the Measurement of Polarization}.
 \newblock {\em Econometrica}, 62(4):819--851.
 
+\bibitem[\protect\astroncite{Fan}{2013}]{fan}
+Fan, Y. (2013).
+\newblock Ownership consolidation and product characteristics: A study of the
+  us daily newspaper market.
+\newblock {\em American Economic Review}, 103(5):1598–1628.
+
 \bibitem[\protect\astroncite{Gambaro et~al.}{2021}]{gambaro2021revealed}
 Gambaro, M., Larcinese, V., Puglisi, R., and Snyder~Jr, J.~M. (2021).
 \newblock The revealed demand for hard vs. soft news: Evidence from italian tv
@@ -177,6 +187,11 @@ Jensen, R.~T. and Oster, E. (2009).
 \newblock {\em The Quarterly Journal of Economics}, 124(3):1057--1094.
 \newblock Also available as NBER Working Paper No. 13305.
 
+\bibitem[\protect\astroncite{Larcinese et~al.}{2007}]{Larcinese2007NBERWP}
+Larcinese, V., Puglisi, R., Snyder, J.~M., Shapiro, J., and Ueda, M. (2007).
+\newblock Nber working paper series partisan bias in economic news: Evidence on
+  the agenda-setting behavior of u.s. newspapers.
+
 \bibitem[\protect\astroncite{Laver et~al.}{2003}]{laver2003extracting}
 Laver, M., Benoit, K., and Garry, J. (2003).
 \newblock Extracting policy positions from political texts using words as data.
@@ -203,11 +218,6 @@ Levendusky, M.~S. (2013).
 Longuet-Marx, N. (2025).
 \newblock Party lines or voter preferences? explaining political realignment.
 \newblock Presented at the Spring 2025 IOG-BFI Conference, March 28–30, 2025.
-
-\bibitem[\protect\astroncite{Martin et~al.}{2024}]{martin_demand}
-Martin, G., Pfiffer, C., and Vasserman, S. (2024).
-\newblock What do news readers want?
-\newblock Technical report.
 
 \bibitem[\protect\astroncite{Martin and McCrain}{2019}]{MARTIN_McCRAIN_2019}
 Martin, G.~J. and McCrain, J. (2019).
@@ -249,6 +259,11 @@ Prior, M. (2009).
   exposure.
 \newblock {\em The Journal of Politics}, 71(3):893--908.
 
+\bibitem[\protect\astroncite{Puglisi and Snyder}{2011}]{puglisi2011newspapers}
+Puglisi, R. and Snyder, J.~M. (2011).
+\newblock Newspapers and party polarization.
+\newblock {\em Journal of Public Economics}, 95(7--8):547--555.
+
 \bibitem[\protect\astroncite{Puglisi and Snyder}{2015}]{puglisi_review}
 Puglisi, R. and Snyder, J.~M. (2015).
 \newblock Chapter 15 - empirical studies of media bias.
@@ -259,12 +274,6 @@ Reiljan, A. (2019).
 \newblock ‘fear and loathing across party lines’ (also) in europe:
   Affective polarisation in european party systems.
 \newblock {\em European Journal of Political Research}.
-
-\bibitem[\protect\astroncite{Schneider-Strawczynski and
-  Valette}{2025}]{schneider2025media}
-Schneider-Strawczynski, S. and Valette, J. (2025).
-\newblock Media coverage of immigration and the polarization of attitudes.
-\newblock {\em American Economic Journal: Applied Economics}, 17(1):337--368.
 
 \bibitem[\protect\astroncite{Simonov and Rao}{2022}]{SimonovRao2022}
 Simonov, A. and Rao, J. (2022).
