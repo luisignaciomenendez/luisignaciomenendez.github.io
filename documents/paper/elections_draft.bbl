@@ -42,17 +42,17 @@ Berry, S.~T. (1994).
 \newblock Estimating discrete-choice models of product differentiation.
 \newblock {\em The RAND Journal of Economics}, 25(2):242--262.
 
-\bibitem[\protect\astroncite{Berry and Haile}{2014a}]{berry_haile_econometrica}
-Berry, S.~T. and Haile, P.~A. (2014a).
+\bibitem[\protect\astroncite{Berry and Haile}{2014}]{berry_haile_econometrica}
+Berry, S.~T. and Haile, P.~A. (2014).
 \newblock Identification in differentiated products markets using market level
   data.
 \newblock {\em Econometrica}, 82(5):1749--1797.
 
-\bibitem[\protect\astroncite{Berry and Haile}{2014b}]{berry_haile}
-Berry, S.~T. and Haile, P.~A. (2014b).
-\newblock Identification in differentiated products markets using market level
-  data.
-\newblock {\em Econometrica}, 82(5):1749--1797.
+\bibitem[\protect\astroncite{Berry et~al.}{1998}]{berry_blp}
+Berry, S.~T., Levinsohn, J.~A., and Pakes, A. (1998).
+\newblock Differentiated products demand systems from a combination of micro
+  and macro data: The new car market.
+\newblock {\em Journal of Political Economy}, 112:68 -- 105.
 
 \bibitem[\protect\astroncite{Boehnke and
   Bhargava}{2024}]{llmclassification2024}
@@ -170,6 +170,11 @@ Gentzkow, M. and Shapiro, J.~M. (2010).
 \newblock What drives media slant? evidence from us daily newspapers.
 \newblock {\em Econometrica}, 78(1):35--71.
 
+\bibitem[\protect\astroncite{Gentzkow and Shapiro}{2011}]{gentzkow_isolation}
+Gentzkow, M. and Shapiro, J.~M. (2011).
+\newblock Ideological segregation online and offline *.
+\newblock {\em The Quarterly Journal of Economics}, 126(4):1799--1839.
+
 \bibitem[\protect\astroncite{Gentzkow et~al.}{2014}]{gentzkow2014media}
 Gentzkow, M., Shapiro, J.~M., and Stone, D.~F. (2014).
 \newblock Media bias in the marketplace: Theory.
@@ -180,6 +185,14 @@ Gentzkow, M., Shapiro, J.~M., and Taddy, M. (2019).
 \newblock Measuring group differences in high‐dimensional choices: Method and
   application to congressional speech.
 \newblock {\em Econometrica}, 87(4):1307--1340.
+
+\bibitem[\protect\astroncite{Iyengar
+  et~al.}{2019}]{IyengarLelkesLevendusky2019Origins}
+Iyengar, S., Lelkes, Y., Levendusky, M., Malhotra, N., and Westwood, S.~J.
+  (2019).
+\newblock The origins and consequences of affective polarization in the united
+  states.
+\newblock {\em Annual Review of Political Science}, 22:129--146.
 
 \bibitem[\protect\astroncite{Jensen and Oster}{2009}]{jensen2009power}
 Jensen, R.~T. and Oster, E. (2009).
