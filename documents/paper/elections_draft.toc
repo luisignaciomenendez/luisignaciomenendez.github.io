@@ -4,23 +4,23 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}
 \contentsline {section}{\numberline {2}Context}{5}{section.2}
 \contentsline {section}{\numberline {3}Data and Descriptive Statistics}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Political Coverage and Elections}{8}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Political Tone}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.1}Political Coverage and Elections}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Political Tone}{9}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Text Classification}{11}{subsection.3.3}
-\contentsline {section}{\numberline {4}Market Set Up}{16}{section.4}
-\contentsline {subsection}{\numberline {4.1}Content Endogeneity and News Shocks}{17}{subsection.4.1}
-\contentsline {section}{\numberline {5}Results}{20}{section.5}
-\contentsline {section}{\numberline {6}Supply Side}{25}{section.6}
-\contentsline {subsection}{\numberline {6.1}Results}{27}{subsection.6.1}
-\contentsline {section}{\numberline {7}Counterfactuals: Work in progress}{28}{section.7}
-\contentsline {section}{\numberline {8}Conclusion}{29}{section.8}
-\contentsline {section}{Appendix}{34}{section.8}
-\contentsline {part}{\hspace {1em}Appendix}{34}{part.2}
-\contentsline {xpart}{Appendix}{34}{part.2}
-\contentsline {section}{\numberline {A}Figures}{35}{appendix.A}
+\contentsline {section}{\numberline {4}Market Set Up}{17}{section.4}
+\contentsline {subsection}{\numberline {4.1}Content Endogeneity and News Shocks}{18}{subsection.4.1}
+\contentsline {section}{\numberline {5}Results}{21}{section.5}
+\contentsline {section}{\numberline {6}Supply Side}{26}{section.6}
+\contentsline {subsection}{\numberline {6.1}Results}{29}{subsection.6.1}
+\contentsline {section}{\numberline {7}Counterfactuals: Work in progress}{29}{section.7}
+\contentsline {section}{\numberline {8}Conclusion}{30}{section.8}
+\contentsline {section}{Appendix}{36}{section.8}
+\contentsline {part}{\hspace {1em}Appendix}{36}{part.2}
+\contentsline {xpart}{Appendix}{36}{part.2}
+\contentsline {section}{\numberline {A}Figures}{37}{appendix.A}
 \contentsline {section}{\numberline {B}Tables}{43}{appendix.B}
 \contentsline {subsection}{\numberline {B.1}Additional Results}{43}{subsection.B.1}
 \contentsline {subsection}{\numberline {B.2}Text Examples}{49}{subsection.B.2}
-\contentsline {section}{\numberline {C}Isolation Index for Spanish Media}{55}{appendix.C}
-\contentsline {section}{\numberline {D}Chat GPT Ideology Classification}{56}{appendix.D}
-\contentsline {section}{\numberline {E} Digression: LLMs Stability and Alternative Ideology classifications }{58}{appendix.E}
+\contentsline {section}{\numberline {C}Isolation Index for Spanish Media}{58}{appendix.C}
+\contentsline {section}{\numberline {D}Chat GPT Ideology Classification}{59}{appendix.D}
+\contentsline {section}{\numberline {E} Digression: LLMs Stability and Alternative Ideology classifications }{61}{appendix.E}

@@ -119,6 +119,11 @@ Durante, R. and Knight, B. (2012).
   berlusconi's italy.
 \newblock {\em Journal of the European Economic Association}, 10(3):451--481.
 
+\bibitem[\protect\astroncite{Durante et~al.}{2019}]{durante_aer}
+Durante, R., Pinotti, P., and Tesei, A. (2019).
+\newblock The political legacy of entertainment tv.
+\newblock {\em American Economic Review}, 109(7):2497–2530.
+
 \bibitem[\protect\astroncite{{Edelman}}{2023}]{edelman_trust_2023}
 {Edelman} (2023).
 \newblock Edelman trust barometer 2023: Global report.
@@ -180,11 +185,10 @@ Gentzkow, M., Shapiro, J.~M., and Stone, D.~F. (2014).
 \newblock Media bias in the marketplace: Theory.
 \newblock NBER Working Paper 19880, National Bureau of Economic Research.
 
-\bibitem[\protect\astroncite{Gentzkow et~al.}{2019}]{GentzkowShapiroTaddy2019}
-Gentzkow, M., Shapiro, J.~M., and Taddy, M. (2019).
-\newblock Measuring group differences in high‐dimensional choices: Method and
-  application to congressional speech.
-\newblock {\em Econometrica}, 87(4):1307--1340.
+\bibitem[\protect\astroncite{Groseclose and Milyo}{2005}]{milyo_measure}
+Groseclose, T. and Milyo, J. (2005).
+\newblock A measure of media bias.
+\newblock {\em The Quarterly Journal of Economics}, 120(4):1191--1237.
 
 \bibitem[\protect\astroncite{Iyengar
   et~al.}{2019}]{IyengarLelkesLevendusky2019Origins}
@@ -287,6 +291,12 @@ Reiljan, A. (2019).
 \newblock ‘fear and loathing across party lines’ (also) in europe:
   Affective polarisation in european party systems.
 \newblock {\em European Journal of Political Research}.
+
+\bibitem[\protect\astroncite{Schneider-Strawczynski and
+  Valette}{2025}]{schneider2025media}
+Schneider-Strawczynski, S. and Valette, J. (2025).
+\newblock Media coverage of immigration and the polarization of attitudes.
+\newblock {\em American Economic Journal: Applied Economics}, 17(1):337--368.
 
 \bibitem[\protect\astroncite{Simonov and Rao}{2022}]{SimonovRao2022}
 Simonov, A. and Rao, J. (2022).
