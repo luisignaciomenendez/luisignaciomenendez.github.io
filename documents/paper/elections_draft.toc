@@ -2,11 +2,11 @@
 \contentsline {part}{\hspace {1em}}{1}{part.1}
 \contentsline {xpart}{}{1}{part.1}
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}
-\contentsline {section}{\numberline {2}Context}{5}{section.2}
-\contentsline {section}{\numberline {3}Data and Descriptive Statistics}{7}{section.3}
+\contentsline {section}{\numberline {2}Context}{6}{section.2}
+\contentsline {section}{\numberline {3}Data and Descriptive Statistics}{8}{section.3}
 \contentsline {subsection}{\numberline {3.1}Political Coverage and Elections}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Political Tone}{9}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Text Classification}{11}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.2}Political Tone}{10}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Text Classification}{12}{subsection.3.3}
 \contentsline {section}{\numberline {4}Market Set Up}{17}{section.4}
 \contentsline {subsection}{\numberline {4.1}Content Endogeneity and News Shocks}{18}{subsection.4.1}
 \contentsline {section}{\numberline {5}Results}{21}{section.5}

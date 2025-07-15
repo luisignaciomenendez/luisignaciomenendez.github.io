@@ -4,14 +4,10 @@ The top-level auxiliary file: elections_draft.aux
 The style file: apa.bst
 Database file #1: ./bib/media_bias.bib
 Warning--entry type for "reuters_dnr_2023" isn't style-file defined
---line 451 of file ./bib/media_bias.bib
+--line 463 of file ./bib/media_bias.bib
 Warning--entry type for "europarl2024" isn't style-file defined
---line 731 of file ./bib/media_bias.bib
-Repeated entry---line 915 of file ./bib/media_bias.bib
- : @techreport{BangSieg2025
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1020 of file ./bib/media_bias.bib
+--line 743 of file ./bib/media_bias.bib
+Repeated entry---line 1032 of file ./bib/media_bias.bib
  : @article{dellavigna2007fox
  :                           ,
 I'm skipping whatever remains of this entry
@@ -25,43 +21,43 @@ Warning--empty booktitle in Larcinese2007NBERWP
 Warning--empty journal in puglisi_review
 You've used 55 entries,
             1940 wiz_defined-function locations,
-            800 strings with 13316 characters,
-and the built_in function-call counts, 20892 in all, are:
-= -- 2076
+            799 strings with 13171 characters,
+and the built_in function-call counts, 21041 in all, are:
+= -- 2089
 > -- 781
 < -- 44
-+ -- 270
++ -- 272
 - -- 252
-* -- 1867
-:= -- 3640
+* -- 1886
+:= -- 3654
 add.period$ -- 167
 call.type$ -- 55
 change.case$ -- 400
 chr.to.int$ -- 55
 cite$ -- 57
-duplicate$ -- 756
-empty$ -- 1431
+duplicate$ -- 761
+empty$ -- 1451
 format.name$ -- 357
-if$ -- 4014
+if$ -- 4048
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 42
+missing$ -- 43
 newline$ -- 279
 num.names$ -- 165
-pop$ -- 278
+pop$ -- 279
 preamble$ -- 1
 purify$ -- 401
 quote$ -- 0
-skip$ -- 607
+skip$ -- 609
 stack$ -- 0
-substring$ -- 1561
-swap$ -- 131
+substring$ -- 1596
+swap$ -- 132
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 328
 warning$ -- 2
-while$ -- 164
+while$ -- 165
 width$ -- 0
-write$ -- 705
-(There were 5 error messages)
+write$ -- 706
+(There were 4 error messages)

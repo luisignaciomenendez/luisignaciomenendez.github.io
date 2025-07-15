@@ -30,13 +30,6 @@ Bang, M., L'Heude, L., Postlewaite, A., and Sieg, H. (2023).
   from u.s. media markets.
 \newblock NBER Working Paper 31436, National Bureau of Economic Research.
 
-\bibitem[\protect\astroncite{Bang and Sieg}{2025}]{BangSieg2025}
-Bang, M. and Sieg, H. (2025).
-\newblock Estimating a time allocation and information acquisition model using
-  revealed and stated preference data.
-\newblock Working-paper draft, University of Cambridge and University of
-  Pennsylvania.
-
 \bibitem[\protect\astroncite{Berry}{1994}]{berry1994estimating}
 Berry, S.~T. (1994).
 \newblock Estimating discrete-choice models of product differentiation.
@@ -245,6 +238,11 @@ Martin, G.~J. and McCrain, J. (2019).
 Martin, G.~J. and Yurukoglu, A. (2017).
 \newblock Bias in cable news: Persuasion and polarization.
 \newblock {\em American Economic Review}, 107(9):2565–99.
+
+\bibitem[\protect\astroncite{Mullainathan and Shleifer}{2005}]{mullainathan}
+Mullainathan, S. and Shleifer, A. (2005).
+\newblock The market for news.
+\newblock {\em American Economic Review}, 95(4):1031–1053.
 
 \bibitem[\protect\astroncite{Newman et~al.}{2023}]{reuters_dnr_2023}
 Newman, N., Fletcher, R., Schulz, A., Andı, S., Robertson, C.~T., and Nielsen,
