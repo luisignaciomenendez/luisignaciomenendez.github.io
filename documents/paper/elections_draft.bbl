@@ -1,5 +1,18 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Allcott et~al.}{2024}]{Allcott2024TheEO}
+Allcott, H., Gentzkow, M., Mason, W., Wilkins, A.~S., Barber{\'a}, P., Brown,
+  T., Cisneros, J.~C., Crespo-Tenorio, A., Dimmery, D., Freelon, D.,
+  Gonz{\'a}lez-Bail{\'o}n, S., Guess, A.~M., Kim, Y.~M., Lazer, D., Malhotra,
+  N., Moehler, D., Nair-Desai, S., Barj, H. N.~E., Nyhan, B., de~Queiroz, A.
+  C.~P., Pan, J., Settle, J., Thorson, E.~A., Tromble, R., Rivera, C.~V.,
+  Wittenbrink, B., Wojcieszak, M., Zahedian, S., Franco, A., de~Jonge, C.~K.,
+  Stroud, N.~J., and Tucker, J.~A. (2024).
+\newblock The effects of facebook and instagram on the 2020 election: A
+  deactivation experiment.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 121.
+
 \bibitem[\protect\astroncite{Arceneaux and
   Johnson}{2013}]{arceneaux_johnson_2013}
 Arceneaux, K. and Johnson, M. (2013).
@@ -23,6 +36,15 @@ Arceneaux, K. and Johnson, M. (2013).
 Atil, B., Chittams, A., Fu, L., Ture, F., Xu, L., and Baldwin, B. (2024).
 \newblock Llm stability: A detailed analysis with some surprises.
 \newblock {\em CoRR}, abs/2408.04667.
+
+\bibitem[\protect\astroncite{Bail et~al.}{2018}]{bail2018exposure}
+Bail, C.~A., Argyle, L.~P., Brown, T.~W., Bumpus, J.~P., Chen, H.,
+  Fallin~Hunzaker, M.~B., Lee, J., Mann, M., Merhout, F., and Volfovsky, A.
+  (2018).
+\newblock Exposure to opposing views on social media can increase political
+  polarization.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  115(37):9216--9221.
 
 \bibitem[\protect\astroncite{Bang et~al.}{2023}]{bang2023}
 Bang, M., L'Heude, L., Postlewaite, A., and Sieg, H. (2023).
@@ -95,10 +117,10 @@ Crawford, G.~S. and Yurukoglu, A. (2012).
 \newblock The welfare effects of bundling in multichannel television markets.
 \newblock {\em American Economic Review}, 102(2):643–85.
 
-\bibitem[\protect\astroncite{DellaVigna and Kaplan}{2007}]{dellavigna2007fox}
-DellaVigna, S. and Kaplan, E. (2007).
-\newblock The fox news effect: Media bias and voting.
-\newblock {\em The Quarterly Journal of Economics}, 122(3):1187--1234.
+\bibitem[\protect\astroncite{Dejean et~al.}{2022}]{Dejean2022PartisanSE}
+Dejean, S., Lumeau, M., and Peltier, S. (2022).
+\newblock Partisan selective exposure in news consumption.
+\newblock {\em Information Economics and Policy}.
 
 \bibitem[\protect\astroncite{Djourelova}{2023}]{milena}
 Djourelova, M. (2023).
@@ -126,6 +148,12 @@ Esteban, J. and Ray, D. (1994).
 \newblock {On the Measurement of Polarization}.
 \newblock {\em Econometrica}, 62(4):819--851.
 
+\bibitem[\protect\astroncite{{European Commission}}{2022}]{eurobarometer2022}
+{European Commission} (2022).
+\newblock {Media use in the European Union: Standard Eurobarometer 96, Winter
+  2021--2022}.
+\newblock Fieldwork: 18 Jan – 14 Feb 2022.
+
 \bibitem[\protect\astroncite{Fan}{2013}]{fan}
 Fan, Y. (2013).
 \newblock Ownership consolidation and product characteristics: A study of the
@@ -149,20 +177,6 @@ Geitgey, A. (2017).
 \newblock face\_recognition: Simple facial recognition api for python.
 \newblock \url{https://github.com/ageitgey/face_recognition}.
 
-\bibitem[\protect\astroncite{Gentzkow}{2006}]{gentzkow_turnout}
-Gentzkow, M. (2006).
-\newblock Television and voter turnout*.
-\newblock {\em The Quarterly Journal of Economics}, 121(3):931--972.
-
-\bibitem[\protect\astroncite{Gentzkow and
-  Shapiro}{2008}]{gentzkow2008preschool}
-Gentzkow, M. and Shapiro, J.~M. (2008).
-\newblock Preschool television viewing and adolescent test scores: Historical
-  evidence from the coleman study.
-\newblock {\em The Quarterly Journal of Economics}, 123(1):279--323.
-\newblock Available at
-  \url{https://web.stanford.edu/~gentzkow/research/TV_QJE_2008.pdf}.
-
 \bibitem[\protect\astroncite{Gentzkow and Shapiro}{2010}]{gentzkow2010media}
 Gentzkow, M. and Shapiro, J.~M. (2010).
 \newblock What drives media slant? evidence from us daily newspapers.
@@ -173,15 +187,34 @@ Gentzkow, M. and Shapiro, J.~M. (2011).
 \newblock Ideological segregation online and offline *.
 \newblock {\em The Quarterly Journal of Economics}, 126(4):1799--1839.
 
-\bibitem[\protect\astroncite{Gentzkow et~al.}{2014}]{gentzkow2014media}
-Gentzkow, M., Shapiro, J.~M., and Stone, D.~F. (2014).
-\newblock Media bias in the marketplace: Theory.
-\newblock NBER Working Paper 19880, National Bureau of Economic Research.
+\bibitem[\protect\astroncite{Gerber et~al.}{2006}]{Gerber2006DoesTM}
+Gerber, A.~S., Karlan, D.~S., and Bergan, D.~E. (2006).
+\newblock Does the media matter? a field experiment measuring the effect of
+  newspapers on voting behavior and political opinions.
+\newblock {\em Behavioral \& Experimental Economics}.
+
+\bibitem[\protect\astroncite{Gilardi et~al.}{2023}]{Gilardi2023ChatGPTOC}
+Gilardi, F., Alizadeh, M., and Kubli, M. (2023).
+\newblock Chatgpt outperforms crowd workers for text-annotation tasks.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 120.
 
 \bibitem[\protect\astroncite{Groseclose and Milyo}{2005}]{milyo_measure}
 Groseclose, T. and Milyo, J. (2005).
 \newblock A measure of media bias.
 \newblock {\em The Quarterly Journal of Economics}, 120(4):1191--1237.
+
+\bibitem[\protect\astroncite{Hern{\'a}ndez
+  et~al.}{2020}]{Hernndez2020AffectivePA}
+Hern{\'a}ndez, E., Anduiza, E., and Rico, G. (2020).
+\newblock Affective polarization and the salience of elections.
+\newblock {\em Electoral Studies}.
+
+\bibitem[\protect\astroncite{Iyengar and Hahn}{2009}]{Iyengar2009RedMB}
+Iyengar, S. and Hahn, K.~S. (2009).
+\newblock Red media, blue media: Evidence of ideological selectivity in media
+  use.
+\newblock {\em Journal of Communication}, 59:19--39.
 
 \bibitem[\protect\astroncite{Iyengar
   et~al.}{2019}]{IyengarLelkesLevendusky2019Origins}
@@ -191,16 +224,15 @@ Iyengar, S., Lelkes, Y., Levendusky, M., Malhotra, N., and Westwood, S.~J.
   states.
 \newblock {\em Annual Review of Political Science}, 22:129--146.
 
-\bibitem[\protect\astroncite{Jensen and Oster}{2009}]{jensen2009power}
-Jensen, R.~T. and Oster, E. (2009).
-\newblock The power of tv: Cable television and women's status in india.
-\newblock {\em The Quarterly Journal of Economics}, 124(3):1057--1094.
-\newblock Also available as NBER Working Paper No. 13305.
+\bibitem[\protect\astroncite{Iyengar et~al.}{2012}]{iyengar_affective}
+Iyengar, S., Sood, G., and Lelkes, Y. (2012).
+\newblock Affect, not ideology: A social identity perspective on polarization.
+\newblock {\em Public Opinion Quarterly}, 76(3):405--431.
 
-\bibitem[\protect\astroncite{Larcinese et~al.}{2007}]{Larcinese2007NBERWP}
-Larcinese, V., Puglisi, R., Snyder, J.~M., Shapiro, J., and Ueda, M. (2007).
-\newblock Nber working paper series partisan bias in economic news: Evidence on
-  the agenda-setting behavior of u.s. newspapers.
+\bibitem[\protect\astroncite{Lau and Rovner}{2009}]{lau2009negative}
+Lau, R.~R. and Rovner, I.~B. (2009).
+\newblock Negative campaigning.
+\newblock {\em Annual review of political science}, 12(1):285--306.
 
 \bibitem[\protect\astroncite{Laver et~al.}{2003}]{laver2003extracting}
 Laver, M., Benoit, K., and Garry, J. (2003).
@@ -213,11 +245,12 @@ Laver, M., Benoit, K., and Garry, J. (2003).
   averaging.
 \newblock {\em arXiv e-prints}, page arXiv:2311.16639.
 
-\bibitem[\protect\astroncite{Lenz and Lawson}{2011}]{tv_appeareance}
-Lenz, G.~S. and Lawson, C. (2011).
+\bibitem[\protect\astroncite{Lenz et~al.}{2011}]{Lenz2011LookingTP}
+Lenz, G.~S., Sekhon, J., Snowberg, E., Snyder, J. M.~J., Song, B.~K., and
+  Todorov, A. (2011).
 \newblock Looking the part: Television leads less informed citizens to vote
-  based on candidates' appearance.
-\newblock {\em American Journal of Political Science}, 55(3):574--589.
+  based on candidates’ appearance.
+\newblock {\em American Journal of Political Science}, 55:574--589.
 
 \bibitem[\protect\astroncite{Levendusky}{2013}]{levendusky}
 Levendusky, M.~S. (2013).
@@ -238,11 +271,6 @@ Martin, G.~J. and McCrain, J. (2019).
 Martin, G.~J. and Yurukoglu, A. (2017).
 \newblock Bias in cable news: Persuasion and polarization.
 \newblock {\em American Economic Review}, 107(9):2565–99.
-
-\bibitem[\protect\astroncite{Mullainathan and Shleifer}{2005}]{mullainathan}
-Mullainathan, S. and Shleifer, A. (2005).
-\newblock The market for news.
-\newblock {\em American Economic Review}, 95(4):1031–1053.
 
 \bibitem[\protect\astroncite{Newman et~al.}{2023}]{reuters_dnr_2023}
 Newman, N., Fletcher, R., Schulz, A., Andı, S., Robertson, C.~T., and Nielsen,
@@ -290,6 +318,13 @@ Reiljan, A. (2019).
   Affective polarisation in european party systems.
 \newblock {\em European Journal of Political Research}.
 
+\bibitem[\protect\astroncite{Richter}{2025}]{richter2025structural}
+Richter, P.~O. (2025).
+\newblock {\em Structural and Theoretical Approaches to Modeling Information
+  Choices and Media Markets}.
+\newblock PhD thesis, Universitat Pompeu Fabra, Barcelona, Spain.
+\newblock Doctoral dissertation, Doctorat en Economia, Finances i Empresa.
+
 \bibitem[\protect\astroncite{Schneider-Strawczynski and
   Valette}{2025}]{schneider2025media}
 Schneider-Strawczynski, S. and Valette, J. (2025).
@@ -302,10 +337,11 @@ Simonov, A. and Rao, J. (2022).
   russia.
 \newblock {\em Journal of Political Economy}, 130(2):259--309.
 
-\bibitem[\protect\astroncite{Törnberg}{2023}]{tornberg2023}
-Törnberg, P. (2023).
+\bibitem[\protect\astroncite{T{\"o}rnberg}{2023}]{tornberg2023}
+T{\"o}rnberg, P. (2023).
 \newblock Chatgpt-4 outperforms experts and crowd workers in annotating
   political twitter messages with zero-shot learning.
+\newblock {\em ArXiv}, abs/2304.06588.
 
 \bibitem[\protect\astroncite{Wilbur}{2008}]{wilbur}
 Wilbur, K.~C. (2008).

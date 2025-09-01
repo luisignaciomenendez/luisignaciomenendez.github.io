@@ -1,26 +1,39 @@
 \babel@toc {english}{}
 \contentsline {part}{\hspace {1em}}{1}{part.1}
 \contentsline {xpart}{}{1}{part.1}
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {paragraph}{Related Literature}{3}{paragraph*.1}
+\contentsline {paragraph}{Rest of the Paper}{5}{paragraph*.2}
 \contentsline {section}{\numberline {2}Context}{6}{section.2}
-\contentsline {section}{\numberline {3}Data and Descriptive Statistics}{8}{section.3}
-\contentsline {subsection}{\numberline {3.1}Political Coverage and Elections}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Political Tone}{10}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Text Classification}{12}{subsection.3.3}
-\contentsline {section}{\numberline {4}Market Set Up}{17}{section.4}
-\contentsline {subsection}{\numberline {4.1}Content Endogeneity and News Shocks}{18}{subsection.4.1}
-\contentsline {section}{\numberline {5}Results}{21}{section.5}
-\contentsline {section}{\numberline {6}Supply Side}{26}{section.6}
-\contentsline {subsection}{\numberline {6.1}Results}{29}{subsection.6.1}
-\contentsline {section}{\numberline {7}Counterfactuals: Work in progress}{29}{section.7}
-\contentsline {section}{\numberline {8}Conclusion}{30}{section.8}
-\contentsline {section}{Appendix}{36}{section.8}
-\contentsline {part}{\hspace {1em}Appendix}{36}{part.2}
-\contentsline {xpart}{Appendix}{36}{part.2}
-\contentsline {section}{\numberline {A}Figures}{37}{appendix.A}
-\contentsline {section}{\numberline {B}Tables}{43}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Additional Results}{43}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Text Examples}{49}{subsection.B.2}
-\contentsline {section}{\numberline {C}Isolation Index for Spanish Media}{58}{appendix.C}
-\contentsline {section}{\numberline {D}Chat GPT Ideology Classification}{59}{appendix.D}
-\contentsline {section}{\numberline {E} Digression: LLMs Stability and Alternative Ideology classifications }{61}{appendix.E}
+\contentsline {subsection}{\numberline {2.1}Traditional Media and Political Information}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Spanish Politics and TV News}{6}{subsection.2.2}
+\contentsline {section}{\numberline {3}Data and Descriptive Evidence}{9}{section.3}
+\contentsline {subsection}{\numberline {3.1}Data}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Text Classification}{11}{subsection.3.2}
+\contentsline {paragraph}{Robustness of the text classification}{18}{paragraph*.10}
+\contentsline {section}{\numberline {4}Demand for News}{18}{section.4}
+\contentsline {subsection}{\numberline {4.1}Demand Model}{18}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Endogeneity and Identification Strategy}{20}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Results of the Demand Estimation}{23}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Demand for News and Political Polarization}{25}{subsection.4.4}
+\contentsline {paragraph}{Limitations}{27}{paragraph*.17}
+\contentsline {section}{\numberline {5}Supply of News}{28}{section.5}
+\contentsline {subsection}{\numberline {5.1}Supply Model}{28}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Endogeneity and Identification Strategy}{29}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Results of the Supply Estimation}{31}{subsection.5.3}
+\contentsline {section}{\numberline {6}Proportional Air Time Rule}{32}{section.6}
+\contentsline {section}{\numberline {7}Conclusion}{34}{section.7}
+\contentsline {section}{Appendix}{41}{section.7}
+\contentsline {part}{\hspace {1em}Appendix}{41}{part.2}
+\contentsline {xpart}{Appendix}{41}{part.2}
+\contentsline {section}{\numberline {A}Data Pipeline Details}{42}{appendix.A}
+\contentsline {section}{\numberline {B}Robustness of the Text Classification}{44}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Comparison with Previous Approaches}{44}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Stability of the Classifier}{46}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}Text vs.\ Image}{46}{subsection.B.3}
+\contentsline {section}{\numberline {C}Figures}{50}{appendix.C}
+\contentsline {section}{\numberline {D}Tables}{57}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Descriptive Evidence}{57}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}Additional Results}{57}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}Text Examples}{63}{subsection.D.3}
+\contentsline {section}{\numberline {E}Isolation Index }{73}{appendix.E}
