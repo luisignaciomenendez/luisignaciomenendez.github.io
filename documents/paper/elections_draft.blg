@@ -3,58 +3,55 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: elections_draft.aux
 The style file: apa.bst
 Database file #1: ./bib/media_bias.bib
+Repeated entry---line 42 of file ./bib/media_bias.bib
+ : @article{Graham2019DemocracyIA
+ :                               ,
+I'm skipping whatever remains of this entry
 Warning--entry type for "eurobarometer2022" isn't style-file defined
---line 76 of file ./bib/media_bias.bib
+--line 100 of file ./bib/media_bias.bib
 Warning--entry type for "reuters_dnr_2023" isn't style-file defined
---line 578 of file ./bib/media_bias.bib
+--line 559 of file ./bib/media_bias.bib
 Warning--entry type for "europarl2024" isn't style-file defined
---line 880 of file ./bib/media_bias.bib
-Too many commas in name 1 of "Boehnke, Jörn, Pontikes, Elizabeth and Bhargava, Hemant" for entry llmclassification2024
-while executing---line 1048 of file apa.bst
-Too many commas in name 1 of "Boehnke, Jörn, Pontikes, Elizabeth and Bhargava, Hemant" for entry llmclassification2024
-while executing---line 1048 of file apa.bst
-Too many commas in name 1 of "Boehnke, Jörn, Pontikes, Elizabeth and Bhargava, Hemant" for entry llmclassification2024
-while executing---line 1123 of file apa.bst
-Warning--empty journal in puglisi_review
-You've used 59 entries,
+--line 827 of file ./bib/media_bias.bib
+You've used 61 entries,
             1940 wiz_defined-function locations,
-            832 strings with 15181 characters,
-and the built_in function-call counts, 23357 in all, are:
-= -- 2268
-> -- 1042
-< -- 41
-+ -- 368
-- -- 352
-* -- 2126
-:= -- 4125
-add.period$ -- 180
-call.type$ -- 59
-change.case$ -- 469
-chr.to.int$ -- 59
-cite$ -- 60
-duplicate$ -- 808
-empty$ -- 1503
-format.name$ -- 455
-if$ -- 4439
+            841 strings with 15508 characters,
+and the built_in function-call counts, 24268 in all, are:
+= -- 2392
+> -- 1073
+< -- 47
++ -- 361
+- -- 361
+* -- 2203
+:= -- 4275
+add.period$ -- 187
+call.type$ -- 61
+change.case$ -- 482
+chr.to.int$ -- 61
+cite$ -- 61
+duplicate$ -- 847
+empty$ -- 1556
+format.name$ -- 468
+if$ -- 4614
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 47
-newline$ -- 300
-num.names$ -- 177
-pop$ -- 340
+newline$ -- 310
+num.names$ -- 185
+pop$ -- 351
 preamble$ -- 1
-purify$ -- 471
+purify$ -- 484
 quote$ -- 0
-skip$ -- 652
+skip$ -- 680
 stack$ -- 0
-substring$ -- 1587
-swap$ -- 141
-text.length$ -- 4
+substring$ -- 1652
+swap$ -- 157
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 352
-warning$ -- 1
-while$ -- 170
+type$ -- 364
+warning$ -- 0
+while$ -- 191
 width$ -- 0
-write$ -- 759
-(There were 3 error messages)
+write$ -- 788
+(There was 1 error message)

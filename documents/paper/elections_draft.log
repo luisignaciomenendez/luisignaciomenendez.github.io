@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.14)  2 SEP 2025 10:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.14)  14 SEP 2025 19:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -413,9 +413,6 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip77
 \rot@float@box=\box38
 \rot@mess@toks=\toks34
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
@@ -1240,26 +1237,26 @@ LaTeX Warning: Label `fig:2figsA' multiply defined.
 )
 \openout1 = `elections_draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 71.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 76.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 76.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1300,7 +1297,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box88
-Package hyperref Info: Link coloring ON on input line 71.
+Package hyperref Info: Link coloring ON on input line 76.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1310,9 +1307,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count198
 )
-LaTeX Info: Redefining \ref on input line 71.
-LaTeX Info: Redefining \pageref on input line 71.
-LaTeX Info: Redefining \nameref on input line 71.
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
 
 (./elections_draft.out) (./elections_draft.out)
 \@outlinefile=\write8
@@ -1324,7 +1321,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 71.
+ on input line 76.
 
 \c@minilofdepth=\count199
 \c@minilotdepth=\count266
@@ -1365,32 +1362,32 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+LaTeX Font Info:    Try loading font information for U+msa on input line 83.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+LaTeX Font Info:    Try loading font information for U+msb on input line 83.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 78.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 83.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
 Package minitoc Info: I0025
 (minitoc)             PREPARING PARTTOCS FROM elections_draft.toc on input line
- 97.
+ 108.
 Package minitoc Info: I0033
 (minitoc)             Writing elections_draft.ptc1.
 \openout7 = `elections_draft.ptc1'.
@@ -1402,7 +1399,7 @@ Package minitoc Info: I0033
 \tf@toc=\write9
 \openout9 = `elections_draft.toc'.
 
- [1
+ [0
 Non-PDF special ignored!
 <special> papersize=597.50787pt,845.04684pt
 
@@ -1413,14 +1410,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.138 
-       [1
-
-]
+[1]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1449,10 +1439,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-<figures/age_cohorts_full.pdf, id=344, 711.352pt x 422.18164pt>
+<figures/age_cohorts_full.pdf, id=343, 711.352pt x 422.18164pt>
 File: figures/age_cohorts_full.pdf Graphic file (type pdf)
 <use figures/age_cohorts_full.pdf>
-Package pdftex.def Info: figures/age_cohorts_full.pdf  used on input line 312.
+Package pdftex.def Info: figures/age_cohorts_full.pdf  used on input line 338.
 (pdftex.def)             Requested size: 369.88582pt x 219.52283pt.
 
 
@@ -1461,19 +1451,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
+[6 <./figures/age_cohorts_full.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7 <./figures/age_cohorts_full.pdf>]
-<figures/corr_party_channel3.pdf, id=430, 860.22693pt x 552.56438pt>
+[7]
+<figures/corr_party_channel3.pdf, id=428, 860.22693pt x 552.56438pt>
 File: figures/corr_party_channel3.pdf Graphic file (type pdf)
 <use figures/corr_party_channel3.pdf>
-Package pdftex.def Info: figures/corr_party_channel3.pdf  used on input line 37
-4.
+Package pdftex.def Info: figures/corr_party_channel3.pdf  used on input line 40
+0.
 (pdftex.def)             Requested size: 341.43306pt x 219.31868pt.
 
 
@@ -1482,14 +1472,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
+[8 <./figures/corr_party_channel3.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./figures/corr_party_channel3.pdf>]
+[9]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1497,7 +1487,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 437.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 463.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1509,7 +1499,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11]
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 475.
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 501.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
@@ -1521,23 +1511,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12]
-<figures/chatgpt.pdf, id=559, 632.01122pt x 423.70294pt>
+<figures/chatgpt.pdf, id=562, 632.01122pt x 423.70294pt>
 File: figures/chatgpt.pdf Graphic file (type pdf)
 <use figures/chatgpt.pdf>
-Package pdftex.def Info: figures/chatgpt.pdf  used on input line 514.
+Package pdftex.def Info: figures/chatgpt.pdf  used on input line 540.
 (pdftex.def)             Requested size: 341.43306pt x 228.89961pt.
-<figures/congress_line_cis.pdf, id=562, 578.16pt x 144.54pt>
-File: figures/congress_line_cis.pdf Graphic file (type pdf)
-<use figures/congress_line_cis.pdf>
-Package pdftex.def Info: figures/congress_line_cis.pdf  used on input line 545.
-
-(pdftex.def)             Requested size: 228.64882pt x 57.16214pt.
-<figures/congress_line_chatgpt.pdf, id=563, 578.16pt x 144.54pt>
-File: figures/congress_line_chatgpt.pdf Graphic file (type pdf)
-<use figures/congress_line_chatgpt.pdf>
-Package pdftex.def Info: figures/congress_line_chatgpt.pdf  used on input line 
-554.
-(pdftex.def)             Requested size: 228.64882pt x 57.16214pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1546,6 +1524,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13]
+<figures/congress_line_cis.pdf, id=577, 578.16pt x 144.54pt>
+File: figures/congress_line_cis.pdf Graphic file (type pdf)
+<use figures/congress_line_cis.pdf>
+Package pdftex.def Info: figures/congress_line_cis.pdf  used on input line 571.
+
+(pdftex.def)             Requested size: 228.64882pt x 57.16214pt.
+<figures/congress_line_chatgpt.pdf, id=578, 578.16pt x 144.54pt>
+File: figures/congress_line_chatgpt.pdf Graphic file (type pdf)
+<use figures/congress_line_chatgpt.pdf>
+Package pdftex.def Info: figures/congress_line_chatgpt.pdf  used on input line 
+580.
+(pdftex.def)             Requested size: 228.64882pt x 57.16214pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1554,17 +1545,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [14 <./figures/chatgpt.pdf> <./figures/congress_line_cis.pdf> <./figures/congre
 ss_line_chatgpt.pdf>]
-<figures/political_words_bothv2.png, id=689, 1011.78pt x 505.89pt>
-File: figures/political_words_bothv2.png Graphic file (type png)
-<use figures/political_words_bothv2.png>
-Package pdftex.def Info: figures/political_words_bothv2.png  used on input line
- 608.
-(pdftex.def)             Requested size: 426.79134pt x 213.39865pt.
-<figures/tv_vs_efe_net_diff.png, id=698, 1011.78pt x 505.89pt>
-File: figures/tv_vs_efe_net_diff.png Graphic file (type png)
-<use figures/tv_vs_efe_net_diff.png>
-Package pdftex.def Info: figures/tv_vs_efe_net_diff.png  used on input line 657
-.
+<figures/tv_audience_sharev2.png, id=709, 1011.78pt x 505.89pt>
+File: figures/tv_audience_sharev2.png Graphic file (type png)
+<use figures/tv_audience_sharev2.png>
+Package pdftex.def Info: figures/tv_audience_sharev2.png  used on input line 61
+8.
 (pdftex.def)             Requested size: 426.79134pt x 213.39865pt.
 
 
@@ -1574,13 +1559,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]
-<figures/congress_line_chatgpt_pre_postv2.pdf, id=723, 570.93298pt x 133.28793p
-t>
-File: figures/congress_line_chatgpt_pre_postv2.pdf Graphic file (type pdf)
-<use figures/congress_line_chatgpt_pre_postv2.pdf>
-Package pdftex.def Info: figures/congress_line_chatgpt_pre_postv2.pdf  used on 
-input line 676.
-(pdftex.def)             Requested size: 284.52756pt x 66.42618pt.
+<figures/political_words_both.pdf, id=723, 1011.78pt x 505.89pt>
+File: figures/political_words_both.pdf Graphic file (type pdf)
+<use figures/political_words_both.pdf>
+Package pdftex.def Info: figures/political_words_both.pdf  used on input line 6
+44.
+(pdftex.def)             Requested size: 426.79134pt x 213.39865pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1588,22 +1572,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 <./figures/political_words_bothv2.png>]
+[16 <./figures/tv_audience_sharev2.png>]
+<figures/tv_vs_efe_net_diff.png, id=740, 1011.78pt x 505.89pt>
+File: figures/tv_vs_efe_net_diff.png Graphic file (type png)
+<use figures/tv_vs_efe_net_diff.png>
+Package pdftex.def Info: figures/tv_vs_efe_net_diff.png  used on input line 712
+.
+(pdftex.def)             Requested size: 426.79134pt x 213.39865pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17 <./figures/tv_vs_efe_net_diff.png> <./figures/congress_line_chatgpt_pre_pos
-tv2.pdf>]
+[17 <./figures/political_words_both.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
+[18 <./figures/tv_vs_efe_net_diff.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1611,7 +1601,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
-Overfull \hbox (3.62048pt too wide) in paragraph at lines 761--762
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+Overfull \hbox (3.62048pt too wide) in paragraph at lines 822--823
 \T1/cmr/m/n/12 ables^^Vweather, in-di-vid-ual at-tributes, and an un-ob-served 
 (to the econo-me-tri-cian) shock $\OML/cmm/m/it/12 ^^X$\T1/cmr/m/n/12 ^^Vas
  []
@@ -1622,11 +1619,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
-<figures/fwl_plots_v2.pdf, id=866, 433.62pt x 289.08pt>
+[21]
+<figures/fwl_plots_v2.pdf, id=889, 433.62pt x 289.08pt>
 File: figures/fwl_plots_v2.pdf Graphic file (type pdf)
 <use figures/fwl_plots_v2.pdf>
-Package pdftex.def Info: figures/fwl_plots_v2.pdf  used on input line 868.
+Package pdftex.def Info: figures/fwl_plots_v2.pdf  used on input line 924.
 (pdftex.def)             Requested size: 455.24408pt x 303.51207pt.
 
 
@@ -1635,24 +1632,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]
+[22]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 <./figures/fwl_plots_v2.pdf>]
+[23 <./figures/fwl_plots_v2.pdf>]
+<figures/elasticities_left_campaign.pdf, id=938, 559.63896pt x 369.07512pt>
+File: figures/elasticities_left_campaign.pdf Graphic file (type pdf)
+<use figures/elasticities_left_campaign.pdf>
+Package pdftex.def Info: figures/elasticities_left_campaign.pdf  used on input 
+line 1110.
+(pdftex.def)             Requested size: 209.97983pt x 138.48166pt.
+<figures/elasticities_right_campaign.pdf, id=939, 559.63896pt x 369.07512pt>
+File: figures/elasticities_right_campaign.pdf Graphic file (type pdf)
+<use figures/elasticities_right_campaign.pdf>
+Package pdftex.def Info: figures/elasticities_right_campaign.pdf  used on input
+ line 1118.
+(pdftex.def)             Requested size: 209.97983pt x 138.48166pt.
 
-LaTeX Warning: Float too large for page by 16.16986pt on input line 1011.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1660,18 +1660,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
-<figures/elasticities_left_campaign.pdf, id=932, 559.63896pt x 369.07512pt>
-File: figures/elasticities_left_campaign.pdf Graphic file (type pdf)
-<use figures/elasticities_left_campaign.pdf>
-Package pdftex.def Info: figures/elasticities_left_campaign.pdf  used on input 
-line 1126.
-(pdftex.def)             Requested size: 209.97983pt x 138.48166pt.
-<figures/elasticities_right_campaign.pdf, id=933, 559.63896pt x 369.07512pt>
-File: figures/elasticities_right_campaign.pdf Graphic file (type pdf)
-<use figures/elasticities_right_campaign.pdf>
-Package pdftex.def Info: figures/elasticities_right_campaign.pdf  used on input
- line 1134.
-(pdftex.def)             Requested size: 209.97983pt x 138.48166pt.
+
+LaTeX Warning: Command \; invalid in math mode on input line 1193.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1193.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1193.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1194.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1194.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1194.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1681,18 +1686,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [25 <./figures/elasticities_left_campaign.pdf> <./figures/elasticities_right_ca
 mpaign.pdf>]
+<figures/er_polarization_stata_group_correct.pdf, id=1046, 867.24pt x 433.62pt>
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26]
-<figures/er_polarization_stata_group.pdf, id=1042, 867.24pt x 433.62pt>
-File: figures/er_polarization_stata_group.pdf Graphic file (type pdf)
-<use figures/er_polarization_stata_group.pdf>
-Package pdftex.def Info: figures/er_polarization_stata_group.pdf  used on input
- line 1244.
+File: figures/er_polarization_stata_group_correct.pdf Graphic file (type pdf)
+<use figures/er_polarization_stata_group_correct.pdf>
+Package pdftex.def Info: figures/er_polarization_stata_group_correct.pdf  used 
+on input line 1228.
 (pdftex.def)             Requested size: 426.79134pt x 213.39536pt.
 
 
@@ -1701,7 +1700,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27 <./figures/er_polarization_stata_group.pdf>]
+[26 <./figures/er_polarization_stata_group_correct.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1716,54 +1722,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29]
-<figures/char_pos_left_residual_v2.png, id=1143, 505.89pt x 361.35pt>
-File: figures/char_pos_left_residual_v2.png Graphic file (type png)
-<use figures/char_pos_left_residual_v2.png>
-Package pdftex.def Info: figures/char_pos_left_residual_v2.png  used on input l
-ine 1359.
-(pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
-<figures/char_pos_right_residual_v2.png, id=1144, 505.89pt x 361.35pt>
-File: figures/char_pos_right_residual_v2.png Graphic file (type png)
-<use figures/char_pos_right_residual_v2.png>
-Package pdftex.def Info: figures/char_pos_right_residual_v2.png  used on input 
-line 1360.
-(pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
-<figures/char_neg_left_residual_v2.png, id=1145, 505.89pt x 361.35pt>
-File: figures/char_neg_left_residual_v2.png Graphic file (type png)
-<use figures/char_neg_left_residual_v2.png>
-Package pdftex.def Info: figures/char_neg_left_residual_v2.png  used on input l
-ine 1365.
-(pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
-<figures/char_neg_right_residual_v2.png, id=1146, 505.89pt x 361.35pt>
-File: figures/char_neg_right_residual_v2.png Graphic file (type png)
-<use figures/char_neg_right_residual_v2.png>
-Package pdftex.def Info: figures/char_neg_right_residual_v2.png  used on input 
-line 1366.
-(pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
+
+LaTeX Warning: Command \; invalid in math mode on input line 1441.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1395.
+LaTeX Warning: Command \; invalid in math mode on input line 1441.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1395.
+LaTeX Warning: Command \; invalid in math mode on input line 1441.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1395.
+LaTeX Warning: Command \; invalid in math mode on input line 1442.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1396.
+LaTeX Warning: Command \; invalid in math mode on input line 1445.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1400.
+LaTeX Warning: Command \; invalid in math mode on input line 1445.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1400.
+LaTeX Warning: Command \; invalid in math mode on input line 1445.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1400.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1401.
+LaTeX Warning: Command \; invalid in math mode on input line 1446.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1771,9 +1752,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30 <./figures/char_pos_left_residual_v2.png> <./figures/char_pos_right_residua
-l_v2.png> <./figures/char_neg_left_residual_v2.png> <./figures/char_neg_right_r
-esidual_v2.png>]
+[30]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1782,48 +1761,48 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [31]
 
+LaTeX Warning: Command \; invalid in math mode on input line 1580.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1580.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1580.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1580.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1580.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1580.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1580.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1580.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1581.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1581.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1581.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1581.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [32]
-
-LaTeX Warning: Command \; invalid in math mode on input line 1513.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1513.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1513.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1513.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1513.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1513.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1513.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1513.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1514.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1514.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1514.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1514.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1855,235 +1834,275 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [41
 
 ]
-<figures/pipeline3.png, id=1253, 963.72044pt x 542.025pt>
+<figures/pipeline3.png, id=1276, 963.72044pt x 542.025pt>
 File: figures/pipeline3.png Graphic file (type png)
 <use figures/pipeline3.png>
-Package pdftex.def Info: figures/pipeline3.png  used on input line 1661.
+Package pdftex.def Info: figures/pipeline3.png  used on input line 1721.
 (pdftex.def)             Requested size: 426.79134pt x 240.0466pt.
  [42
 
- <./figures/pipeline3.png>] [43]
+ <./figures/pipeline3.png>]
 
-LaTeX Warning: Command \; invalid in math mode on input line 1727.
+LaTeX Warning: Reference `table:politics' on page 43 undefined on input line 17
+34.
 
+[43]
 
-LaTeX Warning: Command \; invalid in math mode on input line 1727.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1727.
-
-
-LaTeX Warning: Command \; invalid in math mode on input line 1727.
+LaTeX Warning: Command \; invalid in math mode on input line 1787.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1727.
+LaTeX Warning: Command \; invalid in math mode on input line 1787.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1727.
+LaTeX Warning: Command \; invalid in math mode on input line 1787.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1727.
+LaTeX Warning: Command \; invalid in math mode on input line 1787.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 1727.
+LaTeX Warning: Command \; invalid in math mode on input line 1787.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1787.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1787.
+
+
+LaTeX Warning: Command \; invalid in math mode on input line 1787.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1733.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1793.
 
 [44]
-<figures/congress_left.pdf, id=1285, 556.47902pt x 278.23952pt>
+<figures/congress_left.pdf, id=1307, 556.47902pt x 278.23952pt>
 File: figures/congress_left.pdf Graphic file (type pdf)
 <use figures/congress_left.pdf>
-Package pdftex.def Info: figures/congress_left.pdf  used on input line 1756.
+Package pdftex.def Info: figures/congress_left.pdf  used on input line 1816.
 (pdftex.def)             Requested size: 214.65063pt x 107.3242pt.
-<figures/congress_right.pdf, id=1286, 556.47902pt x 278.23952pt>
+<figures/congress_right.pdf, id=1308, 556.47902pt x 278.23952pt>
 File: figures/congress_right.pdf Graphic file (type pdf)
 <use figures/congress_right.pdf>
-Package pdftex.def Info: figures/congress_right.pdf  used on input line 1763.
+Package pdftex.def Info: figures/congress_right.pdf  used on input line 1823.
 (pdftex.def)             Requested size: 214.65063pt x 107.3242pt.
 File: figures/congress_line_cis.pdf Graphic file (type pdf)
 <use figures/congress_line_cis.pdf>
-Package pdftex.def Info: figures/congress_line_cis.pdf  used on input line 1813
+Package pdftex.def Info: figures/congress_line_cis.pdf  used on input line 1873
 .
 (pdftex.def)             Requested size: 228.64882pt x 57.16214pt.
-<figures/congress_line.pdf, id=1290, 578.16pt x 144.54pt>
+<figures/congress_line.pdf, id=1313, 578.16pt x 144.54pt>
 File: figures/congress_line.pdf Graphic file (type pdf)
 <use figures/congress_line.pdf>
-Package pdftex.def Info: figures/congress_line.pdf  used on input line 1822.
+Package pdftex.def Info: figures/congress_line.pdf  used on input line 1882.
 (pdftex.def)             Requested size: 228.64882pt x 57.16214pt.
  [45 <./figures/congress_left.pdf> <./figures/congress_right.pdf> <./figures/co
 ngress_line.pdf>] [46]
-<figures/politicians_tone_proportions.png, id=1357, 859.7721pt x 531.6663pt>
+<figures/politicians_tone_proportions.png, id=1380, 859.7721pt x 531.6663pt>
 File: figures/politicians_tone_proportions.png Graphic file (type png)
 <use figures/politicians_tone_proportions.png>
 Package pdftex.def Info: figures/politicians_tone_proportions.png  used on inpu
-t line 1889.
+t line 1949.
 (pdftex.def)             Requested size: 426.79134pt x 263.91792pt.
- [47 <./figures/politicians_tone_proportions.png>]
-<figures/politicians_image_proportions.png, id=1367, 860.013pt x 531.6663pt>
+<figures/politicians_image_proportions.png, id=1382, 860.013pt x 531.6663pt>
 File: figures/politicians_image_proportions.png Graphic file (type png)
 <use figures/politicians_image_proportions.png>
 Package pdftex.def Info: figures/politicians_image_proportions.png  used on inp
-ut line 1909.
+ut line 1969.
 (pdftex.def)             Requested size: 223.97801pt x 138.46524pt.
-<figures/politicians_text_proportions.png, id=1368, 860.013pt x 531.6663pt>
+<figures/politicians_text_proportions.png, id=1383, 860.013pt x 531.6663pt>
 File: figures/politicians_text_proportions.png Graphic file (type png)
 <use figures/politicians_text_proportions.png>
 Package pdftex.def Info: figures/politicians_text_proportions.png  used on inpu
-t line 1916.
+t line 1976.
 (pdftex.def)             Requested size: 223.97801pt x 138.46524pt.
-
-[48 <./figures/politicians_image_proportions.png> <./figures/politicians_text_p
-roportions.png>] [49]
-<figures/age_cohorts.pdf, id=1383, 715.5533pt x 425.28522pt>
+ [47] [48 <./figures/politicians_tone_proportions.png> <./figures/politicians_i
+mage_proportions.png> <./figures/politicians_text_proportions.png>] [49]
+<figures/age_cohorts.pdf, id=1406, 715.5533pt x 425.28522pt>
 File: figures/age_cohorts.pdf Graphic file (type pdf)
 <use figures/age_cohorts.pdf>
-Package pdftex.def Info: figures/age_cohorts.pdf  used on input line 2009.
+Package pdftex.def Info: figures/age_cohorts.pdf  used on input line 2069.
 (pdftex.def)             Requested size: 369.88582pt x 219.84523pt.
-<figures/average_tone_pre_post_election.pdf, id=1384, 729.84676pt x 442.37245pt
+<figures/average_tone_pre_post_election.pdf, id=1407, 729.84676pt x 442.37245pt
 >
 File: figures/average_tone_pre_post_election.pdf Graphic file (type pdf)
 <use figures/average_tone_pre_post_election.pdf>
 Package pdftex.def Info: figures/average_tone_pre_post_election.pdf  used on in
-put line 2022.
+put line 2082.
 (pdftex.def)             Requested size: 369.88582pt x 224.18945pt.
-<figures/average_tone_pre_post_election_party.pdf, id=1385, 1011.78pt x 433.62p
-t>
-File: figures/average_tone_pre_post_election_party.pdf Graphic file (type pdf)
-<use figures/average_tone_pre_post_election_party.pdf>
-Package pdftex.def Info: figures/average_tone_pre_post_election_party.pdf  used
- on input line 2034.
-(pdftex.def)             Requested size: 426.79134pt x 182.91313pt.
-<figures/tv_vs_efe_net_diff_by_channel.png, id=1386, 1011.78pt x 1011.78pt>
+<figures/average_tone_pre_post_election_party.png, id=1408, 1475.5125pt x 644.4
+075pt>
+File: figures/average_tone_pre_post_election_party.png Graphic file (type png)
+<use figures/average_tone_pre_post_election_party.png>
+Package pdftex.def Info: figures/average_tone_pre_post_election_party.png  used
+ on input line 2098.
+(pdftex.def)             Requested size: 426.79134pt x 186.39157pt.
+<figures/tv_audience_total.png, id=1409, 1011.78pt x 505.89pt>
+File: figures/tv_audience_total.png Graphic file (type png)
+<use figures/tv_audience_total.png>
+Package pdftex.def Info: figures/tv_audience_total.png  used on input line 2109
+.
+(pdftex.def)             Requested size: 426.79134pt x 213.39865pt.
+<figures/tv_vs_efe_political_by_channel.png, id=1410, 1011.78pt x 1011.78pt>
+File: figures/tv_vs_efe_political_by_channel.png Graphic file (type png)
+<use figures/tv_vs_efe_political_by_channel.png>
+Package pdftex.def Info: figures/tv_vs_efe_political_by_channel.png  used on in
+put line 2121.
+(pdftex.def)             Requested size: 426.79134pt x 426.79732pt.
+<figures/tv_vs_efe_net_diff_by_channel.png, id=1411, 1011.78pt x 1011.78pt>
 File: figures/tv_vs_efe_net_diff_by_channel.png Graphic file (type png)
 <use figures/tv_vs_efe_net_diff_by_channel.png>
 Package pdftex.def Info: figures/tv_vs_efe_net_diff_by_channel.png  used on inp
-ut line 2043.
+ut line 2130.
 (pdftex.def)             Requested size: 426.79134pt x 426.79732pt.
 
 
-LaTeX Warning: Characters dropped after `\end{comment}' on input line 2119.
+LaTeX Warning: Characters dropped after `\end{comment}' on input line 2206.
 
-<figures/fwl_plots_lowess_v2.pdf, id=1389, 433.62pt x 289.08pt>
+<figures/fwl_plots_lowess_v2.pdf, id=1414, 433.62pt x 289.08pt>
 File: figures/fwl_plots_lowess_v2.pdf Graphic file (type pdf)
 <use figures/fwl_plots_lowess_v2.pdf>
-Package pdftex.def Info: figures/fwl_plots_lowess_v2.pdf  used on input line 21
-37.
+Package pdftex.def Info: figures/fwl_plots_lowess_v2.pdf  used on input line 22
+24.
 (pdftex.def)             Requested size: 455.24408pt x 303.51207pt.
-<figures/elasticities_left_pre.pdf, id=1392, 556.40814pt x 369.07512pt>
+<figures/elasticities_left_pre.pdf, id=1417, 556.40814pt x 369.07512pt>
 File: figures/elasticities_left_pre.pdf Graphic file (type pdf)
 <use figures/elasticities_left_pre.pdf>
 Package pdftex.def Info: figures/elasticities_left_pre.pdf  used on input line 
-2153.
+2240.
 (pdftex.def)             Requested size: 209.97983pt x 139.28136pt.
-<figures/elasticities_right_pre.pdf, id=1393, 546.18243pt x 369.07512pt>
+<figures/elasticities_right_pre.pdf, id=1418, 546.18243pt x 369.07512pt>
 File: figures/elasticities_right_pre.pdf Graphic file (type pdf)
 <use figures/elasticities_right_pre.pdf>
 Package pdftex.def Info: figures/elasticities_right_pre.pdf  used on input line
- 2161.
+ 2248.
 (pdftex.def)             Requested size: 209.97983pt x 141.8888pt.
-<figures/fwl_plots_lowess_diff_costs_v2.pdf, id=1396, 433.62pt x 289.08pt>
+<figures/fwl_plots_lowess_diff_costs_v2.pdf, id=1421, 433.62pt x 289.08pt>
 File: figures/fwl_plots_lowess_diff_costs_v2.pdf Graphic file (type pdf)
 <use figures/fwl_plots_lowess_diff_costs_v2.pdf>
 Package pdftex.def Info: figures/fwl_plots_lowess_diff_costs_v2.pdf  used on in
-put line 2176.
+put line 2263.
 (pdftex.def)             Requested size: 455.24408pt x 303.51207pt.
-<figures/er_polarization_stata_group_raw.pdf, id=1399, 867.24pt x 433.62pt>
-File: figures/er_polarization_stata_group_raw.pdf Graphic file (type pdf)
-<use figures/er_polarization_stata_group_raw.pdf>
-Package pdftex.def Info: figures/er_polarization_stata_group_raw.pdf  used on i
-nput line 2216.
-(pdftex.def)             Requested size: 426.79134pt x 213.39536pt.
-<figures/congress_line_counter.pdf, id=1404, 570.93298pt x 167.53386pt>
+<figures/char_pos_left_residual_v2.png, id=1424, 505.89pt x 361.35pt>
+File: figures/char_pos_left_residual_v2.png Graphic file (type png)
+<use figures/char_pos_left_residual_v2.png>
+Package pdftex.def Info: figures/char_pos_left_residual_v2.png  used on input l
+ine 2278.
+(pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
+<figures/char_pos_right_residual_v2.png, id=1425, 505.89pt x 361.35pt>
+File: figures/char_pos_right_residual_v2.png Graphic file (type png)
+<use figures/char_pos_right_residual_v2.png>
+Package pdftex.def Info: figures/char_pos_right_residual_v2.png  used on input 
+line 2279.
+(pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
+<figures/char_neg_left_residual_v2.png, id=1426, 505.89pt x 361.35pt>
+File: figures/char_neg_left_residual_v2.png Graphic file (type png)
+<use figures/char_neg_left_residual_v2.png>
+Package pdftex.def Info: figures/char_neg_left_residual_v2.png  used on input l
+ine 2284.
+(pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
+<figures/char_neg_right_residual_v2.png, id=1427, 505.89pt x 361.35pt>
+File: figures/char_neg_right_residual_v2.png Graphic file (type png)
+<use figures/char_neg_right_residual_v2.png>
+Package pdftex.def Info: figures/char_neg_right_residual_v2.png  used on input 
+line 2285.
+(pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
+<figures/payoff_pos_left.png, id=1428, 498.9039pt x 354.3639pt>
+File: figures/payoff_pos_left.png Graphic file (type png)
+<use figures/payoff_pos_left.png>
+Package pdftex.def Info: figures/payoff_pos_left.png  used on input line 2306.
+(pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
+<figures/payoff_pos_right.png, id=1429, 498.9039pt x 354.3639pt>
+File: figures/payoff_pos_right.png Graphic file (type png)
+<use figures/payoff_pos_right.png>
+Package pdftex.def Info: figures/payoff_pos_right.png  used on input line 2307.
+
+(pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
+<figures/payoff_neg_left.png, id=1430, 498.9039pt x 354.3639pt>
+File: figures/payoff_neg_left.png Graphic file (type png)
+<use figures/payoff_neg_left.png>
+Package pdftex.def Info: figures/payoff_neg_left.png  used on input line 2312.
+(pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
+<figures/payoff_neg_right.png, id=1431, 498.9039pt x 354.3639pt>
+File: figures/payoff_neg_right.png Graphic file (type png)
+<use figures/payoff_neg_right.png>
+Package pdftex.def Info: figures/payoff_neg_right.png  used on input line 2313.
+
+(pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
+<figures/congress_line_chatgpt_pre_postv2.pdf, id=1432, 570.93298pt x 133.28793
+pt>
+File: figures/congress_line_chatgpt_pre_postv2.pdf Graphic file (type pdf)
+<use figures/congress_line_chatgpt_pre_postv2.pdf>
+Package pdftex.def Info: figures/congress_line_chatgpt_pre_postv2.pdf  used on 
+input line 2365.
+(pdftex.def)             Requested size: 284.52756pt x 66.42618pt.
+<figures/congress_line_counter.pdf, id=1435, 570.93298pt x 167.53386pt>
 File: figures/congress_line_counter.pdf Graphic file (type pdf)
 <use figures/congress_line_counter.pdf>
 Package pdftex.def Info: figures/congress_line_counter.pdf  used on input line 
-2227.
+2377.
 (pdftex.def)             Requested size: 284.52756pt x 83.49318pt.
-[50
-
- <./figures/age_cohorts.pdf> <./figures/average_tone_pre_post_election.pdf>] [5
-1 <./figures/average_tone_pre_post_election_party.pdf>] [52 <./figures/tv_vs_ef
-e_net_diff_by_channel.png>] [53 <./figures/fwl_plots_lowess_v2.pdf>]
-[54 <./figures/elasticities_left_pre.pdf> <./figures/elasticities_right_pre.pdf
->] [55 <./figures/fwl_plots_lowess_diff_costs_v2.pdf>] [56 <./figures/er_polari
-zation_stata_group_raw.pdf> <./figures/congress_line_counter.pdf>] [57
+[50 <./figures/age_cohorts.pdf>] [51 <./figures/average_tone_pre_post_election.
+pdf> <./figures/average_tone_pre_post_election_party.png>] [52 <./figures/tv_au
+dience_total.png>] [53 <./figures/tv_vs_efe_political_by_channel.png>] [54 <./f
+igures/tv_vs_efe_net_diff_by_channel.png>] [55 <./figures/fwl_plots_lowess_v2.p
+df>] [56 <./figures/elasticities_left_pre.pdf> <./figures/elasticities_right_pr
+e.pdf>] [57 <./figures/fwl_plots_lowess_diff_costs_v2.pdf>] [58 <./figures/char
+_pos_left_residual_v2.png> <./figures/char_pos_right_residual_v2.png> <./figure
+s/char_neg_left_residual_v2.png> <./figures/char_neg_right_residual_v2.png>]
+[59 <./figures/payoff_pos_left.png> <./figures/payoff_pos_right.png> <./figures
+/payoff_neg_left.png> <./figures/payoff_neg_right.png> <./figures/congress_line
+_chatgpt_pre_postv2.pdf>] [60 <./figures/congress_line_counter.pdf>] [61
 
 ]
-[58] [59] [60] [61] [62]
-Underfull \hbox (badness 10000) in paragraph at lines 3032--3053
-[][]
- []
+[62]
 
+LaTeX Warning: Float too large for page by 49.0647pt on input line 2637.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3032--3053
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3063--3083
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3063--3083
-[]
- []
-
-
-Overfull \hbox (37.07486pt too wide) in paragraph at lines 3147--3163
+[63] [64] [65] [66] [67]
+Overfull \hbox (37.07486pt too wide) in paragraph at lines 3416--3432
  [][] 
  []
 
-[63
+[68
 
-] [64]
-Underfull \hbox (badness 6157) in paragraph at lines 3241--3245
+] [69] [70]
+Underfull \hbox (badness 6157) in paragraph at lines 3510--3514
 []|\T1/cmr/bx/n/12 PP De-mands Re-turn of Sedi-tion
  []
 
 
-Overfull \hbox (26.56187pt too wide) in alignment at lines 3212--3324
+Overfull \hbox (26.56187pt too wide) in alignment at lines 3481--3595
+ [] [] [] [] 
+ []
+
+[71
+
+] [72] [73] [74] [75]
+Overfull \hbox (13.04306pt too wide) in alignment at lines 3687--3692
  [] [] [] [] 
  []
 
 
-Overfull \hbox (26.56187pt too wide) in alignment at lines 3324--3326
- [] [] [] [] 
- []
-
-[65
-
-] [66] [67] [68] [69]
-Overfull \hbox (13.04306pt too wide) in alignment at lines 3417--3422
+Overfull \hbox (13.04306pt too wide) in alignment at lines 3692--3696
  [] [] [] [] 
  []
 
 
-Overfull \hbox (13.04306pt too wide) in alignment at lines 3422--3426
+Overfull \hbox (13.04306pt too wide) in alignment at lines 3696--3698
  [] [] [] [] 
  []
 
 
-Overfull \hbox (13.04306pt too wide) in alignment at lines 3426--3428
+Overfull \hbox (13.04306pt too wide) in alignment at lines 3698--3699
  [] [] [] [] 
  []
 
 
-Overfull \hbox (13.04306pt too wide) in alignment at lines 3428--3429
+Overfull \hbox (13.04306pt too wide) in alignment at lines 3699--3735
  [] [] [] [] 
  []
 
-
-Overfull \hbox (13.04306pt too wide) in alignment at lines 3429--3465
- [] [] [] [] 
- []
-
-[70] [71] [72]
-Underfull \hbox (badness 10000) in paragraph at lines 3591--3603
-[][]
- []
-
+[76] [77] [78] [79]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the elections_draft.maf file.
@@ -2095,34 +2114,37 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
 
+
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the elections_draft.log file.
 
-[73]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3722.
- [74]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3722.
+[80]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3940.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3940.
  (./elections_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3722.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3722.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3940.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3940.
 
 Package rerunfilecheck Info: File `elections_draft.out' has not changed.
-(rerunfilecheck)             Checksum: 80C81934A4BA009AEFB989D2DB5123B4;2111.
+(rerunfilecheck)             Checksum: 8EAC4BCCCC0FFE40770F95C8B1DFF9F1;2374.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3722.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3940.
  ) 
 Here is how much of TeX's memory you used:
- 41011 strings out of 492649
- 940030 string characters out of 6129622
- 1313986 words of memory out of 5000000
- 43593 multiletter control sequences out of 15000+600000
- 44419 words of font info for 130 fonts, out of 8000000 for 9000
+ 41068 strings out of 492649
+ 941282 string characters out of 6129622
+ 1312981 words of memory out of 5000000
+ 43626 multiletter control sequences out of 15000+600000
+ 43653 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,18n,96p,1327b,617s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,18n,96p,1516b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
@@ -2164,10 +2186,10 @@ c/cm-super/sfti1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
 cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm
 -super/sftt1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-s
 uper/sftt1200.pfb>
-Output written on elections_draft.pdf (75 pages, 7483906 bytes).
+Output written on elections_draft.pdf (81 pages, 9735966 bytes).
 PDF statistics:
- 2118 PDF objects out of 2487 (max. 8388607)
- 1243 compressed objects within 13 object streams
- 255 named destinations out of 1000 (max. 500000)
- 570 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2109 PDF objects out of 2487 (max. 8388607)
+ 1270 compressed objects within 13 object streams
+ 277 named destinations out of 1000 (max. 500000)
+ 632 words of extra memory for PDF output out of 10000 (max. 10000000)
 

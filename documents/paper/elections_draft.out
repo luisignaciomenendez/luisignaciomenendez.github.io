@@ -6,27 +6,31 @@
 \BOOKMARK [1][-]{section.3}{Data and Descriptive Evidence}{part.1}% 6
 \BOOKMARK [2][-]{subsection.3.1}{Data}{section.3}% 7
 \BOOKMARK [2][-]{subsection.3.2}{Text Classification}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{Demand for News}{part.1}% 9
-\BOOKMARK [2][-]{subsection.4.1}{Demand Model}{section.4}% 10
-\BOOKMARK [2][-]{subsection.4.2}{Endogeneity and Identification Strategy}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.3}{Results of the Demand Estimation}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.4}{Demand for News and Political Polarization}{section.4}% 13
-\BOOKMARK [1][-]{section.5}{Supply of News}{part.1}% 14
-\BOOKMARK [2][-]{subsection.5.1}{Supply Model}{section.5}% 15
-\BOOKMARK [2][-]{subsection.5.2}{Endogeneity and Identification Strategy}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.3}{Results of the Supply Estimation}{section.5}% 17
-\BOOKMARK [1][-]{section.6}{Proportional Air Time Rule}{part.1}% 18
-\BOOKMARK [1][-]{section.7}{Conclusion}{part.1}% 19
-\BOOKMARK [1][-]{section.7}{Appendix}{part.1}% 20
-\BOOKMARK [0][-]{part.2}{ Appendix}{}% 21
-\BOOKMARK [1][-]{appendix.A}{Data Pipeline Details}{part.2}% 22
-\BOOKMARK [1][-]{appendix.B}{Robustness of the Text Classification}{part.2}% 23
-\BOOKMARK [2][-]{subsection.B.1}{Comparison with Previous Approaches}{appendix.B}% 24
-\BOOKMARK [2][-]{subsection.B.2}{Stability of the Classifier}{appendix.B}% 25
-\BOOKMARK [2][-]{subsection.B.3}{Text vs. Image}{appendix.B}% 26
-\BOOKMARK [1][-]{appendix.C}{Figures}{part.2}% 27
-\BOOKMARK [1][-]{appendix.D}{Tables}{part.2}% 28
-\BOOKMARK [2][-]{subsection.D.1}{Descriptive Evidence}{appendix.D}% 29
-\BOOKMARK [2][-]{subsection.D.2}{Additional Results}{appendix.D}% 30
-\BOOKMARK [2][-]{subsection.D.3}{Text Examples}{appendix.D}% 31
-\BOOKMARK [1][-]{appendix.E}{Isolation Index }{part.2}% 32
+\BOOKMARK [2][-]{subsection.3.3}{Descriptive Evidence}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Demand for News}{part.1}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Demand Model}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Endogeneity and Identification Strategy}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Results of the Demand Estimation}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.4}{Demand for News and Political Polarization}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Supply of News}{part.1}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Supply Model}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Endogeneity and Identification Strategy}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.3}{Results of the Supply Estimation}{section.5}% 18
+\BOOKMARK [1][-]{section.6}{Proportional Air Time Rule}{part.1}% 19
+\BOOKMARK [2][-]{subsection.6.1}{Effects of the Regulation}{section.6}% 20
+\BOOKMARK [1][-]{section.7}{Conclusion}{part.1}% 21
+\BOOKMARK [1][-]{section.7}{Appendix}{part.1}% 22
+\BOOKMARK [0][-]{part.2}{ Appendix}{}% 23
+\BOOKMARK [1][-]{appendix.A}{Data Pipeline Details}{part.2}% 24
+\BOOKMARK [1][-]{appendix.B}{Robustness of the Text Classification}{part.2}% 25
+\BOOKMARK [2][-]{subsection.B.1}{Comparison with Previous Approaches}{appendix.B}% 26
+\BOOKMARK [2][-]{subsection.B.2}{Stability of the Classifier}{appendix.B}% 27
+\BOOKMARK [2][-]{subsection.B.3}{Text vs. Image}{appendix.B}% 28
+\BOOKMARK [1][-]{appendix.C}{Figures}{part.2}% 29
+\BOOKMARK [1][-]{appendix.D}{Tables}{part.2}% 30
+\BOOKMARK [2][-]{subsection.D.1}{Descriptive Evidence}{appendix.D}% 31
+\BOOKMARK [2][-]{subsection.D.2}{Additional Results}{appendix.D}% 32
+\BOOKMARK [2][-]{subsection.D.3}{Text Examples}{appendix.D}% 33
+\BOOKMARK [1][-]{appendix.E}{Isolation Index }{part.2}% 34
+\BOOKMARK [2][-]{subsection.E.1}{Defnition}{appendix.E}% 35
+\BOOKMARK [2][-]{subsection.E.2}{Results}{appendix.E}% 36
