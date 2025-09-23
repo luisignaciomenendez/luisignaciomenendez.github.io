@@ -91,7 +91,20 @@
 	\begin{abstract}
 		
 		
-In this paper, I study how electoral campaigns shape the demand for partisan news and, in turn, political polarization. I construct a daily, story-level measure of slant in Spanish TV news using machine learning and Large Language Models (LLMs) and link it to high-frequency audience-meter records. I then develop and estimate a structural model of news demand and supply. Leveraging exogenous news supply shocks as cost shifters to identify demand, I show that polarization in news consumption intensifies only when the electoral campaign begins, with out-party animosity dominating. Regions with more polarized media consumption also exhibit a sharper and more persistent rise in ideological polarization. Finally, I evaluate the effects of a media regulation policy that enforces proportional-airtime rule during campaigns. The regulation has unexpected effects: it widens cross-outlet dispersion in supplied slant, thereby amplifying audience responses to partisan content, yielding a more polarized media landscape.
+%In this paper, I study how electoral campaigns shape the demand for partisan news and, in turn, political polarization. I construct a daily, story-level measure of slant in Spanish TV news using machine learning and Large Language Models (LLMs) and link it to high-frequency audience-meter records. I then develop and estimate a structural model of news demand and supply. Leveraging exogenous news supply shocks as cost shifters to identify demand, I show that polarization in news consumption intensifies only when the electoral campaign begins, with out-party animosity dominating. Regions with more polarized media consumption also exhibit a sharper and more persistent rise in ideological polarization. Finally, I evaluate the effects of a media regulation policy that enforces proportional-airtime rule during campaigns. The regulation has unexpected effects: it widens cross-outlet dispersion in supplied slant, thereby amplifying audience responses to partisan content, yielding a more polarized media landscape.
+	
+%I explore how electoral campaigns reshape the demand for partisan news.	
+	
+I explore how electoral campaigns fuel the appetite for partisan news and how that, in turn, links to political polarization. I construct a daily, story-level measure of slant in Spanish TV news using machine learning and Large Language Models (LLMs) and match it to high-frequency audience-meter records. I then develop and estimate a structural model of news demand and supply. I propose a  novel identification strategy that relies on  exogenous shocks to the salience of political events that constrain outlets’  slant production decisions. Polarization in news consumption intensifies only when the electoral campaign begins, with out-party animosity dominating. Furthermore, regions with more polarized media consumption patterns also exhibit a higher and persistent level of political polarization in their electorates.  Finally, I evaluate the effects of a media regulation policy that enforces proportional-airtime rule during campaigns. Implementing the regulation has unexpected effects: outlets comply by hardening their editorial stance, resulting in a more polarized media landscape.
+
+
+
+%exogenous news supply shocks as cost shifters to identify demand, I show that polarization in news consumption intensifies only when the electoral campaign begins, with out-party animosity dominating. Regions with more polarized media consumption also exhibit a sharper and more persistent rise in ideological polarization. Finally, I evaluate the effects of a media regulation policy that enforces proportional-airtime rule during campaigns. The regulation has unexpected effects: it widens cross-outlet dispersion in supplied slant, thereby amplifying audience responses to partisan content, yielding a more polarized media landscape.
+
+
+
+
+	
 	
 		\end{abstract}
 		
@@ -149,7 +162,7 @@ Political polarization has surged in recent years in both the United States and 
 
 %This paper investigates whether and how political polarization during campaigns is linked to media consumption and evaluates the effect of regulation aimed at minimizing it.
 
-This paper investigates how  demand for political information changes during election campaigns and evaluates the effect of  media regulation intended to ensure pluralism.  To answer this, I develop and estimate a structural model of news demand and supply. The demand follows  a BLP-style specification \citep{berry_blp}, in which viewers choose among channels based on content characteristics—airtime and tone by political party—endogenously set by outlets in equilibrium. The analysis draws on a newly assembled dataset of television news in Spain, currently Europe’s most polarized country \citep{edelman_trust_2023}.  I construct a daily, outlet-comparable slant index by applying machine learning and large language models (LLMs) to the text transcripts of each broadcast. I then match this to real-time audience-meter data on television consumption. This enables me to track both the slant of content aired and  how many people consume it across outlets and over time. My main finding is that, during Spain’s 2023 general-election campaign, demand for political news was more polarized than in comparable non-campaign periods. Consistent with affective polarization, viewers were more responsive to content about the party they oppose—especially by screening out favorable coverage of it. Furthermore, I show that the most common media regulation in Europe—proportional airtime across parties— would have undesirable effects: outlets comply by raising negative coverage, pulling them farther apart in slant.
+This paper investigates how  demand for political information changes during election campaigns and evaluates the effect of  media regulation intended to ensure pluralism.  To answer this, I develop and estimate a structural model of news demand and supply. The demand follows  a BLP-style specification \citep{berry_blp}, in which viewers choose among channels based on content characteristics—airtime and tone by political party—endogenously set by outlets in equilibrium. The analysis draws on a newly assembled dataset of television news in Spain, currently Europe’s most polarized country \citep{edelman_trust_2023}.  I construct a daily, outlet-comparable slant index by applying machine learning and large language models (LLMs) to the text transcripts of each broadcast. I then match this to real-time audience-meter data on television consumption. This enables me to track both the slant of content aired and  how many people consume it across outlets and over time. My main finding is that, during Spain’s 2023 general-election campaign, demand for political news was more polarized than in comparable non-campaign periods. Consistent with affective polarization, viewers were more responsive to content about the party they oppose—especially by screening out favorable coverage of it. Furthermore, I show that the most common media regulation in Europe—proportional airtime across parties—would have undesirable effects: outlets comply by raising negative coverage, pulling them farther apart in slant.
 
 
 %This paper investigates whether and how polarization during campaigns is linked to media consumption and evaluates the effect of regulation aimed at minimizing it. To answer this, I develop and estimate a structural model of news demand and supply. I test the framework in Spain, currently Europe’s most polarized country \citep{edelman_trust_2023}. The analysis draws on a newly assembled dataset of television news.  I construct a daily, outlet-comparable slant index by applying machine learning and large language models (LLMs) to the text transcripts of each broadcast. I then match this to real-time audience-meter data on television consumption. This enables me to track which content is consumed and by how many people across outlets and over time. My main finding is that, during Spain’s 2023 general-election campaign, demand for political news was more polarized than in comparable non-campaign periods. Consistent with affective polarization, viewers were more responsive to uncongenial (out-party) coverage than to congenial (in-party) coverage. Furthermore, I show that the most common campaign regulation—proportional airtime across parties— would have undesirable effects, leading to a more polarized media landscape.
@@ -174,7 +187,9 @@ I compare this index with alternative slant measures from the literature trained
 Second, to address the identification problem, I exploit exogenous shocks to the salience of political events that constrain outlets’ news production. I collect all stories distributed by the largest newswire serving these broadcasters, apply the same text-classification pipeline, and use the resulting corpus as a proxy for the daily  set of stories broadcasters can draw upon each day. I show that  when the pool of pro-right (pro-left) stories grows for exogenous reasons, right-leaning (left-leaning) channels expand  coverage accordingly. This variation identifies a structural random-coefficients model of news demand in which viewers’ preferences vary with ideology. The estimated model  allows me to test the degree of confirmation bias and, because the slant metric distinguishes both party and tone, the specific form of polarization in news consumption.
 
 
-The demand estimation results show that, outside campaign periods, there is no systematic asymmetry in political-content demand between right- and left-leaning audiences. Viewers generally prefer negative political news, consistent with an entertainment-seeking type of consumption in which conflict and scandals attract more attention. During campaigns, however, affective polarization emerges: right-leaning viewers increasingly seek negative coverage of the left and more positive coverage of the right, with the mirror pattern among left-leaning viewers. A one-minute increase in positive coverage of right-wing parties yields a net gain of approximately 3,000 viewers (0.03 stdev.)  in right-leaning regions  from off- to on-campaign. These findings align with prior evidence on polarized news consumption during presidential campaigns in the United States \citep{Peterson2017Echo}. Next, I link news-audience polarization to ideology. I measure partisan media polarization as the difference in demand elasticities: how strongly viewers respond to positive coverage of their opposing party versus positive coverage of their own. Regions with larger media polarization attitudes also experience larger increases in ideological polarization. Consistent with the model estimates, ideological polarization also shows a discrete jump at campaign onset that persists for about a year.
+The demand estimation results show that, outside campaign periods, there is no systematic asymmetry in political-content demand between right- and left-leaning audiences. Viewers generally prefer negative political news, consistent with an entertainment-seeking type of consumption in which conflict and scandals attract more attention. During campaigns, however, affective polarization emerges: right-leaning viewers increasingly seek negative coverage of the left and more positive coverage of the right, with the mirror pattern among left-leaning viewers. A one-minute increase in positive coverage of right-wing parties yields a net gain of approximately 3,000 viewers (0.03 stdev.)  in right-leaning regions  from off- to on-campaign. These findings align with prior evidence on polarized news consumption during presidential campaigns in the United States \citep{Peterson2017Echo}. Next, I relate this polarization in news demand to survey-based electoral polarization: in those regions where people react more to negative coverage of the opposing party, the electorate also tends to polarize, with voting  intentions  concentrated in parties that are more ideologically distant. Moreover, electoral polarization shows a trend break consistent with the demand estimates. After a year of decline, it rises sharply at the start of the campaign and remains elevated for about a year.
+
+
 
 
 
@@ -184,7 +199,7 @@ Finally, I test the effectiveness of existing policy interventions aimed at prom
 
 
 
-To assess the impact of this regulation, I use the estimated demand and supply parameters to simulate a counterfactual in which Spanish outlets are regulated under proportional airtime during the campaign. Perhaps strikingly—and contrary to the policy’s primary goal—the result is more polarized political coverage. Because the most recent election delivered a larger vote share to the right bloc, the rule assigns a larger share of campaign minutes to those parties. In the baseline scenario, however,  all channels devote more relative time to the left, so enforcement requires every outlet to rebalance minutes from left to right. Outlets then adjust on two margins:  the amount of politics they air and the tone within those minutes. The resulting spread in outlets’ optimal slant positions is roughly three times larger after enforcement. The mechanism behind the change stems from the rule itself: since the regulation limits only total airtime for each party, channels adjust through slant to maintain their preferred tone positions. This highlights that airtime-based metrics—and regulations built on them—can backfire when they ignore tone, yielding higher rather than lower media polarization.
+To assess the impact of this regulation, I use the estimated demand and supply parameters to simulate a counterfactual in which Spanish outlets are regulated under proportional airtime during the campaign. Perhaps strikingly—and contrary to the policy’s primary goal—the result is more polarized political coverage. Because the most recent election delivered a larger vote share to the right bloc, the rule assigns a larger share of campaign minutes to those parties. In the baseline scenario, however,  all channels devote more relative time to the left, so enforcement requires every outlet to rebalance minutes from left to right. Outlets then adjust on two margins:  the amount of politics they air and the tone within those minutes—primarily by intensifying negative coverage. The resulting spread in outlets’ optimal slant positions is roughly three times larger after enforcement. The mechanism behind the change stems from the rule itself: since the regulation limits only total airtime for each party, channels adjust through slant to maintain their preferred tone positions. This highlights that airtime-based metrics—and regulations built on them—can backfire when they ignore tone, yielding higher rather than lower media polarization.
 
 
 
@@ -583,7 +598,7 @@ What is the political composition of these audiences? Figure \ref{fig:opinion} s
 	%To compare these supply‐side slant scores with audience ideology (demand), I assign each channel an \textit{slant index} calculated as 
 	
 	
-	To validate these results, I compare outlets slant classification with the ideological composition of their channels that comes from survey data. 	I assign each channel a \textit{slant index} calculated as 
+	To validate these results, I compare outlets' slant classification with the ideological composition of their channels that comes from survey data. 	I assign each channel a \textit{slant index} calculated as 
 	
 	
 	
@@ -861,17 +876,23 @@ I report results for both the BLP and  logit models in  Section \ref{sec:results
 	\label{sec:identification}
 	Models of demand estimation have often treated product characteristics as exogenous and used them as instruments for estimating price elasticities. While this might be realistic for  markets where characteristics are costly to change and competition relies mainly on price after products are launched, the assumption of exogenous content is not credible in my setup: channels  tilt the day's slant according to their audiences' preferences.
 	
+	
 	Formally, viewers form expectations about each channel’s utility to start watching the news based on exogenous variables—weather, individual attributes, and an unobserved (to the econometrician) shock~$\xi$—as well as yesterday’s  slant~$\bm{x}_{jd}$. Channels, in turn, choose today’s slant while forecasting next-day utility shocks~$\Delta\xi_{j,d+1}$. Hence, their optimal content decisions are functions of unobserved taste shocks, implying $\E[\mathbf{x}_{jrd}\,\Delta\xi_{jrd+1}] \neq \mathbf{0}$.
 	
-	To overcome this problem, I instrument all endogenous product characteristics with exogenous supply shocks. Television stations rely heavily on third-party wire services for footage, text, and images, a downstream flow documented and exploited for U.S. newspapers in earlier work \citep{milena}. The fact that all outlets in my sample contract with EFE mitigates concerns that the agency is systematically biased or poorly informed. The goal, therefore, is not to proxy the outlet-specific news landscape perfectly but to exploit variation across days in each outlet’s ability to produce content.
+	
+I address this endogeneity by using the daily composition of the newswire as an exogenous supply shock. Each day’s wire composition shifts which stories—and thus which tones toward left or right—are easier to produce. Formally, I use the \emph{news shock} $\mathbf{z}d$ defined in Eq.~\ref{eq:efe} as instruments for outlet–day slant $\mathbf{x}{jd}$. Outlets aim to maintain preferred slant positions, but in the short run the available story mix constrains coverage, so they smooth shocks and take advantage of “favorable” days. The key identification assumption is that $\mathbf{z}_d$ affects audience shares only through its impact on the cost of supplying slanted content, not through direct shifts in viewers’ tastes.
 	
 	
 	
-	
-The \emph{news shock} \(\bm{z}_d\) as defined in Eq. \ref{eq:efe},     is common to all outlets  but affects them asymmetrically. Channels would like to produce at their steady-state, average positions, but in the short run the available story mix constrains what they can cover. Since the news landscape varies randomly, they smooth out variations in the news landscape by taking advantage of favorable days. The main identification assumption is that conditional on day of the week fixed effects and controls, $\mathbf{z}_d$
-shifts audience shares only through its effect on the cost of supplying slanted content (i.e., through $\mathbf{x_{jd}}$), not through direct shifts in viewers’ tastes.
+Consider the following examples. On {27 February 2023} (the highest $z_d^{L-}$ in the sample), a loophole in a law sponsored by UP led to early releases of convicted sexual offenders and corruption scandals hurt the Socialist Party. Airtime given to negative left-wing stories differed markedly across channels: A3 (right) devoted almost 19\%, TVE (left) and T5 each gave roughly 4\%, and La Sexta (left) about 2\%. The mirror image occurred on {17 May 2023} (the most negative day for right-wing parties): stories included a payments scandal involving the right-wing People’s Party, the defeat of a conservative motion in the Senate, and police-abuse allegations during a march against the extreme-right party VOX. Left-leaning outlets devoted about 15\% of airtime to negative right-wing content, whereas the right one devoted roughly 4\%. The full breakdown appears in Tables \ref{tab:neg_left_channels} and \ref{tab:neg_right_channels}.
 
-Two examples illustrate this mechanism. On {27 February 2023} (the highest $z_d^{L-}$ in the sample), a loophole in a law sponsored by UP led to early releases of convicted sexual offenders and corruption scandals hurt the Socialist Party. Airtime given to negative left-wing stories differed markedly across channels: A3 (right) devoted almost 19\%, TVE (left) and T5 each gave roughly 4\%, and La Sexta (left) about 2\%. The mirror image occurred on {17 May 2023} (the most negative day for right-wing parties): stories included a payments scandal involving the right-wing People’s Party, the defeat of a conservative motion in the Senate, and police-abuse allegations during a march against the extreme-right party VOX. Left-leaning outlets devoted about 15\% of airtime to negative right-wing content, whereas A3 devoted roughly 4\%. The full breakdown appears in Tables \ref{tab:neg_left_channels} and \ref{tab:neg_right_channels}.
+	
+	
+%The \emph{news shock} \(\bm{z}_d\) as defined in Eq. \ref{eq:efe},     is common to all outlets  but affects them asymmetrically. Channels would like to produce at their steady-state, average positions, but in the short run the available story mix constrains what they can cover. Since the news landscape varies randomly, they smooth out variations in the news landscape by taking advantage of favorable days. The main identification assumption is that conditional on day of the week fixed effects and controls, $\mathbf{z}_d$ shifts audience shares only through its effect on the cost of supplying slanted content (i.e., through $\mathbf{x_{jd}}$), not through direct shifts in viewers’ tastes.
+
+
+
+
 	
  To show formal evidence of the previous mechanism, for each $(\text{party},\text{tone})$ pair I estimate separate regressions of the form:
 	
@@ -964,7 +985,7 @@ A positive coefficient $\alpha_{j}^{R+}$ means that, ceteris paribus, a 1 p.p. i
 		\centering
 \caption{Added Variable Plots for Production of Political Content}
 		\includegraphics[width=160mm]{figures/fwl_plots_v2}
-		\caption*{\small \textit{Note:} The figure shows the added variable plots from the estimation of equation \ref{eq:first_stage}. The x-axis represents the news shocks $z_d^k $ and the y-axis the corresponding outlet's slant $x_{jd}^k $   . Channels are pooled into left (TVE and La Sexta), middle (T5) and right (A3) for visualization purposes.  }
+		\caption*{\small \textit{Note:} The figure shows the added variable plots from the estimation of regression Equation \ref{eq:first_stage}. The x-axis represents the news shocks $z_d^k $ and the y-axis the corresponding outlet's slant $x_{jd}^k $ for each party-tone combination. Channels are pooled into left (TVE and La Sexta), middle (T5) and right (A3) for visualization purposes.  }
 		\label{fig:fwl}
 	\end{figure}
 	
@@ -1294,10 +1315,15 @@ content...
 
 
 
-	\subsection{Demand for News and Political Polarization}
+	\subsection{Demand for News and Electoral Polarization}
 	
 	
-Does polarization in media consumption link to electoral attitudes? I show correlational evidence between ideological and media polarization from my demand estimates. Following \citet{martin2017}, I compute an Esteban–Ray (ER) polarization index \citep{esteban}. Because the survey lacks a direct ideology item, I compute ER on \emph{party vote intentions} for the four main parties $\mathcal{P}=\{\mathrm{UP},\mathrm{PSOE},\mathrm{PP},\mathrm{VOX}\}$, renormalizing within $\mathcal{P}$ so that $\sum_{p\in\mathcal{P}} s_{prm}=1$ for region $r$ and month $m$. For $\alpha=1.5$, the ER index is
+	
+
+Does higher polarization in the demand for partisan content link to more polarized electoral attitudes? In the spirit of \cite{martin2017}, I 
+compute the Esteban–Ray (ER) polarization index and link it to polarization in the way people consume partisan news that comes from my demand model estimates. 
+
+I compute ER on \emph{party vote intentions} \footnote{The CIS survey lacks a direct ideology question persistent over time.} for the four main parties $\mathcal{P}=\{\mathrm{UP},\mathrm{PSOE},\mathrm{PP},\mathrm{VOX}\}$, renormalizing within $\mathcal{P}$ so that $\sum_{p\in\mathcal{P}} s_{prm}=1$ for region $r$ and month $m$. The ER index is defined as: 
 
 \begin{equation}
 	ER_{rm} \;=\; 
@@ -1306,50 +1332,50 @@ Does polarization in media consumption link to electoral attitudes? I show corre
 \end{equation}
 
 
-
-where $d_{pq}$ denotes the normalized ideological distance between parties\footnote{Baseline ideology scores used to compute distances: $i_{\mathrm{UP}}=-1.0$, $i_{\mathrm{PSOE}}=-0.5$, $i_{\mathrm{PP}}=0.5$, $i_{\mathrm{VOX}}=1.0$. Distances are defined as $d_{pq}=\lvert i_p-i_q\rvert/\max_{i,j}\lvert i_i-i_j\rvert \in [0,1]$.}. The index $ER_{rm}$ is low when support concentrates on a single party and rises as mass is split across parties that are farther apart on the ideology scale.
-
+where $alpha$ is set to the standard value of 1.5 and $d_{pq}$ denotes the normalized ideological distance between parties\footnote{Baseline ideology scores used to compute distances: $i_{\mathrm{UP}}=-1.0$, $i_{\mathrm{PSOE}}=-0.5$, $i_{\mathrm{PP}}=0.5$, $i_{\mathrm{VOX}}=1.0$. Distances are defined as $d_{pq}=\lvert i_p-i_q\rvert/\max_{i,j}\lvert i_i-i_j\rvert \in [0,1]$.}. The index $ER_{rm}$ is low when support concentrates on a single party and rises as mass is split across parties that are farther apart on the ideology scale.
 
 	
-	I measure  media polarization as the in-party vs. out-party gap in audience reactions to campaign coverage. Specifically, I calculate the \emph{elasticity gap} between reactions to congenial and uncongenial coverage during the campaign period. For right-wing regions, $p(r)=R$, media polarization refers to the difference in taste for negative content on the left versus positive on the right and analogously for left-wing regions:
+In order to capture partisan-selective news consumption, I measure  news-demand polarization as the out-party negativity gap in audience reactions to slanted content. Specifically, I calculate the \emph{elasticity gap} between reactions to congenial and uncongenial coverage during the campaign period. For right-wing regions, $p(r)=R$, media polarization refers to the difference in taste for negative content on the left versus positive on the right and analogously for left-wing regions:
 	
 	
 	\begin{equation}
-		MediaPolarization_r  =	\begin{cases}
+		\textit{Media-Demand Polarization}_r  =	\begin{cases}
 			\bar{\epsilon}_r^{(L-)}- \bar{\epsilon}_r^{(L+)} \quad if \quad p(r)=R\\
 			\bar{\epsilon}_r^{(R-)}- \bar{\epsilon}_r^{(R+)} \quad if \quad p(r)=L
 		\end{cases}
 		\label{eq:mediapol}
 	\end{equation}
 	
+	
+	
 	Because the estimates satisfy
 	\(\bar{\epsilon}_r^{(L-)}>\bar{\epsilon}_r^{(L+)}\) in right‑leaning regions and
 	\(\bar{\epsilon}_r^{(R-)}>\bar{\epsilon}_r^{(R+)}\) in left‑leaning ones,
-	the index in~\eqref{eq:mediapol} is always non‑negative and therefore comparable across regions. Larger values indicate that audiences penalize the out-party more (and/or reward it less) relative to the in-party, consistent with  in-out party evaluation gaps used to measure affective polarization  \citep{IyengarLelkesLevendusky2019Origins}. I divide regions into \textit{high} and \textit{low} groups according to their media polarization index relative to the median.  Results are shown in Figure \ref{fig:er1} for an extended period over the year before and after the 2023 election. 
+	the index in~\eqref{eq:mediapol} is always non‑negative and therefore comparable across regions. Higher values indicate more partisan-selective news consumption: audiences 	 respond more to negative than positive news about the party they oppose. \footnote{This interpretation aligns with in–out party evaluation gaps commonly used to capture affective polarization \citep{IyengarLelkesLevendusky2019Origins}.}
 	
 	
+	I divide regions into \textit{high} and \textit{low} groups according to their news demand polarization  relative to the median and plot their ER index for an extended period over the year before and after the 2023 election.  Results are shown in Figure \ref{fig:er1}.
 	
 	
 	
 	\begin{figure}[!htb]
 
 		\centering
-		\caption{Political Polarization by Level of Media Polarization}
+		\caption{Esteban-Ray Polarization by Level of Media Polarization}
 		\includegraphics[width=150mm]{figures/er_polarization_stata_group_correct}
 				\label{fig:er1}
-		\caption*{\small  \textit{Note:} The figure shows the Esteban–Ray polarization index of vote intentions over time, plotted separately for regions with high versus low media polarization. High-polarization regions are those above the median in the media polarization index, defined as the difference between audience reactions to out-party versus in-party coverage during the campaign (Eq. \ref{eq:mediapol}). Vertical dashed lines marking the start of the campaign and election periods are shifted one month earlier to match the timing of the survey's timing.  The index is computed monthly using CIS intention-to-vote data aggregated by region. The series covers the year before and after the 2023 general election. All series have been smoothed under a three-month centered moving average.}
+		\caption*{\small  \textit{Note:} The figure shows the Esteban–Ray polarization index of vote intentions over time, plotted separately for regions with high versus low media polarization. High-polarization regions are those above the median in the media polarization index, defined as the difference between audience reactions to out-party versus in-party coverage during the campaign (Eq. \ref{eq:mediapol}). Vertical dashed lines marking the start of the campaign and election periods are shifted one month earlier to match the timing of the survey's timing.  The series covers the year before and after the 2023 general election. All series have been smoothed under a three-month centered moving average.}
 		
 	\end{figure}
 	
 	
 	
-	
-	Regions with high media‑consumption polarization (solid line) consistently show higher political polarization than their low‑polarization counterparts (dashed line)—a ranking that persists even when the series is extended one year before the main sample window. Similar  to  the demand‑side results, the political campaign constitutes a structural break of one year of declining polarization levels  that persists for over a year. This persistence contrasts with prior work that found short-lived effects of polarization after campaigns lose salience \citep{Hernndez2020AffectivePA}. Taken together, the figure provides strong correlational evidence between  media  and ideological polarization. 
-	
+Regions with high polarization in news demand (solid line) consistently show higher ER polarization; thus, consuming political information in a more partisan-selective way is associated with electorates whose vote intentions are concentrated in ideologically distant parties. Similar  to  the demand‑side results, the political campaign constitutes a structural break of one year of declining ER polarization levels  that persists for over a year. This persistence contrasts with prior work that found short-lived effects of polarization after campaigns lose salience \citep{Hernndez2020AffectivePA}. While descriptive, this pattern is consistent with persuasion mechanisms in the media literature and it motivates future work that explores the causal link between media consumption and political polarization.
 	
 	
 	
-
+	
+%This is descriptive evidence that more partisan‑selective news consumption is associated with electorates whose vote intentions concentrate in parties farther apart ideologically.
 	
 	
 \begin{comment}
@@ -1414,7 +1440,7 @@ Between April 2023 and the general election in July 2023, the Esteban–Ray inde
 \end{comment}
 
 
-
+\FloatBarrier
 
 \paragraph{Limitations.}
 
@@ -1498,8 +1524,11 @@ where $\bm z_{dh}$ measures the pool of stories available at edition~$h$ and $\b
  The $\bm{\lambda_j}$ parameters are channel-specific and govern the slope of the production costs. The unobserved cost factors depend on two key components: i)
  $\eta_{jd}^k$, a \emph{ day-specific} marginal-cost shock
  (e.g.\ a key reporter is on sick leave, satellite link fails, or legal concerns delay a segment) known to the outlets,
- and ii) $\nu_{jdh}^k$ is a mean zero channel-day-hour specific idiosyncratic supply shock unknown to the players. By assumption, these unobservables enter as linear terms.
+ and ii) $\nu_{jdh}^k$ is a mean zero channel-day-hour specific idiosyncratic supply shock unknown to the players. By assumption, these unobservables enter as linear terms. 
  
+ 
+ 
+
  
  % The sign of~$\lambda_j^k$ is theoretically ambiguous ex ante. On the one hand, $z$ might act as a simple input into production costs. High availability of stories of a given type will make production easier since the journalist need not expend effort to find them. This implies $ \lambda>0$. On the other hand, since outlets are news aggregators, having more stories available of a given type might increase production costs, since outlets would need to process and filter the stories they prefer. This mechanism is consistent under $ \lambda<0$. 
  
@@ -1590,7 +1619,7 @@ Notice that $\left(\phi,\bm\eta \right)$ cancel out in the differentiation and t
 
 \subsection{Results of the Supply Estimation}
 
-
+ The sign of~$\lambda_j^k$ is theoretically ambiguous ex ante. If, as suggested in \cite{SimonovRao2022}, high availability of stories of a given type will make production easier since the journalist need not expend effort to investigate,  $z$ might act as a simple input into production costs and $ \lambda>0$. On the other hand, since outlets are news aggregators, having more stories available of a given type might increase production costs, since outlets would need to process and filter the stories they prefer. This mechanism is consistent under $ \lambda<0$. I therefore do not restrict the $\lambda$ to be positive in the estimation and show robustness under stricter version of $\lambda \geq0$.
 
 
 Table~\ref{tab:costs} reports the estimated $\lambda_j^k$.\footnote{Processing of the midday broadcasts for the pre‑campaign period could not be completed after the Google Cloud and OpenAI credits ended; consequently, the cost estimates here cover only the campaign window. }The estimated cost slopes are heterogeneous across outlets and content types, and they partly line up with editorial positions. For instance, left outlets face higher costs for negative-left content, whereas the right-leaning channel does not. Producing content that favors the right 
@@ -1798,7 +1827,7 @@ Finally, the counterfactual results should be interpreted with caution. First, a
 This paper studies how election campaigns reshape demand for political news using a structural model of television news supply and demand. I construct a story-level slant index for prime-time broadcasts by combining machine learning with large language models (LLMs), and match it to high-frequency audience data. This allows me to track the slant content offered in the news in parallel to the amount of people consuming it. 
 
 
-I apply the framework to Spain’s 2023 general election. On the demand side, I estimate a BLP-style random-coefficients model identified by exogenous variation in  set of stories available to produce slant.  The results show that political news consumption polarizes sharply during the campaign and the information pattern is consistent with affective polarization: viewers dislike negative news about their own party but they partically screen out any content that benefit the opposing party. Furthermore, I show that polarization in demand for political content links tightly to ideological polarization, where election campaigns triggered a surge in the latter that lasts for over a year. 
+I apply the framework to Spain’s 2023 general election. On the demand side, I estimate a BLP-style random-coefficients model identified by exogenous variation in  set of stories available to produce slant.  The results show that political news consumption polarizes sharply during the campaign and the information pattern is consistent with affective polarization: viewers dislike negative news about their own party but they particularly screen out any content that benefits the opposing party. Furthermore, I show that polarization in demand for political content links tightly to ideological polarization, where election campaigns triggered a surge in the latter that lasts for over a year. 
  
 
 
@@ -1808,21 +1837,11 @@ Building on the demand and supply estimates, I evaluate the most common media re
 This paper highlights two main points. First, surges in ideological polarization during periods of intense political conflict are closely mirrored by the way voters consume information. Second, widely used metrics for monitoring media bias—such as airtime balance—often overlook crucial differences in political tone, leading to interventions and regulations with unintended consequences. When policy is designed using incomplete or misaligned measures, regulation can inadvertently amplify polarization along dimensions it fails to capture, such as editorial slant. The methodological framework developed here provides a more robust basis for media monitoring and a path for evaluating regulatory measures that  effectively reduce polarization in information acquisition. 
 
 
-Several avenues for future research emerge from the present work. Leveraging the unique feature of the dataset—which allows to compare the tone and coverage of the same story across outlets on a give date—future work could micro-found editorial decisions  from the underlying news landscape to distinguish between different forms of bias, such as selection, and framing, as theorized in previous works \citep[e.g.][]{gentzkow2014media}. Another direction XXX better understanding the role of newswire agencies as providers of information...
+Several avenues for future research emerge from the present work. Leveraging the unique feature of the dataset—which allows to compare the tone and coverage of the same story across outlets on a give date—future work could micro-found editorial decisions  from the underlying news landscape to distinguish between different forms of bias, such as selection, and framing, as theorized in previous works \citep[e.g.][]{gentzkow2014media}. Another promising direction is to study the role of newswire agencies as  upstream providers of information.  Because these services are broadly accessible across countries, this benchmark can be applied comparably in democracies and autocracies to estimate media bias.
 
 
 
 
-%would be to extend the estimation framework to multi-dimensional ideological spaces and dynamic models of media consumption and supply, incorporating feedback between ideology and media consumption to test the extent of media persuasion.
-
-
-
-
-
-	
-
-	
-	
 	
 	
 	
@@ -1888,7 +1907,7 @@ This appendix describes the end-to-end pipeline used to collect, process, and an
 
 \textbf{Topic discovery.} Topics are estimated with \emph{BERTopic} using multilingual sentence embeddings (\texttt{paraphrase-multilingual-MiniLM-L12-v2}). After fitting, outlier reduction and topic updates are applied; residual or incoherent clusters are flagged and excluded from matched comparisons.
 
-\textbf{LLM-based ideology classification.} Story-level political tone is obtained with ChatGPT on a discrete grid per party. To reduce computational and monetary costs, I first filter the set of minute-level stories using a dictionary of political keywords (Table~\ref{table:politics}); the final classification set contains 15{,}406 stories. The prompt used in the classifier is:
+\textbf{LLM-based ideology classification.} Story-level political tone is obtained with ChatGPT on a discrete grid per party. To reduce computational and monetary costs, I first filter the set of minute-level stories using a dictionary of political keywords (Table~\ref{tab:politics}); the final classification set contains 15{,}406 stories. The prompt used in the classifier is:
 
 \begin{tcolorbox}[colback=blue!5!white, colframe=blue!75!black, title=Prompt]
 	Analyze the sentiment of the following news article with respect to the political parties (and their members) in Spain: PP, Podemos/Sumar, PSOE, VOX. Only use numeric values from the set [-1, -0.5, 0, 0.5, 1].

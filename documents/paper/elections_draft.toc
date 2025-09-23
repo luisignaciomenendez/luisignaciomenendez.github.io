@@ -15,13 +15,13 @@
 \contentsline {section}{\numberline {4}Demand for News}{19}{section.4}
 \contentsline {subsection}{\numberline {4.1}Demand Model}{19}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Endogeneity and Identification Strategy}{21}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Results of the Demand Estimation}{24}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Demand for News and Political Polarization}{27}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.3}Results of the Demand Estimation}{23}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Demand for News and Electoral Polarization}{26}{subsection.4.4}
 \contentsline {paragraph}{Limitations.}{28}{paragraph*.17}
 \contentsline {section}{\numberline {5}Supply of News}{29}{section.5}
 \contentsline {subsection}{\numberline {5.1}Supply Model}{29}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Endogeneity and Identification Strategy}{30}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Results of the Supply Estimation}{32}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.3}Results of the Supply Estimation}{31}{subsection.5.3}
 \contentsline {section}{\numberline {6}Proportional Air Time Rule}{33}{section.6}
 \contentsline {subsection}{\numberline {6.1}Effects of the Regulation}{34}{subsection.6.1}
 \contentsline {section}{\numberline {7}Conclusion}{36}{section.7}
