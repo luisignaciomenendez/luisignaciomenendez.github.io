@@ -34,10 +34,10 @@
 \contentsline {subsection}{\numberline {B.2}Stability of the Classifier}{48}{subsection.B.2}
 \contentsline {subsection}{\numberline {B.3}Text vs.\ Image}{48}{subsection.B.3}
 \contentsline {section}{\numberline {C}Figures}{52}{appendix.C}
-\contentsline {section}{\numberline {D}Tables}{63}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}Descriptive Evidence}{63}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}Additional Results}{65}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}Text Examples}{69}{subsection.D.3}
-\contentsline {section}{\numberline {E}Isolation Index }{80}{appendix.E}
-\contentsline {subsection}{\numberline {E.1}Definition}{80}{subsection.E.1}
-\contentsline {subsection}{\numberline {E.2}Results}{80}{subsection.E.2}
+\contentsline {section}{\numberline {D}Tables}{64}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Descriptive Evidence}{64}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}Additional Results}{66}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}Text Examples}{70}{subsection.D.3}
+\contentsline {section}{\numberline {E}Isolation Index }{81}{appendix.E}
+\contentsline {subsection}{\numberline {E.1}Definition}{81}{subsection.E.1}
+\contentsline {subsection}{\numberline {E.2}Results}{81}{subsection.E.2}

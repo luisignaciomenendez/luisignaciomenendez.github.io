@@ -95,7 +95,7 @@
 	
 %I explore how electoral campaigns reshape the demand for partisan news.	
 	
-I explore how electoral campaigns fuel the appetite for partisan news and how that, in turn, links to political polarization. I construct a daily, story-level measure of slant in Spanish TV news using machine learning and Large Language Models (LLMs) and match it to high-frequency audience-meter records. I then develop and estimate a structural model of news demand and supply. I propose a  novel identification strategy that relies on  exogenous shocks to the salience of political events that constrain outlets’  slant production decisions. Polarization in news consumption intensifies only when the electoral campaign begins, with out-party animosity dominating. Furthermore, regions with more polarized media consumption patterns also exhibit a higher and persistent level of political polarization in their electorates.  Finally, I evaluate the effects of a media regulation policy that enforces proportional-airtime rule during campaigns. Implementing the regulation has unexpected effects: outlets comply by hardening their editorial stance, resulting in a more polarized media landscape.
+I explore how electoral campaigns fuel the appetite for partisan news and how that, in turn, links to political polarization. I construct a daily, story-level measure of slant in Spanish TV news using machine learning and Large Language Models (LLMs) and match it to high-frequency audience-meter records. I then develop and estimate a structural model of news demand and supply. I propose a  novel identification strategy that relies on  exogenous shocks to the salience of political events that constrain outlets’  slant production decisions. Polarization in news consumption intensifies only when the electoral campaign begins, with out-party animosity dominating. Furthermore, regions with more polarized media consumption patterns also exhibit a higher and persistent levels of political polarization in their electorates.  Finally, I evaluate the effects of a media regulation policy that enforces proportional-airtime rule during campaigns. Implementing the regulation has unexpected effects: outlets comply by hardening their editorial stance, resulting in a more polarized media landscape.
 
 
 
@@ -1604,7 +1604,7 @@ Differencing~\eqref{eq:focs} eliminates the unobserved shock:
 	\;=\;
 	2\lambda_j^k
 \Delta	
- \frac{x_{jd}^k }{z_{d}^k }
+\left( \frac{x_{jd}^k }{z_{d}^k } \right)
 	\;+\;
 	\Delta\nu_{jd}^k,
 	\quad \forall (j,k).
@@ -1668,7 +1668,7 @@ is intrinsically beneficial across outlets ($\lambda<0$), but especially so for 
 		\bottomrule
 	\end{tabular}
 	\vspace{0.5em}
-	\caption*{\small \emph{Note:} Robust standard errors in parentheses. The table shows the estimated coefficients from GMM for the system in Equation \ref{eq:diff_foc} for the campaign period.}
+	\caption*{\small \emph{Note:} Robust standard errors in parentheses. The table shows the estimated coefficients from the unconstrained GMM for the system in Equation \ref{eq:diff_foc} for the campaign period.}
 \end{table}
 
 
@@ -1680,7 +1680,11 @@ is intrinsically beneficial across outlets ($\lambda<0$), but especially so for 
 %The signs confirm the interpretation: left-favorable content is costlier for right-leaning outlets, and vice versa for all characteristics but  positive left content. It is important to remark that the interpretation of these cost parameters is broad and cannot be disentangled into different factors. Higher values of $\lambda$ could reflect costs in the production of certain content due to specialization of the journalists, having less access to information sources and/or private interests. 
 
 
-To assess this, Figure \ref{fig:payoffs} plots the implied payoff functions using the estimated demand and supply parameters.  The payoff functions are single-peaked or monotone, indicating that the observed choices  correspond to maxima or corner solutions. The right-leaning outlet enjoys higher payoffs for producing positive-right content and negative-left content, whereas the left-leaning outlets obtain higher payoffs for negative-right content. The only inconsistency arises in the positive-left category, where the right-leaning outlet’s payoff is strictly increasing; this pattern reflects the cost parameters for this category reported in Table \ref{tab:costs}. 
+
+
+As noted above, the estimated cost parameters are unconstrained; thus, negative values imply a boost in payoffs (they reduce costs). I also consider a constrained (“clipped”) specification in which negative coefficients are set to zero, and compare the implied payoff structure. Figure \ref{fig:payoffs} plots the payoff functions (in thousands of viewers) derived from the estimated demand and unconstrained supply parameters. Figure \ref{fig:payoffs_constrained} contrasts these with the clipped version, where negative entries in Table \ref{tab:costs} are set to zero. The ranking of payoffs is broadly stable across the two specifications. For both parties, negative-tone categories dominate: the right-leaning channel obtains a maximum of  around 500K viewers with negative-left content (vs. ~400K at its best positive-left tone), while the left-leaning outlets get a maximum of around 300K with negative-right content (vs. ~90K with positive-right).
+
+%The right-leaning outlet enjoys higher payoffs for producing positive-right content and negative-left content, whereas the left-leaning outlets obtain higher payoffs for negative-right content. The only inconsistency arises in the positive-left category, where the right-leaning outlet’s payoff is strictly increasing; this pattern reflects the cost parameters for this category reported in Table \ref{tab:costs}. 
 
 
 
@@ -1713,9 +1717,15 @@ To assess this, Figure \ref{fig:payoffs} plots the implied payoff functions usin
 \label{sec:counter}
 
 
-Across Europe, the most common rule for election coverage is proportional airtime. France’s ARCOM times every political segment and enforces near  balance during the official campaign for both public and private broadcasters. Similarly, Germany or Italy's \textit{Par Condicio} tie lengths to past vote shares. Spain, by constrast, remains unregulated. 
+Across Europe, election coverage is commonly regulated by proportional-time rules tied to party representativeness. In France and Italy, the broadcast regulators (\textit{ARCOM} and \textit{AGCOM}) require proportional allocation of coverage during official campaign periods. Spain, by contrast,  lacks a standalone media-pluralism authority and lacks any enforced regulation. 
 
-My model estimates allow me to assess the  implications of enforcing such a policy for all broadcasters.  I take the proportion of votes in the past general elections for each party and estimate the new equilibrium under the following problem: 
+
+
+
+
+%Across Europe, the most common rule for election coverage is proportional airtime. France’s ARCOM times every political segment and enforces near  balance during the official campaign for both public and private broadcasters. Similarly, Germany or Italy's \textit{Par Condicio} tie lengths to past vote shares. Spain, by constrast, remains unregulated. 
+
+My model estimates allow me to assess the  implications of enforcing the proportional-airtime rule for all broadcasters.  I take the proportion of votes in the past general elections for each party and estimate the new equilibrium under the following problem: 
 
 
 
@@ -1775,7 +1785,7 @@ Results of the counterfactual estimation are shown in Table \ref{tab:counter}.  
 		\toprule
 		& \multicolumn{2}{c}{La~Sexta/TVE} & \multicolumn{2}{c}{Telecinco (T5)} & \multicolumn{2}{c}{Antena~3 (A3)} \\
 		& \multicolumn{2}{c}{(Left)} & \multicolumn{2}{c}{(Middle)} & \multicolumn{2}{c}{(Right)} \\
-		& Baseline & Count. & Baseline & Count. & Baselina & Count. \\
+		& Baseline & Count. & Baseline & Count. & Baseline & Count. \\
 		\midrule
 		Negative Left & 0.06 & 0.05 & 0.04 & 0.36 & 0.09 & 0.45 \\
 		\midrule
@@ -1820,28 +1830,22 @@ Finally, the counterfactual results should be interpreted with caution. First, a
 	\section{Conclusion}
 	\label{sec:conclusion}
 	
+
+This paper studies how election campaigns reshape demand for political news using a structural model of news demand and supply. I construct a story-level slant index for prime-time TV newscasts by combining machine learning with large language models (LLMs) and match it to high-frequency audience-meter data. This allows me to track, over time, both the partisan tone to which viewers are exposed and their viewing responses.
+
+I apply the framework to Spain’s 2023 general election. On the demand side, I estimate a BLP-style random-coefficients model identified using exogenous variation in the daily story mix available to outlets. Consumption polarizes sharply during the campaign, in a way consistent with affective polarization: viewers penalize negative news about their own political side and, in particular, discount content favorable to the opposing party. I then document a positive association between media-demand polarization and survey-based electoral polarization of vote intentions. Given the demand estimates, I model the supply of information as a competition game in which outlets choose the slant of their programs to maximize audience, incurring tilting costs that depend on the pool of stories available each day. The cost estimates are consistent with heterogeneity in slant production, with right- (left-) leaning outlets facing higher costs of producing uncongenial content.
+
+Building on the demand and supply estimates, I evaluate the effects of enforcing proportional-airtime rules on broadcasters during campaigns. The counterfactual results show that, while channels deliver balanced airtime across parties, this masks an increase in the polarization of the slant they supply. The mechanism follows from the rule’s design: because only total exposure in minutes is constrained, outlets comply by adjusting tone, which widens cross-outlet dispersion in supplied slant and strengthens audience responses to partisan content.
+
+This paper highlights two main points. First, surges in ideological polarization during periods of intense political conflict are closely mirrored by the way voters consume political news. Second, widely used metrics for monitoring media bias—such as airtime balance—often overlook crucial differences in political tone, leading to interventions with unintended consequences. When policy is designed using incomplete or misaligned measures, regulation can inadvertently amplify polarization along dimensions it fails to capture, such as editorial slant. The methodological framework developed here provides a more robust basis for media monitoring and a path for evaluating regulatory measures that effectively reduce polarization in information acquisition.
+
+Several avenues for future research emerge from the present work. Leveraging the unique feature of the dataset—which allows to compare the tone and coverage of the same story across outlets on a give date—future work could micro-found editorial decisions  from the underlying news landscape to distinguish between different forms of bias, such as selection, and framing, as theorized in previous works \citep[e.g.][]{gentzkow2014media}. Another promising direction is to study the role of newswire agencies as  upstream providers of information.  Because these services are broadly accessible across countries, this benchmark can be applied comparably in democracies and autocracies to estimate media bias and and study polarization in news demand.
+
+
 	
-
-
-
-This paper studies how election campaigns reshape demand for political news using a structural model of television news supply and demand. I construct a story-level slant index for prime-time broadcasts by combining machine learning with large language models (LLMs), and match it to high-frequency audience data. This allows me to track the slant content offered in the news in parallel to the amount of people consuming it. 
-
-
-I apply the framework to Spain’s 2023 general election. On the demand side, I estimate a BLP-style random-coefficients model identified by exogenous variation in  set of stories available to produce slant.  The results show that political news consumption polarizes sharply during the campaign and the information pattern is consistent with affective polarization: viewers dislike negative news about their own party but they particularly screen out any content that benefits the opposing party. Furthermore, I show that polarization in demand for political content links tightly to ideological polarization, where election campaigns triggered a surge in the latter that lasts for over a year. 
- 
-
-
-Building on the demand and supply estimates, I evaluate the most common media regulation to foster pluralism during campaigns: proportional-airtime rules. The counterfactual results show that, while channels offer a balanced coverage of the political parties, this obscures increases in the polarization of the slant they offer.  The reason for this stems from the design of the policy: since only total exposure in minutes aired is enforced,  outlets comply by adjusting the tone, widening cross-outlet dispersion in supplied slant and strengthening audience responses to partisan content.
-
-
-This paper highlights two main points. First, surges in ideological polarization during periods of intense political conflict are closely mirrored by the way voters consume information. Second, widely used metrics for monitoring media bias—such as airtime balance—often overlook crucial differences in political tone, leading to interventions and regulations with unintended consequences. When policy is designed using incomplete or misaligned measures, regulation can inadvertently amplify polarization along dimensions it fails to capture, such as editorial slant. The methodological framework developed here provides a more robust basis for media monitoring and a path for evaluating regulatory measures that  effectively reduce polarization in information acquisition. 
-
-
-Several avenues for future research emerge from the present work. Leveraging the unique feature of the dataset—which allows to compare the tone and coverage of the same story across outlets on a give date—future work could micro-found editorial decisions  from the underlying news landscape to distinguish between different forms of bias, such as selection, and framing, as theorized in previous works \citep[e.g.][]{gentzkow2014media}. Another promising direction is to study the role of newswire agencies as  upstream providers of information.  Because these services are broadly accessible across countries, this benchmark can be applied comparably in democracies and autocracies to estimate media bias.
-
-
-
-
+	
+	
+	
 	
 	
 	
@@ -2488,11 +2492,34 @@ Taken together, the results indicate that text-based and image-based measures of
 			\includegraphics[width=0.45\textwidth]{figures/payoff_neg_left} &
 			\includegraphics[width=0.45\textwidth]{figures/payoff_neg_right}
 		\end{tabular}
-		\caption*{\small \textit{Note:} Figures shows the average payoffs of the supply game after estimation. Average are taken over days. Each panel corresponds to one type of coverage: 
+		\caption*{\small \textit{Note:} Figures shows the average payoffs of the supply game after estimation. y-axis values represent thousands of viewers. Average are taken over days. Each panel corresponds to one type of coverage: 
 			(a) positive-left, (b) positive-right, (c) negative-left, and (d) negative-right.}
 		\label{fig:payoffs}
 	\end{figure}
 	
+	
+	
+		\begin{figure}[!htb]
+		\caption{Outlet's Payoffs for each Tone Category (Constrained)}
+		\centering
+		\begin{tabular}{@{}cc@{}}
+			% Panel headers row
+			\text{(a) Positive Left } &
+			\text{(b) Positive Right} \\[0.08em]
+			% First row of plots
+			\includegraphics[width=0.45\textwidth]{figures/payoff_pos_left_all_positive} &
+			\includegraphics[width=0.45\textwidth]{figures/payoff_pos_right_all_positive} \\[1em]
+			% Panel headers row
+			\text{(c) Negative Left} &
+			\text{(d) Negative Right} \\[0.08em]
+			% Second row of plots
+			\includegraphics[width=0.45\textwidth]{figures/payoff_neg_left_all_positive} &
+			\includegraphics[width=0.45\textwidth]{figures/payoff_neg_right_all_positive}
+		\end{tabular}
+		\caption*{\small \textit{Note:} Figures shows the average payoffs of the supply game after estimation. y-axis values represent thousands of viewers. Average are taken over days. Each panel corresponds to one type of coverage: 
+			(a) positive-left, (b) positive-right, (c) negative-left, and (d) negative-right.}
+		\label{fig:payoffs_constrained}
+	\end{figure}
 	
 	\begin{comment}
 		content...
