@@ -7,37 +7,38 @@
 \contentsline {section}{\numberline {2}Context}{6}{section.2}
 \contentsline {subsection}{\numberline {2.1}Traditional Media and Political Information}{6}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Spanish Politics and TV News}{7}{subsection.2.2}
-\contentsline {section}{\numberline {3}Data and Descriptive Evidence}{9}{section.3}
+\contentsline {section}{\numberline {3}Data and Descriptive Evidence}{10}{section.3}
 \contentsline {subsection}{\numberline {3.1}Data}{10}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Text Classification}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Text Classification}{12}{subsection.3.2}
 \contentsline {paragraph}{Robustness of the text classification.}{15}{paragraph*.7}
-\contentsline {subsection}{\numberline {3.3}Descriptive Evidence}{15}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Descriptive Evidence}{16}{subsection.3.3}
 \contentsline {section}{\numberline {4}Demand for News}{19}{section.4}
 \contentsline {subsection}{\numberline {4.1}Demand Model}{19}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Endogeneity and Identification Strategy}{21}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Results of the Demand Estimation}{23}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Demand for News and Electoral Polarization}{26}{subsection.4.4}
-\contentsline {paragraph}{Limitations.}{28}{paragraph*.17}
+\contentsline {subsection}{\numberline {4.3}Results of the Demand Estimation}{24}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Demand for News and Electoral Polarization}{27}{subsection.4.4}
+\contentsline {paragraph}{Limitations.}{29}{paragraph*.17}
 \contentsline {section}{\numberline {5}Supply of News}{29}{section.5}
-\contentsline {subsection}{\numberline {5.1}Supply Model}{29}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Endogeneity and Identification Strategy}{30}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Results of the Supply Estimation}{31}{subsection.5.3}
-\contentsline {section}{\numberline {6}Proportional Air Time Rule}{33}{section.6}
-\contentsline {subsection}{\numberline {6.1}Effects of the Regulation}{34}{subsection.6.1}
-\contentsline {section}{\numberline {7}Conclusion}{36}{section.7}
-\contentsline {section}{Appendix}{43}{section.7}
-\contentsline {part}{\hspace {1em}Appendix}{43}{part.2}
-\contentsline {xpart}{Appendix}{43}{part.2}
-\contentsline {section}{\numberline {A}Data Pipeline Details}{44}{appendix.A}
-\contentsline {section}{\numberline {B}Robustness of the Text Classification}{46}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Comparison with Previous Approaches}{46}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Stability of the Classifier}{48}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}Text vs.\ Image}{48}{subsection.B.3}
-\contentsline {section}{\numberline {C}Figures}{52}{appendix.C}
-\contentsline {section}{\numberline {D}Tables}{64}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}Descriptive Evidence}{64}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}Additional Results}{66}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}Text Examples}{70}{subsection.D.3}
-\contentsline {section}{\numberline {E}Isolation Index }{81}{appendix.E}
-\contentsline {subsection}{\numberline {E.1}Definition}{81}{subsection.E.1}
-\contentsline {subsection}{\numberline {E.2}Results}{81}{subsection.E.2}
+\contentsline {subsection}{\numberline {5.1}Supply Model}{30}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Endogeneity and Identification Strategy}{31}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Results of the Supply Estimation}{33}{subsection.5.3}
+\contentsline {section}{\numberline {6}Proportional Air Time Rule}{34}{section.6}
+\contentsline {subsection}{\numberline {6.1}Effects of the Regulation}{35}{subsection.6.1}
+\contentsline {paragraph}{Limitations}{36}{paragraph*.20}
+\contentsline {section}{\numberline {7}Conclusion}{37}{section.7}
+\contentsline {section}{Appendix}{44}{section.7}
+\contentsline {part}{\hspace {1em}Appendix}{44}{part.2}
+\contentsline {xpart}{Appendix}{44}{part.2}
+\contentsline {section}{\numberline {A}Data Pipeline Details}{45}{appendix.A}
+\contentsline {section}{\numberline {B}Robustness of the Text Classification}{47}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Comparison with Previous Approaches}{47}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Stability of the Classifier}{49}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}Text vs.\ Image}{49}{subsection.B.3}
+\contentsline {section}{\numberline {C}Figures}{53}{appendix.C}
+\contentsline {section}{\numberline {D}Tables}{65}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Descriptive Evidence}{65}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}Additional Results}{67}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}Text Examples}{72}{subsection.D.3}
+\contentsline {section}{\numberline {E}Isolation Index }{83}{appendix.E}
+\contentsline {subsection}{\numberline {E.1}Definition}{83}{subsection.E.1}
+\contentsline {subsection}{\numberline {E.2}Results}{83}{subsection.E.2}

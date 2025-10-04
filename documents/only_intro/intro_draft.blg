@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: intro_draft.aux
+The style file: apa.bst
+Database file #1: ./bib/media_bias.bib
+Repeated entry---line 106 of file ./bib/media_bias.bib
+ : @article{Graham2019DemocracyIA
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 240 of file ./bib/media_bias.bib
+ : %@article{berry_blp
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 280 of file ./bib/media_bias.bib
+ : @article{Puglisi2011NewspaperCO
+ :                                ,
+I'm skipping whatever remains of this entry
+You've used 32 entries,
+            1940 wiz_defined-function locations,
+            684 strings with 10378 characters,
+and the built_in function-call counts, 13443 in all, are:
+= -- 1330
+> -- 603
+< -- 27
++ -- 205
+- -- 205
+* -- 1271
+:= -- 2367
+add.period$ -- 100
+call.type$ -- 32
+change.case$ -- 260
+chr.to.int$ -- 32
+cite$ -- 32
+duplicate$ -- 442
+empty$ -- 861
+format.name$ -- 267
+if$ -- 2522
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 29
+newline$ -- 165
+num.names$ -- 98
+pop$ -- 184
+preamble$ -- 1
+purify$ -- 261
+quote$ -- 0
+skip$ -- 348
+stack$ -- 0
+substring$ -- 1009
+swap$ -- 72
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 190
+warning$ -- 0
+while$ -- 107
+width$ -- 0
+write$ -- 419
+(There were 3 error messages)

@@ -1,0 +1,221 @@
+\pdfcompresslevel=9
+\pdfminorversion=5
+\pdfobjcompresslevel=2
+
+
+\documentclass[12pt]{article}
+\usepackage{natbib}
+\usepackage[flushleft]{threeparttable}
+\usepackage{longtable}
+\usepackage{bm}
+\usepackage{placeins}
+\usepackage{caption}
+
+\usepackage[toc,page,header]{appendix}
+
+\input{/Users/luisignaciomenendezgarcia/Dropbox/webpage/documents/paper/pack.tex}
+
+% in pack.tex  ────────────────────────────────────────────────
+\usepackage{titlesec}
+
+
+
+\usepackage{minitoc}          % ← load minitoc *after* titlesec
+
+% ------------------------------------------
+% leave \thepart numeric; just hide the label text
+\renewcommand\thepart{}      % ← KEEP THIS COMMENTED OUT
+\renewcommand\partname{}      % ok to suppress the printed “Part”
+
+
+%\renewcommand{\part}[1]{\addcontentsline{toc}{part}{#1}}
+
+\raggedbottom
+
+
+
+
+\setlength{\parskip}{0.8em}   % vertical space between paragraphs
+
+
+
+
+
+
+
+
+\captionsetup[figure]{font=normalsize, labelfont=bf}
+\captionsetup[table]{font=normalsize, labelfont=bf}
+%\usepackage{chngcntr}   % lets you reset & prefix counters cleanly
+
+
+
+
+
+
+
+
+
+
+%\usepackage[paperwidth=275.9mm, paperheight=279.4mm]{geometry} 
+\usepackage{afterpage}
+\usepackage{calligra}
+
+
+\newcommand{\share}{\mbox{\calligra{S}}}
+
+\title{The Impact of Political Campaigns on Demand for Partisan News\thanks{I am very grateful to my supervisors Hannes Mueller and Rosa Ferrer for their continuous support and mentorship during my doctoral studies. This paper benefited from a visit to the University of Cambridge’s Department of Economics, supported by Christopher Rauh, to whom I am especially grateful. I also want to thank Antoine Zerbini,  Hanna Wang, Joan Llull, Julian Hidalgo, Matthew Ellman and Ruben Enikolopov for their insightful comments and seminar participants and discussants at the BSE Jamboree, the Applied Seminars at UAB, the ENTER seminars, the Monash-Warwick-Zurich Text-as-Data Workshop, the Workshop in Networks and Political Economy in PSE and the Barcelona Supercomputing Center. I acknowledge funding from the Spanish Ministry of Science and Innovation through FPI Grant PRE2021-099556. All remaining errors are mine.}}
+
+\author{Luis  Menéndez \\
+	\textit{\small Universitat Autònoma de Barcelona, CSIC and Barcelona School of Economics}
+} %omit the footnote and thanks if needed
+\date{%
+	\today\\[0.2ex]
+	{\bfseries Job Market Paper}\\[0.2ex]
+	{\normalsize\href{https://www.dropbox.com/scl/fi/f3546vufz11vj5r63xml4/elections_draft.pdf?rlkey=exjw9vm3sasahlb54ohjf2tyx\&e=1\&dl=0}{Latest version here}}
+}
+
+\begin{document}
+	
+\renewcommand\thepart{}      % ← KEEP THIS COMMENTED OUT
+\renewcommand\partname{}      % ok to suppress the printed “Part”
+
+	
+	\maketitle
+	\enlargethispage{2\baselineskip}
+	
+	
+	\vspace{-1cm}
+	
+	
+	\begin{abstract}
+		
+	
+
+I explore how electoral campaigns affect the market for partisan news. I use machine learning and large language models (LLMs) to build a novel slant index that I match to high‑frequency audience‑meter data on TV consumption. This lets me compare how the same story was framed across outlets and how many people watched. I then develop and estimate a structural model of news demand and supply. Identification relies on exogenous variation in the composition of the news landscape that constrain outlets’ slant choices, allowing me to recover demand preferences for political content. During the campaign, demand for political news becomes more polarized than in comparable non-campaign periods: viewers exhibit stronger negative responses to coverage favorable to the out-party. On the supply side, the estimated costs of producing slant vary systematically with outlets’ ideological stance. Finally, in a counterfactual enforcing proportional-airtime rules, measured polarization increases relative to baseline because outlets comply by adopting a more negative tone and moving further from their baseline slant positions.
+
+
+
+
+
+	
+	
+		\end{abstract}
+		
+		
+		\vfill
+		
+
+	
+
+
+
+
+
+\doparttoc
+\faketableofcontents
+\part{} % Start the document part
+
+\thispagestyle{empty} % no number on the part page
+\setcounter{page}{0}
+
+
+
+\vspace*{-\topskip}	
+	
+\section{Introduction}
+
+
+Political polarization has intensified in recent years  in both  the United States and Europe \citep{Reiljan2019FearAL}. Evidence consistently points to news media consumption as a contributing factor, particularly among audiences of traditional outlets \citep[][]{martin2017,Boxell2020CrossCountryTI}. The way political information is framed and consumed is especially concerning around electoral periods. Before elections,  the selection of leaders depends on what voters learn during the campaign \citep{Besley2005}; after elections, higher polarization is associated with lower electoral accountability and reduced acceptance of democratic results \citep{Graham2019DemocracyIA}.
+
+
+
+This paper investigates how the market for political news changes during electoral campaigns and evaluates the effect of media regulation intended to ensure pluralism. To do so, I develop and estimate a structural model of demand and supply for television news, in which channels choose how much and how they talk about parties, and viewers select their preferred channel based on it. I fit the model to a novel dataset that combines viewership records with a daily slant index of TV news during Spain's 2023 general election. To build this index, I apply machine learning and large language models (LLMs) to text transcripts in order to measure the tone and airtime devoted to each political party on a given day.  I find that, during the election campaign, demand for political news was more polarized than in comparable non-campaign periods: viewers strongly screen out favorable content about the party they oppose and favor their own. I then use the estimated model to evaluate the effects of the most common media regulation in Europe—proportional airtime across parties. The counterfactual results show that outlets comply with the regulation by adopting a more negative tone, thereby moving to more extreme slant positions. 
+
+
+
+	Two central challenges hinder the estimation of demand for news. The first is measurement: constructing scalable and comparable indicators of partisan slant for hundreds of broadcast hours is intrinsically difficult. Second, even with good measures, market equilibrium creates endogeneity—outlets tailor content to viewers, and viewers gravitate toward congenial outlets—making it hard to disentangle demand from supply. The methodology developed here addresses both issues by (i) generating a high-frequency, story-level slant index comparable across outlets and (ii) proposing a novel identification strategy that exploits exogenous variation in the daily news pool to distinguish audience preferences from editorial decisions.
+
+First, to tackle the measurement problem, I construct a unique dataset that captures both the supply of and demand for political content on TV news. On the demand side, high-frequency audience-meter data overcome well-known limitations of survey evidence \citep{prior}. On the supply side, I design a scraping pipeline that monitors live TV newscasts and archives the footage. I then process more than 500 hours of video and use machine-learning techniques to generate transcripts. Next, I apply high-dimensional clustering to split each day’s coverage into more than 20,000 \emph{stories}—segments that discuss the same issue—and use LLMs to classify each story’s tone toward each party.  This design allows me to document novel facts about political news coverage, such as how outlets differ in their political treatment of major political events and how such shocks affect their editorial line over time. I compare this slant index with alternative measures used in the literature and with the metric used by most media regulators, which tracks leaders’ on-screen minutes. To replicate the latter, I train a face-recognition model on broadcast imagery to quantify each leader’s screen time. I show that my LLM-based index is more informative: by capturing thematic framing, it uncovers political tone even when parties or politicians are not explicitly mentioned. This reveals strong partisan differences across outlets, whereas previous metrics suggest balanced coverage.
+
+
+
+
+Second, to address the endogeneity problem, I exploit exogenous variation in the daily composition of the news landscape that  constrains outlets’ feasible slant choices. To measure the news landscape, I collect all stories distributed by the largest newswire that serves these broadcasters, apply the same text-classification pipeline, and use the resulting corpus as  a proxy for the set of stories broadcasters can draw upon each day. I show that  when the pool of pro-right (pro-left) stories grows for exogenous reasons, right-leaning (left-leaning) channels expand  their coverage accordingly. Consistent with an \emph{issue intensity} approach \citep{puglisi_review}, salient political events for either party cannot be ignored, and make all outlets increase reporting; the difference lies in how much time they devote to them. Relative to the average, on a top favorable day for the left (right) the right outlet increases positive left content by 0.16 (0.12) stdev. compared to 0.28 (0.04) stdev. for the left-wing outlets. This variation identifies a BLP-style demand model \citep{berry_blp}, in which viewers’ preferences for slant vary with their ideology, allowing me to test the degree of polarization in information consumption. 
+
+
+
+The demand estimation results show that, outside campaign periods, there is no systematic asymmetry in political content demand between right- and left-leaning audiences. Viewers generally prefer negative political news, consistent with an entertainment-seeking type of consumption in which conflict and scandals attract more attention. During campaigns, however, affective polarization emerges: right-leaning viewers increasingly seek negative coverage of the left and more positive coverage of the right, with the mirror pattern among left-leaning viewers. A one-minute increase in positive coverage of right-wing parties yields a net gain of approximately 3,000 viewers (0.03 stdev.)  in right-leaning regions. My model results align with survey-based evidence of polarization. First, in regions where the model implies higher polarization in news consumption, electorates are also more polarized in their voting intentions. Second, after a year of decline, survey-based polarization exhibits a trend break at the start of the campaign, matching the break in news demand.
+
+
+
+
+Given the demand estimates, I then model and estimate content supply. Outlets play a differentiation game, choosing the distribution of airtime and tone across parties to maximize viewership, with costs of producing slant that depend on the composition of the day's news landscape. Unobserved factors—such as owner bias or reporter absences—can shift these costs, thereby creating endogeneity. To identify the supply-side parameters, I exploit high-frequency variation in the newscast emissions. Because the midday and evening editions are separated by only a few hours, differences in the content offered between them are driven by unexpected story arrivals in the interim, which shift slant production costs without directly affecting other unobservables. I show that outlets adjust slant to these unexpected arrivals, with responses that align with their stance. The estimated cost parameters reveal heterogeneity  across content types and  outlets. Increasing the positive net balance on the left by 1 p.p. entails a loss of 0.08 audience share points for the right-wing outlet, compared with only 0.03 for the left-leaning outlets. 
+
+
+Finally, I test the effectiveness of existing  interventions aimed at promoting diversity and fighting polarization in television news. The most common campaign-period regulation  is the proportional-airtime rule, which requires broadcasters to allocate coverage to political parties according to their vote shares in previous elections. Despite its prominence, there are concerns that this measure is not adequate in practice, largely due to poor measurement and weak enforcement \citep{cage_assemblee}, but there is a lack of formal evidence about its effects. 
+
+
+
+To assess the impact of this regulation, I use the estimated demand and supply parameters to simulate a counterfactual in which Spanish outlets are regulated under proportional airtime during the campaign. Contrary to the policy's objective, the result is more polarized political coverage. Because the most recent election delivered a larger vote share to the right bloc, the rule assigns a larger share of campaign minutes to those parties. In the baseline scenario, however,  all channels devote more relative time to the left, so enforcement of the regulation requires every outlet to rebalance minutes from the left to the right. Outlets then adjust on two margins:  the amount of political coverage aired and the tone within those minutes—primarily by intensifying negative coverage, which leads to more extreme framing. The resulting spread in outlets’ optimal slant positions is roughly three times larger after the implementation of the rule. The mechanism behind this change stems from the design of the rule: since the regulation limits only the total airtime for each party, channels adjust through slant to maintain their preferred tone positions, something that could not be tracked with previous metrics.  This highlights that different slant metrics—and regulations built on them—can backfire when they ignore tone, yielding higher rather than lower media polarization.
+
+
+
+
+\paragraph{Related Literature}
+
+
+The first strand of the literature that my paper contributes to is that on the measurement of slant. \citet{puglisi_review} divide measures of bias into  \textit{comparison},  \textit{intensity}, and  \textit{tone} approaches. Comparison measures—such as \citet{milyo_measure}, based on think-tank citations and \citet{gentzkow2010media}, based on lexical proximity to congressional speeches, locate outlets by how closely their language matches partisan references; my index instead does not require explicit party mentions nor baseline partisan speech. Intensity measures such as those using newspapers endorsements \citep{ChiangKnight2011} or television airtime \citep{durante2012partisan,CageHengelHerveUrvoy2022}, track how much attention outlets devote to topics or actors. I retain intensive margin via time spent but add tone within that exposure, allowing me to see how much time and tone were devoted to the same exact story across outlets on a given date. My metric improves upon existing indicators by capturing greater nuances in slant. 
+
+
+
+
+
+
+
+The second strand studies political news consumption. I take a revealed-preference, structural approach. Building on \citet{gentzkow2010media}, I use text to quantify outlet slant and model heterogeneous tastes for like-minded news. Closely related, \citet{SimonovRao2022} estimate a structural model of demand for government-controlled online news in Russia. I extend this demand framework by incorporating a competitive model of supply, which allows me to test heterogeneity in slant production costs and to do counterfactual policy evaluations. My paper also advances the identification of preferences for political content. \citet{Puglisi2011NewspaperCO} show that exogenous scandal shocks shift U.S. newspapers’ coverage asymmetrically, but their design cannot discern the salience of these scandals prior to their news coverage, which is essential to assess how constrained outlets are in their reporting decisions. To address this, I rely on newswire agencies to create a baseline for the pool of political content on a given day. Since these agencies supply content to outlets, variation in the composition of their stories provides exogenous shocks that constrain outlets’ ability to slant the day’s news (i.e., supply shocks), which I use to identify demand.\footnote{For an alternative use of downstream aggregators as shocks in content supply see \cite{milena}.} This identification strategy applies in settings where previous instruments like cable-dial positions \citep{martin2017} are not applicable.
+
+
+
+
+Third, a growing body of literature studies media persuasion. Experimental evidence shows mixed conclusions: some studies find limited scope for persuasion because self-selection dominates \citep{arceneaux_johnson_2013}, whereas others document reinforcement effects among strongly committed partisans \citep{levendusky}. Complementing these results, more recent works in political economy  have shown consistent media persuasion effects on polarization attitudes; \citet{schneider2025media} show how TV coverage of immigration polarizes attitudes toward immigrants in France, and \citet{martin2017} show that cable-news polarization can explain a large share of the rise in U.S. voter polarization. I complement this literature by studying media's production decision of polarized news, also showing correlational links between media consumption and ideological polarization.
+
+
+Fourth, this article contributes by bringing tools from IO estimation to the political economy literature. Recent work uses text embeddings and imagery to build product characteristics in demand models \citep{compiani2025demandestimationtextimage}. I leverage LLMs to construct slant-based product characteristics, capturing differentiation in goods that might otherwise seem homogeneous, such as TV news programs. However, this richer product space raises concerns about endogeneity if firms compete in differentiation. Standard instruments such as demographic shifts across pricing zones \citep{fan} or candidate positions across electoral precincts \citep{longuet-marx2025party} rely on cross-market variation and they are not applicable for high-frequency settings such as mine,  where each day’s slant decision is endogenous and content is broadcast uniformly nationwide. I instead exploit supply shocks in upstream news content, which provide exogenous variation in setups with high-frequency dynamics and allow me to identify demand preferences. 
+
+
+
+On the supply side, I build on the media IO literature on spatial competition. Closest to my setting, \citet{Goettler2001SpatialCI} study optimal schedule choices by television networks that only maximize audience ratings, without considering costs. In contrast, I estimate a daily content-positioning game with explicit slant production costs. Cost identification in prior work relies either on many local, isolated markets \citep[e.g.,][]{Draganska2008BeyondPV,fan} or on exogenous demand shifters over time in a single national market \citep{Wollmann2018TrucksWB}. Neither is available with nationally broadcast  newscasts observed over a short time horizon. I therefore use high-frequency timing variation: unexpected story arrivals between the midday and evening editions shift the relative cost of producing specific party–tone content without plausibly affecting same-day unobservables. 
+
+
+Finally, this paper contributes to the literature that evaluates policy interventions in media markets. Previous work has studied interventions aimed at reducing polarization in online media. Exposure to opposing views has been shown to increase, rather than decrease, polarization \citep{bail2018exposure}. Temporary shutdowns of Facebook during pre-campaign periods have been found to modestly reduce polarization, though often at the cost of lower political knowledge \citep{Allcott2024TheEO}. Policy interventions in television markets have instead focused on market structure and ownership—for instance, bundling \citep{crawford_yurukoglu}, vertical integration \citep{crawford_vertical}, ownership changes \citep{MARTIN_McCRAIN_2019}, and entry of commercial TV \citep{prat_stromberg_entry}. To the best of my knowledge, this is the first paper evaluating the effectiveness of content regulations within a structural model of supply and demand for news.
+
+
+
+
+
+
+
+
+\paragraph{Rest of the Paper}
+
+The remainder of the paper is organized as follows. Section \ref{sec:context} briefly summarizes the Spanish political and TV landscape. Section \ref{sec:data} introduces the data, describes the text-analysis techniques employed, and reports descriptive statistics on content and audiences. Section \ref{sec:demand} describes the market setting and the demand model, addresses endogeneity and the identification strategy, and presents results. Section \ref{sec:supply} details identification and estimation of the supply-side parameters. Section \ref{sec:counter} develops the counterfactual analysis. Section \ref{sec:conclusion} concludes.
+
+	
+	
+	%\nocite{*}
+	\clearpage
+	%\addcontentsline{toc}{chapter}{Bibliography}
+	%\printbibliography
+	
+	%\addcontentsline{toc}{chapter}{Bibliography}
+	\pagestyle{plain}  
+	\bibliographystyle{apa}
+	\bibliography{./bib/media_bias.bib}
+	
+	
+	
+
+	
+	
+\end{document}

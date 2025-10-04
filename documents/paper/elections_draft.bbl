@@ -128,6 +128,12 @@ Djourelova, M. (2023).
   Coverage of Immigration}}.
 \newblock {\em American Economic Review}, 113(3):800----835.
 
+\bibitem[\protect\astroncite{Draganska et~al.}{2008}]{Draganska2008BeyondPV}
+Draganska, M., Mazzeo, M.~J., and Seim, K. (2008).
+\newblock {Beyond plain vanilla: Modeling joint product assortment and pricing
+  decisions}.
+\newblock {\em QME}, 7:105--146.
+
 \bibitem[\protect\astroncite{Durante and Knight}{2012}]{durante2012partisan}
 Durante, R. and Knight, B. (2012).
 \newblock {{Partisan Control, Media Bias, and Viewer Responses: Evidence from
@@ -142,11 +148,6 @@ Durante, R., Pinotti, P., and Tesei, A. (2019).
 \bibitem[\protect\astroncite{Edelman}{2023}]{edelman_trust_2023}
 Edelman (2023).
 \newblock {{Edelman Trust Barometer 2023: Global Report}}.
-
-\bibitem[\protect\astroncite{Esteban and Ray}{1994}]{esteban}
-Esteban, J. and Ray, D. (1994).
-\newblock {{On the Measurement of Polarization}}.
-\newblock {\em Econometrica}, 62(4):819----851.
 
 \bibitem[\protect\astroncite{{European Commission}}{2022}]{eurobarometer2022}
 {European Commission} (2022).
@@ -278,13 +279,6 @@ Newman, N., Fletcher, R., Schulz, A., And{\i}, S., Robertson, C.~T., and
 Parliament, E. (2024).
 \newblock {{Audiovisual and Media Policy}}.
 
-\bibitem[\protect\astroncite{Peterson et~al.}{2017}]{Peterson2017Echo}
-Peterson, E., Goel, S., and Iyengar, S. (2017).
-\newblock {{Echo Chambers and Partisan Polarization: Evidence from the 2016
-  Presidential Campaign}}.
-\newblock In {\em Proceedings of the Annual Meeting of the American Political
-  Science Association}.
-
 \bibitem[\protect\astroncite{Prat and
   Str{\"o}mberg}{2005}]{prat_stromberg_entry}
 Prat, A. and Str{\"o}mberg, D. (2005).
@@ -297,8 +291,8 @@ Prior, M. (2009).
   Exposure}}.
 \newblock {\em The Journal of Politics}, 71(3):893----908.
 
-\bibitem[\protect\astroncite{Puglisi and Snyder}{2011}]{puglisi2011newspapers}
-Puglisi, R. and Snyder, J.~M. (2011).
+\bibitem[\protect\astroncite{Puglisi and Snyder}{2011a}]{puglisi2011newspapers}
+Puglisi, R. and Snyder, J.~M. (2011a).
 \newblock {{Newspapers and Party Polarization}}.
 \newblock {\em Journal of Public Economics}, 95(7--8):547----555.
 
@@ -308,6 +302,12 @@ Puglisi, R. and Snyder, J.~M. (2015).
 \newblock In Anderson, S.~P., Waldfogel, J., and Str{\"o}mberg, D., editors,
   {\em Handbook of Media Economics}, volume~1 of {\em Handbook of Media
   Economics}, pages 647----667. North-Holland.
+
+\bibitem[\protect\astroncite{Puglisi and
+  Snyder}{2011b}]{Puglisi2011NewspaperCO}
+Puglisi, R. and Snyder, J. M.~J. (2011b).
+\newblock {Newspaper Coverage of Political Scandals}.
+\newblock {\em The Journal of Politics}, 73:931--950.
 
 \bibitem[\protect\astroncite{Reiljan}{2019}]{Reiljan2019FearAL}
 Reiljan, A. (2019).
@@ -345,5 +345,11 @@ Wilbur, K.~C. (2008).
 \newblock {{A Two-Sided, Empirical Model of Television Advertising and Viewing
   Markets}}.
 \newblock {\em Marketing Science}, 27(3):356----378.
+
+\bibitem[\protect\astroncite{Wollmann}{2018}]{Wollmann2018TrucksWB}
+Wollmann, T.~G. (2018).
+\newblock {Trucks without Bailouts: Equilibrium Product Characteristics for
+  Commercial Vehicles}.
+\newblock {\em American Economic Review}.
 
 \end{thebibliography}

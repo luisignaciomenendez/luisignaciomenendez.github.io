@@ -1,0 +1,6 @@
+\babel@toc {english}{}
+\contentsline {part}{\hspace {1em}}{0}{part.1}
+\contentsline {xpart}{}{1}{part.1}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {paragraph}{Related Literature}{4}{paragraph*.1}
+\contentsline {paragraph}{Rest of the Paper}{5}{paragraph*.2}
