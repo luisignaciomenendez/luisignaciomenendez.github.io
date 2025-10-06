@@ -278,7 +278,7 @@ Finally, I test the effectiveness of existing  interventions aimed at promoting 
 
 
 
-To assess the impact of this regulation, I use the estimated demand and supply parameters to simulate a counterfactual scenario in which Spanish outlets are regulated under proportional airtime during the campaign. Contrary to the policy's objective, the result is a more polarized political coverage. Since the most recent election delivered a larger vote share to the right bloc, the rule assigns a larger share of campaign minutes precisely to those parties. In the baseline scenario, however,  all channels devote so much more relative time to the left, that enforcement of the regulation requires them to rebalance minutes from the left to the right. Accordingly, outlets then readjust on two margins:  the amount of political coverage aired and the partisan tone within those minutes—primarily by intensifying negative coverage, which leads to more extreme slanting. The resulting spread in outlets’ optimal slant positions is roughly three times larger after the implementation of the rule. The mechanism behind this change stems from the design of the rule itself: since the regulation limits only the total airtime for each party, channels adjust through slant to maintain their preferred political inclination, something that could not be tracked with previous metrics.  This highlights the fact that different slant metrics—and regulations built on them—can backfire when tone is ignored, yielding higher rather than lower media polarization.
+To assess the impact of this regulation, I use the estimated demand and supply parameters to simulate a counterfactual scenario in which Spanish outlets are regulated under proportional airtime during the campaign. Contrary to the policy's objective, the result is a more polarized political coverage. Since the most recent election delivered a larger vote share to the right bloc, the rule assigns a larger share of campaign minutes precisely to those parties. In the baseline scenario, however,  all channels devote so much more relative time to the left that enforcing the regulation requires them to rebalance minutes from the left to the right. Accordingly, outlets then readjust on two margins:  the amount of political coverage aired and the partisan tone within those minutes—primarily by intensifying negative coverage, which leads to more extreme slanting. The resulting spread in outlets’ optimal slant positions is roughly three times larger after the implementation of the rule. The mechanism behind this change stems from the design of the rule itself: since the regulation limits only the total airtime for each party, channels adjust through slant to maintain their preferred political inclination, something that could not be tracked with previous metrics.  This highlights the fact that different slant metrics—and regulations built on them—can backfire when tone is ignored, yielding higher rather than lower media polarization.
 
 
 \begin{comment}
@@ -1020,7 +1020,7 @@ Under the assumption of no individual heterogeneity in preferences  ($\bm{\sigma
 \end{equation} 
 
 
-I report results for both the BLP and  logit models in  Section \ref{sec:results}. 
+I report results for both  BLP and  logit models in  Section \ref{sec:results}. 
 	
 	\subsection{Endogeneity and Identification Strategy} \label{sec:endogeneity}
 	\label{sec:identification}
@@ -1668,7 +1668,7 @@ I capture this behavior with a competitive model of news slant decisions. Outlet
 
 
 
-where $\bm z_{dh}$ measures the pool of stories available at edition~$h$ and $\bm x_{jdh}$ is the proportion of minutes to each tone category as defined above. $L_r$  refers to the total potential audience in region $r$. Notice that. unlike in the demand estimation, I have now incorporated the midday dimension withing the broadcasts. I will exploit this variation in the identification strategy described below. 
+where $\bm z_{dh}$ measures the pool of stories available at edition~$h$ and $\bm x_{jdh}$ is the proportion of minutes to each tone category as defined above. $L_r$  refers to the total potential audience in region $r$. Notice that. unlike in the demand estimation, I have now incorporated the midday dimension within the broadcasts. I will exploit this variation in the identification strategy described below. 
 
 Following \cite{Goettler2001SpatialCI}, I model each network's payoff as the predicted audience rate without considering asymmetric pricing schedules across outlets. This is more realistic than including, for instance, advertising prices, which are null for the free-ad public channel and would imply they do not take audience shares into account. Different from their work, I incorporate the role of costs of producing slant as a function of the pool of stories that are available. I parameterize the marginal cost function as:
 
@@ -4359,7 +4359,7 @@ For a medium $m\in \{TV,Radio,Press\}$, the isolation index is computed as:
 %
 where $\mathrm{Right}_j$ and $\mathrm{Left}_j$ denote the numbers of right- and left-leaning viewers of outlet $j$, $\text{Audience}_j=Right_j + Left_j$ is its total audience of that outlet and $R_m$ are the total right-wing viewers in that medium. 
 
-The isolation index takes value of 1 iff, for every outlet that right people visit ($Right_j>0$), then all other visitors are also right-wing, $\frac{Right_j}{Audience_j}=1$ and the analogous for outlets consumed by left-wing users. This reflects an scenario of perfect segregation. 
+The isolation index takes value of 1 iff, for every outlet that right people visit ($Right_j>0$), then all other visitors are also right-wing, $\frac{Right_j}{Audience_j}=1$ and the analogous for outlets consumed by left-wing users. This reflects a scenario of perfect segregation. 
 
 %	\caption{The table shows isolation index for different types of media consumption built using CIS data. .}
 
@@ -4406,7 +4406,7 @@ The isolation index takes value of 1 iff, for every outlet that right people vis
 			TV & 0.115 & 0.035 & 0.033 \scriptsize{(Cable)}\\
 						 &  &  & \hspace{0.45cm} 0.018 \scriptsize{(Broadcast)} \\
 			Radio & 0.287 & 0.039 & — \\
-			Press / Newspapers & 0.186 & 0.072 & 0.104\\
+			Press & 0.186 & 0.072 & 0.104\\
 			\hline
 		\end{tabular}
 			\caption*{\small  \textit{Note:} The table reports the isolation index from Equation \eqref{eq:isolation} and comparisons with previous results. 
