@@ -48,11 +48,6 @@ Bail, C.~A., Argyle, L.~P., Brown, T.~W., Bumpus, J.~P., Chen, H., Hunzaker, M.
 \newblock {\em Proceedings of the National Academy of Sciences},
   115(37):9216----9221.
 
-\bibitem[\protect\astroncite{Berry}{1994}]{berry1994estimating}
-Berry, S.~T. (1994).
-\newblock {{Estimating Discrete-Choice Models of Product Differentiation}}.
-\newblock {\em The RAND Journal of Economics}, 25(2):242----262.
-
 \bibitem[\protect\astroncite{Berry and Haile}{2014}]{berry_haile_econometrica}
 Berry, S.~T. and Haile, P.~A. (2014).
 \newblock {{Identification in Differentiated Products Markets Using Market
@@ -120,7 +115,7 @@ Crawford, G.~S. and Yurukoglu, A. (2012).
 \bibitem[\protect\astroncite{Dejean et~al.}{2022}]{Dejean2022PartisanSE}
 Dejean, S., Lumeau, M., and Peltier, S. (2022).
 \newblock {{Partisan Selective Exposure in News Consumption}}.
-\newblock {\em Information Economics and Policy}.
+\newblock {\em Information Economics and Policy}, 60:100992.
 
 \bibitem[\protect\astroncite{Djourelova}{2023}]{milena}
 Djourelova, M. (2023).
@@ -149,11 +144,23 @@ Durante, R., Pinotti, P., and Tesei, A. (2019).
 Edelman (2023).
 \newblock {{Edelman Trust Barometer 2023: Global Report}}.
 
+\bibitem[\protect\astroncite{Enikolopov et~al.}{2025}]{enikolopov_tv}
+Enikolopov, R., Rochlitz, M., Schoors, K. J.~L., and Zakharov, N. (2025).
+\newblock {Polarize and Rule: Independent Media in Autocracy and the Role of
+  Social Media}.
+\newblock {\em SSRN Working Paper}.
+\newblock Available at SSRN: \url{https://ssrn.com/abstract=4131355} or
+  \url{http://dx.doi.org/10.2139/ssrn.4131355}.
+
 \bibitem[\protect\astroncite{{European Commission}}{2022}]{eurobarometer2022}
 {European Commission} (2022).
 \newblock {{Media Use in the European Union: Standard Eurobarometer 96, Winter
   2021--2022}}.
 \newblock Fieldwork: 18 Jan -- 14 Feb 2022.
+
+\bibitem[\protect\astroncite{{European Parliament}}{2025}]{europarl2024}
+{European Parliament} (2025).
+\newblock {Audiovisual and Media Policy}.
 
 \bibitem[\protect\astroncite{Fan}{2013}]{fan}
 Fan, Y. (2013).
@@ -197,7 +204,7 @@ Gilardi, F., Alizadeh, M., and Kubli, M. (2023).
   Shachar}{2001}]{Goettler2001SpatialCI}
 Goettler, R.~L. and Shachar, R. (2001).
 \newblock {{Spatial Competition in the Network Television Industry}}.
-\newblock {\em Antitrust: Antitrust Law \& Policy}.
+\newblock {\em RAND Journal of Economics}, pages 624--656.
 
 \bibitem[\protect\astroncite{Graham and Svolik}{2019}]{Graham2019DemocracyIA}
 Graham, M.~H. and Svolik, M.~W. (2019).
@@ -223,6 +230,13 @@ Iyengar, S., Lelkes, Y., Levendusky, M., Malhotra, N., and Westwood, S.~J.
 \newblock {{The Origins and Consequences of Affective Polarization in the
   United States}}.
 \newblock {\em Annual Review of Political Science}, 22:129----146.
+
+\bibitem[\protect\astroncite{Lau et~al.}{2017}]{lau2017effect}
+Lau, R.~R., Andersen, D.~J., Ditonto, T.~M., Kleinberg, M.~S., and Redlawsk,
+  D.~P. (2017).
+\newblock {Effect of media environment diversity and advertising tone on
+  information search, selective exposure, and affective polarization}.
+\newblock {\em Political Behavior}, 39(1):231--255.
 
 \bibitem[\protect\astroncite{Laver et~al.}{2003}]{laver2003extracting}
 Laver, M., Benoit, K., and Garry, J. (2003).
@@ -275,15 +289,10 @@ Newman, N., Fletcher, R., Schulz, A., And{\i}, S., Robertson, C.~T., and
 \newblock {{Digital News Report 2023}}.
 \newblock Accessed: 2025-05-13.
 
-\bibitem[\protect\astroncite{Parliament}{2024}]{europarl2024}
-Parliament, E. (2024).
-\newblock {{Audiovisual and Media Policy}}.
-
 \bibitem[\protect\astroncite{Prat and
   Str{\"o}mberg}{2005}]{prat_stromberg_entry}
 Prat, A. and Str{\"o}mberg, D. (2005).
 \newblock {Commercial Television and Voter Information}.
-\newblock {\em Public Choice \& Political Economy eJournal}.
 
 \bibitem[\protect\astroncite{Prior}{2009}]{prior}
 Prior, M. (2009).

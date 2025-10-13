@@ -17,14 +17,14 @@
 \contentsline {subsection}{\numberline {4.2}Endogeneity and Identification Strategy}{21}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Results of the Demand Estimation}{24}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Demand for News and Electoral Polarization}{27}{subsection.4.4}
-\contentsline {paragraph}{Limitations.}{29}{paragraph*.17}
+\contentsline {paragraph}{Limitations.}{28}{paragraph*.17}
 \contentsline {section}{\numberline {5}Supply of News}{29}{section.5}
-\contentsline {subsection}{\numberline {5.1}Supply Model}{30}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.1}Supply Model}{29}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Endogeneity and Identification Strategy}{31}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Results of the Supply Estimation}{33}{subsection.5.3}
 \contentsline {section}{\numberline {6}Proportional Air Time Rule}{34}{section.6}
 \contentsline {subsection}{\numberline {6.1}Effects of the Regulation}{35}{subsection.6.1}
-\contentsline {paragraph}{Limitations}{36}{paragraph*.20}
+\contentsline {paragraph}{Limitations}{37}{paragraph*.20}
 \contentsline {section}{\numberline {7}Conclusion}{37}{section.7}
 \contentsline {section}{Appendix}{44}{section.7}
 \contentsline {part}{\hspace {1em}Appendix}{44}{part.2}

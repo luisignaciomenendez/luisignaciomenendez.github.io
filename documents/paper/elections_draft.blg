@@ -3,63 +3,72 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: elections_draft.aux
 The style file: apa.bst
 Database file #1: ./bib/media_bias.bib
-Repeated entry---line 106 of file ./bib/media_bias.bib
+Repeated entry---line 137 of file ./bib/media_bias.bib
  : @article{Graham2019DemocracyIA
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "eurobarometer2022" isn't style-file defined
---line 164 of file ./bib/media_bias.bib
-Repeated entry---line 240 of file ./bib/media_bias.bib
+--line 199 of file ./bib/media_bias.bib
+Repeated entry---line 275 of file ./bib/media_bias.bib
  : %@article{berry_blp
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 280 of file ./bib/media_bias.bib
+Repeated entry---line 315 of file ./bib/media_bias.bib
  : @article{Puglisi2011NewspaperCO
  :                                ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "reuters_dnr_2023" isn't style-file defined
---line 616 of file ./bib/media_bias.bib
+--line 652 of file ./bib/media_bias.bib
 Warning--entry type for "europarl2024" isn't style-file defined
---line 875 of file ./bib/media_bias.bib
-You've used 59 entries,
+--line 912 of file ./bib/media_bias.bib
+You're missing a field name---line 916 of file ./bib/media_bias.bib
+ :  date         = {2025-02-28},        
+ :                                      % last updated on the factsheet page
+I'm skipping whatever remains of this entry
+Repeated entry---line 924 of file ./bib/media_bias.bib
+ : %@online{europarl2024
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in prat_stromberg_entry
+You've used 60 entries,
             1940 wiz_defined-function locations,
-            829 strings with 14886 characters,
-and the built_in function-call counts, 23652 in all, are:
-= -- 2360
-> -- 1010
+            838 strings with 15308 characters,
+and the built_in function-call counts, 24393 in all, are:
+= -- 2431
+> -- 1054
 < -- 46
-+ -- 340
-- -- 339
-* -- 2169
-:= -- 4167
-add.period$ -- 180
-call.type$ -- 59
-change.case$ -- 461
-chr.to.int$ -- 58
-cite$ -- 59
-duplicate$ -- 821
-empty$ -- 1514
-format.name$ -- 442
-if$ -- 4456
++ -- 356
+- -- 355
+* -- 2239
+:= -- 4283
+add.period$ -- 183
+call.type$ -- 60
+change.case$ -- 474
+chr.to.int$ -- 59
+cite$ -- 61
+duplicate$ -- 845
+empty$ -- 1557
+format.name$ -- 459
+if$ -- 4608
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 48
-newline$ -- 299
-num.names$ -- 179
-pop$ -- 328
+missing$ -- 49
+newline$ -- 304
+num.names$ -- 182
+pop$ -- 341
 preamble$ -- 1
-purify$ -- 463
+purify$ -- 476
 quote$ -- 0
-skip$ -- 668
+skip$ -- 689
 stack$ -- 0
-substring$ -- 1725
-swap$ -- 154
-text.length$ -- 6
+substring$ -- 1783
+swap$ -- 164
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 352
-warning$ -- 0
-while$ -- 185
+type$ -- 358
+warning$ -- 1
+while$ -- 191
 width$ -- 0
-write$ -- 761
-(There were 3 error messages)
+write$ -- 775
+(There were 5 error messages)
