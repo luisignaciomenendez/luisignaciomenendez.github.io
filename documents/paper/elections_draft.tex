@@ -588,13 +588,13 @@ Before detailing the data and text-classification methodology, I provide context
 		\centering
 		\caption{Preferred Media for Political Information in Europe}
 		\includegraphics[width=130mm]{figures/age_cohorts_full}
-		\caption*{\small \textit{Note:} Histogram of the preferred media used for political information in Europe. Using data for the 27 countries in Eurobarometer survey under the question \textit{"What media have you used the most to access news in the past 7 days?" }. $N=112059.$ 
+		\caption*{\small \textit{Note:} Share of respondents selecting radio, press, TV, or social media as the main source of political news in the past 7 days, by age cohort. Using data for the EU-27 countries  ($N=112059$). 
 			Source: Eurobarometer, 2022. }
 		\label{fig:motivation2}
 	\end{figure}
 	
 	
-	
+%	\textit{"What media have you used the most to access news in the past 7 days?" }.
 
 	
 	
@@ -650,12 +650,12 @@ What is the political composition of these audiences? Figure \ref{fig:opinion} s
 		\centering
 		\caption{Correlation Between Preferred Channel and Political Party}
 		\includegraphics[width=120mm]{figures/corr_party_channel3}
-		\caption*{\small \textit{Note:} Bars show correlation coefficients between individuals’ declared preferred political party (left or right) and their preferred TV news channel for political information. Respondents to the question are restricted to those that marked television as their main source of political information and those that report a preferred political party. Source: CIS, Encuesta Pre-electoral 2023.}
+		\caption*{\small \textit{Note:} Correlation between viewers’ declared party bloc (Left/Right) and preferred TV channel for political news among respondents who (i) say TV is their main news source and (ii) report a preferred party. Positive values indicate greater popularity within that bloc. Source: CIS, Encuesta Pre-electoral 2023.}
 		\label{fig:opinion}
 	\end{figure}
 	
 	
-
+%Bars show correlation coefficients between individuals’ declared preferred political party (left or right) and their preferred TV news channel for political information. Respondents to the question are restricted to those that marked television as their main source of political information and those that report a preferred political party. Source: CIS, Encuesta Pre-electoral 2023.
 	
 	
 	
@@ -786,7 +786,7 @@ To contextualize these results, I compare them with the most recent estimates av
 		\caption{Average Tone Across Channels and Parties}
 		\centering
 		\includegraphics[width=120mm]{figures/chatgpt}
-		\caption*{\small \textit{Note:} Bars show the average net tone toward left- and right-wing parties for each TV channel, computed as the difference between positive and negative minutes of coverage ( $	\bar{x}_j^{party+}-\bar{x}_j^{party-}$) as defined in Eq. \eqref{eq:controls}. Positive (negative) values indicate a net (un)favorable tone toward a party by that outlet.}
+		\caption*{\small \textit{Note:} The figure shows the average net tone toward left- and right-wing parties for each TV channel, computed as the difference between positive and negative minutes of coverage ( $	\bar{x}_j^{party+}-\bar{x}_j^{party-}$) as defined in Eq. \eqref{eq:controls}. Positive (negative) values indicate a net (un)favorable tone toward a party by that outlet.}
 		\label{fig:chat}
 	\end{figure}
 	
@@ -821,7 +821,7 @@ To contextualize these results, I compare them with the most recent estimates av
 	
 		\begin{figure}[!htbp]
 		\centering
-		\caption{Normalized Slant Index by Channel}
+		\caption{Left–right Positions of Channels from Demand vs. Supply}
 
 		% Panel (a): ChatGPT-based
 		\begin{minipage}[t]{0.49\textwidth}
@@ -901,7 +901,7 @@ Election campaigns concentrate public attention on politics and shift newsroom p
 		\centering
 %		\includegraphics[width=150mm]{figures/political_words_bothv2}
 				\includegraphics[width=150mm]{figures/political_words_both}
-		\caption*{\small \textit{Note:} The figure represents the proportion of political content for the TV outlets (dashed) and  EFE (solid) as defined in Eqs. \eqref{eq:controls} and \eqref{eq:efe}, respectively. All series are smoothed using a centered rolling mean with a 9-day window.}
+		\caption*{\small \textit{Note:} The figure represents the proportion of political content for the TV outlets (solid) and  EFE (dashed) as defined in Eqs. \eqref{eq:controls} and \eqref{eq:efe}, respectively. All series are smoothed using a centered rolling mean with a 9-day window.}
 		\label{fig:coverage}
 	\end{figure}
 	
@@ -1572,7 +1572,7 @@ In order to capture partisan-selective news consumption, I measure  news-demand 
 	\begin{figure}[!ht]
 
 		\centering
-		\caption{Esteban-Ray Polarization by Level of Media Polarization}
+		\caption{Electoral Polarization by Regions with High vs. Low Media-Demand Polarization}
 		\includegraphics[width=150mm]{figures/er_polarization_stata_group_correct}
 				\label{fig:er1}
 		\caption*{\small  \textit{Note:} The figure shows the evolution of the Esteban–Ray polarization index as defined in Eq. \eqref{eq:er}, plotted separately for regions with high (i.e. above the median) versus low media polarization according to Eq.\eqref{eq:mediapol}. Vertical dashed lines marking the start of the campaign and election periods are shifted one to match the survey's timing.  The series covers the year before and after the 2023 general election. All series have been smoothed under a three-month centered moving average.}
