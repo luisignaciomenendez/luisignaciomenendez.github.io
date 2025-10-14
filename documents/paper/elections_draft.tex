@@ -93,7 +93,7 @@
 
 
 
-I explore how electoral campaigns affect the market for partisan news. I use machine learning and large language models (LLMs) to build a novel slant index that I match to high-frequency audience-meter data on television consumption. This allows me to compare how the same story has been framed across different outlets with the number of viewers. I integrate these measures into a structural model of news demand and supply. Outlets choose the political framing of the news and viewers select their preferred information source based on it. To identify viewers’ preferences for political content, I exploit exogenous variation in the composition of political events that constrains what outlets can cover. Demand for news becomes significantly more polarized during the election campaign period, viewers strongly screen out favorable coverage to the party they oppose. On the supply side, outlets face lower costs of producing slanted coverage that aligns with their political stance. I evaluate the effects of regulation that requires broadcasters to allocate airtime to parties proportionally. Outlets comply by becoming more partisan, resulting in a more polarized media environment.
+I explore how electoral campaigns affect the market for partisan news. I use machine learning and large language models (LLMs) to build a novel slant index that I match to high-frequency audience-meter data on television consumption. This allows me to compare how the same story is framed across outlets and how many people watched it. I integrate these measures into a structural model of news demand and supply. Outlets choose the political framing of the news and viewers select their preferred information source based on it. To identify viewers’ preferences for political content, I exploit exogenous variation in the composition of political events that constrains what outlets can cover. During the election campaign period, demand for news becomes significantly more polarized, with viewers strongly screening out coverage favorable to the party they oppose. On the supply side, outlets specialize and face lower costs of producing slanted coverage that aligns with their political stance. I evaluate the effects of a regulation that requires broadcasters to allocate airtime to parties proportionally. Outlets comply by becoming more partisan, resulting in a more polarized media environment.
 
 
 
@@ -1441,7 +1441,7 @@ Most of the heterogeneity is captured by the demographics (i.e ideology).  The e
 		\end{aligned}
 	\end{equation}             
 	
-	where aggregation is taken over outlets $(j)$, regions $r$ and days $d$.	Both left and right parties were almost equally disliked during off-campaign (Table \ref{tab:elasticities0}.). An increase of 1 percent in net tone  towards right (left) parties results in drops of 0.98 (1.00) percentage points in audience share; corresponding to a decrease of nearly 13,000 viewers.\footnote{A 1 p.p. increase in airtime on characteristic $k$ changes audience share by $\Delta S = S \times \tfrac{\epsilon}{100}$. Given an average total audience of $\bar{L}$, the level change in viewers is $\Delta V = \Delta S \times \bar{L}$. Since 1 p.p. of airtime corresponds to $0.01\,\bar{T}$ minutes (where $\bar{T}$ is the average broadcast length), $\tfrac{\Delta V}{\Delta t} = \bigl(S \times \tfrac{\epsilon}{100} \times \bar{L}\bigr) \times \tfrac{1}{0.01\,\bar{T}}$ gives the change in viewers per extra minute of coverage.} This is consistent with a taste for scandals or entertainment-like type of political content. During the campaign, aversion to right-leaning tone persists but weakens ($-0.60$ pp), and higher net tone on the left yields a small audience gain of 0.09 p.p. (867 viewers).
+	where aggregation is taken over outlets $(j)$, regions $r$ and days $d$.	Both left and right parties were almost equally disliked during off-campaign (Table \ref{tab:elasticities0}.). An increase of 1 percent in net tone  towards right (left) parties results in drops of 0.98 (1.00) percentage points in audience share; corresponding to a decrease of nearly 13,000 viewers.\footnote{A 1 p.p. increase in airtime on characteristic $k$ changes audience share by $\Delta S = S \times \tfrac{\epsilon}{100}$. Given an average total audience of $\bar{L}$, the level change in viewers is $\Delta V = \Delta S \times \bar{L}$. Since 1 p.p. of airtime corresponds to $0.01\,\bar{T}$ minutes (where $\bar{T}$ is the average broadcast length), $\tfrac{\Delta V}{\Delta t} = \bigl(S \times \tfrac{\epsilon}{100} \times \bar{L}\bigr) \times \tfrac{1}{0.01\,\bar{T}}$ gives the change in viewers per extra minute of coverage.} This is consistent with a taste for scandals or entertainment-like type of political content. During the campaign, aversion to right-leaning tone persists but weakens ($-0.60$ pp), and higher net tone on the left yields a small audience gain of 0.09 p.p. (867 viewers). Furthermore, Table \ref{tab:diversion_ratios} computes the diversion ratios to get a sense of where viewers go when a channel’s political content shifts—i.e., a loss-normalized decomposition of exits across destinations. Most of the substitution occurs to the outside option, indicating viewers mainly switch to non-tv news consumption.
 	
 	
 		 I focus now on the results for the main period of analysis, the election campaign. To see the extent of polarization in news consumption, I  compute elasticities for right and left markets separately. I define a “right market” as any region whose mean intention-to-vote to the right  ($\bar{y}_r$) lies above the median.  Figure~\ref{fig:elasticities_campaign} plots the estimated elasticities for that period for left markets (panel a) and right markets (panel b).\footnote{Table~\ref{tab:elasticities} and 	 Figure~\ref{fig:elasticities_pre} show full results also for the off-campaign period. }	Polarization becomes now evident. Left viewers present negative taste for content that harms their party and positive taste for content that benefits it. The analogous pattern is present in the taste of right-wing viewers. This campaign pattern contrasts with the off-campaign “scandal/negativity” taste, where both blocs reacted similarly to net partisan tone.
@@ -1819,7 +1819,7 @@ These exogenous shocks can therefore be exploited in the cost estimation to addr
 
 
 
-Notice that the parameters $\left(\phi,\bm\eta \right)$ cancel out in the differentiation and thus cannot be identified but they are part of the overall cost and thus needed to interpret them. They can be recovered by rearranging from the   first-order condition in \eqref{eq:focs}. De fine the residual as:
+Notice that the parameters $\left(\phi,\bm\eta \right)$ cancel out in the differentiation and thus cannot be identified but they are part of the overall cost and thus needed to interpret them. They can be recovered by rearranging from the   first-order condition in \eqref{eq:focs}. Define the residual as:
 
 \[
 r_{jdh}^k \;\equiv\;\phi+\eta_{jd}^k+ \nu_{jdh}^k= {{g}_{jd+1h}} \;-\; 2\,{{\lambda}}_j^k\,\frac{x_{jdh}^k}{z_{dh}^k}.
@@ -2845,7 +2845,7 @@ Taken together, the results indicate that text-based and image-based measures of
 		\caption{Change in Positions Baseline vs Counterfactual Scenario}
 		\includegraphics[width=100mm]{figures/congress_line_counter}
 		
-		\caption*{\small \textit{Note:} The figure shows the relative change in  slant positions  according to the ideological index in Equation \eqref{eq:ideo_index} from the factual to the counterfactual scenario during the campaign period.}
+		\caption*{\small \textit{Note:} The figure shows the relative change in  slant positions  according to the ideological index in Equation \eqref{eq:ideo_index} from the baseline to the counterfactual scenario during the campaign period.}
 		\label{fig:change_line_counter}
 	\end{figure}
 	
@@ -3021,6 +3021,37 @@ Taken together, the results indicate that text-based and image-based measures of
 	\label{tab:elasticities}
 \end{table}
 
+\begin{table}[!htbp]
+		\caption{Diversion Ratios by Characteristic and Outlet (Campaign period)}
+	\centering
+	\setlength{\tabcolsep}{5pt}% tighter columns
+	\renewcommand{\arraystretch}{1.05}% a bit more row height for readability
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{l|cccc|cccc|cccc|cccc|cccc|}
+			\toprule
+			& \multicolumn{4}{c|}{Positive Left} & \multicolumn{4}{c|}{Positive Right} & \multicolumn{4}{c|}{Negative Left} & \multicolumn{4}{c|}{Negative Right} & \multicolumn{4}{c|}{Political} \\
+			\midrule
+			Destination $\downarrow$ & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 \\
+			\midrule
+			TVE & 0.00 & 0.03 & 0.01 & 0.01 & 0.00 & 0.02 & 0.01 & 0.00 & 0.00 & 0.01 & 0.01 & 0.01 & 0.00 & 0.02 & 0.00 & 0.00 & 0.00 & 0.02 & 0.01 & 0.00 \\
+			T5 & 0.01 & 0.00 & 0.02 & 0.03 & 0.05 & 0.00 & 0.15 & 0.10 & 0.02 & 0.00 & 0.26 & 0.03 & 0.00 & 0.00 & 0.03 & 0.06 & 0.06 & 0.00 & 0.17 & 0.02 \\
+			A3 & 0.04 & 0.05 & 0.00 & 0.50 & 0.00 & 0.04 & 0.00 & 0.01 & 0.00 & 0.03 & 0.00 & 0.00 & 0.01 & 0.10 & 0.00 & 0.91 & 0.01 & 0.07 & 0.00 & 0.01 \\
+			La6 & 0.00 & 0.01 & 0.23 & 0.00 & 0.01 & 0.02 & 0.00 & 0.00 & 0.00 & 0.01 & 0.00 & 0.00 & 0.00 & 0.00 & 0.03 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+			Outside & 0.94 & 0.90 & 0.74 & 0.45 & 0.94 & 0.93 & 0.84 & 0.88 & 0.98 & 0.95 & 0.72 & 0.96 & 0.99 & 0.88 & 0.94 & 0.04 & 0.93 & 0.91 & 0.82 & 0.97 \\
+			\bottomrule
+		\end{tabular}
+	}% end resize
+		\caption*{\textit{Note:} \small The table reports {diversion ratios}: for a 1\% increase in outlet $j$’s characteristic $x_j^{k}$, the entry is the fraction of $j$’s audience loss (columns) that diverts to outlet destination $l$ (rows). With the share changes $\Delta s_l^{t}$ from a 1\% change in $x_j^{k}$, I define	
+			{\tiny
+				$D_{j\to l}^{k,t}=\frac{\max\{\Delta s_l^{t},0\}}{-\Delta s_j^{t}}\ \text{ for }\ \Delta s_j^{t}<0.$} as the diversion rate from alternative $j$ to $l$ and characteristic $k$ on market $t$. Then, conditioning on markets that loose audience I compute
+				{\tiny
+				$D_{j\to l}^{k}=\frac{\sum_{t:\,\Delta s_j^{t}<0}(-\Delta s_j^{t})\,D_{j\to l}^{k,t}}{\sum_{t:\,\Delta s_j^{t}<0}(-\Delta s_j^{t})},\quad \sum_{l\neq j}D_{j\to l}^{k}+D_{j\to 0}^{k}=1.$
+			} which is the reported {loss-weighted} averages across markets.
+		}
+	\label{tab:diversion_ratios}
+\end{table}
+
+
 
 
 
@@ -3042,7 +3073,7 @@ Taken together, the results indicate that text-based and image-based measures of
 			\bottomrule
 		\end{tabular}
 		\begin{tablenotes}\footnotesize
-			\item \textit{Notes:} Each cell reports the campaign profile coefficient from a logit testing audience share changes from the off- to the campaign periods. Robust standard errors in parentheses. 
+			\item \textit{Note:} Each cell reports the campaign profile coefficient from a logit testing audience share changes from the off- to the campaign periods. Robust standard errors in parentheses. 
 		\end{tablenotes}
 	\end{threeparttable}
 \end{table}

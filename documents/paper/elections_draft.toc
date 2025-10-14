@@ -17,9 +17,9 @@
 \contentsline {subsection}{\numberline {4.2}Endogeneity and Identification Strategy}{21}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Results of the Demand Estimation}{24}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Demand for News and Electoral Polarization}{27}{subsection.4.4}
-\contentsline {paragraph}{Limitations.}{28}{paragraph*.17}
+\contentsline {paragraph}{Limitations.}{29}{paragraph*.17}
 \contentsline {section}{\numberline {5}Supply of News}{29}{section.5}
-\contentsline {subsection}{\numberline {5.1}Supply Model}{29}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.1}Supply Model}{30}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Endogeneity and Identification Strategy}{31}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Results of the Supply Estimation}{33}{subsection.5.3}
 \contentsline {section}{\numberline {6}Proportional Air Time Rule}{34}{section.6}
@@ -38,7 +38,7 @@
 \contentsline {section}{\numberline {D}Tables}{65}{appendix.D}
 \contentsline {subsection}{\numberline {D.1}Descriptive Evidence}{65}{subsection.D.1}
 \contentsline {subsection}{\numberline {D.2}Additional Results}{67}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}Text Examples}{72}{subsection.D.3}
-\contentsline {section}{\numberline {E}Isolation Index }{83}{appendix.E}
-\contentsline {subsection}{\numberline {E.1}Definition}{83}{subsection.E.1}
-\contentsline {subsection}{\numberline {E.2}Results}{83}{subsection.E.2}
+\contentsline {subsection}{\numberline {D.3}Text Examples}{73}{subsection.D.3}
+\contentsline {section}{\numberline {E}Isolation Index }{84}{appendix.E}
+\contentsline {subsection}{\numberline {E.1}Definition}{84}{subsection.E.1}
+\contentsline {subsection}{\numberline {E.2}Results}{84}{subsection.E.2}
