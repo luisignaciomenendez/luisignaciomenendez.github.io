@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {5.2}Endogeneity and Identification Strategy}{31}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Results of the Supply Estimation}{33}{subsection.5.3}
 \contentsline {section}{\numberline {6}Proportional Air Time Rule}{34}{section.6}
-\contentsline {subsection}{\numberline {6.1}Effects of the Regulation}{35}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.1}Effects of the Regulation}{36}{subsection.6.1}
 \contentsline {paragraph}{Limitations}{37}{paragraph*.20}
 \contentsline {section}{\numberline {7}Conclusion}{37}{section.7}
 \contentsline {section}{Appendix}{44}{section.7}
