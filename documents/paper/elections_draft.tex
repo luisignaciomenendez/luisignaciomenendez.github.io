@@ -4,6 +4,12 @@
 
 
 \documentclass[12pt]{article}
+
+
+
+
+
+
 \usepackage{natbib}
 \usepackage[flushleft]{threeparttable}
 \usepackage{longtable}
@@ -2385,7 +2391,29 @@ Due to their inherent stochasticity, repeated queries using the same prompt may 
 
 Imagery is a key component of television. This may be especially relevant for political actors, for whom televised coverage has been shown to magnify the impact of candidates’ physical appearance on voter perceptions and electoral outcomes \citep{Lenz2011LookingTP}. Imagery in the form of time devoted to candidates further constitutes the main metric used by regulatory agencies. For example, the French media authority ARCOM publishes monthly “pluralism” reports that track each political actor’s share of speaking time on national television; Italy’s Osservatorio di Pavia produces similar statistics for the national regulator AGCOM. These metrics have also been used extensively in research as measures of slant \citep[see, e.g.,][]{CageHengelHerveUrvoy2022,durante2012partisan}.
 
-Here I compare some of these approaches to my text-based measure. Due to computational constraints, I cannot perform image detection across my full video sample. Instead, I compare image-based and text-based metrics using a random sample of 67 days. Specifically, I train a state-of-the-art face recognition system \citep{face_recognition} using labeled images of the main party leaders: Pedro Sánchez (PSOE), Alberto Núñez Feijóo (PP), Santiago Abascal (VOX), and Yolanda Díaz (UP). I then extract frames from the first 25 minutes of each prime time news broadcast across major channels, resulting in a sample of 79,788 images. Using the \texttt{face\_recognition} library, I detect and identify faces in each frame. This allows me to construct a frame-level dataset of visual exposure, which I aggregate at the daily level for each channel and party leader.
+Here I compare some of these approaches to my text-based measure. Due to computational constraints, I cannot perform image detection across my full video sample. Instead, I compare image-based and text-based metrics using a random sample of 67 days. Specifically, I train a state-of-the-art face recognition system \citep{face_recognition} using labeled images of the main party leaders: Pedro Sánchez (PSOE), Alberto Núñez Feijóo (PP), Santiago Abascal (VOX), and Yolanda Díaz (UP) (i.e. see images in Figure \ref{fig:images_grid}). I then extract frames from the first 25 minutes of each prime time news broadcast across major channels, resulting in a sample of 79,788 images. Using the \texttt{face\_recognition} library, I detect and identify faces in each frame. This allows me to construct a frame-level dataset of visual exposure, which I aggregate at the daily level for each channel and party leader.
+
+
+
+
+
+\begin{figure}[htbp!]
+	\caption{Images Used for Training the Image Classifier}
+	\centering	\includegraphics[width=150mm]{figures/faces_grid}
+	\caption*{\small \textit{Note:} The figure shows the example of the politicians' images used in the training of the face recognition algorithm.  }
+	\label{fig:images_grid}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
 
 The net tone on the sample of days for each channel and political leader is shown in Figure 	\ref{fig:tone_channel}. As expected, significant differences appear, positioning channels in the left-right spectrum shown before. 
 
@@ -2684,7 +2712,7 @@ Taken together, the results indicate that text-based and image-based measures of
 		\begin{minipage}{0.45\textwidth}
 			\centering
 			\textbf{(a)} Left Markets\\
-			\includegraphics[width=\linewidth]{figures/elasticities_left_pre}
+			\includegraphics[width=\linewidth]{figures/elasticities_left_pre_v4}
 			%		\label{fig:2figsA}
 		\end{minipage}
 		\hfill
@@ -2692,7 +2720,7 @@ Taken together, the results indicate that text-based and image-based measures of
 			\centering
 			\vspace{1.5em}
 			\textbf{(b)} Right Markets \\
-			\includegraphics[width=\linewidth]{figures/elasticities_right_pre}
+			\includegraphics[width=\linewidth]{figures/elasticities_right_pre_v4}
 			\label{fig:2figsA}
 		\end{minipage}
 		

@@ -41,23 +41,56 @@
     .w3-top .w3-bar {
       /* You can adjust navbar colors here if desired */
     }
-
-    /* HEADER + ABOUT COMBINED SECTION */
+  /* HEADER + ABOUT COMBINED SECTION */
     .intro-section {
-      display: flex;               /* Put photo + text side by side */
-      flex-wrap: wrap;            /* Wrap if the screen is narrow */
-      align-items: center;        /* Vertically center them */
-      justify-content: center;    /* Horizontally center them */
-      padding: 50px 20px;         /* Top/Bottom padding, side padding */
-      gap: 40px;                  /* Space between photo and text */
-      text-align: left;           /* Left-align text in the text column */
+      display: flex;
+      flex-wrap: nowrap;           /* keep side-by-side when there is room */
+      align-items: center;
+      justify-content: flex-start;
+      padding: 50px 20px;
+      gap: 40px;
+      text-align: left;
     }
 
-    /* PHOTO */
+    /* PHOTO container: fixed sensible width but responsive */
+    .intro-photo {
+      flex: 0 0 360px;             /* fixed visual width on desktops/laptops */
+      max-width: 45%;
+    }
     .intro-photo img {
-      width: 500px;    /* Adjust as needed */
+      width: 100%;                 /* scale to container */
       height: auto;
       border: 5px solid white;
+      display: block;
+    }
+
+    /* TEXT column: take remaining space */
+    .intro-text {
+      flex: 1 1 auto;
+      min-width: 300px;            /* prevent text column collapse */
+      max-width: calc(100% - 380px);
+    }
+
+    /* Small / narrow screens: stack image above text */
+    @media (max-width: 900px) {
+      .intro-section {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .intro-photo {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .intro-photo img {
+        width: 220px;
+        margin: 0 auto;
+      }
+      .intro-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
     }
 
  .media-monitor-btn {
