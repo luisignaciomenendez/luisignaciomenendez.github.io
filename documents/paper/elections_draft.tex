@@ -72,7 +72,7 @@
 \date{%
 	\today\\[0.2ex]
 	{\bfseries Job Market Paper}\\[0.2ex]
-	{\normalsize\href{https://www.dropbox.com/scl/fi/f3546vufz11vj5r63xml4/elections_draft.pdf?rlkey=exjw9vm3sasahlb54ohjf2tyx\&e=1\&dl=0}{Latest version here}}
+	{\normalsize\href{https://www.dropbox.com/scl/fi/l66fli8yxvm3f0z2sck1x/jmp_menendez.pdf?rlkey=zz6dnjs5gm6ilhh04op247jxh&dl=0}{Latest version here}}
 }
 
 \begin{document}
@@ -700,7 +700,7 @@ To contextualize these results, I compare them with the most recent estimates av
 	\textbf{Audience Data}
 	
 	I use Audimeter, a high-frequency audience data source provided by Kantar Media. I observe the total amount of viewers for each channel  each day and minute. Variation over minutes will not be exploited. Instead, I rely on the initial audience at the beginning of the shows each day (i.e., minute-zero audience). For the model estimation, I compute the audience share variable  as the number of viewers divided by the potential number of TV-viewing households within a given region also provided by Kantar Media. 
-	Although I do not have individual-level data on choices, I have geographical disaggregation for 15 autonomous regions in Spain (also referred to as regions hereinafter), which I match to survey demographics.\footnote{The Canary Islands and La Rioja are excluded due to different time zones and zero market shares, respectively. Similarly, peak days with sports events that altered the news schedule were also removed.} The shares are specific to the evening TV news shows, which, with the exception of La Sexta at 20:00, start at 21:00 daily. For this analysis, this channel’s program is treated as if it occurred simultaneously with the others.
+	Although I do not have individual-level data on choices, I have geographical disaggregation for 15 autonomous regions in Spain (also referred to as regions hereinafter), which I match to survey demographics.\footnote{The Canary Islands and La Rioja are excluded due to different time zones and zero market shares, respectively. Similarly, peak days with sports events that altered the news schedule were also removed.} The shares for the demand estimation correspond to the evening TV news shows, which, with the exception of La Sexta at 20:00, start at 21:00 daily. For the supply side identification, I also consider the midday editions, which analogously take place at 14:00 and 15:00.	For this analysis, La Sexta’s program is treated as if it occurred simultaneously with the others.
 	
 	%\footnote{This might pose problems in the substitutions toward the outside option and specifically with  \textit{connected substitutes} assumption in \cite{berry2013connected}. Specifically, invertibility of demand requires weak substitutatbility across  }
 	
@@ -1582,7 +1582,7 @@ In order to capture partisan-selective news consumption, I measure  news-demand 
 	
 	
 	
-Regions with high polarization in news demand (solid line) consistently show higher ER polarization; thus, consuming political information in a more partisan-selective way is associated with electorates whose vote intentions are concentrated in ideologically distant parties. Similar  to  the demand‑side results, the political campaign constitutes a structural break of one year of declining ER polarization levels  that persists for over a year. This persistence contrasts with prior work that found short-lived effects of polarization after campaigns lose salience \citep{Hernndez2020AffectivePA}. While descriptive, this pattern is consistent with persuasion mechanisms in the media literature and it motivates future work that explores the causal link between media consumption and political polarization.
+Regions with high polarization in news demand (solid line) have significantly higher ER polarization\footnote{The coefficient from a regression on the ER polarization index on the high-media polarization dummy is positive and significant with  $t-val\approx5$ with and without the inclusion of date fixed-effects.}; thus, consuming political information in a more partisan-selective way is associated with electorates whose vote intentions are concentrated in ideologically distant parties. Similar  to  the demand‑side results, the political campaign constitutes a structural break of one year of declining ER polarization levels  that persists for over a year. This persistence contrasts with prior work that found short-lived effects of polarization after campaigns lose salience \citep{Hernndez2020AffectivePA}. While descriptive, this pattern is consistent with persuasion mechanisms in the media literature and it motivates future work that explores the causal link between media consumption and political polarization.
 	
 	
 	
@@ -1690,7 +1690,7 @@ Producers therefore aim to maximize the audience shares and adapt their coverage
 
 \subsection{Supply Model}
 
-Within each day's news broadcast , outlets choose the slant of the news in order to maximize national audience, but face costs of producing the slant that depend on the news pool that is available.  Formally, channel $j\in \{La \ Sexta, TVE, T5, A3\}$\footnote{Although both La Sexta and A3 belong to the same media company, AtresMedia; the short period span considered here considers them as independent products. That is, firms and products coincide. } on day $d$ and edition hour $h\in\{0\text{ (midday)},1\text{ (evening)}\}$ solves the following problem:
+Within each day's news broadcast, outlets choose the slant of the news in order to maximize national audience, but face costs of producing the slant that depend on the news pool that is available.  Formally, channel $j\in \{La \ Sexta, TVE, T5, A3\}$\footnote{Although both La Sexta and A3 belong to the same media company, AtresMedia; the short period span considered here considers them as independent products. That is, firms and products coincide. } on day $d$ and edition hour $h\in\{0\text{ (midday)},1\text{ (evening)}\}$ solves the following problem:
 
 
 
@@ -1704,7 +1704,7 @@ Within each day's news broadcast , outlets choose the slant of the news in order
 
 
 
-where $\bm z_{dh}$ measures the pool of stories available at edition~$h$ and $\bm x_{jdh}$ is the proportion of minutes to each tone category as defined above. $L_r$  refers to the total potential audience in region $r$. Notice that I have now incorporated the midday dimension in this analysis. The reason for this will become apparent below in the description of the identification strategy. 
+where $\bm z_{dh}$ measures the pool of stories available at edition~$h$, meaning the stories available up until the beginning of the midday ($h=0$) and evening editions ($h=1$) of the newscasts. $\bm x_{jdh}$ is the proportion of minutes to each tone category as defined in Eq. \ref{eq:controls}. $L_r$  refers to the total potential audience in region $r$. Notice that I have now incorporated the midday dimension in this analysis. The reason for this will become apparent below in the description of the identification strategy. 
 
 The first term in the payoff captures outlets’ incentives to retain audience. Although this motive differs between the private (for-profit)  and the public broadcasters, I abstract from pricing considerations and—following \cite{Goettler2001SpatialCI}—focus on predicted audience only. This standardizes payoffs and allows the public, ad-free broadcaster to be included in the same competition game. The second term in the payoff captures the cost of producing slant as a function of the exogenous pool of stories available on a given day. I parameterize the marginal cost function of a given channel $j$ for content category $k$ as:
 
@@ -2075,7 +2075,7 @@ To sum up, enforcing proportional-airtime constraints raises slant dispersion by
 
 
 
-\paragraph{Limitations} Finally, the counterfactual results should be interpreted with caution. First, as noted before, I discretize each outlet’s action space on a coarse grid; best responses can be pushed to grid boundaries, yielding corner solutions that may over- or understate the continuous-choice equilibrium. Second, I retain only equilibria for which a unique pure-strategy Nash equilibrium is found. This excludes realizations with multiple (or mixed-strategy) equilibria and may bias inference toward stability. If multiplicity matters, equilibrium selection could depend on unmodeled factors. Third, for tractability I pool La Sexta and TVE into a single left player with averaged payoffs. This removes within-bloc competition and coordination frictions; in the full four-player game, left outlets might either undercut one another on tone or differentiate strategically, altering the comparative statics. Relaxing these assumptions could dampen or reshape the effects.
+\paragraph{Limitations} Finally, the counterfactual results should be interpreted with caution. First, as noted before, I discretize each outlet’s action space on a coarse grid; best responses can be pushed to grid boundaries, yielding corner solutions that may over- or understate the continuous-choice equilibrium. Second, the binding constraints force the neutral stories to be zero in the equilibrium (i.e. $x^\emptyset=0$). Although this implies that those minutes will be allocated between the share of politics and the tone categories, it does not necessarily force the outlets to become more negative. To check this substitution towards negative content, I also run a robustness counterfactual where I fix the proportion of political time to be that of the baseline. Outlets consistently substitute towards more negative tone. Third, I retain only equilibria for which a unique pure-strategy Nash equilibrium is found. This excludes realizations with multiple (or mixed-strategy) equilibria and may bias inference toward stability. If multiplicity matters, equilibrium selection could depend on unmodeled factors. Finally, for tractability I pool La Sexta and TVE into a single left player with averaged payoffs. This removes within-bloc competition and coordination frictions; in the full four-player game, left outlets might either undercut one another on tone or differentiate strategically, altering the comparative statics. Relaxing these assumptions could dampen or reshape the effects.
 
 
 

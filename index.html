@@ -152,6 +152,25 @@
       text-decoration: underline;
     }
 
+
+
+  /* JUSTIFY DESCRIPTION PARAGRAPHS ONLY */
+    .intro-paragraph,
+    .w3-content p,
+    .w3-content li,
+    ol.lead p,
+    .lead p {
+      text-align: justify;
+      text-justify: inter-word;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+      text-align-last: left; /* keep last line left-aligned */
+    }
+
+
+    
+
     /* STYLED BUTTON */
     .styled-button {
       display: inline-block;

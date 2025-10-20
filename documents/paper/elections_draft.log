@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.14)  15 OCT 2025 05:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.14)  20 OCT 2025 10:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1835,7 +1835,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [44
 
 ]
-<figures/pipeline3.png, id=1351, 963.72044pt x 542.025pt>
+<figures/pipeline3.png, id=1354, 963.72044pt x 542.025pt>
 File: figures/pipeline3.png Graphic file (type png)
 <use figures/pipeline3.png>
 Package pdftex.def Info: figures/pipeline3.png  used on input line 2168.
@@ -1871,12 +1871,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2240.
 
 [47]
-<figures/congress_left.pdf, id=1382, 556.47902pt x 278.23952pt>
+<figures/congress_left.pdf, id=1385, 556.47902pt x 278.23952pt>
 File: figures/congress_left.pdf Graphic file (type pdf)
 <use figures/congress_left.pdf>
 Package pdftex.def Info: figures/congress_left.pdf  used on input line 2263.
 (pdftex.def)             Requested size: 214.65063pt x 107.3242pt.
-<figures/congress_right.pdf, id=1383, 556.47902pt x 278.23952pt>
+<figures/congress_right.pdf, id=1386, 556.47902pt x 278.23952pt>
 File: figures/congress_right.pdf Graphic file (type pdf)
 <use figures/congress_right.pdf>
 Package pdftex.def Info: figures/congress_right.pdf  used on input line 2270.
@@ -1886,26 +1886,26 @@ File: figures/congress_line_cis.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/congress_line_cis.pdf  used on input line 2320
 .
 (pdftex.def)             Requested size: 228.64882pt x 57.16214pt.
-<figures/congress_line.pdf, id=1388, 578.16pt x 144.54pt>
+<figures/congress_line.pdf, id=1391, 578.16pt x 144.54pt>
 File: figures/congress_line.pdf Graphic file (type pdf)
 <use figures/congress_line.pdf>
 Package pdftex.def Info: figures/congress_line.pdf  used on input line 2329.
 (pdftex.def)             Requested size: 228.64882pt x 57.16214pt.
  [48 <./figures/congress_left.pdf> <./figures/congress_right.pdf> <./figures/co
 ngress_line.pdf>] [49]
-<figures/politicians_tone_proportions.png, id=1457, 859.7721pt x 531.6663pt>
+<figures/politicians_tone_proportions.png, id=1460, 859.7721pt x 531.6663pt>
 File: figures/politicians_tone_proportions.png Graphic file (type png)
 <use figures/politicians_tone_proportions.png>
 Package pdftex.def Info: figures/politicians_tone_proportions.png  used on inpu
 t line 2396.
 (pdftex.def)             Requested size: 426.79134pt x 263.91792pt.
-<figures/politicians_image_proportions.png, id=1459, 860.013pt x 531.6663pt>
+<figures/politicians_image_proportions.png, id=1462, 860.013pt x 531.6663pt>
 File: figures/politicians_image_proportions.png Graphic file (type png)
 <use figures/politicians_image_proportions.png>
 Package pdftex.def Info: figures/politicians_image_proportions.png  used on inp
 ut line 2416.
 (pdftex.def)             Requested size: 223.97801pt x 138.46524pt.
-<figures/politicians_text_proportions.png, id=1460, 860.013pt x 531.6663pt>
+<figures/politicians_text_proportions.png, id=1463, 860.013pt x 531.6663pt>
 File: figures/politicians_text_proportions.png Graphic file (type png)
 <use figures/politicians_text_proportions.png>
 Package pdftex.def Info: figures/politicians_text_proportions.png  used on inpu
@@ -1913,38 +1913,38 @@ t line 2423.
 (pdftex.def)             Requested size: 223.97801pt x 138.46524pt.
  [50] [51 <./figures/politicians_tone_proportions.png> <./figures/politicians_i
 mage_proportions.png> <./figures/politicians_text_proportions.png>] [52]
-<figures/age_cohorts.pdf, id=1481, 715.5533pt x 425.28522pt>
+<figures/age_cohorts.pdf, id=1484, 715.5533pt x 425.28522pt>
 File: figures/age_cohorts.pdf Graphic file (type pdf)
 <use figures/age_cohorts.pdf>
 Package pdftex.def Info: figures/age_cohorts.pdf  used on input line 2516.
 (pdftex.def)             Requested size: 369.88582pt x 219.84523pt.
-<figures/average_tone_pre_post_election.pdf, id=1482, 729.84676pt x 442.37245pt
+<figures/average_tone_pre_post_election.pdf, id=1485, 729.84676pt x 442.37245pt
 >
 File: figures/average_tone_pre_post_election.pdf Graphic file (type pdf)
 <use figures/average_tone_pre_post_election.pdf>
 Package pdftex.def Info: figures/average_tone_pre_post_election.pdf  used on in
 put line 2529.
 (pdftex.def)             Requested size: 369.88582pt x 224.18945pt.
-<figures/average_tone_pre_post_election_party.png, id=1483, 1475.5125pt x 644.4
+<figures/average_tone_pre_post_election_party.png, id=1486, 1475.5125pt x 644.4
 075pt>
 File: figures/average_tone_pre_post_election_party.png Graphic file (type png)
 <use figures/average_tone_pre_post_election_party.png>
 Package pdftex.def Info: figures/average_tone_pre_post_election_party.png  used
  on input line 2545.
 (pdftex.def)             Requested size: 426.79134pt x 186.39157pt.
-<figures/tv_audience_total.png, id=1484, 1011.78pt x 505.89pt>
+<figures/tv_audience_total.png, id=1487, 1011.78pt x 505.89pt>
 File: figures/tv_audience_total.png Graphic file (type png)
 <use figures/tv_audience_total.png>
 Package pdftex.def Info: figures/tv_audience_total.png  used on input line 2556
 .
 (pdftex.def)             Requested size: 426.79134pt x 213.39865pt.
-<figures/tv_vs_efe_political_by_channel.png, id=1485, 1011.78pt x 1011.78pt>
+<figures/tv_vs_efe_political_by_channel.png, id=1488, 1011.78pt x 1011.78pt>
 File: figures/tv_vs_efe_political_by_channel.png Graphic file (type png)
 <use figures/tv_vs_efe_political_by_channel.png>
 Package pdftex.def Info: figures/tv_vs_efe_political_by_channel.png  used on in
 put line 2568.
 (pdftex.def)             Requested size: 426.79134pt x 426.79732pt.
-<figures/tv_vs_efe_net_diff_by_channel.png, id=1486, 1011.78pt x 1011.78pt>
+<figures/tv_vs_efe_net_diff_by_channel.png, id=1489, 1011.78pt x 1011.78pt>
 File: figures/tv_vs_efe_net_diff_by_channel.png Graphic file (type png)
 <use figures/tv_vs_efe_net_diff_by_channel.png>
 Package pdftex.def Info: figures/tv_vs_efe_net_diff_by_channel.png  used on inp
@@ -1954,108 +1954,108 @@ ut line 2577.
 
 LaTeX Warning: Characters dropped after `\end{comment}' on input line 2653.
 
-<figures/fwl_plots_lowess_v2.pdf, id=1489, 433.62pt x 289.08pt>
+<figures/fwl_plots_lowess_v2.pdf, id=1492, 433.62pt x 289.08pt>
 File: figures/fwl_plots_lowess_v2.pdf Graphic file (type pdf)
 <use figures/fwl_plots_lowess_v2.pdf>
 Package pdftex.def Info: figures/fwl_plots_lowess_v2.pdf  used on input line 26
 71.
 (pdftex.def)             Requested size: 455.24408pt x 303.51207pt.
-<figures/elasticities_left_pre.pdf, id=1492, 556.40814pt x 369.07512pt>
+<figures/elasticities_left_pre.pdf, id=1495, 556.40814pt x 369.07512pt>
 File: figures/elasticities_left_pre.pdf Graphic file (type pdf)
 <use figures/elasticities_left_pre.pdf>
 Package pdftex.def Info: figures/elasticities_left_pre.pdf  used on input line 
 2687.
 (pdftex.def)             Requested size: 209.97983pt x 139.28136pt.
-<figures/elasticities_right_pre.pdf, id=1493, 546.18243pt x 369.07512pt>
+<figures/elasticities_right_pre.pdf, id=1496, 546.18243pt x 369.07512pt>
 File: figures/elasticities_right_pre.pdf Graphic file (type pdf)
 <use figures/elasticities_right_pre.pdf>
 Package pdftex.def Info: figures/elasticities_right_pre.pdf  used on input line
  2695.
 (pdftex.def)             Requested size: 209.97983pt x 141.8888pt.
-<figures/fwl_plots_lowess_diff_costs_v2.pdf, id=1496, 433.62pt x 289.08pt>
+<figures/fwl_plots_lowess_diff_costs_v2.pdf, id=1499, 433.62pt x 289.08pt>
 File: figures/fwl_plots_lowess_diff_costs_v2.pdf Graphic file (type pdf)
 <use figures/fwl_plots_lowess_diff_costs_v2.pdf>
 Package pdftex.def Info: figures/fwl_plots_lowess_diff_costs_v2.pdf  used on in
 put line 2710.
 (pdftex.def)             Requested size: 455.24408pt x 303.51207pt.
-<figures/char_pos_left_residual_v2.png, id=1499, 505.89pt x 361.35pt>
+<figures/char_pos_left_residual_v2.png, id=1502, 505.89pt x 361.35pt>
 File: figures/char_pos_left_residual_v2.png Graphic file (type png)
 <use figures/char_pos_left_residual_v2.png>
 Package pdftex.def Info: figures/char_pos_left_residual_v2.png  used on input l
 ine 2725.
 (pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
-<figures/char_pos_right_residual_v2.png, id=1500, 505.89pt x 361.35pt>
+<figures/char_pos_right_residual_v2.png, id=1503, 505.89pt x 361.35pt>
 File: figures/char_pos_right_residual_v2.png Graphic file (type png)
 <use figures/char_pos_right_residual_v2.png>
 Package pdftex.def Info: figures/char_pos_right_residual_v2.png  used on input 
 line 2726.
 (pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
-<figures/char_neg_left_residual_v2.png, id=1501, 505.89pt x 361.35pt>
+<figures/char_neg_left_residual_v2.png, id=1504, 505.89pt x 361.35pt>
 File: figures/char_neg_left_residual_v2.png Graphic file (type png)
 <use figures/char_neg_left_residual_v2.png>
 Package pdftex.def Info: figures/char_neg_left_residual_v2.png  used on input l
 ine 2731.
 (pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
-<figures/char_neg_right_residual_v2.png, id=1502, 505.89pt x 361.35pt>
+<figures/char_neg_right_residual_v2.png, id=1505, 505.89pt x 361.35pt>
 File: figures/char_neg_right_residual_v2.png Graphic file (type png)
 <use figures/char_neg_right_residual_v2.png>
 Package pdftex.def Info: figures/char_neg_right_residual_v2.png  used on input 
 line 2732.
 (pdftex.def)             Requested size: 209.97983pt x 149.98502pt.
-<figures/payoff_pos_left.png, id=1503, 498.9039pt x 354.3639pt>
+<figures/payoff_pos_left.png, id=1506, 498.9039pt x 354.3639pt>
 File: figures/payoff_pos_left.png Graphic file (type png)
 <use figures/payoff_pos_left.png>
 Package pdftex.def Info: figures/payoff_pos_left.png  used on input line 2753.
 (pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
-<figures/payoff_pos_right.png, id=1504, 498.9039pt x 354.3639pt>
+<figures/payoff_pos_right.png, id=1507, 498.9039pt x 354.3639pt>
 File: figures/payoff_pos_right.png Graphic file (type png)
 <use figures/payoff_pos_right.png>
 Package pdftex.def Info: figures/payoff_pos_right.png  used on input line 2754.
 
 (pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
-<figures/payoff_neg_left.png, id=1505, 498.9039pt x 354.3639pt>
+<figures/payoff_neg_left.png, id=1508, 498.9039pt x 354.3639pt>
 File: figures/payoff_neg_left.png Graphic file (type png)
 <use figures/payoff_neg_left.png>
 Package pdftex.def Info: figures/payoff_neg_left.png  used on input line 2759.
 (pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
-<figures/payoff_neg_right.png, id=1506, 498.9039pt x 354.123pt>
+<figures/payoff_neg_right.png, id=1509, 498.9039pt x 354.123pt>
 File: figures/payoff_neg_right.png Graphic file (type png)
 <use figures/payoff_neg_right.png>
 Package pdftex.def Info: figures/payoff_neg_right.png  used on input line 2760.
 
 (pdftex.def)             Requested size: 209.97983pt x 149.04404pt.
-<figures/payoff_pos_left_all_positive.png, id=1507, 498.9039pt x 354.3639pt>
+<figures/payoff_pos_left_all_positive.png, id=1510, 498.9039pt x 354.3639pt>
 File: figures/payoff_pos_left_all_positive.png Graphic file (type png)
 <use figures/payoff_pos_left_all_positive.png>
 Package pdftex.def Info: figures/payoff_pos_left_all_positive.png  used on inpu
 t line 2777.
 (pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
-<figures/payoff_pos_right_all_positive.png, id=1508, 498.9039pt x 354.3639pt>
+<figures/payoff_pos_right_all_positive.png, id=1511, 498.9039pt x 354.3639pt>
 File: figures/payoff_pos_right_all_positive.png Graphic file (type png)
 <use figures/payoff_pos_right_all_positive.png>
 Package pdftex.def Info: figures/payoff_pos_right_all_positive.png  used on inp
 ut line 2778.
 (pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
-<figures/payoff_neg_left_all_positive.png, id=1509, 498.9039pt x 354.3639pt>
+<figures/payoff_neg_left_all_positive.png, id=1512, 498.9039pt x 354.3639pt>
 File: figures/payoff_neg_left_all_positive.png Graphic file (type png)
 <use figures/payoff_neg_left_all_positive.png>
 Package pdftex.def Info: figures/payoff_neg_left_all_positive.png  used on inpu
 t line 2783.
 (pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
-<figures/payoff_neg_right_all_positive.png, id=1510, 498.9039pt x 354.3639pt>
+<figures/payoff_neg_right_all_positive.png, id=1513, 498.9039pt x 354.3639pt>
 File: figures/payoff_neg_right_all_positive.png Graphic file (type png)
 <use figures/payoff_neg_right_all_positive.png>
 Package pdftex.def Info: figures/payoff_neg_right_all_positive.png  used on inp
 ut line 2784.
 (pdftex.def)             Requested size: 209.97983pt x 149.14543pt.
-<figures/congress_line_chatgpt_pre_postv2.pdf, id=1511, 570.93298pt x 133.28793
+<figures/congress_line_chatgpt_pre_postv2.pdf, id=1514, 570.93298pt x 133.28793
 pt>
 File: figures/congress_line_chatgpt_pre_postv2.pdf Graphic file (type pdf)
 <use figures/congress_line_chatgpt_pre_postv2.pdf>
 Package pdftex.def Info: figures/congress_line_chatgpt_pre_postv2.pdf  used on 
 input line 2835.
 (pdftex.def)             Requested size: 284.52756pt x 66.42618pt.
-<figures/congress_line_counter.pdf, id=1514, 570.93298pt x 167.53386pt>
+<figures/congress_line_counter.pdf, id=1517, 570.93298pt x 167.53386pt>
 File: figures/congress_line_counter.pdf Graphic file (type pdf)
 <use figures/congress_line_counter.pdf>
 Package pdftex.def Info: figures/congress_line_counter.pdf  used on input line 
@@ -2158,9 +2158,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4608.
  ) 
 Here is how much of TeX's memory you used:
- 41112 strings out of 492649
- 942516 string characters out of 6129622
- 1330980 words of memory out of 5000000
+ 41113 strings out of 492649
+ 942528 string characters out of 6129622
+ 1330981 words of memory out of 5000000
  43647 multiletter control sequences out of 15000+600000
  45195 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2212,10 +2212,10 @@ er/sfti1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super
 /sfti1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/s
 ftt1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sft
 t1200.pfb>
-Output written on elections_draft.pdf (86 pages, 10308099 bytes).
+Output written on elections_draft.pdf (86 pages, 10309477 bytes).
 PDF statistics:
- 2232 PDF objects out of 2487 (max. 8388607)
- 1345 compressed objects within 14 object streams
- 294 named destinations out of 1000 (max. 500000)
+ 2236 PDF objects out of 2487 (max. 8388607)
+ 1349 compressed objects within 14 object streams
+ 295 named destinations out of 1000 (max. 500000)
  652 words of extra memory for PDF output out of 10000 (max. 10000000)
 
