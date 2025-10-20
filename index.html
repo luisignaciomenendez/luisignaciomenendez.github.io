@@ -114,9 +114,29 @@
   text-decoration: none;
 }
 
-    /* NAME + DESCRIPTION CONTAINER */
+ .w3-content {
+      max-width: 1100px;    /* adjust to taste (e.g. 1000px) */
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    /* Keep the intro block centered and side-by-side with the photo on large screens */
+    .intro-section {
+      max-width: 1100px;    /* match page width */
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0;      /* w3-content already provides side padding */
+      padding-right: 0;
+    }
+
+    /* REPLACE: allow intro text to flex beside the photo (remove the old fixed max-width) */
     .intro-text {
-      max-width: 600px;  /* Limits text width */
+      flex: 1 1 auto;
+      min-width: 300px;
+      max-width: calc(100% - 380px); /* leaves room for ~360px photo + gap */
+      text-align: left;
     }
     .intro-name {
       font-size: 50px;   /* Enlarge or reduce your name */

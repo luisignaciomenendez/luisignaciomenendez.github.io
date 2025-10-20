@@ -3,29 +3,29 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: elections_draft.aux
 The style file: apa.bst
 Database file #1: ./bib/media_bias.bib
-Repeated entry---line 137 of file ./bib/media_bias.bib
+Repeated entry---line 144 of file ./bib/media_bias.bib
  : @article{Graham2019DemocracyIA
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "eurobarometer2022" isn't style-file defined
---line 199 of file ./bib/media_bias.bib
-Repeated entry---line 275 of file ./bib/media_bias.bib
+--line 206 of file ./bib/media_bias.bib
+Repeated entry---line 282 of file ./bib/media_bias.bib
  : %@article{berry_blp
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 315 of file ./bib/media_bias.bib
+Repeated entry---line 322 of file ./bib/media_bias.bib
  : @article{Puglisi2011NewspaperCO
  :                                ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "reuters_dnr_2023" isn't style-file defined
---line 652 of file ./bib/media_bias.bib
+--line 659 of file ./bib/media_bias.bib
 Warning--entry type for "europarl2024" isn't style-file defined
---line 912 of file ./bib/media_bias.bib
-You're missing a field name---line 916 of file ./bib/media_bias.bib
+--line 919 of file ./bib/media_bias.bib
+You're missing a field name---line 923 of file ./bib/media_bias.bib
  :  date         = {2025-02-28},        
  :                                      % last updated on the factsheet page
 I'm skipping whatever remains of this entry
-Repeated entry---line 924 of file ./bib/media_bias.bib
+Repeated entry---line 931 of file ./bib/media_bias.bib
  : %@online{europarl2024
  :                      ,
 I'm skipping whatever remains of this entry
