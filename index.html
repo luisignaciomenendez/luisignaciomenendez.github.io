@@ -114,6 +114,25 @@
   text-decoration: none;
 }
 
+
+/* buttons row for intro (Job Market + CV) */
+    .intro-buttons {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+    .intro-buttons .media-monitor-btn {
+      font-size: 20px;    /* scale down slightly inside intro */
+      padding: 10px 20px;
+    }
+
+
+
+
+
  .w3-content {
       max-width: 1100px;    /* adjust to taste (e.g. 1000px) */
       margin-left: auto;
@@ -129,6 +148,7 @@
       margin-right: auto;
       padding-left: 0;      /* w3-content already provides side padding */
       padding-right: 0;
+      padding-top: 2px; 
     }
 
     /* REPLACE: allow intro text to flex beside the photo (remove the old fixed max-width) */
@@ -138,6 +158,13 @@
       max-width: calc(100% - 380px); /* leaves room for ~360px photo + gap */
       text-align: left;
     }
+
+
+.intro-text > .intro-paragraph:first-child {
+  margin-top: 5cm; /* adjust */
+}
+
+
     .intro-name {
       font-size: 50px;   /* Enlarge or reduce your name */
       font-weight: bold;
@@ -309,19 +336,21 @@
   <!-- INTRO SECTION (NAME + PHOTO + DESCRIPTION TOGETHER) -->
 <div class="intro-section" id="home">
   <div class="intro-photo">
+    <div class="intro-name">Luis Menéndez</div>
     <img src="images/Luis.jpeg" alt="Photo of Luis Menéndez">
   </div>
   <div class="intro-text">
-    <div class="intro-name">Luis Menéndez</div>
-    <p class="intro-paragraph">
+    <p class="intro-paragraph" >
       I am a Ph.D. candidate in Economics at <a href="https://www.uabufae.eu" target="_blank">Universitat Autònoma de Barcelona</a>, the <a href="https://bse.eu" target="_blank">Barcelona School of Economics</a>, and the <a href="https://www.uabidea.eu" target="_blank">IDEA Graduate Program</a>.
     </p>
-    <p class="intro-paragraph" style="margin-top: 24px; margin-bottom: 24px;">
+    <p class="intro-paragraph" style="margin-top: 0.1cm; margin-bottom: 24px;">
       My main research interests are <b>Political Economics</b> and <b>Media Economics</b>. I apply machine learning and text processing techniques combined with structural econometric methods to understand topics such as online coordination for offline protest participation, linguistic echo-chambers, and polarization in the demand for political content. I am on the <b>2025-26 Job Market</b>.
     </p>
-    <p class="intro-paragraph" style="margin-top: 24px; margin-bottom: 24px;">
-      You can check out my CV <strong><a href="https://www.dropbox.com/scl/fi/2expnagwfbvz04oec5tlq/cv_luis.pdf?rlkey=266c3o9xbwdek4x7we5e6ra2f&dl=0" target="_blank">here</a></strong>.
-    </p>
+
+    <div class="intro-buttons">
+     <a class="media-monitor-btn" href="https://www.dropbox.com/scl/fi/l66fli8yxvm3f0z2sck1x/jmp_menendez.pdf?rlkey=zz6dnjs5gm6ilhh04op247jxh&dl=0" target="_blank">Job Market Paper</a>
+      <a class="media-monitor-btn" href="https://www.dropbox.com/scl/fi/2expnagwfbvz04oec5tlq/cv_luis.pdf?rlkey=266c3o9xbwdek4x7we5e6ra2f&dl=0" target="_blank">CV</a>
+    </div>
     <p class="intro-paragraph">
       Email: <a href="mailto:luisigmenendez@gmail.com">luisigmenendez@gmail.com</a>
     </p>
@@ -399,7 +428,7 @@ This article exploits data from a political conflict between language groups to 
   </p>
  <p>
   <b><a href="https://www.dropbox.com/scl/fi/3ew7kot2x26itqrj2nk47/media_entry_draft.pdf?rlkey=gxgpdou4yw5ysicbpzam9w492&dl=0">"Media Entry and Political Slant"</a></b>
-        <i> with Manuel Lleonart.</i>
+        <i> with Manuel Lleonart-Anguix.</i>
         <span class="show-button" onclick="toggleAbstract('abstract4')"> Abstract</span><br>
         <span id="abstract4" class="abstract-text">          
 This paper investigates how competition shapes ideological slant in television news. While theoretical models suggest that increased media competition can either intensify or mitigate bias—depending on whether audiences seek confirmation or accuracy—empirical evidence remains limited. We address this gap by analyzing the entry of a new Spanish TV news outlet and measuring how it alters the political slant of existing providers. Our approach combines a formal model of political media markets with a novel empirical strategy that leverages large-language-model and text-analysis techniques. We disentangle media bias into topic selection, ideological tone, and airtime allocation—capturing the three primary channels through which slant manifests. Our findings offer the first direct evidence of how heightened rivalry influences not just audience composition, but the strategic editorial decisions that shape political coverage. 
@@ -421,7 +450,7 @@ the Economy"</b>
       <a href="https://luisignaciomenendez.github.io/media_monitor/index.html" target="_blank" class="media-monitor-btn">
   Spanish Media Monitor
 </a><br>
-      <strong>Spanish Media Monitor</strong> is the first effort to monitor TV media using large language models (LLMs). I built this project to provide real-time analysis of Spanish television news content, leveraging LLMs for story identification, classification, and visualization. You can visit the webpage <a href="https://luisignaciomenendez.github.io/media_monitor/index.html" target="_blank">here</a>.
+      <strong>Spanish Media Monitor</strong> is the first effort to monitor TV media using large language models (LLMs).  I built this project together with <strong><a href="https://mallean.github.io/ManuelLleonart/" target="_blank">Manuel Lleonart-Anguix</a></strong>  to provide real-time analysis of Spanish television news content, leveraging LLMs for story identification, classification, and visualization. You can visit the webpage <a href="https://luisignaciomenendez.github.io/media_monitor/index.html" target="_blank">here</a>.
     </p>
   </ol>
 </div>

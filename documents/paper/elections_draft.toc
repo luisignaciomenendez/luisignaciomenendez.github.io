@@ -6,7 +6,7 @@
 \contentsline {paragraph}{Rest of the Paper}{6}{paragraph*.2}
 \contentsline {section}{\numberline {2}Context}{6}{section.2}
 \contentsline {subsection}{\numberline {2.1}Traditional Media and Political Information}{6}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Spanish Politics and TV News}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Spanish Politics and TV News}{8}{subsection.2.2}
 \contentsline {section}{\numberline {3}Data, Text Analysis and Descriptive Evidence}{10}{section.3}
 \contentsline {subsection}{\numberline {3.1}Data}{10}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Text Classification}{12}{subsection.3.2}
