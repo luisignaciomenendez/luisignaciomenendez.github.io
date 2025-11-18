@@ -83,6 +83,10 @@
 	{\normalsize\href{https://www.dropbox.com/scl/fi/l66fli8yxvm3f0z2sck1x/jmp_menendez.pdf?rlkey=zz6dnjs5gm6ilhh04op247jxh&dl=0}{Latest version here}}
 }
 
+
+
+
+
 \begin{document}
 	
 \renewcommand\thepart{}      % ← KEEP THIS COMMENTED OUT
@@ -748,7 +752,7 @@ The slant index captures the party balance of each channel both in terms of thei
  
 
  
- Figure~\ref{fig:channel_ideology_lines} displays the normalized scores: panel~(a) shows outlets' positions based on viewers’ ideology, and panel~(b) based on their text‐based slant. The consistent left‐to‐right ranking and the close dispersion of the balues in both panels confirms that the LLM‐based content classification of the channel's slant is similar to  the ideological distribution of their vierws.
+ Figure~\ref{fig:channel_ideology_lines} displays the normalized scores: panel~(a) shows outlets' positions based on viewers’ ideology, and panel~(b) based on their text‐based slant. The consistent left‐to‐right ranking and the close dispersion of the values in both panels confirms that the LLM‐based content classification of the channel's slant is similar to  the ideological distribution of their viewers.
 		
 	
 	
@@ -783,7 +787,7 @@ The slant index captures the party balance of each channel both in terms of thei
 	
 	\paragraph{Robustness of the text classification.}
 	
-	The use of LLMs as classifiers has gained popularity for the classification of political stances, with even higher accuracy scores for ideological classification compared to human annotators \citep[see, e.g.,][]{lemens,tornberg2023,Gilardi2023ChatGPTOC}. However, two main concerns arise. First, LLMs have been shown to suffer from prompt instability, producing inconsistent results across multiple runs of the same query. Second, the performance of LLMs  in discerning political stance compared to other text classification methods. In Appendix Section~\ref{sec:robustness}, I address these concerns. 	I first demonstrate that the classification remains stable under repeated queries. Second, I compare my results with previous methods used to assess slant: similarity to congress speechas an politicians time on screen. Specifically, methods based on similarity to congressional speeches \citep{gentzkow2010media,laver2003extracting} yield a consistent ideological ranking of the outlets although the spread of the ideological spectrum differs. Finally, I compare the LLM-based slant measure with the exposure metric used by regulatory agencies that tracks party leaders’ on-screen time. To replicate this metric, I train a face-recognition model on images of national party leaders and apply it to a stratified subsample of broadcasts; for each outlet, I compute the share of minutes in which any leader appears. This exposure measure yields markedly different ideology scores: it portrays outlets as far more homogeneous and fails to recover the observed left–right ranking or its cross-outlet dispersion. In short, airtime is highly sensitive to event-driven appearances and production choices, making it a poor proxy for editorial slant. 	
+	The use of LLMs as classifiers has gained popularity for the classification of political stances, with even higher accuracy scores for ideological classification compared to human annotators \citep[see, e.g.,][]{lemens,tornberg2023,Gilardi2023ChatGPTOC}. However, two main concerns arise. First, LLMs have been shown to suffer from prompt instability, producing inconsistent results across multiple runs of the same query. Second, the performance of LLMs  in discerning political stance compared to other text classification methods. In Appendix Section~\ref{sec:robustness}, I address these concerns. 	I first demonstrate that the classification remains stable under repeated queries. Second, I compare my results with previous methods used to assess slant: similarity to congress speeches an politicians time on screen. Specifically, methods based on similarity to congressional speeches \citep{gentzkow2010media,laver2003extracting} yield a consistent ideological ranking of the outlets although the spread of the ideological spectrum differs. Finally, I compare the LLM-based slant measure with the exposure metric used by regulatory agencies that tracks party leaders’ on-screen time. To replicate this metric, I train a face-recognition model on images of national party leaders and apply it to a stratified subsample of broadcasts; for each outlet, I compute the share of minutes in which any leader appears. This exposure measure yields markedly different ideology scores: it portrays outlets as far more homogeneous and fails to recover the observed left–right ranking or its cross-outlet dispersion. In short, airtime is highly sensitive to event-driven appearances and production choices, making it a poor proxy for editorial slant. 	
 	
 	
 
@@ -1013,7 +1017,7 @@ Models of demand estimation have often treated product characteristics as exogen
 
 %and it is endogenous since it is chosen by the outlets taking into account the same unobserved demand shocks that move audience shares.
 	
-Formally, viewers form expectations about each channel’s utility to start watching the news on day $d$ based on exogenous variables—weather, individual attributes, and an unobserved (to the econometrician) shock~$\xi$—as well as yesterday’s  realized slant content ~$\bm{x}_{jd-1}$. Channels already choose day's $d-1$ slant while forming expectations about next-day utility shocks~$\Delta\xi_{jrd}$. These shocks have two components.	On the one hand, there are day $d$ taste shocks that outlets did not foresee when they set yesterday's slant.  These include information people acquire on the day through social media about political events, which can raise the immediate payoff from starting the news on a particular outlet. The timing difference partially addresses this concern because at minute–0 viewers choose a channel to start consuming the news based on exogenous factors and on yesterday’s slant $\bm{x}_{j,d-1}$, which has already occurred. Hence these shocks that shift minute–0 utility are orthogonal to $\bm{x}_{j,d-1}$ due to timing differences and do not create endogeneity in the estimation of the preferences for slant coefficients. On the other hand, there are predictable components—ongoing scandals, pre-show information—that outlets can anticipate and incorporate when planning and setting slant. As a result,  optimal content decisions are functions of these anticipated taste shocks, implying $\E[\mathbf{x}_{jrd-1}\,\Delta\xi_{jrd}] \neq \mathbf{0}$.
+Formally, viewers form expectations about each channel’s utility to start watching the news on day $d$ based on exogenous variables—weather, individual attributes, and an unobserved (to the econometrician) shock~$\xi$—as well as yesterday’s  realized slant content ~$\bm{x}_{jd-1}$. Channels already choose day's $d-1$ slant while forming expectations about next-day utility shocks~$\Delta\xi_{jrd}$. These shocks have two components.	On the one hand, there are day $d$ taste shocks that outlets did not foresee when they set yesterday's slant.  These include information people acquire on the day through social media about political events, which can raise the immediate payoff from starting the news on a particular outlet. The timing difference partially addresses this concern because at minute–0 viewers choose a channel to start consuming the news based on exogenous factors and on yesterday’s slant $\bm{x}_{j,d-1}$, which has already occurred. Hence these unanticipated shocks that shift minute–0 utility are orthogonal to $\bm{x}_{j,d-1}$ due to timing differences and do not create endogeneity in the estimation of the preferences for slant coefficients. On the other hand, there are predictable components—ongoing scandals, pre-show information—that outlets can anticipate and incorporate when planning and setting slant. As a result,  optimal content decisions are functions of these anticipated taste shocks, implying $\E[\mathbf{x}_{jrd-1}\,\Delta\xi_{jrd}] \neq \mathbf{0}$.
 	
 
 	I address endogeneity  using random variation in the daily composition of the story pool available to produce the news. Each day’s newswire feed is a proxy for the set of stories editors can draw on to build the newscast. The political mix of this set determines what is newsworthy and thus constrains what outlets can speak about. Although these shocks are common to all outlets, they affect outlets asymmetrically. Since events are not predictable and outlets wish to maintain their stance, they need to take advantage of politically "favorable" days where they can increase the coverage of events that match their political leaning. I therefore use the \emph{news shock} $\mathbf{z}_d$ defined in Eq.~\eqref{eq:efe} as instruments for outlet–day slant $\mathbf{x}_{jd}$. The key identification assumption is that $\mathbf{z}_d$ affects audience shares only through its impact on the cost of supplying slanted content, not through direct shifts in viewers’ tastes.
@@ -1825,17 +1829,17 @@ Table~\ref{tab:costs} reports the estimated $\lambda_j^k$.\footnote{Processing o
 		& La~Sexta & TVE & Telecinco (T5) & Antena~3 (A3)\\
 		& \scriptsize{(Left)} & \scriptsize{(Left)} & \scriptsize{(Middle)} & \scriptsize{(Right)}\\
 		\midrule
-		Negative Left & 12.82 & 6.27 & 108.34 & -38.96 \\
-		& (44.44) & (2.63) & (60.39) & (23.79) \\
-		\midrule
-		Positive Right & -89.09 & -103.74 & -13.87 & -240.52 \\
+			Positive Right & -89.09 & -103.74 & -13.87 & -240.52 \\
 		& (85.99) & (121.36) & (91.62) & (77.50) \\
-		\midrule
-		Positive Left & 36.11 & 3.36 & 24.03 & -40.03 \\
-		& (52.70) & (13.12) & (43.99) & (84.81) \\
-		\midrule
+				\midrule
 		Negative Right & 4.07 & -8.88 & 31.13 & 35.16 \\
 		& (4.80) & (11.41) & (36.16) & (53.89) \\
+				\midrule
+		Positive Left & 12.82 & 6.27 & 108.34 & -38.96 \\
+		& (44.44) & (2.63) & (60.39) & (23.79) \\
+	\midrule
+		Negative Left & 36.11 & 3.36 & 24.03 & -40.03 \\
+		& (52.70) & (13.12) & (43.99) & (84.81) \\
 		\midrule
 		Political & -0.35 & 0.32 & 1.50 & 1.45 \\
 		& (0.61) & (0.62) & (1.05) & (1.25) \\
@@ -1946,7 +1950,7 @@ I assume that the policy is enforced; that is, all outlets must devote the propo
 Results of the counterfactual estimation are shown in Table \ref{tab:counter}. I present the results for dates with a unique Nash equilibrium ($63\%$ of the total dates). The left columns report the baseline, average minutes for each category during the campaign and the right column reports the results from the counterfactual equilibrium. 
 
 
-
+\begin{comment}
 \begin{table}[!htbp]
 	\caption{Baseline and Counterfactual Slant by Channel}
 	\label{tab:counter}
@@ -1970,8 +1974,41 @@ Results of the counterfactual estimation are shown in Table \ref{tab:counter}. I
 		\bottomrule
 	\end{tabular}
 	\vspace{0.5em}
-	\caption*{\small \emph{Note:} The table reports the average share of minutes per content category under the baseline and counterfactual equilibria. Baseline values refer to observed campaign broadcasts; counterfactual values are predicted from solving from solving the counterfactual optimization problem in Equation~\eqref{eq:payoffs2}.      Channels are grouped as: left-leaning (La~Sexta, TVE), middle (T5), and right-leaning (A3).}
+	\caption*{\small \emph{Note:} The table reports the average share of minutes per content category under the baseline and counterfactual equilibria. Baseline values refer to observed campaign broadcasts; counterfactual values are predicted from solving  the counterfactual optimization problem in Equation~\eqref{eq:payoffs2}.      Channels are grouped as: left-leaning (La~Sexta, TVE), middle (T5), and right-leaning (A3).}
 \end{table}
+
+\end{comment}
+
+
+\begin{table}[!htbp]
+	\caption{Baseline and Counterfactual Slant by Channel}
+	\label{tab:counter}
+	\centering\small
+	\begin{tabular}{lcccccc}
+		\toprule
+		& \multicolumn{2}{c}{La~Sexta/TVE} & \multicolumn{2}{c}{Telecinco (T5)} & \multicolumn{2}{c}{Antena~3 (A3)} \\
+		& \multicolumn{2}{c}{(Left)} & \multicolumn{2}{c}{(Middle)} & \multicolumn{2}{c}{(Right)} \\
+		& Baseline & Count. & Baseline & Count. & Baseline & Count. \\
+		\midrule
+		Negative Left & 0.06 & 0.05 & 0.04 & 0.23 & 0.09 & 0.45 \\
+		\midrule
+		Positive Right & 0.03 & 0.00 & 0.03 & 0.00 & 0.04 & 0.05 \\
+		\midrule
+		Positive Left & 0.09 & 0.10 & 0.04 & 0.06 & 0.06 & 0.01 \\
+		\midrule
+		Negative Right & 0.09 & 0.15 & 0.04 & 0.29 & 0.07 & 0.39 \\
+		\midrule
+		Political & 0.42 & 0.30 & 0.18 & 0.58 & 0.39 & 0.90 \\
+		\midrule
+		\bottomrule
+	\end{tabular}
+	\vspace{0.5em}
+	\caption*{\small \emph{Note:} The table reports the average share of minutes per content category under the baseline and counterfactual equilibria. Baseline values refer to observed campaign broadcasts; counterfactual values are predicted from solving the counterfactual optimization problem in Equation~\eqref{eq:payoffs2}. Channels are grouped as: left-leaning (La~Sexta, TVE), middle (T5), and right-leaning (A3).}
+\end{table}
+
+
+
+
 
 
 %Several facts emerge from the counterfactual exercise. First, left-leaning outlets (La Sexta/TVE) reduce the overall share of political coverage from 42\% to 30\% when constrained to allocate airtime proportionally. Since they are forced to spend more time on right-wing coverage, they cut back on politics altogether and shift  toward a more negative tone of the right (from 0.09 to 0.15). At the same time, their positive coverage of the left remains broadly unchanged, implying that compliance is achieved primarily by eliminating right-positive content and compensating with hostile tone.
@@ -2250,7 +2287,7 @@ Figure \ref{fig:congress_line} shows the left–right positions derived from thi
 	\end{minipage}
 	
 	
-	\caption*{\small \textit{Note:} The figure compares normalized left–right positions for the outlets in the sample. Panel (a) uses viewer ideology data from CIS survey data, using the difference in correlation coefficients between right and left; panel (b) uses ChatGPT-based text classification net tone as described in Equation \eqref{eq:log_ratio}. Values are normalized so that the two most extreme channels take values -1 and 1. }
+	\caption*{\small \textit{Note:} The figure compares normalized left–right positions for the outlets in the sample. Panel (a) uses viewer ideology data from CIS survey data, using the difference in correlation coefficients between right and left; panel (b) uses Congress-speech-based text classification net tone as described in Equation \eqref{eq:log_ratio}. Values are normalized so that the two most extreme channels take values -1 and 1. }
 	\label{fig:congress_line}
 \end{figure}
 
@@ -2987,36 +3024,7 @@ Taken together, the results indicate that text-based and image-based measures of
 	\caption*{\textit{Note:} \small The table shows the average elasticities for each characteristic by right and left markets as defined in Eq. \eqref{eq:elasticities}. Right markets are defined as regions with proportion of right-wing voters above the median. Standard errors in parentheses are calculated as the standard error of the mean across markets.}
 	\label{tab:elasticities}
 \end{table}
-
-\begin{table}[!htbp]
-		\caption{Diversion Ratios by Characteristic and Outlet (Campaign period)}
-	\centering
-	\setlength{\tabcolsep}{5pt}% tighter columns
-	\renewcommand{\arraystretch}{1.05}% a bit more row height for readability
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{l|cccc|cccc|cccc|cccc|cccc|}
-			\toprule
-			& \multicolumn{4}{c|}{Positive Left} & \multicolumn{4}{c|}{Positive Right} & \multicolumn{4}{c|}{Negative Left} & \multicolumn{4}{c|}{Negative Right} & \multicolumn{4}{c|}{Political} \\
-			\midrule
-			Destination $\downarrow$ & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 \\
-			\midrule
-			TVE & 0.00 & 0.03 & 0.01 & 0.01 & 0.00 & 0.02 & 0.01 & 0.00 & 0.00 & 0.01 & 0.01 & 0.01 & 0.00 & 0.02 & 0.00 & 0.00 & 0.00 & 0.02 & 0.01 & 0.00 \\
-			T5 & 0.01 & 0.00 & 0.02 & 0.03 & 0.05 & 0.00 & 0.15 & 0.10 & 0.02 & 0.00 & 0.26 & 0.03 & 0.00 & 0.00 & 0.03 & 0.06 & 0.06 & 0.00 & 0.17 & 0.02 \\
-			A3 & 0.04 & 0.05 & 0.00 & 0.50 & 0.00 & 0.04 & 0.00 & 0.01 & 0.00 & 0.03 & 0.00 & 0.00 & 0.01 & 0.10 & 0.00 & 0.91 & 0.01 & 0.07 & 0.00 & 0.01 \\
-			La6 & 0.00 & 0.01 & 0.23 & 0.00 & 0.01 & 0.02 & 0.00 & 0.00 & 0.00 & 0.01 & 0.00 & 0.00 & 0.00 & 0.00 & 0.03 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
-			Outside & 0.94 & 0.90 & 0.74 & 0.45 & 0.94 & 0.93 & 0.84 & 0.88 & 0.98 & 0.95 & 0.72 & 0.96 & 0.99 & 0.88 & 0.94 & 0.04 & 0.93 & 0.91 & 0.82 & 0.97 \\
-			\bottomrule
-		\end{tabular}
-	}% end resize
-		\caption*{\textit{Note:} \small The table reports {diversion ratios}: for a 1\% increase in outlet $j$’s characteristic $x_j^{k}$, the entry is the fraction of $j$’s audience loss (columns) that diverts to outlet destination $l$ (rows). With the share changes $\Delta s_l^{t}$ from a 1\% change in $x_j^{k}$, I define	
-			{\tiny
-				$D_{j\to l}^{k,t}=\frac{\max\{\Delta s_l^{t},0\}}{-\Delta s_j^{t}}\ \text{ for }\ \Delta s_j^{t}<0.$} as the diversion rate from alternative $j$ to $l$ and characteristic $k$ on market $t$. Then, conditioning on markets that loose audience I compute
-				{\tiny
-				$D_{j\to l}^{k}=\frac{\sum_{t:\,\Delta s_j^{t}<0}(-\Delta s_j^{t})\,D_{j\to l}^{k,t}}{\sum_{t:\,\Delta s_j^{t}<0}(-\Delta s_j^{t})},\quad \sum_{l\neq j}D_{j\to l}^{k}+D_{j\to 0}^{k}=1.$
-			} which is the reported {loss-weighted} averages across markets.
-		}
-	\label{tab:diversion_ratios}
-\end{table}
+ 
 
 
 
@@ -3839,6 +3847,38 @@ This is the table when i run the regression separatedly without both controls on
 	
 	
 	
+	
+	\begin{table}[!htbp]
+		\caption{Diversion Ratios by Characteristic and Outlet (Campaign period)}
+		\centering
+		\setlength{\tabcolsep}{5pt}% tighter columns
+		\renewcommand{\arraystretch}{1.05}% a bit more row height for readability
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{l|cccc|cccc|cccc|cccc|cccc|}
+				\toprule
+				& \multicolumn{4}{c|}{Positive Left} & \multicolumn{4}{c|}{Positive Right} & \multicolumn{4}{c|}{Negative Left} & \multicolumn{4}{c|}{Negative Right} & \multicolumn{4}{c|}{Political} \\
+				\midrule
+				Destination $\downarrow$ & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 & TVE & T5 & A3 & La6 \\
+				\midrule
+				TVE & 0.00 & 0.03 & 0.01 & 0.01 & 0.00 & 0.02 & 0.01 & 0.00 & 0.00 & 0.01 & 0.01 & 0.01 & 0.00 & 0.02 & 0.00 & 0.00 & 0.00 & 0.02 & 0.01 & 0.00 \\
+				T5 & 0.01 & 0.00 & 0.02 & 0.03 & 0.05 & 0.00 & 0.15 & 0.10 & 0.02 & 0.00 & 0.26 & 0.03 & 0.00 & 0.00 & 0.03 & 0.06 & 0.06 & 0.00 & 0.17 & 0.02 \\
+				A3 & 0.04 & 0.05 & 0.00 & 0.50 & 0.00 & 0.04 & 0.00 & 0.01 & 0.00 & 0.03 & 0.00 & 0.00 & 0.01 & 0.10 & 0.00 & 0.91 & 0.01 & 0.07 & 0.00 & 0.01 \\
+				La6 & 0.00 & 0.01 & 0.23 & 0.00 & 0.01 & 0.02 & 0.00 & 0.00 & 0.00 & 0.01 & 0.00 & 0.00 & 0.00 & 0.00 & 0.03 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+				Outside & 0.94 & 0.90 & 0.74 & 0.45 & 0.94 & 0.93 & 0.84 & 0.88 & 0.98 & 0.95 & 0.72 & 0.96 & 0.99 & 0.88 & 0.94 & 0.04 & 0.93 & 0.91 & 0.82 & 0.97 \\
+				\bottomrule
+			\end{tabular}
+		}% end resize
+		\caption*{ \small \textit{Note:}  The table reports {diversion ratios}: for a 1\% increase in outlet $j$’s characteristic $x_j^{k}$, the entry is the fraction of $j$’s audience loss (columns) that diverts to outlet destination $l$ (rows). With the share changes $\Delta s_l^{t}$ from a 1\% change in $x_j^{k}$, I define	
+			{\small
+				$D_{j\to l}^{k,t}=\frac{\max\{\Delta s_l^{t},0\}}{-\Delta s_j^{t}}\ \text{ for }\ \Delta s_j^{t}<0.$} as the diversion rate from alternative $j$ to $l$ and characteristic $k$ on market $t$. Then, conditioning on markets that loose audience I compute
+			{\small
+				$D_{j\to l}^{k}=\frac{\sum_{t:\,\Delta s_j^{t}<0}(-\Delta s_j^{t})\,D_{j\to l}^{k,t}}{\sum_{t:\,\Delta s_j^{t}<0}(-\Delta s_j^{t})},\quad \sum_{l\neq j}D_{j\to l}^{k}+D_{j\to 0}^{k}=1.$
+			} which is the reported {loss-weighted} averages across markets.
+		}
+		\label{tab:diversion_ratios}
+	\end{table}
+	
+	
 	\begin{sidewaystable}[!htbp]
 		\caption{Robustness for the Estimated Cost Parameters ($\lambda$) by Channel and Estimator}
 		\label{tab:costs_robust}
@@ -3848,18 +3888,19 @@ This is the table when i run the regression separatedly without both controls on
 			& \multicolumn{3}{c|}{La~Sexta} & \multicolumn{3}{c|}{TVE} & \multicolumn{3}{c|}{Telecinco (T5)} & \multicolumn{3}{c|}{Antena~3 (A3)} \\
 			& Unconstr. & NNLS & NLLS & Unconstr. & NNLS & NLLS & Unconstr. & NNLS & NLLS & Unconstr. & NNLS & NLLS \\
 			\midrule
-			Negative Left & 12.82 & 8.17 & 10.38 & 6.27 & 5.68 & 6.69 & 108.34 & 83.23 & 112.34 & -38.96 & 0.00 & 0.00 \\
-			& (44.44) & (44.45) & (8.50) & (2.63) & (2.64) & (1.66) & (60.39) & (60.31) & (53.00) & (23.79) & (24.65) & (0.00) \\
-			\midrule
 			Positive Right & -89.09 & 0.00 & 0.00 & -103.74 & 0.00 & 0.00 & -13.87 & 0.00 & 0.00 & -240.52 & 0.00 & 0.00 \\
 			& (85.99) & (97.60) & (0.00) & (121.36) & (112.30) & (0.00) & (91.62) & (88.67) & (0.00) & (77.50) & (94.67) & (0.00) \\
 			\midrule
-			Positive Left & 36.11 & 11.38 & 14.88 & 3.36 & 11.53 & 7.89 & 24.03 & 47.67 & 16.62 & -40.03 & 0.00 & 0.00 \\
-			& (52.70) & (52.71) & (14.68) & (13.12) & (13.12) & (5.71) & (43.99) & (43.95) & (23.57) & (84.81) & (81.40) & (0.00) \\
-			\midrule
-			Negative Right & 4.07 & 0.00 & 2.62 & -8.88 & 2.21 & 0.00 & 31.13 & 38.43 & 25.78 & 35.16 & 2.71 & 4.44 \\
+				Negative Right & 4.07 & 0.00 & 2.62 & -8.88 & 2.21 & 0.00 & 31.13 & 38.43 & 25.78 & 35.16 & 2.71 & 4.44 \\
 			& (4.80) & (4.80) & (1.86) & (11.41) & (11.39) & (0.00) & (36.16) & (36.27) & (26.73) & (53.89) & (53.70) & (20.13) \\
 			\midrule
+				Positive Left & 12.82 & 8.17 & 10.38 & 6.27 & 5.68 & 6.69 & 108.34 & 83.23 & 112.34 & -38.96 & 0.00 & 0.00 \\
+			& (44.44) & (44.45) & (8.50) & (2.63) & (2.64) & (1.66) & (60.39) & (60.31) & (53.00) & (23.79) & (24.65) & (0.00) \\
+			\midrule
+			Negative Left & 36.11 & 11.38 & 14.88 & 3.36 & 11.53 & 7.89 & 24.03 & 47.67 & 16.62 & -40.03 & 0.00 & 0.00 \\
+			& (52.70) & (52.71) & (14.68) & (13.12) & (13.12) & (5.71) & (43.99) & (43.95) & (23.57) & (84.81) & (81.40) & (0.00) \\
+			\midrule
+		
 			Political & -0.35 & 0.00 & 0.00 & 0.32 & 0.21 & 0.23 & 1.50 & 1.39 & 1.64 & 1.45 & 0.52 & 0.00 \\
 			& (0.61) & (0.60) & (0.00) & (0.62) & (0.65) & (0.21) & (1.05) & (1.13) & (0.87) & (1.25) & (1.36) & (0.00) \\
 			\midrule
@@ -4403,7 +4444,7 @@ For a medium $m\in \{TV,Radio,Press\}$, the isolation index is computed as:
 %
 where $\mathrm{Right}_j$ and $\mathrm{Left}_j$ denote the numbers of right- and left-leaning viewers of outlet $j$, $\text{Audience}_j=Right_j + Left_j$ is its total audience of that outlet and $R_m$ are the total right-wing viewers in that medium. 
 
-The isolation index takes value of 1 iff, for every outlet that right people visit ($Right_j>0$), then all other visitors are also right-wing, $\frac{Right_j}{Audience_j}=1$ and the analogous for outlets consumed by left-wing users. This reflects a scenario of perfect segregation. 
+The isolation index takes value of 1 if and only if, for every outlet that right people visit ($Right_j>0$), then all other visitors are also right-wing, $\frac{Right_j}{Audience_j}=1$ and the analogous for outlets consumed by left-wing users. This reflects a scenario of perfect segregation. 
 
 %	\caption{The table shows isolation index for different types of media consumption built using CIS data. .}
 
