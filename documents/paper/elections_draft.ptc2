@@ -1,13 +1,13 @@
-{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {A}Data Pipeline Details}{\reset@font\ptcSfont 47}{appendix.A}}
-{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {B}Robustness of the Text Classification}{\reset@font\ptcSfont 49}{appendix.B}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.1}Comparison with Previous Approaches}{\reset@font\ptcSSfont 49}{subsection.B.1}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.2}Stability of the Classifier}{\reset@font\ptcSSfont 51}{subsection.B.2}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.3}Text vs.\ Image}{\reset@font\ptcSSfont 51}{subsection.B.3}}
-{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {C}Figures}{\reset@font\ptcSfont 55}{appendix.C}}
-{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {D}Tables}{\reset@font\ptcSfont 67}{appendix.D}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {D.1}Descriptive Evidence}{\reset@font\ptcSSfont 67}{subsection.D.1}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {D.2}Additional Results}{\reset@font\ptcSSfont 69}{subsection.D.2}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {D.3}Text Examples}{\reset@font\ptcSSfont 75}{subsection.D.3}}
-{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {E}Isolation Index }{\reset@font\ptcSfont 86}{appendix.E}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {E.1}Definition}{\reset@font\ptcSSfont 86}{subsection.E.1}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {E.2}Results}{\reset@font\ptcSSfont 86}{subsection.E.2}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {A}Data Pipeline Details}{\reset@font\ptcSfont 46}{appendix.A}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {B}Robustness of the Text Classification}{\reset@font\ptcSfont 48}{appendix.B}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.1}Comparison with Previous Approaches}{\reset@font\ptcSSfont 48}{subsection.B.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.2}Stability of the Classifier}{\reset@font\ptcSSfont 50}{subsection.B.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.3}Text vs.\ Image}{\reset@font\ptcSSfont 50}{subsection.B.3}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {C}Figures}{\reset@font\ptcSfont 54}{appendix.C}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {D}Tables}{\reset@font\ptcSfont 66}{appendix.D}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {D.1}Descriptive Evidence}{\reset@font\ptcSSfont 66}{subsection.D.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {D.2}Additional Results}{\reset@font\ptcSSfont 68}{subsection.D.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {D.3}Text Examples}{\reset@font\ptcSSfont 74}{subsection.D.3}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {E}Isolation Index }{\reset@font\ptcSfont 85}{appendix.E}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {E.1}Definition}{\reset@font\ptcSSfont 85}{subsection.E.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {E.2}Results}{\reset@font\ptcSSfont 85}{subsection.E.2}}

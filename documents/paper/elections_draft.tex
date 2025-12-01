@@ -263,14 +263,14 @@ To tackle the measurement problem, I construct a unique dataset that captures bo
 
 
 
-To address the endogeneity problem, I use supply shocks to identify demand preferences. Specifically, I exploit exogenous variation in the daily composition of the news landscape  that  constrains outlets’ feasible slant choices. In order to characterize the news landscape, I collect all stories distributed by the largest newswire that serves these broadcasters, apply the same text-classification pipeline and use the resulting corpus as  a proxy for the set of stories broadcasters can draw upon each day. I show that  when the pool of either right- or left-leaning  stories grows for exogenous reasons, the aligned channels expand  their coverage in that direction. Moreover, the way they adapt their coverage is consistent with  an \emph{issue intensity} approach \citep{puglisi_review}. Newsworthy political events for either party are not ignored and lead all outlets to increase coverage. The difference lies in how much time they devote to these events. For example, on a day highly favorable to the left, the right-leaning outlet raises its share of positive coverage of left parties by 10\%, compared with 18\% at the left-leaning outlets. This variation identifies a BLP-style demand model \citep{berry_blp}, in which viewers’ preferences for slant vary with ideology, allowing me to test the degree of polarization in information consumption.
+To address the endogeneity problem, I use supply shocks to identify demand preferences. Specifically, I exploit exogenous variation in the daily composition of the news landscape  that  constrains outlets’ feasible slant choices. I implement this using shift-share logic, combining common day-level shifts in the news landscape with outlet specific shares to generate exogenous variation in slant. In order to characterize the news landscape, I collect all stories distributed by the largest newswire that serves these broadcasters, apply the same text-classification pipeline and use the resulting corpus as  a proxy for the set of stories broadcasters can draw upon each day. I show that  when the pool of either right- or left-leaning  stories grows for exogenous reasons, the aligned channels expand  their coverage in that direction. Moreover, the way they adapt their coverage is consistent with  an \emph{issue intensity} approach \citep{puglisi_review}. Newsworthy political events for either party are not ignored and lead all outlets to increase coverage. The difference lies in how much time they devote to these events. For example, on a day highly favorable to the left, the right-leaning outlet raises its share of positive coverage of left parties by 10\%, compared with 18\% at the left-leaning outlets. This variation identifies a BLP-style demand model \citep{berry_blp}, in which viewers’ preferences for slant vary with ideology, allowing me to test the degree of polarization in information consumption.
 
 
 
 
 The demand estimation results show that, outside the campaign period, there is no systematic asymmetry in political content demand between right- and left-leaning audiences. Viewers generally prefer negative political news, consistent with an entertainment-seeking type of consumption in which conflict and scandals attract more attention. During the campaign, however, affective polarization emerges: right-leaning viewers increasingly seek negative coverage of the left and more positive coverage of the right, with the mirror pattern among left-leaning viewers. A one-minute increase in positive coverage of right-wing parties yields a net gain of approximately 3,000 viewers (0.03 stdev.)  in right-leaning regions. The model results align   with survey-based evidence of polarization. First, in regions where the model implies a higher polarization in news consumption, electorates are also more polarized in their voting intentions. Second, after a year of decline, survey-based polarization exhibits a trend break at the start of the campaign, matching the timing of the break in news demand  from my model estimates.
 
-Given the demand estimates, I then model and estimate content supply. Outlets play a differentiation game choosing the distribution of airtime and tone across parties to maximize viewership. The costs of producing slant depend on the composition of any given day's news landscape. Unobserved factors—such as owner bias or reporter absences—can shift these costs, thereby creating endogeneity. In order to identify the  cost parameters, I exploit high-frequency variation in the newscast editions. Due to the fact that midday and evening editions are separated by only a few hours, differences in content offered between them stem from unexpected story arrivals in the interim. I show that outlets adjust slant to these unexpected arrivals with responses that align  with their stance. The estimated cost parameters reveal heterogeneity  across content types and  outlets. Outlets specialize in producing content that matches their ideological point of view. For instance, making coverage on the left 1 p.p. more positive (relative to the median) entails an audience share loss of 8 p.p. for the right-wing outlet, compared with only 3 p.p. for the left-leaning outlets. This corresponds to about 50\% (20\%) of the drop observed when a major football match overlaps the newscast.
+Given the demand estimates, I then model and estimate content supply. Outlets play a differentiation game choosing the distribution of airtime and tone across parties to maximize viewership. The costs of producing slant depend on the composition of any given day's news landscape. Unobserved factors—such as owner bias or reporter absences—can shift these costs, thereby creating endogeneity. In order to identify the  cost parameters, I exploit high-frequency variation in the newscast editions. Due to the fact that midday and evening editions are separated by only a few hours, differences in content offered between them stem from unexpected story arrivals in the interim. I show that outlets adjust slant to these unexpected arrivals with responses that align  with their stance. The estimated cost parameters reveal heterogeneity  across content types and  outlets. Outlets specialize in producing content that matches their ideological point of view. For instance, making coverage on the right 1 p.p. more negative  entails an audience share loss of 1 p.p. for the right-wing outlet, compared with only 0.5 p.p. for the left-leaning outlets. This corresponds to about 6\% (3\%) of the drop observed when a major football match overlaps the newscast.
 
 
 
@@ -1819,7 +1819,7 @@ Table~\ref{tab:costs} reports the estimated $\lambda_j^k$.\footnote{Processing o
 \end{comment}
 
 
-
+\begin{comment}
 \begin{table}[!htbp]
 	\caption{Estimated Cost Parameters ($\lambda$) by Channel and Content Type}
 	\label{tab:costs}
@@ -1850,10 +1850,46 @@ Table~\ref{tab:costs} reports the estimated $\lambda_j^k$.\footnote{Processing o
 	\caption*{\small \emph{Note:} The table shows the estimated coefficients from the unconstrained GMM for the system in Equation \eqref{eq:diff_foc} for the campaign period. Robust standard errors in parentheses. }
 \end{table}
 
+\end{comment}
 
-
-
-
+\begin{table}[!htbp]
+	\caption{Estimated Cost Parameters ($\lambda$) by Channel and Content Type}
+	\label{tab:costs}
+	\centering\small
+	\begin{tabular}{lcccc}
+		\toprule
+		& La~Sexta & TVE & Telecinco (T5) & Antena~3 (A3)\\
+		& \scriptsize{(Left)} & \scriptsize{(Left)} & \scriptsize{(Middle)} & \scriptsize{(Right)}\\
+		\midrule
+		
+		Positive Right 
+		& -0.3567 & -0.8477 & 0.2019 & -0.4880 \\
+		& (0.4186) & (1.0294) & (0.7122) & (0.4905) \\
+		\midrule
+		
+		Negative Right
+		& -0.0259 & -0.0920 & -0.2113 & 0.0056 \\
+		& (0.0921) & (0.1039) & (0.4318) & (0.4518) \\
+		\midrule
+		
+		Positive Left
+		& 0.1200 & -0.0284 & 0.2290 & 0.0007 \\
+		& (0.1249) & (0.1118) & (0.3260) & (0.4030) \\
+		\midrule
+		
+		Negative Left
+		& 0.1953 & 0.0556 & 0.6206 & -0.2581 \\
+		& (0.3698) & (0.0218) & (0.3172) & (0.1467) \\
+		\midrule
+		
+		Political
+		& -0.0035 & 0.0026 & 0.00018 & -0.0045 \\
+		& (0.0061) & (0.0064) & (0.0121) & (0.0160) \\
+		\bottomrule
+	\end{tabular}
+	\vspace{0.5em}
+	\caption*{\small \emph{Note:} The table reports GMM estimates for the campaign period. Robust standard errors in parentheses.}
+\end{table}
 
 
 
@@ -1867,7 +1903,11 @@ Table~\ref{tab:costs} reports the estimated $\lambda_j^k$.\footnote{Processing o
 %To give a size effect, costs are expressed in thousands of viewers and can be interpreted in terms of audience shares. Increasing a 1pp increase in positive left tone from their baseline medians is 0.08 share points more costly than negative left tone for the right wing channel A3 and only 0.03 for the left outlets. Increasing 1pp in positive tone of the right is 0.06 share points less costly than negative right for the right outlet and 0.01 shre points more costly than negative for the negative outlets. 
 
 
-Costs are measured in thousands of viewers and map directly into audience values, so they can be read as “how much audience a channel gives up” to shift tone. A 1 p.p. increase (from the median) in positive coverage of the left is relatively expensive for the right-leaning channel A3: it costs 8 p.p. of audience share  more than moving the same amount toward negative coverage of the left. For left-leaning outlets, the same shift is far smaller, only 3 p.p. more than going negative. This corresponds to roughly 50\% (right) and 20\% (left) of the audience-share loss observed when major football matches coincide with the newscast.\footnote{ During the sample period, three dates held football matches on the public broadcaster TVE:  UEFA Champions League (2023-06-10), Copa del Rey (2023-04-05), and UEFA Nations League (2023-06-15). For each date, I compare the news share loss of the rest of the outlets relative to the same-weekday mean. The average audience share loss was 17.91 p.p.} In contrast, a 1 p.p. increase in positive coverage of the right is 6 p.p. less costly than going negative for the right-leaning outlet, while for left-leaning outlets it is 1 p.p. more costly than going negative. 
+%Costs are measured in thousands of viewers and map directly into audience values, so they can be read as “how much audience a channel gives up” to shift tone. A 1 p.p. increase (from the median) in positive coverage of the left is relatively expensive for the right-leaning channel A3: it costs 8 p.p. of audience share  more than moving the same amount toward negative coverage of the left. For left-leaning outlets, the same shift is far smaller, only 3 p.p. more than going negative. This corresponds to roughly 50\% (right) and 20\% (left) of the audience-share loss observed when major football matches coincide with the newscast.\footnote{ During the sample period, three dates held football matches on the public broadcaster TVE:  UEFA Champions League (2023-06-10), Copa del Rey (2023-04-05), and UEFA Nations League (2023-06-15). For each date, I compare the news share loss of the rest of the outlets relative to the same-weekday mean. The average audience share loss was 17.91 p.p.} In contrast, a 1 p.p. increase in positive coverage of the right is 6 p.p. less costly than going negative for the right-leaning outlet, while for left-leaning outlets it is 1 p.p. more costly than going negative. 
+
+
+
+Costs are measured in thousands of viewers and map directly into audience values, so they can be read as “how much audience a channel gives up” to shift tone. A 1 p.p. increase in negative coverage of the right (relative to a neutral net tone) is relatively expensive for the right-leaning channel A3: it reduces its audience share by about 1.1 p.p., compared with roughly 0.5 p.p. for the left-leaning outlets. These effects correspond to around 6\% and  3\%, respectively, of the audience-share loss observed when major football matches coincide with the newscast.\footnote{ During the sample period, three dates held football matches on the public broadcaster TVE:  UEFA Champions League (2023-06-10), Copa del Rey (2023-04-05), and UEFA Nations League (2023-06-15). For each date, I compare the news share loss of the rest of the outlets relative to the same-weekday mean. The average audience share loss was 17.91 p.p.} In contrast, a 1 p.p. increase in positive coverage of the right is 6 p.p. less costly than going negative for the right-leaning outlet, while for left-leaning outlets it is 1 p.p. more costly than going negative. 
 
 
 
@@ -2006,9 +2046,33 @@ Results of the counterfactual estimation are shown in Table \ref{tab:counter}. I
 	\caption*{\small \emph{Note:} The table reports the average share of minutes per content category under the baseline and counterfactual equilibria. Baseline values refer to observed campaign broadcasts; counterfactual values are predicted from solving the counterfactual optimization problem in Equation~\eqref{eq:payoffs2}. Channels are grouped as: left-leaning (La~Sexta, TVE), middle (T5), and right-leaning (A3).}
 \end{table}
 
-
-
-
+\begin{comment}
+\begin{table}[!htbp]
+	\caption{Baseline and Counterfactual Slant by Channel}
+	\label{tab:counter}
+	\centering\small
+	\begin{tabular}{lcccccc}
+		\toprule
+		& \multicolumn{2}{c}{La~Sexta/TVE} & \multicolumn{2}{c}{Telecinco (T5)} & \multicolumn{2}{c}{Antena~3 (A3)} \\
+		& \multicolumn{2}{c}{(Left)} & \multicolumn{2}{c}{(Middle)} & \multicolumn{2}{c}{(Right)} \\
+		& Baseline & Count. & Baseline & Count. & Baseline & Count. \\
+		\midrule
+		Negative Left & 0.06 & 0.01 & 0.04 & 0.09 & 0.09 & 0.20 \\
+		\midrule
+		Positive Right & 0.03 & 0.00 & 0.03 & 0.00 & 0.04 & 0.10 \\
+		\midrule
+		Positive Left & 0.09 & 0.20 & 0.04 & 0.00 & 0.06 & 0.00 \\
+		\midrule
+		Negative Right & 0.09 & 0.20 & 0.04 & 0.09 & 0.07 & 0.09 \\
+		\midrule
+		Political & 0.42 & 0.42 & 0.18 & 0.18 & 0.39 & 0.39 \\
+		\midrule
+		\bottomrule
+	\end{tabular}
+	\vspace{0.5em}
+	\caption*{\small \emph{Note:} The table reports the average share of minutes per content category under the baseline and counterfactual equilibria. Baseline values refer to observed campaign broadcasts; counterfactual values are predicted from solving the counterfactual optimization problem. Channels are grouped as: left-leaning (La~Sexta, TVE), middle (T5), and right-leaning (A3).}
+\end{table}
+\end{comment}
 
 
 %Several facts emerge from the counterfactual exercise. First, left-leaning outlets (La Sexta/TVE) reduce the overall share of political coverage from 42\% to 30\% when constrained to allocate airtime proportionally. Since they are forced to spend more time on right-wing coverage, they cut back on politics altogether and shift  toward a more negative tone of the right (from 0.09 to 0.15). At the same time, their positive coverage of the left remains broadly unchanged, implying that compliance is achieved primarily by eliminating right-positive content and compensating with hostile tone.
