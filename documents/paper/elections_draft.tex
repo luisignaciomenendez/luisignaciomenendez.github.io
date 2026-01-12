@@ -78,7 +78,8 @@
 	\textit{\small Universitat Autònoma de Barcelona, CSIC and Barcelona School of Economics}
 } %omit the footnote and thanks if needed
 \date{%
-	\today\\[0.2ex]
+%	\today\\[0.2ex]
+December 12 , 2025\\[0.2ex]
 	{\bfseries Job Market Paper}\\[0.2ex]
 	{\normalsize\href{https://www.dropbox.com/scl/fi/l66fli8yxvm3f0z2sck1x/jmp_menendez.pdf?rlkey=zz6dnjs5gm6ilhh04op247jxh&dl=0}{Latest version here}}
 }
@@ -440,12 +441,7 @@ This paper is the first effort to quantitatively monitor media slant in Spain an
 \paragraph{Related Literature}
 
 
-My first contribution is to the literature on slant measurement. \citet{puglisi_review} divide measures of bias into  \textit{comparison},  \textit{intensity}, and  \textit{tone} approaches. Comparison measures—such as \citet{milyo_measure}, based on think-tank mentions and \citet{gentzkow2010media}, based on lexical proximity to congressional speeches, locate outlets by how closely their language matches partisan references. In contrast, my index  does not require any explicit party mentions nor baseline partisan speech. Intensity measures such as those using newspapers endorsements \citep{ChiangKnight2011} or television airtime \citep{durante2012partisan,CageHengelHerveUrvoy2022}, track how much attention outlets devote to any given topic or actor. I retain an intensive margin by accounting for airtime spent, while simultaneously adding tone within that exposure. My metric improves upon existing indicators by capturing greater nuances in slant. 
-
-
-
-
-
+My first contribution is to the literature on slant measurement. \citet{puglisi_review} divide measures of bias into  \textit{comparison},  \textit{intensity}, and  \textit{tone} approaches. Comparison measures—such as \citet{milyo_measure}, based on think-tank mentions and \citet{gentzkow2010media}, based on lexical proximity to congressional speeches, locate outlets by how closely their language matches partisan references. In contrast, my index  does not require any explicit party mentions nor baseline partisan speech. Intensity measures such as those using newspapers endorsements \citep{ChiangKnight2011} or television airtime \citep{durante2012partisan,CageHengelHerveUrvoy2022}, track how much attention outlets devote to any given topic or actor. I retain an intensive margin by accounting for airtime spent, while simultaneously adding tone within that exposure. My metric improves upon existing indicators by capturing greater nuances in slant and is in line with recent work showing that measuring slant at the article rather than outlet level is crucial to capture polarization in news consumption \citep{BraghieriLLMS}.
 
 
 The second strand studies political news consumption. I take a revealed-preference, structural approach. Building on \citet{gentzkow2010media}, I use the text to quantify outlet slant and model heterogeneous preferences for like-minded news. Closely related, \citet{SimonovRao2022} estimate a structural model of demand for government-controlled online news. I extend this demand framework by incorporating a competitive model of supply, which allows me to test heterogeneity in slant production costs and to do counterfactual policy evaluations. My approach also advances the identification of preferences for political content. \citet{Puglisi2011NewspaperCO} show that exogenous scandal shocks shift  newspapers’ coverage asymmetrically, but their design cannot discern the salience of these scandals prior to their news coverage, which is essential knowledge in order to assess how constrained outlets are in their reporting decisions. To address this, I rely on newswire agencies with the purpose of creating a baseline for the pool of political content on a given day. Since these agencies already supply content to outlets, variation in the composition of their stories provides exogenous shocks that constrain outlets’ ability to slant the daily news (i.e., supply shocks), which I use to identify demand.\footnote{For an alternative use of downstream aggregators as shocks in content supply see \cite{milena}.} This identification strategy applies in settings where previous instruments like cable-dial positions \citep{martin2017} are not applicable.
@@ -983,7 +979,7 @@ Viewers choose a single outlet to watch the news or else choose the outside opti
 	
 	and the one for the outside option is assumed to be $U_{i0}=\epsilon_{i0}$. The observed characteristics $ x_{jd}^k $ represent the  proportion of time on channel $ j $ and day $ d$ devoted to characteristic $ k \in \{R+,R-,L+,L-,political\}$ as defined in Eq. \eqref{eq:controls}. $w_{rd}$ measures the precipitation level on a given day-region. Weather shocks raise the utility of the inside options  relative to the outside option, making viewers more likely to engage in indoor activities such as TV consumption \citep{wilbur}. Individual taste shocks follow a standard normal distribution, $ \nu_{ird}^k \sim N(0,1)$, with mean shifted by  demographics, $ y_{irm} $, that represent whether individual $i$ in region $r$ is right-wing in month $m$ according to survey data.	Thus $\delta_{jrd}$ captures the mean utility for the baseline type (left-viewers) and the parameters $\pi^k$ allow for asymmetric tastes of politics based on ideology, enabling to test the degree of polarization in news consumption. 
 
-The unobserved (to the econometrician) product characteristics are decomposed into  three components $\xi_{jrd}= \xi_j + \xi_{dow} + \Delta \xi_{jrd}$. The first two represent product dummies that account for unobserved quality factors such as outlet loyalty, and day of the week dummies to control for  seasonal variation in the value of TV consumption. The final term $ \Delta \xi_{jrd}$ account for other unobserved product shocks that might include higher valuation of a given type of story that comes from knowledge of it through social media, specific regional taste shocks due to local events, etc. By assumption, viewers have full information about all the product characteristics when making decisions. %The outside option is modeled in terms of \textit{potential} audience  \citep{berry1994estimating} and its mean utility value is normalized to 0.
+The unobserved (to the econometrician) product characteristics are decomposed into  three components $\xi_{jrd}= \xi_j + \xi_{dow} + \Delta \xi_{jrd}$. The first two represent product dummies that account for unobserved quality factors such as outlet loyalty, and day of the week dummies to control for  seasonal variation in the value of TV consumption. The final term $ \Delta \xi_{jrd}$ accounts for other unobserved product shocks that might include higher valuation of a given type of story that comes from knowledge of it through social media, specific regional taste shocks due to local events, etc. By assumption, viewers have full information about all the product characteristics when making decisions. %The outside option is modeled in terms of \textit{potential} audience  \citep{berry1994estimating} and its mean utility value is normalized to 0.
 
 
 The market share for the $j$th product is computed as the integral over the individual choice indicators as: 
@@ -997,12 +993,12 @@ The market share for the $j$th product is computed as the integral over the indi
 	
 	where $d_{ijrd}$ equals $1$ if $U_{ijrd}>U_{ikrd} \quad \forall j\neq k$ and $0$ otherwise. The shocks $\epsilon_{ird}$ are assumed to be i.i.d. drawn from a type I extreme-value distribution.\footnote{The model is estimated using the \textit{pyblp} package \citep{conlon2020best}.} 
 
-Under the assumption of no individual heterogeneity in preferences  ($\bm{\sigma}=0$) and a homogeneous ideology distribution ($y_{ir}= \bar{y}_r$),  Eq. \eqref{eq:utility} collapses to a plain logit model: 
+Under the assumption of no individual heterogeneity in preferences  ($\bm{\sigma}=0$) and a homogeneous ideology distribution ($y_{irm}= \bar{y}_{rm}$),  Eq. \eqref{eq:utility} collapses to a plain logit model: 
 
 
 \begin{equation}\label{eq:logit}
 	\begin{aligned}
-		& ln \left(\frac{s_{jrd}}{s_{0rd}}\right)= \sum_k x_{jd-1}^k\beta^k+w_{rd}   \gamma  +\sum_k \left(x_{jd-1}^k\times y_r \right) \phi^k +  \xi_{jrd}
+		& ln \left(\frac{s_{jrd}}{s_{0rd}}\right)= \sum_k x_{jd-1}^k\beta^k+w_{rd}   \gamma  +\sum_k \left(x_{jd-1}^k\times y_{rm} \right) \phi^k +  \xi_{jrd}
 	\end{aligned} 
 \end{equation} 
 
@@ -1028,7 +1024,7 @@ Formally, viewers form expectations about each channel’s utility to start watc
 	
 	
 	
-The following examples illustrate the mechanism.\footnote{The full breakdown of the text examples is shown in Tables \ref{tab:neg_left_channels} and \ref{tab:neg_right_channels}.} On {27 February 2023} (the most negative day for left-wing parties), a loophole in a law sponsored by the left party UP led to early releases of convicted sexual offenders and corruption scandals hurt the Socialist Party. Airtime given to negative left-wing stories differed markedly across channels: A3 (right) devoted almost 19\%, TVE (left) and T5 each gave roughly 4\%, and La Sexta (left) about 2\%. The mirror image occurred on {17 May 2023} (the most negative day for right-wing parties): stories included a payments scandal involving the right-wing People’s Party, the defeat of a conservative motion in the Senate, and police-abuse allegations during a march against the far-right party VOX. Left-leaning outlets devoted about 15\% of airtime to negative right-wing content, whereas the right one devoted roughly 4\%. 
+The following examples illustrate the mechanism. On {27 February 2023} (the most negative day for left-wing parties), a loophole in a law sponsored by the left party UP led to early releases of convicted sexual offenders and corruption scandals hurt the Socialist Party. Airtime given to negative left-wing stories differed markedly across channels: A3 (right) devoted almost 19\%, TVE (left) and T5 each gave roughly 4\%, and La Sexta (left) about 2\%. The mirror image occurred on {17 May 2023} (the most negative day for right-wing parties): stories included a payments scandal involving the right-wing People’s Party, the defeat of a conservative motion in the Senate, and police-abuse allegations during a march against the far-right party VOX. Left-leaning outlets devoted about 15\% of airtime to negative right-wing content, whereas the right one devoted roughly 4\%.\footnote{The full breakdown of the text examples is shown in Tables \ref{tab:neg_left_channels} and \ref{tab:neg_right_channels}.} 
 
 	
 	
@@ -1115,7 +1111,7 @@ The following examples illustrate the mechanism.\footnote{The full breakdown of 
 	\end{aligned}
 \end{equation}
 
-where $k \in\{L+,R+,L-,R-, political\}$. As defined in Eq. \eqref{eq:controls},  $x^{party, tone}_{jd}$ is outlet $j$’s share of airtime with positive or negative tone about $party \in \{L,R\}$;  $z^{k}_d$ is the corresponding news shock from Eq. \eqref{eq:efe}, and $d_j(j')$ is a dummy with value one if $j=j'$ and $\gamma_{dow}$ are day of the week fixed effects.  Controlling for the whole news landscape, I estimate how outlets increase the production of each type of content.
+where $k \in\{L+,R+,L-,R-, political\}$. As defined in Eq. \eqref{eq:controls},  $x^{party, tone}_{jd}$ is outlet $j$’s share of airtime with positive or negative tone about $party \in \{L,R\}$;  $z^{k}_d$ is the corresponding news shock from Eq. \eqref{eq:efe}, $d_j(j')$ is a dummy with value one if $j=j'$ and $\gamma_{dow}$ are day of the week fixed effects.  Controlling for the whole news landscape, I estimate how outlets increase the production of each type of content.
 A positive coefficient $\alpha_{j}^{R+}$ means that, ceteris paribus, a 1 p.p. increase in  positive right-wing news shock increases outlet $j$’s coverage of the right by $\alpha_{j}^{R+}$ p.p.
 
 
@@ -1367,10 +1363,12 @@ Most of the heterogeneity is captured by the demographics (i.e ideology).  The e
 		\end{aligned}
 	\end{equation}             
 	
-	where aggregation is taken over outlets $(j)$, regions $(r)$ and days $(d)$.	Both left and right parties were almost equally disliked during off-campaign (Table \ref{tab:elasticities0}.). An increase of 1 percent in net tone  towards right (left) parties results in drops of 0.98 (1.00) percentage points in audience share; corresponding to a decrease of nearly 13,000 viewers.\footnote{A 1 p.p. increase in airtime on characteristic $k$ changes audience share by $\Delta S = S \times \tfrac{\epsilon}{100}$. Given an average total audience of $\bar{L}$, the level change in viewers is $\Delta V = \Delta S \times \bar{L}$. Since 1 p.p. of airtime corresponds to $0.01\,\bar{T}$ minutes (where $\bar{T}$ is the average broadcast length), $\tfrac{\Delta V}{\Delta t} = \bigl(S \times \tfrac{\epsilon}{100} \times \bar{L}\bigr) \times \tfrac{1}{0.01\,\bar{T}}$ gives the change in viewers per extra minute of coverage.} This is consistent with a taste for scandals or entertainment-like type of political content. During the campaign, aversion to right-leaning tone persists but weakens ($-0.60$ pp), and higher net tone on the left yields a small audience gain of 0.09 p.p. (867 viewers). Furthermore, Table \ref{tab:diversion_ratios} computes the diversion ratios to get a sense of where viewers go when a channel’s political content shifts—i.e., a loss-normalized decomposition of exits across destinations. Most of the substitution occurs to the outside option, indicating viewers mainly switch to non-tv news consumption.
+	where aggregation is taken over outlets $(j)$, regions $(r)$ and days $(d)$.	Both left and right parties were almost equally disliked during off-campaign (Table \ref{tab:elasticities0}.). An increase of 1 percent in net tone  towards right (left) parties results in drops of 0.98 (1.00) percentage points in audience share; corresponding to a decrease of nearly 13,000 viewers.\footnote{A 1 p.p. increase in airtime on characteristic $k$ changes audience share by $\Delta S = S \times \tfrac{\epsilon}{100}$. Given an average total audience of $\bar{L}$, the level change in viewers is $\Delta V = \Delta S \times \bar{L}$. Since 1 p.p. of airtime corresponds to $0.01\,\bar{T}$ minutes (where $\bar{T}$ is the average broadcast length), $\tfrac{\Delta V}{\Delta t} = \bigl(S \times \tfrac{\epsilon}{100} \times \bar{L}\bigr) \times \tfrac{1}{0.01\,\bar{T}}$ gives the change in viewers per extra minute of coverage.} This is consistent with a taste for scandals or entertainment-like type of political content. During the campaign, aversion to right-leaning tone persists but weakens ($-0.60$ pp), and higher net tone on the left yields a small audience gain of 0.09 p.p. (867 viewers). 
+	
+Where do viewers go when they face different political slant? To answer this, I report the diversion ratios in Table \ref{tab:diversion_ratios} as a loss-normalized decomposition of exits across destinations. Most of the substitution occurs to the outside option, indicating viewers mainly switch to non-tv news consumption. This implies that the extend of substitution across outlets is limited. I will get back to the implications of this in the counterfactual exercise in Section \ref{sec:counter}.
 	
 	
-		 I focus now on the results for the main period of analysis, the election campaign. To see the extent of polarization in news consumption, I  compute elasticities for right and left markets separately. I define a “right market” as any region whose mean intention-to-vote to the right  ($\bar{y}_r$) lies above the median.  Figure~\ref{fig:elasticities_campaign} plots the estimated elasticities for that period for left markets (panel a) and right markets (panel b).\footnote{Table~\ref{tab:elasticities} and 	 Figure~\ref{fig:elasticities_pre} show full results also for the off-campaign period. }	Polarization becomes now evident. Left viewers present negative taste for content that harms their party and positive taste for content that benefits it. The analogous pattern is present in the taste of right-wing viewers. This campaign pattern contrasts with the off-campaign “scandal/negativity” taste, where both blocs reacted similarly to net partisan tone.
+		 I focus now on the results for the main period of analysis, the election campaign. To see the extent of polarization in news consumption, I  decompose elasticities for right and left markets separately. A “right market” is defined as any region whose mean intention-to-vote to the right  ($\bar{y}_r$) lies above the median. Figure~\ref{fig:elasticities_campaign} plots the estimated elasticities for that period for left markets (panel a) and right markets (panel b).\footnote{Table~\ref{tab:elasticities} and 	 Figure~\ref{fig:elasticities_pre} show full results also for the off-campaign period. }	Polarization becomes now evident. Left regions present negative taste for content that harms their party and positive taste for content that benefits it. The analogous pattern is present in the taste of right-wing regions. This campaign pattern contrasts with the off-campaign “scandal/negativity” taste, where both blocs reacted similarly to net partisan tone.
 	 
 	 
 	 
@@ -1491,7 +1489,9 @@ In order to capture partisan-selective news consumption, I measure  news-demand 
 	For right-wing regions ($p(r)=R$), media polarization refers to the difference in taste for negative content on the left versus positive on the left and analogously for the left-wing regions. Because the estimates satisfy
 	\(\bar{\epsilon}_r^{(L-)}>\bar{\epsilon}_r^{(L+)}\) in right‑leaning regions and
 	\(\bar{\epsilon}_r^{(R-)}>\bar{\epsilon}_r^{(R+)}\) in left‑leaning ones,
-	the index in Eq.~\eqref{eq:mediapol} is always non‑negative and therefore comparable across regions. Higher values indicate more partisan-selective news consumption: audiences 	 respond more to negative than positive news about the party they oppose.\footnote{This interpretation aligns with in–out party evaluation gaps commonly used to capture affective polarization \citep{IyengarLelkesLevendusky2019Origins}.} I then divide regions into \textit{high} and \textit{low} groups according to their news demand polarization  relative to the median and plot their ER index for an extended period over the year before and after the 2023 election.  Results are shown in Figure \ref{fig:er1}.
+	the index in Eq.~\eqref{eq:mediapol} is always non‑negative and therefore comparable across regions. Higher values indicate more partisan-selective news consumption: audiences 	 respond more to negative than positive news about the party they oppose.\footnote{This interpretation aligns with in–out party evaluation gaps commonly used to capture affective polarization \citep{IyengarLelkesLevendusky2019Origins}.} I then compare both indexes to see how polarized are electorates on places where news are also demanded in a polarized way. Figure \ref{fig:er1} shows the evolution of the ER-index for an extended period over the year before and after the 2023 election. The green-solid line corresponds to those regions that also show higher media-demand polarization (i.e those high values of the index \ref{eq:mediapol} above the median) and the purple-dashed line shows the opposite. 
+	
+	% divide regions into \textit{high} and \textit{low} groups according to this index relative to the median and compare their levels of political  their ER index for an extended period over the year before and after the 2023 election.  Results are shown in Figure \ref{fig:er1}.
 	
 	
 	
@@ -1499,15 +1499,17 @@ In order to capture partisan-selective news consumption, I measure  news-demand 
 
 		\centering
 		\caption{Electoral Polarization by Regions with High vs. Low Media-Demand Polarization}
-		\includegraphics[width=150mm]{figures/er_polarization_stata_group_correct}
+		\includegraphics[width=150mm]{figures/er_slide2}
 				\label{fig:er1}
-		\caption*{\small  \textit{Note:} The figure shows the evolution of the Esteban–Ray polarization index as defined in Eq. \eqref{eq:er}, plotted separately for regions with high (i.e. above the median) versus low media polarization according to Eq.\eqref{eq:mediapol}. Vertical dashed lines marking the start of the campaign and election periods are shifted one to match the survey's timing.  The series covers the year before and after the 2023 general election. All series have been smoothed under a three-month centered moving average.}
+		\caption*{\small  \textit{Note:} The figure shows the evolution of the Esteban–Ray polarization index as defined in Eq. \eqref{eq:er}, plotted separately for regions with high (i.e. above the median) versus low media polarization according to Eq.\eqref{eq:mediapol}. The shaded band represents the overall variation of the mean polarization, to highlight that the high and low media polarization regions liw at the top and bottom of it, respectively. Vertical dashed lines marking the start of the campaign and election periods are shifted one to match the survey's timing.  The series covers the year before and after the 2023 general election. All series have been smoothed under a three-month centered moving average.}
 		
 	\end{figure}
 	
-	
-	
-Regions with high polarization in news demand (solid line) have significantly higher ER polarization\footnote{The coefficient from a regression on the ER polarization index on the high-media polarization dummy is positive and significant with  $t-val\approx5$ with and without the inclusion of date fixed-effects.}; thus, consuming political information in a more partisan-selective way is associated with electorates whose vote intentions are concentrated in ideologically distant parties. Similar  to  the demand‑side results, the political campaign constitutes a structural break of one year of declining ER polarization levels  that persists for over a year. This persistence contrasts with prior work that found short-lived effects of polarization after campaigns lose salience \citep{Hernndez2020AffectivePA}. While descriptive, this pattern is consistent with persuasion mechanisms in the media literature and it motivates future work that explores the causal link between media consumption and political polarization.
+
+
+Two main results emerge. First, regions with high polarization in news demand (solid line) also lie on the top of the distribution of the ER polarization index. This means that consuming political information in a more partisan-selective way is associated with electorates whose vote intentions are concentrated in ideologically distant parties. Second, the time series present a structural break after one year of decline precisely at the beginning of the campaign period. This matches the significant change in the demand estimation from off to during campaign and reassures the correlational link between news consumption and electoral divisiveness. The persistence of the trend break also contrasts with prior work that found short-lived effects of polarization after campaigns lose salience \citep{Hernndez2020AffectivePA}. While descriptive, this pattern is consistent with persuasion mechanisms previously documented in the media literature and it motivates future work that explores the causal link between media consumption and political polarization.
+
+%Regions with high polarization in news demand (solid line) have significantly higher ER polarization\footnote{The coefficient from a regression on the ER polarization index on the high-media polarization dummy is positive and significant with  $t-val\approx5$ with and without the inclusion of date fixed-effects.}; thus, consuming political information in a more partisan-selective way is associated with electorates whose vote intentions are concentrated in ideologically distant parties. Similar  to  the demand‑side results, the political campaign constitutes a structural break of one year of declining ER polarization levels  that persists for over a year. This persistence contrasts with prior work that found short-lived effects of polarization after campaigns lose salience \citep{Hernndez2020AffectivePA}. While descriptive, this pattern is consistent with persuasion mechanisms in the media literature and it motivates future work that explores the causal link between media consumption and political polarization.
 	
 	
 	
@@ -1611,17 +1613,23 @@ The following remark from the news director of one of the channels illustrates t
 \end{quote}
 \hspace*{\fill}–––Vicente Vallés, Director and Presenter, A3 News (2014)\footnote{Source: \url{https://cadenaser.com/ser/2014/12/03/television/1417630810_539829.html}}
 
-Producers therefore aim to maximize the audience shares and adapt their coverage to do so on a daily basis. In order to capture this behavior, I build a model of news slant decisions.  
+%Producers therefore aim to maximize the audience shares and adapt their coverage to do so on a daily basis. In order to capture this behavior, I build a model of news slant decisions.  
+
+
+First, producers aim to maximize their audience. To do so, they adapt their strategy at high frequency: each day they review audience responses (using the same data I use), consider the events that occurred, and decide what to air. I capture this behavior with a competitive model of news production.
+
+
+
 
 \subsection{Supply Model}
 
-Within each day's news broadcast, outlets choose the slant of the news in order to maximize national audience, but face costs of producing the slant that depend on the news pool that is available.  Formally, channel $j\in \{La \ Sexta, TVE, T5, A3\}$\footnote{Although both La Sexta and A3 belong to the same media company, AtresMedia; the short period span considered here considers them as independent products. That is, firms and products coincide. } on day $d$ and edition hour $h\in\{0\text{ (midday)},1\text{ (evening)}\}$ solves the following problem:
+Within each day's news broadcast, outlets choose the slant of the news in order to maximize national audience, but face costs of producing the slant that depend on the news pool that is available.  Formally, channel $j\in \{La \ Sexta, TVE, T5, A3\}$\footnote{Although both La Sexta and A3 belong to the same media company, AtresMedia; that is, firms and products coincide. This is consistent with a model of delegation, where editorial teams look independently at their own ratings. } on day $d$ and edition hour $h\in\{0\text{ (midday)},1\text{ (evening)}\}$ solves the following problem:
 
 
 
 \begin{equation}\label{eq:payoffs}
 	\begin{aligned}
-		\max_{\{\mathbf{x}_{jdh}\}}   & \left\{   \sum_{r}\widehat{\bm{s}_{jrd+1}}(\bm{x}_{jdh}, \bm{x}_{-jdh})L_r -  \mathcal{C}\left(  \bm{x}_{jdh},\bm{z}_{dh}, \bm{\eta}_{jd},\bm{\nu}_{jdh}; \bm{\phi},\bm{\lambda_j}   \right)    \right\}\\
+		\max_{\{\mathbf{x}_{jdh}\}}   & \left\{   \sum_{r}\widehat{\bm{s}_{jrd+1}}(\bm{x}_{jdh}, \bm{x}_{-jdh})L_r -  \mathcal{C}\left(  \bm{x}_{jdh},\bm{z}_{dh}, \bm{\eta}_{jd},\bm{\nu}_{jdh}; \bm{\lambda_j}   \right)    \right\}\\
 		s.t.   \quad &   x_{jdh}^{L+} +x_{jdh}^{R+} + x_{jdh}^{L-} + x_{jdh}^{R-} + x_{jdh}^{\emptyset} = x_{jdh}^{political}\\
 		& x_{jdh}^k \in [0,1] \quad \forall k
 	\end{aligned}
@@ -1629,7 +1637,7 @@ Within each day's news broadcast, outlets choose the slant of the news in order 
 
 
 
-where $\bm z_{dh}$ measures the pool of stories available at edition~$h$, meaning the stories available up until the beginning of the midday ($h=0$) and evening editions ($h=1$) of the newscasts. $\bm x_{jdh}$ is the proportion of minutes to each tone category as defined in Eq. \ref{eq:controls}. $L_r$  refers to the total potential audience in region $r$. Notice that I have now incorporated the midday dimension in this analysis. The reason for this will become apparent below in the description of the identification strategy. 
+where $\bm z_{dh}$ measures the pool of stories available at edition~$h$, meaning the stories available up until the beginning of the midday ($h=0$) and evening editions ($h=1$) of the newscasts. $\bm x_{jdh}$ is the proportion of minutes to each tone category as defined in Eq. \ref{eq:controls}. $L_r$  refers to the total potential audience in region $r$. 
 
 The first term in the payoff captures outlets’ incentives to retain audience. Although this motive differs between the private (for-profit)  and the public broadcasters, I abstract from pricing considerations and—following \cite{Goettler2001SpatialCI}—focus on predicted audience only. This standardizes payoffs and allows the public, ad-free broadcaster to be included in the same competition game. The second term in the payoff captures the cost of producing slant as a function of the exogenous pool of stories available on a given day. I parameterize the marginal cost function of a given channel $j$ for content category $k$ as:
 
@@ -1654,7 +1662,7 @@ The first term in the payoff captures outlets’ incentives to retain audience. 
 
 \begin{equation*}\label{}
 	\begin{aligned}
-		& mc(x_{jdh}^k,z_{dh}^k,\eta_{jd}^k,\nu_{jdh}^k; \phi,\lambda_j^k )\equiv   \phi +   2\lambda_j^k  \dfrac{x_{jdh}^k}{z_{dh}^k} + \eta_{jd}^k + \nu_{jdh}^k.
+		& mc(x_{jdh}^k,z_{dh}^k,\eta_{jd}^k,\nu_{jdh}^k; \lambda_j^k )\equiv     2\lambda_j^k  \dfrac{x_{jdh}^k}{z_{dh}^k} + \eta_{jd}^k + \nu_{jdh}^k.
 	\end{aligned}
 	\end{equation*} 
 
@@ -1674,7 +1682,7 @@ Marginal costs depend on the ratio between the airtime share devoted to each ton
 The first-order conditions (ignoring the  constraints for estimation) are
 \begin{equation}\label{eq:focs}
 	\underbrace{\sum_{r}\frac{\partial \widehat{s_{jrd+1}}}{\partial x_{jdh}^k}L_r}_{\equiv g_{jd+1h}(x_{jdh}^k)}
-	= \phi + 2\lambda_j^k\frac{x_{jdh}^k}{z_{dh}^k}  
+	= 2\lambda_j^k\frac{x_{jdh}^k}{z_{dh}^k}  
 	+ \underbrace{\eta_{jd}^k+\nu_{jdh}^k}_{\equiv u_{jdh}^k}
 	\quad \forall(j,k)
 \end{equation}
@@ -1705,18 +1713,13 @@ I exploit within-day timing for identification. The day-specific cost shock $\et
 %The key identification strategy lies in the assumption that $\eta_{jd}^k$ is constant within the day. This allows me to rely on variation in news production within the day that is only due to new stories coming in between the midday and evening editions that alter production.  
 
 
-Text examples illustrate this mechanism (Table \ref{tab:within}). I filter the days with the highest within-day increase in coverage by all channels and report the new stories that entered between midday and evening editions for each content type. For instance, the biggest swing in negative-left coverage (+41 p.p.) occurred on 29 May 2023: the arrival of the overseas-ballot recount after the regional elections effectively tipped a key seat, opening a right-bloc majority, and channels incorporated those items in the evening. Analogously, on 31 May 2023 negative-right coverage rose (+22.6 p.p.) and positive-left increased (+28.2 p.p.) after afternoon legal developments unfavorable to the right and pro-government organizational updates entered between editions, shifting the evening mix the other way. These within-day arrivals of politically slanted stories are precisely the exogenous movements in content composition that I use to trace audience responses and identify $\lambda$.
-
-
-%Text examples illustrate this mechanism (Table \ref{tab:within}). I filter the days with the highest within-day increase in coverage by all channels and report the new stories that entered between midday and evening editions for each content type. For instance, the biggest swing in  negative left coverage (+41pp) occured on 20 May 2023. The arrival of the ballot recount after the regional elections tipped a key seat oppening a right-bloc majority. Analogously, XXX . These within-day arrivals of politically slanted stories are precisely the exogenous movements in content composition that I use to trace audience responses and identify $\lambda$.
-
-
-%On 29 May 2023, several late-day stories that were unfavorable to the left (e.g., postelection seat counts and calls for opposition coordination) entered between the midday and evening editions, shifting the overall tone toward the right. By contrast, on 31 May 2023, newly added items that were unfavorable to the right (e.g., legal and accountability developments) appeared in the afternoon and pulled the evening mix in the opposite direction; that same day, additional pieces favorable to the left (policy announcements and organizational gains) reinforced the shift. These abrupt, within-day arrivals of politically slanted stories are precisely the exogenous movements in content composition that I use to trace audience responses and identify $\lambda$.
+Text examples illustrate this mechanism (Table \ref{tab:within}). I filter the days with the highest within-day increase in coverage by all channels and report the new stories that entered between the midday and evening editions for each content type. For instance, the biggest swing to pro-right content occurred on 29 May 2023 (+41 p.p.). Between the editions, stories favoring the right—such as the overseas-ballot recount after the regional elections that opened a right-bloc majority—were incorporated into the evening shows. Analogously, 31 May was the day with the largest increase in pro-left coverage (+22.6 p.p.). In this case, legal developments unfavorable to the right and pro-government organizational updates entered between editions, shifting the evening mix the other way. These within-day arrivals of politically slanted stories are the exogenous shocks in content composition that I use to identify $\lambda$.
 
 
 
+To show this variation, I use a two-step regression. First, I predict each outlet’s evening slant from its midday slant with outlet fixed effects and keep the residual—what changed from midday to evening beyond outlet traits. Second, I regress that residual on the news shocks arriving between editions, $\Delta \bm{z}$. Figure \ref{fig:diff} plots the relationship: new content entering in the afternoon is associated with higher coverage of that side in the evening shows. As in the demand results, outlets respond heterogeneously and in line with their ideological stances (Figure \ref{fig:fwl_diff}).
 
-To document this variation empirically, I first regress the evening on the midday slant of the stations controlling for outlet fixed-effects. The residuals of these regressions are the  variation in the evening programming not explained by the midday slant and channel-specific attributes. I then regress these residuals on the news shocks  that enter between those two time slots, $\Delta \bm{z}$. Figure \ref{fig:diff} shows the scatter of the regression.  The positive relationship indicates that entry of new content between midday and night is associated with an increase in editorial production of that content in the evening news shows. Unlike the pattern shown in the demand shocks,  outlets do not respond homogeneously to these arrivals (Figure \ref{fig:fwl_diff}).\footnote{To decompose this variation by outlet, I also run regressions of the form described in  \eqref{eq:first_stage} done on within-day differences $ \Delta x_{jd}$ and $\Delta z_{d}$. Although there is significantly less power now, the main mechanism still holds. Right (left) outlets increase  their production of stories of a given party-tone from midday to the evening editions conditional on those stories being aligned with their stances.} Right and left  outlets respond by increasing coverage when the content is positive, whereas they reduce the evening airtime minutes if the unexpected arrivals are negative political news. As before, asymmetries in their responses are consistent with their political positions. 
+%To document this variation empirically, I first regress the evening on the midday slant of the stations controlling for outlet fixed-effects. The residuals of these regressions are the  variation in the evening programming not explained by the midday slant and channel-specific attributes. I then regress these residuals on the news shocks  that enter between those two time slots, $\Delta \bm{z}$. Figure \ref{fig:diff} shows the scatter of the regression.  Entry of new content between the two editions is associated with an increase in coverage in the evening news shows. Similar to the pattern shown in the demand shocks, outlets respond heterogeneously  and in a way that is consistent with their political stances (Figure \ref{fig:fwl_diff}). 
 
 
 These exogenous shocks can therefore be exploited in the cost estimation to address endogeneity. Differencing~\eqref{eq:focs} eliminates the unobserved shock:
@@ -1744,15 +1747,7 @@ These exogenous shocks can therefore be exploited in the cost estimation to addr
 
 
 
-
-Notice that the parameters $\left(\phi,\bm\eta \right)$ cancel out in the differentiation and thus cannot be identified but they are part of the overall cost and thus needed to interpret them. They can be recovered by rearranging from the   first-order condition in \eqref{eq:focs}. Define the residual as:
-
-\[
-r_{jdh}^k \;\equiv\;\phi+\eta_{jd}^k+ \nu_{jdh}^k= {{g}_{jd+1h}} \;-\; 2\,{{\lambda}}_j^k\,\frac{x_{jdh}^k}{z_{dh}^k}.
-\]
-
-
-Since $\E(\nu_{jdh}^k)=0$, an unbiased estimate of the unobserved marginal cost shifter $\bm\eta + \phi$ is obtained by averaging across the midday and evening editions of $r_{jdh}$,
+Under i.i.d. shocks, $\E(\nu_{jdh}^k)=0$, an unbiased estimate of the unobserved marginal cost shifter $\bm\eta $ can be recovered by rearranging from the   first-order condition in \eqref{eq:focs}:
 
 
 \[
@@ -1760,7 +1755,7 @@ Since $\E(\nu_{jdh}^k)=0$, an unbiased estimate of the unobserved marginal cost 
 \]
 
 
-In the counterfactual problem \eqref{eq:payoffs2}, I treat this estimate  as given (fixed by day and channel) and solve for best responses under the policy constraints, so changes arise from the policy, not from altering day-specific costs.
+where  $ r_{jdh}^k \;\equiv\;\eta_{jd}^k+ \nu_{jdh}^k= {{g}_{jd+1h}} \;-\; 2\,{{\lambda}}_j^k\,\frac{x_{jdh}^k}{z_{dh}^k} $ is the residual. In the counterfactual problem presented in the next section, this estimate is treated as given (fixed by day and channel) and solve for best responses under the policy constraints, so changes arise from the policy, not from altering day-specific costs.
 
 
 
@@ -1769,7 +1764,7 @@ In the counterfactual problem \eqref{eq:payoffs2}, I treat this estimate  as giv
  The sign of~$\lambda_j^k$ is theoretically ambiguous ex ante. If, as suggested in \cite{SimonovRao2022}, high availability of stories of a given type will make production easier since the journalist need not expend effort to investigate,  $z$ might act as a simple input into production costs and $ \lambda>0$. On the other hand, since outlets are news aggregators, having more stories available of a given type might increase production costs, since they would need to process and filter the stories they prefer. This mechanism is consistent under $ \lambda<0$. I therefore do not restrict the $\lambda$ to be positive in the estimation and show robustness under stricter version of $\lambda \geq0$.
 
 
-Table~\ref{tab:costs} reports the estimated $\lambda_j^k$.\footnote{Processing of the midday broadcasts for the pre‑campaign period could not be completed after the Google Cloud and OpenAI credits ended; consequently, the cost estimates here cover only the campaign window. } There is heterogeneity both  across outlets and content types, and it partly lines up with editorial positions. For instance, left outlets face higher costs for negative-left content, whereas the right-leaning channel does not. Producing content that favors the right is intrinsically beneficial across outlets ($\lambda<0$), but especially so for right channel. Negative-right content is beneficial or less costly for left outlets, while A3 faces the highest cost in that category. The main deviation from this pattern is positive-left content, where signs match with the negative left one and thus do not reflect the expected asymmetries. 
+Table~\ref{tab:costs} reports the estimated $\lambda_j^k$ for the c ampaign period. There is heterogeneity both  across outlets and content types, and it partly lines up with editorial positions. For instance, left outlets face higher costs for negative-left content, whereas the right-leaning channel does not. Producing content that favors the right is intrinsically beneficial across outlets ($\lambda<0$), but especially so for right channel. Negative-right content is beneficial or less costly for left outlets, while A3 faces the highest cost in that category. The main deviation from this pattern is positive-left content, where signs match with the negative left one and thus do not reflect the expected asymmetries. 
 
 
 %Producing content favorable to the left (positive-Left or negative-Right)
@@ -1911,7 +1906,7 @@ Costs are measured in thousands of viewers and map directly into audience values
 
 
 
-Given the demand and supply estimates, I recover the total payoffs for each outlet and tone.  Figure \ref{fig:payoffs} plots the payoff functions (in thousands of viewers) \footnote{Figure \ref{fig:payoffs_constrained} shows the payoffs under the non-negativity constraint. The ranking of payoffs is stable across the two specifications.} For both parties, negative-tone categories dominate: the right-leaning channel obtains a maximum of  around 500 thousand viewers with negative-left content (vs. 400 thousand at the maximum positive-left tone), while the left-leaning outlets get a maximum of around 300 thousand with negative-right content (vs. 90 thousand with positive-right). To better illustrate this negativity premium, Figure \ref{fig:payoffs_surface} plots the payoff surface for each channel varying the right and left tones. It becomes apparent that the outlets obtain higher viewership by becoming more negative on the opposing party, with the middle channel reaching a maximum with a balanced coverage. 
+Given the demand and supply estimates, I recover the total payoffs for each outlet and tone.  Figure \ref{fig:payoffs} plots the payoff functions (in thousands of viewers). \footnote{Figure \ref{fig:payoffs_constrained} shows the payoffs under the non-negativity constraint. The ranking of payoffs is stable across the two specifications, a result of the audience component dominating in the payoffs.} For both parties, negative-tone categories dominate: the right-leaning channel obtains a maximum of  around 500 thousand viewers with negative-left content (vs. 400 thousand at the maximum positive-left tone), while the left-leaning outlets get a maximum of around 300 thousand with negative-right content (vs. 90 thousand with positive-right). To better illustrate this negativity premium, Figure \ref{fig:payoffs_surface} plots the payoff surface for each channel varying the right and left tones. It becomes apparent that the outlets obtain higher viewership by becoming more negative on the opposing party, with the middle channel reaching a maximum with a balanced coverage. 
 
 %The right-leaning outlet enjoys higher payoffs for producing positive-right content and negative-left content, whereas the left-leaning outlets obtain higher payoffs for negative-right content. The only inconsistency arises in the positive-left category, where the right-leaning outlet’s payoff is strictly increasing; this pattern reflects the cost parameters for this category reported in Table \ref{tab:costs}. 
 
@@ -1946,7 +1941,7 @@ Given the demand and supply estimates, I recover the total payoffs for each outl
 \label{sec:counter}
 
 
-Across Europe, election coverage is commonly regulated by proportional-time rules tied to party representativeness. In France, for instance, the broadcast regulator ARCOM monitors  the speaking time and airtime of political actors in news bulletins, news magazines and other programs on TV and radio to enforce political pluralism. During campaigns these rules apply to all programs covering the election. ARCOM requires equitable coverage (proportional to representativeness) and, in the presidential election, strict equality of speaking time and airtime from the start of the official campaign. In Italy, the communications authority AGCOM enforces the par condicio law, which governs access to programs of information and political communication on television and radio. During electoral periods, AGCOM requires that news and political programs allocate speaking and news time proportionally to each party’s representativeness. These rules apply explicitly to news bulletins and current-affairs programs.\footnote{More details about the regulations can be checked at  \href{https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/proteger-le-pluralisme-politique}{https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/proteger-le-pluralisme-politique} for ARCOM and at \href{https://www.agcom.it/sites/default/files/migration/delibera/Delibera\%20122-24-CONS.pdf}{https://www.agcom.it/sites/default/files/migration/delibera/Delibera\%20122-24-CONS.pdf} for AGCOM. }
+Across Europe, election coverage is commonly regulated by proportional-time rules linked to party representativeness. In France, the regulator ARCOM monitors both speaking time and airtime for political actors across TV and radio news, magazines, and related programs to enforce pluralism. During campaigns these rules apply to all election coverage: ARCOM requires equitable treatment (proportional to representativeness) and, in presidential elections, strict equality of speaking time and airtime from the start of the official campaign. In Italy, the communications authority AGCOM enforces the par condicio law, which governs access to information and political-communication programs on television and radio. During electoral periods, AGCOM requires news and political programs to allocate speaking time and news time in proportion to each party’s representativeness, explicitly covering news bulletins and current-affairs programs.\footnote{More details about the regulations can be checked at  \href{https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/proteger-le-pluralisme-politique}{https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/proteger-le-pluralisme-politique} for ARCOM and at \href{https://www.agcom.it/sites/default/files/migration/delibera/Delibera\%20122-24-CONS.pdf}{https://www.agcom.it/sites/default/files/migration/delibera/Delibera\%20122-24-CONS.pdf} for AGCOM. }
 %In France and Italy, the broadcast regulators (\textit{ARCOM} and \textit{AGCOM}) require proportional allocation of coverage during official campaign periods. Spain, by contrast,  does not have a media-pluralism authority and lacks any enforced regulation. 
 
 
@@ -1962,7 +1957,7 @@ My model estimates allow me to assess the  implications of the proportional-airt
 
 \begin{equation}\label{eq:payoffs2}
 	\begin{aligned}
-		\max_{\{\bm{x}_{jd}\}}   & \left\{   \sum_{r}\widehat{s_{jrd+1}}(\bm{x}_{jd}, \bm{x}_{-jd})L_r - \sum_k \left({\hat{\lambda}_j^k}  \dfrac{(x_{jd}^k)^2}{z_{d}^k} + \widehat{\left(\phi+{\eta}_{jd}^k\right)} x_{jd}^k \right)  \right\}\\
+		\max_{\{\bm{x}_{jd}\}}   & \left\{   \sum_{r}\widehat{s_{jrd+1}}(\bm{x}_{jd}, \bm{x}_{-jd})L_r - \sum_k \left({\hat{\lambda}_j^k}  \dfrac{(x_{jd}^k)^2}{z_{d}^k} + \hat{{\eta}}_{jd}^k x_{jd}^k \right)  \right\}\\
 		s.t.   \quad &   \frac{x_{jd}^{R+} + x_{jd}^{R-} }{x_{jd}^{political}}=vote^R\equiv0.49\\
 		&  \frac{x_{jd}^{L+} + x_{jd}^{L-} }{x_{jd}^{political}}= vote^L\equiv0.51\\
     %   &  x_{jd}^{L+} +x_{jd}^{R+} + x_{jd}^{L-} + x_{jd}^{R-} \leq  x_{jd}^{political}\\
@@ -2220,6 +2215,8 @@ This appendix describes the end-to-end pipeline used to collect, process, and an
 
 \noindent\textit{Note:} Prompt used under \textit{gpt-4-0125-preview}. Story-level tones are aggregated to the program–day level with duration weights (seconds per story). Channel-level summaries are constructed by averaging across program–days, and matched-story comparisons are restricted to aligned topic–day pairs.
 
+
+Similar to \cite{BraghieriLLMS}, I collapse the $ -0.5 $ and $ 0.5 $ values into the $ -1 $ and $ 1 $ categories, respectively, as  most of the articles where classified under those last two buckets. 
 
 
 \newpage

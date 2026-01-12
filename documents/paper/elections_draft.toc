@@ -20,11 +20,11 @@
 \contentsline {paragraph}{Limitations.}{29}{paragraph*.17}
 \contentsline {section}{\numberline {5}Supply of News}{30}{section.5}
 \contentsline {subsection}{\numberline {5.1}Supply Model}{30}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Endogeneity and Identification Strategy}{31}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}Endogeneity and Identification Strategy}{32}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Results of the Supply Estimation}{33}{subsection.5.3}
 \contentsline {section}{\numberline {6}Proportional Air Time Rule}{35}{section.6}
 \contentsline {subsection}{\numberline {6.1}Effects of the Regulation}{36}{subsection.6.1}
-\contentsline {paragraph}{Limitations}{38}{paragraph*.20}
+\contentsline {paragraph}{Limitations}{37}{paragraph*.20}
 \contentsline {section}{\numberline {7}Conclusion}{38}{section.7}
 \contentsline {section}{Appendix}{45}{section.7}
 \contentsline {part}{\hspace {1em}Appendix}{45}{part.2}
