@@ -16,7 +16,7 @@
   <meta name="google-site-verification" content="mKPiVvDSbGUf2sX0UY8unIisgsAZFPD-o_FePDjjzN8" />
   <title>Luis Menéndez</title>
   <meta charset="UTF-8">
-  <meta name="Keywords" content="Luis,Ignacio,Menendez,Garcia,economics,UB,universitat de barcelona,barcelona school of economics, barcelona gse, twitter,machine,learning,text,analysis,microeconometrics,research,econ, economics,autonoma,barcelona">
+  <meta name="Keywords" content="Luis,Ignacio,Menendez,Garcia,economics,UAB,barcelona school of economics, barcelona gse, twitter,machine,learning,text,analysis,microeconometrics,research,econ, economics,autonoma,barcelona">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- W3.CSS and Font Awesome -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -24,17 +24,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <style>
-    /* ===== UB COLOR PALETTE ===== */
-    :root {
-      --ub-blue: #00549A;        /* main UB blue */
-      --ub-blue-dark: #003A6B;   /* darker shade for hovers/headings */
-      --ub-blue-light: #2C7BC0;  /* lighter accent for links */
-    }
-
     /* GENERAL STYLES */
     body, html {
       height: 100%;
-      color: #444;
+      color: #777;
       line-height: 1.8;
       margin: 0;
       padding: 0;
@@ -44,10 +37,6 @@
       font-size: 18px; /* Default base font size */
     }
 
-    /* Generic links take UB accent blue */
-    a { color: var(--ub-blue); }
-    a:hover { color: var(--ub-blue-dark); }
-
     /* NAVBAR STYLES */
     .w3-top .w3-bar {
       /* You can adjust navbar colors here if desired */
@@ -56,30 +45,29 @@
     .intro-section {
       display: flex;
       flex-wrap: nowrap;           /* keep side-by-side when there is room */
-      align-items: center;         /* vertically center text against the photo */
+      align-items: center;
       justify-content: flex-start;
       padding: 50px 20px;
-      gap: 48px;
+      gap: 40px;
       text-align: left;
     }
 
     /* PHOTO container: fixed sensible width but responsive */
     .intro-photo {
-      flex: 0 0 320px;             /* fixed visual width on desktops/laptops */
-      max-width: 42%;
+      flex: 0 0 360px;             /* fixed visual width on desktops/laptops */
+      max-width: 45%;
     }
     .intro-photo img {
       width: 100%;                 /* scale to container */
       height: auto;
-      border-radius: 10px;
-      box-shadow: 0 6px 20px rgba(0, 58, 107, 0.18);
+      border: 5px solid white;
       display: block;
     }
 
     /* TEXT column: take remaining space */
     .intro-text {
       flex: 1 1 auto;
-      min-width: 300px;
+      min-width: 300px;            /* prevent text column collapse */
       max-width: calc(100% - 380px);
     }
 
@@ -88,7 +76,6 @@
       .intro-section {
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
       }
       .intro-photo {
         flex: 0 0 100%;
@@ -97,7 +84,7 @@
         margin-bottom: 20px;
       }
       .intro-photo img {
-        width: 260px;
+        width: 220px;
         margin: 0 auto;
       }
       .intro-text {
@@ -111,7 +98,7 @@
   font-size: 26px;
   font-weight: bold;
   color: #fff;
-  background: var(--ub-blue);
+  background: #2c3e50;
   border-radius: 6px;
   padding: 12px 32px;
   margin-bottom: 24px;
@@ -122,7 +109,7 @@
   letter-spacing: 0.5px;
 }
 .media-monitor-btn:hover {
-  background: var(--ub-blue-dark);
+  background: #3498db;
   color: #fff;
   text-decoration: none;
 }
@@ -145,6 +132,7 @@
 
 
 
+
  .w3-content {
       max-width: 1100px;    /* adjust to taste (e.g. 1000px) */
       margin-left: auto;
@@ -160,29 +148,28 @@
       margin-right: auto;
       padding-left: 0;      /* w3-content already provides side padding */
       padding-right: 0;
-      padding-top: 90px;    /* extra air below the top navbar */
+      padding-top: 2px; 
     }
 
-    /* allow intro text to flex beside the photo */
+    /* REPLACE: allow intro text to flex beside the photo (remove the old fixed max-width) */
     .intro-text {
       flex: 1 1 auto;
       min-width: 300px;
-      max-width: calc(100% - 380px); /* leaves room for ~320px photo + gap */
+      max-width: calc(100% - 380px); /* leaves room for ~360px photo + gap */
       text-align: left;
     }
 
-    /* Small top offset so the first paragraph aligns nicely with the photo */
-    .intro-text > .intro-paragraph:first-child {
-      margin-top: 0.2cm;
-    }
+
+.intro-text > .intro-paragraph:first-child {
+  margin-top: 5cm; /* adjust */
+}
 
 
     .intro-name {
-      font-size: 42px;   /* Enlarge or reduce your name */
+      font-size: 50px;   /* Enlarge or reduce your name */
       font-weight: bold;
-      color: var(--ub-blue-dark);
+      color: black;
       margin-bottom: 20px;
-      white-space: nowrap;   /* keep name on a single line */
     }
     .intro-paragraph {
       font-size: 22px;   /* Adjust the paragraph size */
@@ -198,23 +185,11 @@
       font-size: 42px;
       text-align: center;
       margin-bottom: 40px;
-      color: var(--ub-blue-dark);
     }
     #research p,
     #research li,
     #research a {
       font-size: 22px;
-    }
-    /* Paper titles: use body text color (not blue) so blue is reserved for
-       actual link actions like Abstract / external tags */
-    #research ol.lead p b a,
-    #research ol.lead p b a:visited {
-      color: #333;
-      text-decoration: none;
-    }
-    #research ol.lead p b a:hover {
-      color: #000;
-      text-decoration: underline;
     }
 
  /* PROJECTS: same appearance as RESEARCH */
@@ -225,7 +200,6 @@
       font-size: 42px;
       text-align: center;
       margin-bottom: 40px;
-      color: var(--ub-blue-dark);
     }
     #projects p,
     #projects li,
@@ -242,8 +216,8 @@
   text-align: center;
   font-size: 42px;
   margin-bottom: 40px;
-  color: var(--ub-blue-dark);
 }
+/* <<< Add this >>> */
 #teaching p,
 #teaching li,
 #teaching a {
@@ -260,26 +234,16 @@
       text-align: center;
       font-size: 42px;
       margin-bottom: 40px;
-      color: var(--ub-blue-dark);
     }
 
-
-
-    /* Section heading labels (Working Papers / Other Works) */
-    .section-label {
-      font-size: 26px;
-      font-weight: bold;
-      color: var(--ub-blue);
-      display: inline-block;
-      margin-bottom: 24px;
-    }
+    
 
     /* ABSTRACT TOGGLE */
     .abstract-text {
       display: none;
     }
     .show-button {
-      color: var(--ub-blue-light);
+      color: #3498db;
       cursor: pointer;
       text-decoration: underline;
     }
@@ -287,6 +251,7 @@
 
 
   /* JUSTIFY DESCRIPTION PARAGRAPHS ONLY */
+    .intro-paragraph,
     .w3-content p,
     .w3-content li,
     ol.lead p,
@@ -299,13 +264,8 @@
       text-align-last: left; /* keep last line left-aligned */
     }
 
-    /* Intro description: left-aligned (avoids stretched word spacing) */
-    .intro-paragraph {
-      text-align: left;
-    }
 
-
-
+    
 
     /* STYLED BUTTON */
     .styled-button {
@@ -313,14 +273,14 @@
       padding: 10px 20px;
       font-size: 16px;
       color: white;
-      background-color: var(--ub-blue);
+      background-color: #3498db;
       border-radius: 5px;
       text-decoration: none;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       transition: background-color 0.3s ease;
     }
     .styled-button:hover {
-      background-color: var(--ub-blue-dark);
+      background-color: #2980b9;
     }
 
     /* MEDIA QUERIES (for responsiveness) */
@@ -332,7 +292,7 @@
         font-size: 18px;
       }
       .intro-photo img {
-        width: 220px;
+        width: 200px;
       }
     }
   </style>
@@ -344,30 +304,32 @@
 
     <div class="w3-bar" id="myNavbar">
 
-      <a href="#home" class="w3-bar-item w3-button" style="color:#555;">HOME</a>
-      <a href="#research" class="w3-bar-item w3-button w3-hide-small" style="color:#555;"><i class="fa fa-th"></i> RESEARCH</a>
-<a href="#projects" class="w3-bar-item w3-button w3-hide-small" style="color:#555;"><i class="fa fa-folder-open"></i> PROJECTS</a>      <a href="#teaching" class="w3-bar-item w3-button w3-hide-small" style="color:#555;"><i class="fa fa-graduation-cap"></i> TEACHING</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-hide-small" style="color:#555;"><i class="fa fa-envelope"></i> CONTACT</a>
-  <a href="https://www.dropbox.com/scl/fi/tiwvq5sd2vfpimmse2kho/cv_luis.pdf?rlkey=2h19ha5yuxtc21apjbuo73r6p&dl=0" target="_blank" class="w3-bar-item w3-button w3-hide-small" style="color:#555;"><i class="fa fa-file-text"></i> CV</a>
-
+      <a href="#home" class="w3-bar-item w3-button" style="color:black;">HOME</a>
+      <a href="#research" class="w3-bar-item w3-button w3-hide-small" style="color:black;"><i class="fa fa-th"></i> RESEARCH</a>
+<a href="#projects" class="w3-bar-item w3-button w3-hide-small" style="color:black;"><i class="fa fa-folder-open"></i> PROJECTS</a>      <a href="#teaching" class="w3-bar-item w3-button w3-hide-small" style="color:black;"><i class="fa fa-graduation-cap"></i> TEACHING</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small" style="color:black;"><i class="fa fa-envelope"></i> CONTACT</a>
+      <!-- Add these lines below -->
+  <a href="#references" class="w3-bar-item w3-button w3-hide-small" style="color:black;"><i class="fa fa-users"></i> REFERENCES</a>
+  <a href="https://www.dropbox.com/scl/fi/tiwvq5sd2vfpimmse2kho/cv_luis.pdf?rlkey=2h19ha5yuxtc21apjbuo73r6p&dl=0" target="_blank" class="w3-bar-item w3-button w3-hide-small" style="color:black;"><i class="fa fa-file-text"></i> CV</a>
+      
       <a href="javascript:void(0);" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleFunction()">
-        <i class="fa fa-bars"></i>
+        <i class="fa fa-bars"></i> 
       </a>
-
+      
     </div>
     <!-- NAVBAR on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
       <a href="#research" class="w3-bar-item w3-button" onclick="toggleFunction()">RESEARCH</a>
       <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
-      <a href="#teaching" class="w3-bar-item w3-button" onclick="toggleFunction()">TEACHING</a>
       <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      <a href="#references" class="w3-bar-item w3-button" onclick="toggleFunction()">REFERENCES</a>
 <a href="https://www.dropbox.com/scl/fi/tiwvq5sd2vfpimmse2kho/cv_luis.pdf?rlkey=2h19ha5yuxtc21apjbuo73r6p&dl=0" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()">CV</a>
 
 
             <a href="javascript:void(0);" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleFunction()">
         <i class="fa fa-bars"></i>
       </a>
-
+    
     </div>
   </div>
 
@@ -375,7 +337,7 @@
 <div class="intro-section" id="home">
   <div class="intro-photo">
     <div class="intro-name">Luis Menéndez</div>
-    <img src="images/nueva_tight.jpg" alt="Photo of Luis Menéndez">
+    <img src="images/Luis.jpeg" alt="Photo of Luis Menéndez">
   </div>
   <div class="intro-text">
     <p class="intro-paragraph" >
@@ -383,9 +345,6 @@
     </p>
     <p class="intro-paragraph" style="margin-top: 0.1cm; margin-bottom: 24px;">
       My main research interests are <b>Political Economics</b> and <b>Media Economics</b>. I apply machine learning and text processing techniques combined with structural econometric methods to understand topics such as online coordination for offline protest participation, linguistic echo-chambers, and polarization in the demand for political content. I also coordinate the <a href="https://luisignaciomenendez.github.io/media_monitor/index.html" target="_blank"><b>Spanish Media Monitor</b></a> project. <br>
-      <br>
-      I will join the <a href="https://www.ub.edu/school-economics/" target="_blank">Universitat de Barcelona (UB)</a> as a postdoctoral researcher in Fall 2026.
-      <br>
       <br>
     </p>
 
@@ -401,35 +360,45 @@
     <h3>RESEARCH</h3>
     <ol class="lead">
       <p>
-            <span class="section-label">Working Papers</span><br>
+            <span style="font-size: 26px; font-weight: bold; color: #2c3e50; display: inline-block; margin-bottom: 24px;">Job Market Paper</span><br>
 
-        <b><a href="https://www.dropbox.com/scl/fi/aq2e529lbrfuh5i07sd0d/campaigns_market_menendez.pdf?rlkey=2f8qjzwhi196i0l0xmc0oymzc&dl=0">
-        "The Impact of Political Campaigns on the Market for Partisan News"</a></b>
+        <b><a href="https://www.dropbox.com/scl/fi/l66fli8yxvm3f0z2sck1x/jmp_menendez.pdf?rlkey=zz6dnjs5gm6ilhh04op247jxh&dl=0">
+        "The Impact of Political Campaigns on Demand for Partisan News"</a></b>
         <span class="show-button" onclick="toggleAbstract('abstract3')"> Abstract</span>
-         <a href="https://nadaesgratis.es/admin/campanas-electorales-y-polarizacion-informativa" target="_blank" style="margin-left:8px; text-decoration:underline;">[Nada es Gratis]</a>
-<a href="https://theeconomicmisfit.com/2026/01/20/electoral-campaigns-and-news-polarization/" target="_blank" style="margin-left:8px; text-decoration:underline;">[The Economic Misfit]</a>
+         <a href="https://nadaesgratis.es/admin/campanas-electorales-y-polarizacion-informativa" target="_blank" style="margin-left:8px; color:#3498db; text-decoration:underline;">[Nada es Gratis]</a>
+<a href="https://theeconomicmisfit.com/2026/01/20/electoral-campaigns-and-news-polarization/" target="_blank" style="margin-left:8px; color:#3498db; text-decoration:underline;">[The Economic Misfit]</a>
 <span id="abstract3" class="abstract-text">
-  <em style="font-size: 18px;">Best Paper Awards: <a href="https://www.eco-sos.urv.cat/en/agenda-en/5572/14th-phd-student-workshop-on-industrial-and-public-economics-wipe-5-6-febrer-2026" target="_blank" style="color:inherit; text-decoration:none; font-size:inherit;">WIPE</a> 2026, <a href="https://www.econometricsociety.org/regional-activities/schedule/2026/06/19/2026-Asia-Meeting-China-Hong-Kong" target="_blank" style="color:inherit; text-decoration:none; font-size:inherit;">AMES</a> 2026</em><br><br>
+  <em style="font-size: 18px;">Best Paper Award, <a href="https://www.eco-sos.urv.cat/es/agenda/5572/14th-phd-student-workshop-on-industrial-and-public-economics-wipe-5-6-febrer-2026" target="_blank" style="color:inherit; text-decoration:none; font-size:inherit;">WIPE</a> 2026</em><br><br>
 I explore how electoral campaigns affect the market for partisan news in Spain. I use machine learning and large language models (LLMs) to build a novel slant index that I match to high-frequency audience-meter data on television consumption. This allows me to compare how the same story is framed across outlets and how many people watched it. I integrate these measures into a structural model of news demand and supply. Outlets choose the political framing of the news and viewers select their preferred information source based on it. To identify viewers’ preferences for political content, I exploit exogenous changes in the mix of political events that constrain what outlets can cover. During the campaign period, demand becomes more polarized: viewers strongly screen out favorable coverage of the party they oppose. On the supply side, outlets specialize and face lower costs of producing slanted coverage that aligns with their political stance. I evaluate the effects of a proportional airtime requirement, the standard rule in television regulation during campaigns. Outlets comply by becoming more partisan, resulting in a more polarized media environment.
 
 </span>
 
 </p>
 <p>
-  <b><a href="https://bw.bse.eu/wp-content/uploads/2025/09/1505-1.pdf" target="_blank">"Breaking the Echo Chamber: Social Media Networks and Political Conflict"</a></b>
+              <span style="font-size: 26px; font-weight: bold; color: #2c3e50; display: inline-block; margin-bottom: 24px;">Other Works</span><br>
+
+  <b><a href="https://www.dropbox.com/scl/fi/vwhi8xv7qmld3jcwdv9bo/menendez_etal_echochamber.pdf?rlkey=g6gl9g0gkoyoko2uncxe1zn1h&dl=0">"Breaking the Echo Chamber: Social Media Networks and Political Conflict"</a></b>
         <i> with Hannes Mueller, Daniel Montolio, and Francesco Slataper.</i>
         <span class="show-button" onclick="toggleAbstract('abstract2')"> Abstract</span><br>
         <span id="abstract2"  class="abstract-text">
-
+          
 This article exploits data from a political conflict between language groups to show how political events can rapidly redefine how these groups interact on social media. Leveraging on a unique dataset of 26 million retweets by 120 000 Catalan- and Spanish-speaking Twitter users, we estimate individual exposure to tweets with a network-based model. We then compare two shocks in the same region and year: the Barcelona terror attack and the Catalan independence referendum. The referendum — and the circulated images of police violence — triggered a sharp, symmetric jump in cross-language retweeting. The terror attack, by contrast, did not lead to a similar realignment.
           <!-- truncated for .brevity -->
         </span>
       </p>
+      <p>
+        <b><a href="papers/blm/blm.html">"Online and Offline protest participation: An Empirical Analysis for the 2020 Black Lives Matter Movement"</a></b>
+        <span class="show-button" onclick="toggleAbstract('abstract1')"> Abstract</span><br>
+        <span id="abstract1" class="abstract-text">
+          The recent wave of world-wide protests that took place after George Floyd’s killing has sparked attention in the Black Lives Matter movement, specially in terms of online activism. How does offline protesting behavior interact with the underlying online social networks? In this work, I build a classification algorithm to identify individuals who physically participated in the BLM demonstrations across the US. Thanks to this unique dataset, I explore at an individual level their full Twitter activity to better understand the role of influential users, coordination patterns and speech evolution. Through this analysis, I aim to examine assumptions regarding slacktivism, which involves engaging in online activism with minimal effort, in comparison to more traditional forms of protesting. By exploring how social media contributes to the development of traditional activism, we can gain a deeper understanding of the role of social media in protesting behavior.
+          <!-- truncated for brevity -->
+        </span>
+  </p>
  <p>
   <b><a href="https://www.dropbox.com/scl/fi/abvl0j2ffcck1gqyi65vf/last_mechanisms.pdf?rlkey=nd8i2obklqm72kzhuxmjarix1&dl=0">"The Mechanisms of Media Slant"</a></b>
         <i> with Manuel Lleonart-Anguix.</i>
         <span class="show-button" onclick="toggleAbstract('abstract4')"> Abstract</span><br>
-        <span id="abstract4" class="abstract-text">
+        <span id="abstract4" class="abstract-text">          
 We study the mechanisms through which news outlets generate ideological
 slant. We develop a model of supply and demand for news in which outlets
 choose whether to cover a story (omission), how to frame it (framing), and how
@@ -442,20 +411,9 @@ accounting for at least half and up to nearly 90% of observed slant. Omission
 plays a secondary but non-negligible role for some channels, while intensity
 contributes little. These results suggest that ideological distortion in news
 markets operates primarily through how stories are told, not which stories are
-selected.
+selected. 
         </span>
         </p>
-
-      <p>
-            <span class="section-label">Other Works</span><br>
-
-        <b><a href="papers/blm/blm.html">"Online and Offline protest participation: An Empirical Analysis for the 2020 Black Lives Matter Movement"</a></b>
-        <span class="show-button" onclick="toggleAbstract('abstract1')"> Abstract</span><br>
-        <span id="abstract1" class="abstract-text">
-          The recent wave of world-wide protests that took place after George Floyd’s killing has sparked attention in the Black Lives Matter movement, specially in terms of online activism. How does offline protesting behavior interact with the underlying online social networks? In this work, I build a classification algorithm to identify individuals who physically participated in the BLM demonstrations across the US. Thanks to this unique dataset, I explore at an individual level their full Twitter activity to better understand the role of influential users, coordination patterns and speech evolution. Through this analysis, I aim to examine assumptions regarding slacktivism, which involves engaging in online activism with minimal effort, in comparison to more traditional forms of protesting. By exploring how social media contributes to the development of traditional activism, we can gain a deeper understanding of the role of social media in protesting behavior.
-          <!-- truncated for brevity -->
-        </span>
-  </p>
    <p>
 <b> "The End of the Iberian Exception: Populists and
 the Economy"</b>
@@ -494,6 +452,7 @@ the Economy"</b>
 <li>Econometrics I — <a href="https://www.uabidea.eu" target="_blank">IDEA Master Programme</a>, UAB (2021-2023, Instructors: Prof. Maite Cabeza, Prof. Hanna Wang)</li>
 <li>Microeconomics I — <a href="https://www.uabidea.eu" target="_blank">IDEA Master Programme</a>, UAB (2024, Prof. Xavier Vilà)</li>
   </ul>
+    <p><em>Course evaluations available upon request.</em></p>
 
 </div>
 
@@ -511,7 +470,7 @@ the Economy"</b>
           <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Institut d'Anàlisi Econòmica. 08193 Bellaterra. Office 126<br>
           <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: luisigmenendez@gmail.com<br>
         </div>
-
+        
       </div>
     </div>
   </div>
